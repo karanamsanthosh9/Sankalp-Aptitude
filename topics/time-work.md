@@ -78,5 +78,5 @@ Together         →  add rates → flip to get days
 
 ### 10. Use LCM work units
 **Question:** A finishes in 8 days and B in 12 days. How much work do they complete together in 2 days?
-- **Shortcut:** Let total work be $\operatorname{LCM}(8,12)=24$ units. Rates are 3 and 2 units/day.
+- **Shortcut:** Let total work be $\text{LCM}(8,12)=24$ units. Rates are 3 and 2 units/day.
 - **Calculation:** Together they do $5(2)=10$ units, or **$\frac{10}{24}=\frac{5}{12}$ of the job**.

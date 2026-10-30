@@ -8,8 +8,8 @@
 |---|---|
 | HCF | **Shared primes; take the smaller powers** |
 | LCM | **Every prime; take the larger powers** |
-| HCF and LCM of two numbers | **$\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$** |
-| Same remainder | **$\operatorname{HCF}(\text{pairwise differences})$** |
+| HCF and LCM of two numbers | **$\text{HCF}(a,b)\text{LCM}(a,b)=ab$** |
+| Same remainder | **$\text{HCF}(\text{pairwise differences})$** |
 
 > **Memory cue:** HCF stays *inside* what both numbers share; LCM stretches to cover them both.
 
@@ -62,12 +62,12 @@ LCM:  └──── larger powers ────┘
 ### 6. Cut equal-length pieces
 **Question:** What is the greatest length of identical pieces that can be cut from ribbons 84 cm and 126 cm long?
 - **Step by step:** The piece length must divide both ribbon lengths.
-- **Calculation:** $\operatorname{HCF}(84,126)=42$. **Answer: $42$ cm.**
+- **Calculation:** $\text{HCF}(84,126)=42$. **Answer: $42$ cm.**
 
 ### 7. Find a shared schedule
 **Question:** Two lights flash every 14 and 20 seconds. When do they flash together again?
 - **Step by step:** Find the least common multiple of their intervals.
-- **Calculation:** $14=2\cdot7$, $20=2^2\cdot5$, so $\operatorname{LCM}=2^2\cdot5\cdot7=140$. **Answer: $140$ seconds.**
+- **Calculation:** $14=2\cdot7$, $20=2^2\cdot5$, so $\text{LCM}=2^2\cdot5\cdot7=140$. **Answer: $140$ seconds.**
 
 ### 8. Find HCF using remainders
 **Question:** Find the HCF of 867 and 255.

@@ -9,7 +9,7 @@
 | Dividend | **$\text{divisor}\times\text{quotient}+\text{remainder}$** |
 | Factors of $N=p^a q^b$ | **$(a+1)(b+1)$** |
 | Trailing zeros in $n!$ | **$\lfloor n/5\rfloor+\lfloor n/25\rfloor+\lfloor n/125\rfloor+\cdots$** |
-| HCF and LCM | **$\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$** |
+| HCF and LCM | **$\text{HCF}(a,b)\text{LCM}(a,b)=ab$** |
 
 > **Remainder check:** The remainder must always be smaller than the divisor.
 
