@@ -1,77 +1,79 @@
 # Algebra
 
-## 1. Core Concept & Fundamental Equations
+**The idea:** Algebra is arithmetic with an unknown. Name the unknown, translate the information into an equation, then undo operations to find it.
 
-- Linear equation: isolate the variable using inverse operations; perform the same operation on both sides.
-- For $ax+b=c$, $x=(c-b)/a$ when $a\ne0$.
-- Identities: $(a+b)^2=a^2+2ab+b^2$; $(a-b)^2=a^2-2ab+b^2$; $a^2-b^2=(a-b)(a+b)$.
-- If $x+1/x=k$, then $x^2+1/x^2=k^2-2$; and $x^3+1/x^3=k^3-3k$.
-- For quadratic $ax^2+bx+c=0$, sum of roots $=-b/a$ and product $=c/a$.
-- Translate words into equations before calculating; define the unknown and retain units.
+## The essentials
 
-## 2. Universal Shortcut Engine
+- Keep an equation balanced: whatever you do to one side, do to the other.
+- For $ax+b=c$, undo addition first: $x=(c-b)/a$.
+- Learn these patterns: $(a+b)^2=a^2+2ab+b^2$; $(a-b)^2=a^2-2ab+b^2$; $a^2-b^2=(a-b)(a+b)$.
+- If $x+y$ and $xy$ are known, then $x^2+y^2=(x+y)^2-2xy$.
+- If $x+1/x=k$, then $x^2+1/x^2=k^2-2$. This requires $x\ne0$.
+- For $ax^2+bx+c=0$, root sum $=-b/a$ and root product $=c/a$.
 
-| Technique | Use it when | Avoid it when |
-|---|---|---|
-| Factor identities | Expressions match standard squares or difference of squares. | A sign mismatch changes the identity. |
-| Substitute sum/product | Symmetric expressions in two roots or variables. | Expression is not symmetric; root values may be needed. |
-| Option substitution | Multiple-choice equation has simple candidate values. | Options are large or substitution repeats the full work. |
-| Choose a convenient variable | Only ratios or homogeneous expressions matter. | Absolute values or fixed constants matter. |
-| Factor before expanding | Polynomial factors are recognizable. | Expansion is needed to compare coefficients. |
+## Choose your move
 
-## 3. Model-Wise Question Classification
+| In the question... | Try this first |
+|---|---|
+| One unknown in an equation | Undo operations in reverse order. |
+| Numbers close to each other are squared | Use difference of squares. |
+| $x+y$ and $xy$ are given | Use an identity; do not solve for $x$ and $y$ separately. |
+| A reciprocal expression is given | Square the whole expression. |
+| A quadratic asks only for root sum/product | Use the coefficients; skip factoring. |
 
-### Model 1: Linear equation
-**Problem:** Solve $3x+7=31$.
-- **Method A:** $3x=24$, so $x=8$.
-- **Method B:** Subtract 7, then divide by 3. **Answer: $8$.**
+## Five common question types
 
-### Model 2: Difference of squares
-**Problem:** Evaluate $103^2-97^2$.
-- **Method A:** $103^2=10609$, $97^2=9409$; difference $=1200$.
-- **Method B:** $(103-97)(103+97)=6\times200=1200$. **Answer: $1200$.**
+### 1. Solve a linear equation
+**Question:** Solve $3x+7=31$.
+- **Step by step:** Subtract $7$: $3x=24$. Divide by $3$: $x=8$.
+- **Fast check:** Put $8$ back: $3(8)+7=31$. **Answer: $8$.**
 
-### Model 3: Expression from sum and product
-**Problem:** If $x+y=10$ and $xy=21$, find $x^2+y^2$.
-- **Method A:** $(x+y)^2=x^2+2xy+y^2$, so $x^2+y^2=100-42=58$.
-- **Method B:** Use $x^2+y^2=(x+y)^2-2xy=58$. **Answer: $58$.**
+### 2. Square numbers near each other
+**Question:** Find $103^2-97^2$.
+- **Step by step:** $103^2=10609$ and $97^2=9409$; subtract to get $1200$.
+- **Fast way:** Difference of squares: $(103-97)(103+97)=6\times200=1200$. **Answer: $1200$.**
 
-### Model 4: Reciprocal expression
-**Problem:** If $x+1/x=5$, find $x^2+1/x^2$.
-- **Method A:** Square: $x^2+2+1/x^2=25$, so result $=23$.
-- **Method B:** Apply $k^2-2$: $25-2=23$. **Answer: $23$.**
+### 3. Use a sum and product
+**Question:** If $x+y=10$ and $xy=21$, find $x^2+y^2$.
+- **Step by step:** Expand $(x+y)^2=x^2+2xy+y^2$. So $x^2+y^2=100-42=58$.
+- **Fast way:** $(x+y)^2-2xy=10^2-2(21)=58$. **Answer: $58$.**
 
-### Model 5: Quadratic roots
-**Problem:** Find the sum and product of roots of $2x^2-7x+3=0$.
-- **Method A:** Factor as $(2x-1)(x-3)=0$, roots $1/2$ and $3$; sum $7/2$, product $3/2$.
-- **Method B:** Vieta: sum $=-(-7)/2=7/2$; product $=3/2$. **Answer: $7/2$ and $3/2$.**
+### 4. Simplify a reciprocal expression
+**Question:** If $x+1/x=5$, find $x^2+1/x^2$.
+- **Step by step:** Square both sides: $x^2+2+1/x^2=25$. Subtract $2$ to get $23$.
+- **Fast way:** Use $k^2-2$: $5^2-2=23$. **Answer: $23$.**
 
-## 4. Exam-Specific Alignment & Variations
+### 5. Find the sum and product of roots
+**Question:** For $2x^2-7x+3=0$, find the sum and product of its roots.
+- **Step by step:** Factor: $(2x-1)(x-3)=0$. Roots are $1/2$ and $3$; sum $=7/2$, product $=3/2$.
+- **Fast way:** Read the coefficients: sum $=-(-7)/2=7/2$; product $=3/2$. **Answer: $7/2$ and $3/2$.**
 
-- **SSC lens:** Identities, reciprocal expressions, linear equations, and algebra blended with percentages or ages.
-- **RRB lens:** Simplification through identities and direct equation solving.
-- **AP State / PSU lens:** Quadratics, roots, symmetric expressions, and algebraic word problems.
+## What exams tend to test
 
-## 5. Common Traps & Speed Killers
+- **SSC:** identities, reciprocal expressions, and equations hidden inside word problems.
+- **RRB:** quick equation solving and identity-based simplification.
+- **APPSC / PSU:** quadratics, roots, and expressions built from a known sum or product.
 
-1. **Sign errors in identities:** write the identity before substituting values.
-2. **Squaring a sum and dropping the middle term:** $(a+b)^2$ includes $2ab$.
-3. **Dividing by an expression that may be zero:** check whether it can be zero before canceling.
+## Watch for these
 
-## 6. Quick Check
+1. $(a+b)^2$ includes the middle term $2ab$.
+2. Do not divide by an expression until you know it is not zero.
+3. If only root sum or product is asked, factoring may waste time.
+
+## Quick check
 
 1. If $x+y=7$ and $xy=10$, find $x^2+y^2$.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
-$29$: $(x+y)^2-2xy=49-20$.
+$29$: $7^2-2(10)=29$.
 </details>
 
 2. If $x+1/x=4$, find $x^2+1/x^2$.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
-$14$: $4^2-2$.
+$14$: $4^2-2=14$.
 </details>

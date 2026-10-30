@@ -1,77 +1,77 @@
 # HCF & LCM
 
-## 1. Core Concept & Fundamental Equations
+**The idea:** HCF is the biggest number that divides each value. LCM is the first positive number they all divide into.
 
-- **HCF/GCD:** greatest positive integer dividing every given number. **LCM:** least positive common multiple.
-- For two positive integers, $ab=\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)$.
-- In prime factorization, HCF takes the **minimum** exponent of each shared prime; LCM takes the **maximum** exponent.
-- Euclidean algorithm: $\gcd(a,b)=\gcd(b,a\bmod b)$, repeated until remainder $0$.
-- For fractions in lowest terms: HCF $=\frac{\text{HCF of numerators}}{\text{LCM of denominators}}$; LCM $=\frac{\text{LCM of numerators}}{\text{HCF of denominators}}$.
-- For a fixed distance, the largest equal piece length is the HCF of the measurements. For repeating events, first common time is their LCM.
+## The essentials
 
-## 2. Universal Shortcut Engine
+- Prime-factorize first. For HCF take the **smallest** power of each shared prime; for LCM take the **largest**.
+- For two numbers only: $a\times b=\operatorname{HCF}(a,b)\times\operatorname{LCM}(a,b)$.
+- To find HCF of large numbers, divide repeatedly: the last non-zero remainder is the HCF.
+- Same remainder on division? The divisor must divide the **differences** between the numbers.
+- Use HCF for the largest equal piece size; use LCM for events that happen together again.
 
-| Technique | Use it when | Avoid it when |
-|---|---|---|
-| Prime-exponent comparison | Numbers factor cleanly. | Factorization is cumbersome; use Euclid for HCF. |
-| Euclidean algorithm | Large integers need an HCF. | You need an LCM only and factorization is already known. |
-| Product identity | Two numbers, HCF, LCM, and one number are related. | More than two values are involved; the identity does not generalize directly. |
-| Remainder conditions | Find a number leaving the same remainder on division. | Remainders differ; translate each condition separately. |
-| HCF of lengths | Largest equal segment or tile size. | Minimum tile count or constrained shapes introduce geometry restrictions. |
+## Choose your move
 
-## 3. Model-Wise Question Classification
+| Question clue | Use |
+|---|---|
+| Largest number dividing several values | HCF; use repeated remainders if values are large. |
+| First time schedules match | LCM. |
+| Same remainder for each number | HCF of their differences. |
+| Two numbers, their HCF and LCM, one number missing | Product identity. |
 
-### Model 1: HCF by Euclidean algorithm
-**Problem:** Find the HCF of $252$ and $198$.
-- **Method A:** $252=198+54$, $198=3(54)+36$, $54=36+18$, $36=2(18)$. HCF is $18$.
-- **Method B:** Apply repeated remainders: $252\bmod198=54$, $198\bmod54=36$, $54\bmod36=18$, $36\bmod18=0$. **Answer: $18$.**
+## Five common question types
 
-### Model 2: LCM using prime factors
-**Problem:** Find the LCM of $24$ and $90$.
-- **Method A:** $24=2^3\cdot3$, $90=2\cdot3^2\cdot5$; take maximum powers: $2^3\cdot3^2\cdot5=360$.
-- **Method B:** HCF is $6$, so LCM $=24\cdot90/6=360$. **Answer: $360$.**
+### 1. Find an HCF
+**Question:** Find the HCF of 252 and 198.
+- **Step by step:** $252=198+54$; $198=3(54)+36$; $54=36+18$; $36=2(18)$. The last non-zero remainder is 18.
+- **Fast way:** Keep replacing the pair by (smaller number, remainder). **Answer: $18$.**
 
-### Model 3: Recover a number from HCF and LCM
-**Problem:** HCF is $12$, LCM is $720$, and one number is $144$. Find the other.
-- **Method A:** Product is $12\cdot720=8640$; divide by $144$ to get $60$.
-- **Method B:** Use $ab=\text{HCF}\times\text{LCM}$: $b=12\cdot720/144=60$. **Answer: $60$.**
+### 2. Find an LCM
+**Question:** Find the LCM of 24 and 90.
+- **Step by step:** $24=2^3\cdot3$; $90=2\cdot3^2\cdot5$. Keep the largest power of each prime: $2^3\cdot3^2\cdot5=360$.
+- **Fast way:** HCF is 6, so LCM $=24\cdot90/6=360$. **Answer: $360$.**
 
-### Model 4: Same remainder on division
-**Problem:** Find the greatest number that divides $43, 91,$ and $183$, leaving the same remainder each time.
-- **Method A:** Subtract pairwise: $91-43=48$, $183-91=92$, $183-43=140$. Find $\gcd(48,92,140)=4$.
-- **Method B:** A common divisor with equal remainders divides every difference. $\gcd(48,92,140)=4$. **Answer: $4$.**
+### 3. Find a missing number
+**Question:** HCF is 12, LCM is 720, and one number is 144. Find the other.
+- **Step by step:** Product of the numbers $=12\cdot720=8640$. Then $8640/144=60$.
+- **Fast way:** Apply $ab=\text{HCF}\times\text{LCM}$. **Answer: $60$.**
 
-### Model 5: Repeating events
-**Problem:** Two alarms ring every $18$ and $24$ minutes. If they ring together now, when will they next ring together?
-- **Method A:** List common multiples; the first common positive multiple is $72$ minutes.
-- **Method B:** $\operatorname{LCM}(18,24)=2^3\cdot3^2=72$. **Answer: $72$ minutes.**
+### 4. Same remainder
+**Question:** Find the greatest number that divides 43, 91, and 183 leaving the same remainder.
+- **Step by step:** Take differences: $48,92,140$. Their HCF is 4.
+- **Fast way:** Equal remainders disappear on subtraction; find $\gcd(48,92,140)$. **Answer: $4$.**
 
-## 4. Exam-Specific Alignment & Variations
+### 5. Events happen together
+**Question:** Alarms ring every 18 and 24 minutes. When will they next ring together?
+- **Step by step:** The first common multiple of 18 and 24 is 72.
+- **Fast way:** $18=2\cdot3^2$, $24=2^3\cdot3$; LCM $=2^3\cdot3^2=72$. **Answer: $72$ minutes.**
 
-- **SSC lens:** HCF/LCM word problems, same-remainder conditions, and fraction-based HCF/LCM.
-- **RRB lens:** Bells, traffic signals, periodic schedules, and direct factorization questions.
-- **AP State / PSU lens:** Euclidean algorithm, least common schedules, and constraints involving multiples or remainders.
+## What exams tend to test
 
-## 5. Common Traps & Speed Killers
+- **SSC:** same-remainder puzzles and HCF/LCM word problems.
+- **RRB:** bells, signals, and direct factorization.
+- **APPSC / PSU:** Euclidean algorithm and conditions involving multiples.
 
-1. **Using the product identity for three or more numbers:** it is stated here for two integers only.
-2. **Taking the wrong prime exponent:** HCF uses minimum powers; LCM uses maximum powers.
-3. **For same remainder, taking the HCF of original numbers:** use differences between the numbers.
+## Watch for these
 
-## 6. Quick Check
+1. HCF uses smaller prime powers; LCM uses larger ones.
+2. The product identity here is for two numbers, not three.
+3. For equal remainders, find the HCF of differences, not original values.
 
-1. Find the HCF of $48$ and $72$.
+## Quick check
+
+1. Find the HCF of 48 and 72.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
 $24$.
 </details>
 
-2. Find the LCM of $12$ and $15$.
+2. Find the LCM of 12 and 15.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
 $60$.
 </details>

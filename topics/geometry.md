@@ -1,69 +1,70 @@
 # Geometry
 
-## 1. Core Concept & Fundamental Equations
+**The idea:** Geometry rewards a labeled diagram. Mark what you know, then use one rule at a time; drawings are not necessarily to scale.
 
-- Triangle angle sum is $180^\circ$; an exterior angle equals the sum of the two opposite interior angles.
-- Pythagorean theorem for a right triangle: $a^2+b^2=c^2$.
-- Triangle area $=\frac12 bh$; similar triangles have corresponding side ratio $k$ and area ratio $k^2$.
-- A linear pair sums to $180^\circ$; vertically opposite angles are equal. Parallel-line alternate and corresponding angles are equal.
-- Polygon interior-angle sum $=(n-2)180^\circ$; each interior angle of a regular $n$-gon is $(n-2)180^\circ/n$.
-- Circle: angle at the center is twice the angle at the circumference subtending the same arc; angles in a semicircle are $90^\circ$.
+## The essentials
 
-## 2. Universal Shortcut Engine
+- Triangle angles add to $180^\circ$. An exterior angle equals the two opposite interior angles added together.
+- Right triangle: $a^2+b^2=c^2$, where $c$ is the longest side.
+- Similar triangles have equal corresponding angles and proportional sides. Their areas scale as the **square** of the side ratio.
+- Regular $n$-gon interior angle $=(n-2)180^\circ/n$.
+- Circle: angle at the center is twice the angle at the circumference on the same arc.
 
-| Technique | Use it when | Avoid it when |
-|---|---|---|
-| Angle sum | Triangle or polygon angles are missing. | The figure is not a polygon or angles are exterior; define the angle convention. |
-| Similarity ratios | Triangles share angles or are formed by parallel lines. | Congruence or parallelism is not established. |
-| Pythagorean triples | Right triangles have integer sides. | The triangle is not right-angled. |
-| Symmetry | Isosceles, equilateral, or regular figures appear. | The diagram is not stated to be symmetric. |
-| Auxiliary line | A geometry figure can be split into familiar shapes. | The line creates more unknowns than it removes. |
+## Choose your move
 
-## 3. Model-Wise Question Classification
+| What you see | Try this |
+|---|---|
+| Triangle with a missing angle | Use the $180^\circ$ sum or exterior-angle rule. |
+| Right angle and two sides | Use Pythagoras; check for a familiar triple. |
+| Parallel lines or matching angles | Check whether triangles are similar. |
+| Regular polygon | Use the interior-angle formula. |
+| Circle angles on the same arc | Compare central and circumference angles. |
 
-### Model 1: Triangle angle sum
-**Problem:** A triangle has angles $2x,3x,4x$. Find the largest angle.
-- **Method A:** $2x+3x+4x=180$, so $x=20$ and largest angle $=80^\circ$.
-- **Method B:** The parts total 9; each part is $180/9=20^\circ$. Largest is $4(20)=80^\circ$. **Answer: $80^\circ$.**
+## Five common question types
 
-### Model 2: Exterior angle
-**Problem:** The two remote interior angles of a triangle are $45^\circ$ and $65^\circ$. Find the exterior angle.
-- **Method A:** Exterior angle $=180^\circ-$ adjacent interior angle; third interior angle $=70^\circ$, so exterior $=110^\circ$.
-- **Method B:** Exterior angle equals sum of remote interiors: $45+65=110^\circ$. **Answer: $110^\circ$.**
+### 1. Angles in a triangle
+**Question:** A triangle's angles are $2x,3x,4x$. Find the largest.
+- **Step by step:** Their sum is $180^\circ$: $9x=180$, so $x=20$.
+- **Fast way:** Largest is 4 of 9 equal parts: $4(20)=80^\circ$. **Answer: $80^\circ$.**
 
-### Model 3: Right triangle
-**Problem:** A right triangle has legs 9 cm and 12 cm. Find the hypotenuse.
-- **Method A:** $c=\sqrt{9^2+12^2}=\sqrt{225}=15$ cm.
-- **Method B:** Recognize the $3:4:5$ triple scaled by 3. **Answer: $15$ cm.**
+### 2. Exterior angle
+**Question:** Two opposite interior angles are $45^\circ$ and $65^\circ$. Find the exterior angle.
+- **Step by step:** The third interior angle is $70^\circ$; its adjacent exterior angle is $110^\circ$.
+- **Fast way:** Add the two opposite angles: $45+65=110^\circ$. **Answer: $110^\circ$.**
 
-### Model 4: Similar-triangle area ratio
-**Problem:** Similar triangles have corresponding side ratio $2:5$. Find their area ratio.
-- **Method A:** Areas scale with the square of corresponding sides: $2^2:5^2=4:25$.
-- **Method B:** Square the linear scale factor. **Answer: $4:25$.**
+### 3. Find a right-triangle side
+**Question:** A right triangle has legs 9 cm and 12 cm. Find the hypotenuse.
+- **Step by step:** $c=\sqrt{9^2+12^2}=\sqrt{225}=15$ cm.
+- **Fast way:** Recognize the $3:4:5$ triple scaled by 3. **Answer: $15$ cm.**
 
-### Model 5: Regular polygon angle
-**Problem:** Find each interior angle of a regular hexagon.
-- **Method A:** Interior sum $=(6-2)180=720^\circ$; divide by 6 to get $120^\circ$.
-- **Method B:** Each angle $=(n-2)180/n=4(180)/6=120^\circ$. **Answer: $120^\circ$.**
+### 4. Compare similar-triangle areas
+**Question:** Corresponding sides are in ratio $2:5$. Find the area ratio.
+- **Step by step:** Area scales as side ratio squared: $2^2:5^2$.
+- **Fast way:** Square both side parts. **Answer: $4:25$.**
 
-## 4. Exam-Specific Alignment & Variations
+### 5. Find a regular-polygon angle
+**Question:** Find each interior angle of a regular hexagon.
+- **Step by step:** Angle sum $=(6-2)180=720^\circ$; divide by 6.
+- **Fast way:** $(n-2)180/n=4(180)/6$. **Answer: $120^\circ$.**
 
-- **SSC lens:** Angle chasing, similar triangles, circle theorems, and algebraic geometry figures.
-- **RRB lens:** Direct angle sums, standard triples, and elementary polygon properties.
-- **AP State / PSU lens:** Multi-step similarity, parallel-line configurations, and circle-angle relationships.
+## What exams tend to test
 
-## 5. Common Traps & Speed Killers
+- **SSC:** angle chasing, similar triangles, and circle theorems.
+- **RRB:** triangle angles, standard triples, and polygon facts.
+- **APPSC / PSU:** multi-step similarity and parallel-line configurations.
 
-1. **Assuming the drawing is to scale:** use only stated data and valid theorems.
-2. **Confusing exterior angle with adjacent interior angle:** they form a linear pair, but the exterior also equals the two remote interior angles' sum.
-3. **Forgetting to square side ratios for area:** similar-shape areas scale as the square of the linear ratio.
+## Watch for these
 
-## 6. Quick Check
+1. Do not assume a diagram is drawn to scale.
+2. An exterior angle can be found by adding the two opposite interior angles.
+3. Square a side ratio to get the corresponding area ratio.
 
-1. A triangle's angles are in ratio $2:3:4$. Find its largest angle.
+## Quick check
+
+1. Triangle angles are in ratio $2:3:4$. Find the largest angle.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
 $80^\circ$: one part is $180/9=20^\circ$.
 </details>
@@ -71,7 +72,7 @@ $80^\circ$: one part is $180/9=20^\circ$.
 2. Find each interior angle of a regular pentagon.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
 $108^\circ$: $(5-2)180/5$.
 </details>

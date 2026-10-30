@@ -1,77 +1,77 @@
 # Simple & Compound Interest
 
-## 1. Core Concept & Fundamental Equations
+**The idea:** Simple interest is calculated on the starting amount every year. Compound interest is calculated on the growing balance, so interest earns interest.
 
-- Simple interest: $SI=PRT/100$; amount $A=P+SI$.
-- Compound amount, compounded annually: $A=P(1+R/100)^T$; $CI=A-P$.
-- For half-yearly compounding, use rate $R/2$ and periods $2T$; for quarterly, use $R/4$ and $4T$.
-- Difference between CI and SI for two years: $P(R/100)^2$.
-- For changing annual rates, multiply each year's growth factor: $A=P(1+r_1/100)(1+r_2/100)\cdots$.
-- Depreciation uses $A=P(1-R/100)^T$.
+## The essentials
 
-## 2. Universal Shortcut Engine
+- Simple interest: $SI=PRT/100$. Here $P$ is principal, $R$ annual rate percent, and $T$ years.
+- Amount with simple interest: $A=P+SI$.
+- Compound amount: $A=P(1+R/100)^T$; compound interest $=A-P$.
+- Half-yearly compounding: halve the rate and double the number of periods.
+- Depreciation uses a decrease factor: $A=P(1-R/100)^T$.
 
-| Technique | Use it when | Avoid it when |
-|---|---|---|
-| SI per year | Principal and rate stay constant. | Interest is compounded or principal changes. |
-| Growth multiplier | CI, population growth, or depreciation. | The problem explicitly uses simple interest. |
-| Two-year CI-SI difference | Exactly two years with annual compounding. | Other periods/frequencies apply. |
-| Year-by-year factors | Rates vary by year. | Rate is constant; use a single power. |
-| Assume a convenient principal | Only ratios or percentage comparisons matter. | Actual principal is supplied and needed. |
+## Choose your move
 
-## 3. Model-Wise Question Classification
+| Question clue | Use |
+|---|---|
+| Interest stays on original principal | Simple-interest formula. |
+| Interest is added to balance each period | Compound multiplier. |
+| Rate changes by year | Multiply one growth factor per year. |
+| CI minus SI for exactly two years | Difference $=P(R/100)^2$ (annual compounding). |
 
-### Model 1: Simple interest
-**Problem:** Find SI on $5000$ at $8\%$ for 3 years.
-- **Method A:** $SI=5000\times8\times3/100=1200$.
-- **Method B:** Annual interest is $8\%$ of $5000=400$; three years gives $1200$. **Answer: $1200$.**
+## Five common question types
 
-### Model 2: Compound interest annually
-**Problem:** Find CI on $10,000$ at $10\%$ for 2 years.
-- **Method A:** Amount $=10000(1.1)^2=12100$; CI $=2100$.
-- **Method B:** First-year interest $1000$; second-year interest on $11,000$ is $1100$. Total $=2100$. **Answer: $2100$.**
+### 1. Find simple interest
+**Question:** Find SI on $5000$ at 8% for 3 years.
+- **Step by step:** One year's interest is $5000(0.08)=400$. Three years: $3(400)=1200$.
+- **Fast way:** $5000\times8\times3/100=1200$. **Answer: $1200$.**
 
-### Model 3: CI-SI difference
-**Problem:** Find the difference between CI and SI on $8000$ at $5\%$ for 2 years.
-- **Method A:** SI $=800$; CI $=8000(1.05)^2-8000=820$; difference $=20$.
-- **Method B:** $P(R/100)^2=8000(0.05)^2=20$. **Answer: $20$.**
+### 2. Find compound interest
+**Question:** Find CI on $10,000$ at 10% for 2 years.
+- **Step by step:** After year 1: $11,000$. Year 2 interest: $1100$. Total interest: $2100$.
+- **Fast way:** Amount $=10000(1.1)^2=12100$; subtract principal. **Answer: $2100$.**
 
-### Model 4: Half-yearly compounding
-**Problem:** Find amount on $4000$ at $10\%$ per annum for one year, compounded half-yearly.
-- **Method A:** Rate per half-year $=5\%$; two periods: $4000(1.05)^2=4410$.
-- **Method B:** Interest factors are $1.05\times1.05=1.1025$; amount $=4410$. **Answer: $4410$.**
+### 3. Compare CI with SI
+**Question:** Find CI minus SI on $8000$ at 5% for 2 years.
+- **Step by step:** SI $=800$. CI amount $=8000(1.05)^2=8820$, so CI $=820$. Difference $=20$.
+- **Fast way:** $8000(0.05)^2=20$. **Answer: $20$.**
 
-### Model 5: Depreciation
-**Problem:** A machine worth $50,000$ depreciates by $10\%$ annually. Find value after 2 years.
-- **Method A:** $50,000\to45,000\to40,500$.
-- **Method B:** $50000(0.9)^2=40,500$. **Answer: $40,500$.**
+### 4. Compound half-yearly
+**Question:** Find the amount on $4000$ at 10% for one year, compounded half-yearly.
+- **Step by step:** Each half-year rate is 5%; apply it twice: $4000(1.05)^2=4410$.
+- **Fast way:** Two periods, each with multiplier 1.05. **Answer: $4410$.**
 
-## 4. Exam-Specific Alignment & Variations
+### 5. Calculate depreciation
+**Question:** A $50,000$ machine loses 10% of its value each year. Find its value after two years.
+- **Step by step:** Year 1: $45,000$. Year 2: $40,500$.
+- **Fast way:** $50000(0.9)^2=40500$. **Answer: $40,500$.**
 
-- **SSC lens:** SI-CI comparisons, rate/time/principal changes, and annual versus half-yearly compounding.
-- **RRB lens:** Direct interest, amount, and depreciation questions with clean values.
-- **AP State / PSU lens:** Variable rates, installments, compounding frequency, and population or asset-growth applications.
+## What exams tend to test
 
-## 5. Common Traps & Speed Killers
+- **SSC:** SI-CI comparison and compounding frequency.
+- **RRB:** direct interest and depreciation calculations.
+- **APPSC / PSU:** changing rates, installments, and growth applications.
 
-1. **Using CI on the original principal each year:** later interest earns interest too.
-2. **Forgetting to adjust periods:** half-yearly means rate halves and number of periods doubles.
-3. **Using a CI-SI shortcut outside its conditions:** the two-year difference formula assumes annual compounding over exactly two years.
+## Watch for these
 
-## 6. Quick Check
+1. Under CI, the second year's interest is on the new balance.
+2. Half-yearly means rate $R/2$ and periods $2T$.
+3. The quick CI-SI difference applies only to two years of annual compounding.
 
-1. Find SI on $3000$ at $6\%$ per year for 2 years.
+## Quick check
+
+1. Find SI on $3000$ at 6% for 2 years.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
 $360$.
 </details>
 
-2. Find CI on $1000$ at $10\%$ per year for 2 years.
+2. Find CI on $1000$ at 10% for 2 years.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
 $210$: amount $=1000(1.1)^2=1210$.
 </details>

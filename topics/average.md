@@ -1,76 +1,76 @@
 # Average
 
-## 1. Core Concept & Fundamental Equations
+**The idea:** Average is the fair-share value. Multiply it by the number of items to recover the total.
 
-- Average $=\frac{\text{sum of observations}}{\text{number of observations}}$; therefore sum $=n\times$ average.
-- Adding a value $x$ changes the total by $x$; replacing $a$ with $b$ changes it by $b-a$.
-- Combined average $=\frac{n_1a_1+n_2a_2}{n_1+n_2}$.
-- For equally spaced values, average is the midpoint of the first and last values.
-- If each of $n$ values changes by $k$, the average changes by $k$.
+## The essentials
 
-## 2. Universal Shortcut Engine
+- Average $=\text{total}/\text{count}$; total $=\text{average}\times\text{count}$.
+- When one value is replaced, update the total by (new value $-$ old value).
+- For groups of different sizes, use a **weighted average**: combine totals, then divide by the combined count.
+- For equally spaced numbers, average is halfway between the first and last.
 
-| Technique | Use it when | Avoid it when |
-|---|---|---|
-| Total = count × average | A group gains, loses, or replaces members. | Group sizes or averages are unknown; set up equations. |
-| Deviation from assumed average | Values cluster around a convenient number. | Deviations are as hard as the original calculation. |
-| Weighted average | Groups have different sizes. | Group sizes are equal; simple mean is faster. |
-| Midpoint property | Values are in arithmetic progression. | Values are irregular or weighted. |
-| Difference method | One observation is replaced. | Several values change; update the total explicitly. |
+## Choose your move
 
-## 3. Model-Wise Question Classification
+| Question clue | Start with |
+|---|---|
+| Find a missing total | Average $\times$ count. |
+| One person/value joins or leaves | Find old and new totals. |
+| Two groups have different sizes | Add their totals; do not average their averages. |
+| Consecutive or equally spaced values | Average the first and last values. |
 
-### Model 1: Find the total from an average
-**Problem:** The average of 8 numbers is 15. Find their sum.
-- **Method A:** Average $=S/8=15$, so $S=120$.
-- **Method B:** $8\times15=120$. **Answer: $120$.**
+## Five common question types
 
-### Model 2: Replace one observation
-**Problem:** The average of 10 values is 24. Replacing 18 by 38 changes the average to what?
-- **Method A:** Old sum $=240$; new sum $=240-18+38=260$; new average $=26$.
-- **Method B:** Replacement adds $20$ to total, so average rises by $20/10=2$. **Answer: $26$.**
+### 1. Find the total
+**Question:** Eight numbers have average 15. Find their sum.
+- **Step by step:** Total $=8\times15$.
+- **Fast way:** Average times count. **Answer: $120$.**
 
-### Model 3: Combined average
-**Problem:** 20 students average 70 marks and 30 students average 80. Find the combined average.
-- **Method A:** Total $=20(70)+30(80)=3800$; divide by $50$ to get $76$.
-- **Method B:** Weighted mean: $70+\frac{30}{50}(80-70)=76$. **Answer: $76$.**
+### 2. Replace a value
+**Question:** Ten values average 24. Replace 18 with 38. Find the new average.
+- **Step by step:** Old total $=240$. Replacement adds 20, so new total $=260$; divide by 10.
+- **Fast way:** Average rises by $20/10=2$. **Answer: $26$.**
 
-### Model 4: Consecutive integers
-**Problem:** Find the average of integers from 21 through 39.
-- **Method A:** There are 19 integers; their sum is $19(21+39)/2=570$, average $=30$.
-- **Method B:** Equally spaced sequence midpoint: $(21+39)/2=30$. **Answer: $30$.**
+### 3. Combine two groups
+**Question:** 20 students average 70 marks; 30 students average 80. Find the combined average.
+- **Step by step:** Total marks $=20(70)+30(80)=3800$; divide by 50.
+- **Fast way:** Start at 70; the higher group is 30/50 of all students, so add $(30/50)(10)=6$. **Answer: $76$.**
 
-### Model 5: Joining or leaving a group
-**Problem:** The average age of 5 people is 24. A sixth person joins, and the average becomes 25. Find the new person's age.
-- **Method A:** Old total $=120$; new total $=150$; age $=30$.
-- **Method B:** New total is $6\times25=150$; subtract the old total $5\times24=120$. **Answer: $30$.**
+### 4. Average consecutive numbers
+**Question:** Find the average of integers from 21 through 39.
+- **Step by step:** There are 19 numbers with equal gaps; their middle number is 30.
+- **Fast way:** $(21+39)/2=30$. **Answer: $30$.**
 
-## 4. Exam-Specific Alignment & Variations
+### 5. Find the new member's value
+**Question:** Five people average 24 years. A sixth joins and the average becomes 25. Find the sixth person's age.
+- **Step by step:** Old total $=5(24)=120$; new total $=6(25)=150$. New person is $150-120$.
+- **Fast way:** Compare the totals before and after the group changes. **Answer: $30$ years.**
 
-- **SSC lens:** Missing observations, replacement, age groups, and weighted averages.
-- **RRB lens:** Consecutive numbers, marks, and quick group-joining/leaving questions.
-- **AP State / PSU lens:** Combined averages in production, salary, and multi-group data.
+## What exams tend to test
 
-## 5. Common Traps & Speed Killers
+- **SSC:** replacement, missing observations, and weighted averages.
+- **RRB:** marks, ages, and consecutive-number averages.
+- **APPSC / PSU:** combining several groups in salary, production, or survey data.
 
-1. **Averaging group averages directly:** weight each average by group size.
-2. **Forgetting count changes:** adding a member changes both total and denominator.
-3. **Using a simple mean for equally spaced values:** midpoint gives the answer immediately.
+## Watch for these
 
-## 6. Quick Check
+1. Do not average group averages unless the group sizes are equal.
+2. When someone joins, the count changes as well as the total.
+3. For equally spaced values, use the midpoint instead of adding every term.
 
-1. Six numbers have an average of $14$. What is their sum?
+## Quick check
+
+1. Six numbers have average 14. Find their sum.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
-$84$.
+$6\times14=84$.
 </details>
 
-2. One group of 10 has average $60$; another group of 20 has average $75$. Find the combined average.
+2. Ten values average 60; 20 values average 75. Find the combined average.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
-$70$: total $=(10\cdot60+20\cdot75)/30$.
+70: $(10\cdot60+20\cdot75)/30$.
 </details>

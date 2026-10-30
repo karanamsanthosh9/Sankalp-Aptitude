@@ -1,81 +1,80 @@
 # Data Interpretation
 
-## 1. Core Concept & Fundamental Equations
+**The idea:** First read the chart correctly; then do only the calculation the question asks for. Most errors come from misreading units or using the wrong base.
 
-- Read the title, units, labels, time period, and footnotes before calculating.
-- Percentage share $=\frac{\text{part}}{\text{total}}\times100\%$; percentage change $=\frac{\text{new}-\text{old}}{\text{old}}\times100\%$.
-- Average $=\text{total}/\text{number of entries}$; ratio comparisons require matching units.
-- In a pie chart, sector angle $=\frac{\text{category}}{\text{total}}\times360^\circ$; value $=\frac{\text{angle}}{360^\circ}\times\text{total}$.
-- For a table/bar/line chart, calculate only the requested values; preserve units throughout.
-- Approximate only when the question asks for an estimate or answer choices permit safe rounding.
+## The essentials
 
-## 2. Universal Shortcut Engine
+- Check the title, labels, units, time period, and footnotes before calculating.
+- Percentage share $=\text{part}/\text{total}\times100\%$.
+- Percentage change $=(\text{new}-\text{old})/\text{old}\times100\%$.
+- Average $=\text{total}/\text{count}$. Pie-chart value $=\text{angle}/360^\circ\times\text{total}$.
+- Keep units consistent. Round only when asked or when answer choices make it safe.
 
-| Technique | Use it when | Avoid it when |
-|---|---|---|
-| Read units first | Charts mix thousands, lakhs, percentages, or units. | Never skip this check. |
-| Ratio before totals | A ratio or relative comparison is requested. | Absolute values are required. |
-| Fraction simplification | Shares have common factors. | Rounding could change close options. |
-| Common-base comparison | Comparing growth across different starting values. | The question asks for absolute increase only. |
-| Approximation | Large products/divisions with widely spaced choices. | Exact totals, averages, or close alternatives are tested. |
+## Choose your move
 
-## 3. Model-Wise Question Classification
+| Question asks for... | Calculate... |
+|---|---|
+| Total | Add the relevant entries only. |
+| Percentage increase/decrease | Change divided by the original value. |
+| Ratio | Add series if needed, then reduce both sides. |
+| Pie-chart value | Sector fraction of $360^\circ$ times the total. |
+| Group average | Combine group totals first; divide by total count. |
 
-Use this dataset for Models 1-3: sales (units) for A and B are $40,60$ in Year 1 and $50,70$ in Year 2.
+## Five common question types
 
-### Model 1: Total from a table
-**Problem:** Find total sales in Year 2.
-- **Method A:** Add $50+70=120$ units.
-- **Method B:** Read the two entries and combine: $120$ units. **Answer: $120$.**
+Use this data for Questions 1-3: sales (units) for A and B are 40 and 60 in Year 1; 50 and 70 in Year 2.
 
-### Model 2: Percentage increase
-**Problem:** Find the percentage increase in A's sales from Year 1 to Year 2.
-- **Method A:** Increase $=10$; percentage $=10/40\times100=25\%$.
-- **Method B:** $50/40=5/4$, so the increase is one-quarter of the original: $25\%$. **Answer: $25\%$.**
+### 1. Read a total
+**Question:** Find total sales in Year 2.
+- **Step by step:** Add the two Year 2 entries: $50+70=120$.
+- **Fast check:** Confirm both values are in the same units. **Answer: $120$ units.**
 
-### Model 3: Ratio comparison
-**Problem:** Find the ratio of A's to B's total sales across both years.
-- **Method A:** A total $=90$, B total $=130$; ratio $=90:130=9:13$.
-- **Method B:** Add each series, then reduce $90:130$ by 10. **Answer: $9:13$.**
+### 2. Find percentage growth
+**Question:** What is the percentage increase in A's sales from Year 1 to Year 2?
+- **Step by step:** Increase $=50-40=10$. Divide by the starting value 40: $10/40\times100=25\%$.
+- **Fast way:** $50$ is $5/4$ of $40$, so the increase is one-quarter. **Answer: 25%.**
 
-### Model 4: Pie-chart sector
-**Problem:** A $720$-unit total is represented by a $90^\circ$ sector. Find that category's value.
-- **Method A:** $(90/360)\times720=180$.
-- **Method B:** $90^\circ$ is one-quarter of the chart; $720/4=180$. **Answer: $180$.**
+### 3. Compare totals as a ratio
+**Question:** Find A's to B's total sales across both years.
+- **Step by step:** A total $=40+50=90$; B total $=60+70=130$.
+- **Fast way:** Reduce $90:130$ by 10. **Answer: $9:13$.**
 
-### Model 5: Weighted average from a chart
-**Problem:** A shop sells 20 items at $30$ each and 30 items at $50$ each. Find average selling price per item.
-- **Method A:** Total revenue $=20(30)+30(50)=2100$; divide by 50 items to get $42$.
-- **Method B:** Weighted mean $=30+(30/50)(50-30)=42$. **Answer: $42$.**
+### 4. Read a pie-chart sector
+**Question:** A 720-unit total has a $90^\circ$ sector. Find that category's value.
+- **Step by step:** $90/360=1/4$ of the whole; $720/4=180$.
+- **Fast way:** A right angle is one quarter of a full pie. **Answer: $180$.**
 
-## 4. Exam-Specific Alignment & Variations
+### 5. Find a weighted average
+**Question:** A shop sells 20 items at $30$ each and 30 at $50$ each. Find the average price per item.
+- **Step by step:** Revenue $=20(30)+30(50)=2100$. Divide by 50 items.
+- **Fast way:** Weighted average $=30+(30/50)(20)=42$. **Answer: $42$.**
 
-- **SSC lens:** Tables, bar graphs, pie charts, mixed charts, and questions chaining totals with percentages.
-- **RRB lens:** Direct chart reading, averages, ratios, and rapid arithmetic from tables.
-- **AP State / PSU lens:** Multi-series comparisons, percentage growth, weighted averages, and caselet data.
+## What exams tend to test
 
-## 5. Common Traps & Speed Killers
+- **SSC:** tables, bar/pie charts, and multi-step percentage questions.
+- **RRB:** direct chart reading, ratios, and averages.
+- **APPSC / PSU:** multiple series, growth comparisons, and caselet data.
 
-1. **Missing chart scale or units:** a plotted 5 may mean 5,000; inspect the axis and legend.
-2. **Wrong percentage denominator:** growth is measured against the original value.
-3. **Averaging percentages or subgroup averages without weights:** use the underlying counts or totals.
+## Watch for these
 
-## 6. Quick Check
+1. Check whether chart values mean units, thousands, lakhs, or percentages.
+2. Percentage growth uses the old value as the denominator.
+3. Combine group totals before finding an overall average.
 
-Use this data: A sells 40 units in Year 1 and 50 in Year 2; B sells 60 in Year 1 and 70 in Year 2.
+## Quick check
 
-1. What is the total sales volume in Year 2?
+Using the table above, find total sales in Year 2.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
-$120$ units.
+120 units.
 </details>
 
-2. What is the percentage increase in A's sales from Year 1 to Year 2?
+Find the percentage increase in A's sales.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
-$25\%$: increase $10$ divided by original sales $40$.
+25%: increase 10 divided by original 40.
 </details>

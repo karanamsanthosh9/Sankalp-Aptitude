@@ -1,77 +1,79 @@
 # Time, Speed & Distance
 
-## 1. Core Concept & Fundamental Equations
+**The idea:** Distance, speed, and time are linked: $D=S\times T$. Before calculating, make all units agree.
 
-- $D=ST$, $S=D/T$, and $T=D/S$; convert units before substituting.
-- $1$ km/h $=5/18$ m/s; $1$ m/s $=18/5$ km/h.
-- Average speed $=\frac{\text{total distance}}{\text{total time}}$. For equal distances at speeds $u,v$, average speed is $2uv/(u+v)$.
-- Relative speed: same direction $|u-v|$; opposite directions $u+v$.
-- Train crossing a pole: distance is train length. Crossing a platform: distance is train length plus platform length.
-- Boats: downstream speed $=b+s$; upstream speed $=b-s$, where $b$ is still-water speed and $s$ stream speed.
+## The essentials
 
-## 2. Universal Shortcut Engine
+- $D=ST$, $S=D/T$, $T=D/S$.
+- Convert speed: km/h to m/s multiply by $5/18$; m/s to km/h multiply by $18/5$.
+- Average speed always means total distance divided by total time. For equal distances at speeds $u,v$, use $2uv/(u+v)$.
+- Meeting head-on: add speeds. Chasing in the same direction: subtract speeds.
+- Train crossing a platform covers train length plus platform length.
+- Boat: downstream $=b+s$; upstream $=b-s$.
 
-| Technique | Use it when | Avoid it when |
-|---|---|---|
-| Unit conversion first | km/h and m/s or minutes and hours mix. | All quantities already use consistent units. |
-| Relative speed | Two moving objects meet or overtake. | One object is stationary; use the actual speed. |
-| Harmonic mean | Equal distances are traveled at two speeds. | Equal times are traveled; average the speeds directly. |
-| Length + platform | A train crosses a platform or another train. | It crosses only a pole/person. |
-| Upstream/downstream equations | Boat and stream speeds are involved. | Current is absent; use ordinary relative motion. |
+## Choose your move
 
-## 3. Model-Wise Question Classification
+| Question clue | First move |
+|---|---|
+| km/h and metres/seconds together | Convert before using $D=ST$. |
+| Two objects meet or overtake | Find relative speed. |
+| Equal distances at different speeds | Use the harmonic-mean shortcut. |
+| Train passes platform | Add both lengths. |
+| Boat goes upstream/downstream | Use the sum and difference equations. |
 
-### Model 1: Basic speed conversion
-**Problem:** Convert $72$ km/h to m/s.
-- **Method A:** $72\times1000/3600=20$ m/s.
-- **Method B:** $72\times5/18=20$ m/s. **Answer: $20$ m/s.**
+## Five common question types
 
-### Model 2: Equal-distance average speed
-**Problem:** A car travels equal distances at $40$ and $60$ km/h. Find average speed.
-- **Method A:** For 120 km each, times are 3 h and 2 h; total distance/time $=240/5=48$ km/h.
-- **Method B:** Harmonic mean $=2(40)(60)/(40+60)=48$. **Answer: $48$ km/h.**
+### 1. Convert speed
+**Question:** Convert 72 km/h to m/s.
+- **Step by step:** $72\times1000/3600=20$ m/s.
+- **Fast way:** $72\times5/18=20$. **Answer: $20$ m/s.**
 
-### Model 3: Relative motion
-**Problem:** Two cars 300 km apart travel toward each other at 40 and 60 km/h. When do they meet?
-- **Method A:** Combined closing speed $=100$ km/h; time $=300/100=3$ hours.
-- **Method B:** Opposite directions: add speeds, then divide gap by $100$. **Answer: $3$ hours.**
+### 2. Average speed over equal distances
+**Question:** A car travels equal distances at 40 and 60 km/h. Find its average speed.
+- **Step by step:** For 120 km each, times are 3 h and 2 h. Average $=240/5=48$ km/h.
+- **Fast way:** $2uv/(u+v)=2(40)(60)/100=48$. **Answer: $48$ km/h.**
 
-### Model 4: Train crossing a platform
-**Problem:** A 150 m train at 54 km/h crosses a 250 m platform. Find time.
-- **Method A:** Speed $=15$ m/s; distance $=400$ m; time $=400/15=26\frac23$ s.
-- **Method B:** Convert speed to $15$ m/s and divide train-plus-platform length by speed. **Answer: $26\frac23$ seconds.**
+### 3. Meet while travelling toward each other
+**Question:** Cars 300 km apart travel toward each other at 40 and 60 km/h. When do they meet?
+- **Step by step:** Together they close 100 km each hour. $300/100=3$ hours.
+- **Fast way:** Opposite directions mean add speeds. **Answer: $3$ hours.**
 
-### Model 5: Boats and streams
-**Problem:** A boat travels downstream at 15 km/h and upstream at 9 km/h. Find still-water and stream speeds.
-- **Method A:** $b+s=15$, $b-s=9$; adding gives $b=12$, subtracting gives $s=3$.
-- **Method B:** Still-water speed is the mean $(15+9)/2=12$; stream speed is half-difference $(15-9)/2=3$. **Answer: $12$ km/h and $3$ km/h.**
+### 4. Train crosses a platform
+**Question:** A 150 m train travels at 54 km/h and crosses a 250 m platform. Find time.
+- **Step by step:** Convert speed to 15 m/s. Distance crossed $=150+250=400$ m. Time $=400/15$ s.
+- **Fast way:** Divide total crossing length by speed. **Answer: $26\frac23$ seconds.**
 
-## 4. Exam-Specific Alignment & Variations
+### 5. Find boat and stream speeds
+**Question:** Downstream speed is 15 km/h; upstream speed is 9 km/h. Find still-water and stream speeds.
+- **Step by step:** $b+s=15$, $b-s=9$. Add to get $b=12$; subtract to get $s=3$.
+- **Fast way:** Mean gives boat speed; half-difference gives stream speed. **Answer: $12$ km/h and $3$ km/h.**
 
-- **SSC lens:** Trains, relative speed, average speed, and unit conversion.
-- **RRB lens:** Train-platform-pole questions and direct time-distance calculations.
-- **AP State / PSU lens:** Boats, circular tracks, meeting times, and multi-stage journeys.
+## What exams tend to test
 
-## 5. Common Traps & Speed Killers
+- **SSC:** relative speed, trains, average speed, and unit conversion.
+- **RRB:** train-platform-pole and direct journey questions.
+- **APPSC / PSU:** boats, circular tracks, and multi-stage trips.
 
-1. **Averaging speeds for equal distances:** use the harmonic mean, not arithmetic mean.
-2. **Forgetting relative direction:** add speeds toward each other; subtract for same-direction overtaking.
-3. **Using only train length for a platform:** include both train and platform lengths.
+## Watch for these
 
-## 6. Quick Check
+1. Equal-distance average speed is not the simple mean of the speeds.
+2. Add speeds head-on; subtract for same-direction chasing.
+3. A train crossing a platform covers both lengths.
 
-1. Convert $90$ km/h to m/s.
+## Quick check
+
+1. Convert 90 km/h to m/s.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
-$25$ m/s.
+25 m/s.
 </details>
 
-2. A vehicle travels equal distances at $30$ km/h and $60$ km/h. Find its average speed.
+2. Find average speed over equal distances at 30 and 60 km/h.
 
 <details>
-<summary>Reveal answer</summary>
+<summary>Show answer</summary>
 
-$40$ km/h: $2(30)(60)/(30+60)$.
+40 km/h: $2(30)(60)/(30+60)$.
 </details>
