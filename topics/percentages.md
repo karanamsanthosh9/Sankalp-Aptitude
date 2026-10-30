@@ -1,25 +1,39 @@
 # Percentages
 
-**The idea:** A percentage is a fraction out of 100. Always identify the original amount before calculating a change.
+> **BASE FIRST:** write the original value as 100 before comparing percentages.
 
-## The essentials
+```text
+Original 100
+    │ +20%
+    ▼
+    120
+    │ -10% of 120 (not 100)
+    ▼
+    108  → net +8%
+```
 
-- $p\%=p/100$. So $25\%=1/4$ and $12.5\%=1/8$.
-- Increase by $p\%$: multiply by $1+p/100$. Decrease by $p\%$: multiply by $1-p/100$.
-- Percentage change $=\frac{\text{change}}{\text{starting value}}\times100\%$.
-- For two successive changes, apply each multiplier to the new value. Never add the percentages blindly.
-- If A is $p\%$ more than B, calculate the reverse percentage using A as the new base.
+## ⚡ Formula cards
 
-## Choose your move
-
-| Question clue | Use |
+| Move | Formula |
 |---|---|
-| “Find p% of a number” | Convert the percent to a fraction if it simplifies. |
-| Several changes in a row | Multiply the change factors. |
-| Final value after a change | Divide by the remaining percentage to reverse it. |
-| Compare “more than” with “less than” | Write down which value is the base. |
+| Find $p\%$ of $N$ | **$\frac{p}{100}N$** |
+| Percentage change | **$\frac{\text{change}}{\text{starting value}}\times100\%$** |
+| Increase by $p\%$ | **$\text{old}\times(1+\frac{p}{100})$** |
+| Decrease by $p\%$ | **$\text{old}\times(1-\frac{p}{100})$** |
 
-## Five common question types
+> **Base alert:** Percentage change is measured against the **starting value**, not the final value.
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| $x\%$ of one number and another percent of the first | **$x\%\text{ of }y=y\%\text{ of }x$**. Swap to the easier calculation. |
+| A familiar percent | Convert first: $12.5\%=1/8$, $20\%=1/5$, $25\%=1/4$, $37.5\%=3/8$. |
+| Increase $a\%$, then increase $b\%$ | Net increase $=a+b+\frac{ab}{100}\%$. |
+| Increase followed by decrease | Multiply the factors; the percentages do not cancel. |
+| Final value after a change | Divide by the remaining/increased fraction to reverse the change. |
+
+## Ten worked examples
 
 ### 1. Find a percentage of a number
 **Question:** Find 35% of 240.
@@ -46,32 +60,27 @@
 - **Step by step:** $360/450\times100=80\%$.
 - **Fast way:** $360/450=4/5=80\%$. **Answer: 80%.**
 
-## What exams tend to test
+### 6. Find the original value
+**Question:** A price after a 15% increase is $920. What was the original price?
+- **Step by step:** The final price is 115% of the original, so divide by 1.15.
+- **Calculation:** $920/1.15=800$. **Answer: $800$.**
 
-- **SSC:** successive changes, reverse comparisons, marks, and population growth.
-- **RRB:** direct percentage calculations and changes in word problems.
-- **APPSC / PSU:** percentages inside profit-loss, salary, production, and data interpretation.
+### 7. Apply two successive increases
+**Question:** A salary of $2,000 rises by 5%, then by 10%. Find the final salary.
+- **Step by step:** Apply each increase to the current salary, not the starting salary.
+- **Calculation:** $2000(1.05)(1.10)=2310$. **Answer: $2,310$.**
 
-## Watch for these
+### 8. Swap the percentage calculation
+**Question:** Find 16% of 25.
+- **Shortcut:** $16\%\text{ of }25=25\%\text{ of }16$.
+- **Calculation:** One quarter of 16 is 4. **Answer: $4$.**
 
-1. Every new change uses the current value as its base.
-2. A 10% rise and 10% fall gives a 1% loss, not zero change.
-3. “A is 25% more than B” means B is 20% less than A, not 25% less.
+### 9. Find the net effect of equal changes
+**Question:** A price rises 20%, then falls 20%. Find the net percentage change.
+- **Shortcut:** Use multipliers: $1.2\times0.8=0.96$.
+- **Answer:** The final value is 96% of the start, so it is a **4% decrease**.
 
-## Quick check
-
-1. Find 30% of 250.
-
-<details>
-<summary>Show answer</summary>
-
-$75$.
-</details>
-
-2. A value rises by 10% and then falls by 10%. Find the net change.
-
-<details>
-<summary>Show answer</summary>
-
-1% decrease: $1.1\times0.9=0.99$.
-</details>
+### 10. Reverse a percentage decrease
+**Question:** After a 25% discount, a bag costs $900$. Find its marked price.
+- **Shortcut:** The sale price is $3/4$ of the marked price; multiply by $4/3$.
+- **Calculation:** $900\times\frac43=1200$. **Answer: $1,200$.**

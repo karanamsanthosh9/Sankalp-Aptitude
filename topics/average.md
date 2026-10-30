@@ -1,24 +1,36 @@
 # Average
 
-**The idea:** Average is the fair-share value. Multiply it by the number of items to recover the total.
+> **AVERAGE ⇄ TOTAL:** multiply to recover total; divide to recover average.
 
-## The essentials
+```text
+        Average
+       ┌───┴───┐
+   Total     Count
+  Average × Count = Total
+```
 
-- Average $=\text{total}/\text{count}$; total $=\text{average}\times\text{count}$.
-- When one value is replaced, update the total by (new value $-$ old value).
-- For groups of different sizes, use a **weighted average**: combine totals, then divide by the combined count.
-- For equally spaced numbers, average is halfway between the first and last.
+## ⚡ Formula cards
 
-## Choose your move
-
-| Question clue | Start with |
+| Find... | Formula |
 |---|---|
-| Find a missing total | Average $\times$ count. |
-| One person/value joins or leaves | Find old and new totals. |
-| Two groups have different sizes | Add their totals; do not average their averages. |
-| Consecutive or equally spaced values | Average the first and last values. |
+| Average | **$\frac{\text{total}}{\text{count}}$** |
+| Total | **$\text{average}\times\text{count}$** |
+| Combined average | **$\frac{n_1a_1+n_2a_2}{n_1+n_2}$** |
+| New average after replacement | **$\text{old average}+\frac{\text{new}-\text{old}}{\text{count}}$** |
 
-## Five common question types
+> **Memory cue:** Average is the *fair share*. Multiply to get the total; divide to get the average.
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| Average and count | Convert to total immediately: total $=$ average $\times$ count. |
+| One value replaced | Average change $=(\text{new}-\text{old})/\text{count}$. |
+| Unequal group sizes | Combine totals first; never take a plain mean of group averages. |
+| Equally spaced values | Average $=(\text{first}+\text{last})/2$. |
+| A person joins/leaves | Compare old and new totals to isolate that person's value. |
+
+## Ten worked examples
 
 ### 1. Find the total
 **Question:** Eight numbers have average 15. Find their sum.
@@ -45,32 +57,27 @@
 - **Step by step:** Old total $=5(24)=120$; new total $=6(25)=150$. New person is $150-120$.
 - **Fast way:** Compare the totals before and after the group changes. **Answer: $30$ years.**
 
-## What exams tend to test
+### 6. Find a missing score
+**Question:** The average of 6 scores is 18. Five scores are 12, 15, 17, 20, and 24. Find the sixth.
+- **Step by step:** Required total $=6(18)=108$. Known total $=88$.
+- **Calculation:** Missing score $=108-88$. **Answer: $20$.**
 
-- **SSC:** replacement, missing observations, and weighted averages.
-- **RRB:** marks, ages, and consecutive-number averages.
-- **APPSC / PSU:** combining several groups in salary, production, or survey data.
+### 7. Combine unequal groups
+**Question:** 12 workers earn an average of $500 per day and 8 earn an average of $650. Find the overall average.
+- **Step by step:** Combined total $=12(500)+8(650)=11{,}200$.
+- **Calculation:** Divide by 20 workers. **Answer: $560$ per day.**
 
-## Watch for these
+### 8. Use the replacement shortcut
+**Question:** The average of 15 numbers is 32. Replace 24 with 54. Find the new average.
+- **Shortcut:** The total rises by 30, so the average rises by $30/15=2$.
+- **Answer:** The new average is **34**.
 
-1. Do not average group averages unless the group sizes are equal.
-2. When someone joins, the count changes as well as the total.
-3. For equally spaced values, use the midpoint instead of adding every term.
+### 9. Average equally spaced numbers
+**Question:** Find the average of 12, 16, 20, 24, 28, and 32.
+- **Shortcut:** Pair the first and last; every pair sums to 44.
+- **Calculation:** Average $=44/2$. **Answer: $22$.**
 
-## Quick check
-
-1. Six numbers have average 14. Find their sum.
-
-<details>
-<summary>Show answer</summary>
-
-$6\times14=84$.
-</details>
-
-2. Ten values average 60; 20 values average 75. Find the combined average.
-
-<details>
-<summary>Show answer</summary>
-
-70: $(10\cdot60+20\cdot75)/30$.
-</details>
+### 10. Find a member who leaves
+**Question:** 8 people average 25 years. One person leaves, and the remaining 7 average 24. Find the age of the person who left.
+- **Shortcut:** Person's value $=$ old total $-$ new total.
+- **Calculation:** $8(25)-7(24)=200-168$. **Answer: $32$ years.**

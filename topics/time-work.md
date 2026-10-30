@@ -1,26 +1,35 @@
 # Time & Work
 
-**The idea:** Convert each worker's time into a work rate. Add rates when workers work together; divide the remaining work by the new rate when the team changes.
+> **NEVER ADD DAYS.** Convert each worker to rate, then add rates.
 
-## The essentials
+## ⚡ Formula cards
 
-- If A finishes a job in $x$ days, A does $1/x$ of the job per day.
-- Working together: add daily rates. Time for one job $=1/\text{combined rate}$.
-- More efficiency means less time for the same job.
-- For a fixed job and equal efficiency: workers $\times$ days stays constant.
-- When someone joins or leaves, first calculate how much work is already done.
-
-## Choose your move
-
-| Question clue | Start with |
+| Situation | Formula |
 |---|---|
-| Two people work together | Add their one-day work rates. |
-| Relative efficiency is given | Convert efficiency ratio to the inverse time ratio. |
-| Someone joins midway | Find completed work, then find remaining time. |
-| More/fewer workers do the same job | Use the worker-day product. |
-| Workers alternate days | Calculate work over one full cycle. |
+| A finishes in $x$ days | **Rate $=\frac1x$ job/day** |
+| Work together | **Add their rates** |
+| Time for one job | **$\frac1{\text{combined rate}}$** |
+| Same job, equal efficiency | **Workers $\times$ days $=$ constant** |
 
-## Five common question types
+> **Think in rates, not days:** More workers add work per day; completion time goes down.
+
+```text
+A takes 12 days  →  1/12 job/day
+B takes 18 days  →  1/18 job/day
+Together         →  add rates → flip to get days
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| Workers finish in different times | Use the LCM of their times as total work units; each rate becomes an integer. |
+| Efficiency ratio | Time ratio is the reverse: efficiency $3:2$ means time $2:3$. |
+| Team changes mid-job | Find completed work first; apply the new rate only to the remainder. |
+| Same job, workers change | Keep workers $\times$ days constant, assuming equal efficiency. |
+| Alternating workers | Calculate one complete cycle, then finish the leftover work on the correct turn. |
+
+## Ten worked examples
 
 ### 1. Work together
 **Question:** A finishes in 12 days; B in 18. How long together?
@@ -47,32 +56,27 @@
 - **Step by step:** Each 2-day cycle completes $1/6+1/12=1/4$. After 6 days, $1/4$ remains. A does this in 1.5 days.
 - **Fast way:** Three cycles take 6 days; finish the remainder on A's next turn. **Answer: $7.5$ days.**
 
-## What exams tend to test
+### 6. Find the remaining work
+**Question:** A worker completes a job in 20 days. What fraction remains after working alone for 8 days?
+- **Step by step:** The worker completes $8/20=2/5$ of the job.
+- **Calculation:** Remaining work $=1-2/5=3/5$. **Answer: $\frac{3}{5}$ of the job.**
 
-- **SSC:** efficiency, partial work, and changing teams.
-- **RRB:** worker-day comparisons and combined rates.
-- **APPSC / PSU:** multi-stage work, shifts, and varied team sizes.
+### 7. Find a worker's time from a combined rate
+**Question:** A and B together finish a job in 6 days. A alone takes 10 days. How long would B take alone?
+- **Step by step:** B's rate is the combined rate minus A's rate.
+- **Calculation:** $\frac{1}{6}-\frac{1}{10}=\frac{1}{15}$ job per day. **Answer: $15$ days.**
 
-## Watch for these
+### 8. Use worker-days
+**Question:** 8 workers finish a job in 15 days. How many days will 12 equally efficient workers need?
+- **Shortcut:** Keep the product fixed: $8(15)=12d$.
+- **Calculation:** $d=120/12$. **Answer: $10$ days.**
 
-1. Add work rates, not completion times.
-2. Efficiency and time move in opposite directions for the same job.
-3. Subtract completed work before changing the team rate.
+### 9. Find the time when workers leave
+**Question:** 20 workers can finish a job in 18 days. After 6 days, 5 workers leave. How many days are needed in total?
+- **Shortcut:** Total job $=20(18)=360$ worker-days. First 6 days complete $20(6)=120$; 240 remain.
+- **Calculation:** $240/15=16$ more days. **Answer: $22$ days total.**
 
-## Quick check
-
-1. A takes 8 days and B takes 24 days. How long together?
-
-<details>
-<summary>Show answer</summary>
-
-6 days: $1/8+1/24=1/6$ job per day.
-</details>
-
-2. Fifteen workers finish in 12 days. How long for 20 workers?
-
-<details>
-<summary>Show answer</summary>
-
-9 days: $15\cdot12/20=9$.
-</details>
+### 10. Use LCM work units
+**Question:** A finishes in 8 days and B in 12 days. How much work do they complete together in 2 days?
+- **Shortcut:** Let total work be $\operatorname{LCM}(8,12)=24$ units. Rates are 3 and 2 units/day.
+- **Calculation:** Together they do $5(2)=10$ units, or **$\frac{10}{24}=\frac{5}{12}$ of the job**.

@@ -1,25 +1,37 @@
 # Simple & Compound Interest
 
-**The idea:** Simple interest is calculated on the starting amount every year. Compound interest is calculated on the growing balance, so interest earns interest.
+> **SI:** same principal each year. **CI:** new balance each year.
 
-## The essentials
+## ⚡ Formula cards
 
-- Simple interest: $SI=PRT/100$. Here $P$ is principal, $R$ annual rate percent, and $T$ years.
-- Amount with simple interest: $A=P+SI$.
-- Compound amount: $A=P(1+R/100)^T$; compound interest $=A-P$.
-- Half-yearly compounding: halve the rate and double the number of periods.
-- Depreciation uses a decrease factor: $A=P(1-R/100)^T$.
-
-## Choose your move
-
-| Question clue | Use |
+| Situation | Formula |
 |---|---|
-| Interest stays on original principal | Simple-interest formula. |
-| Interest is added to balance each period | Compound multiplier. |
-| Rate changes by year | Multiply one growth factor per year. |
-| CI minus SI for exactly two years | Difference $=P(R/100)^2$ (annual compounding). |
+| Simple interest | **$SI=\frac{PRT}{100}$** |
+| Simple-interest amount | **$A=P+SI$** |
+| Compound amount | **$A=P(1+\frac{R}{100})^T$** |
+| Compound interest | **$CI=A-P$** |
+| Depreciation | **$A=P(1-\frac{R}{100})^T$** |
 
-## Five common question types
+> **See the difference:** Simple interest repeats the same add-on; compound interest grows by a multiplier each period.
+
+```text
+SI:  P ── +same interest ── +same interest ──> A
+CI:  P ── ×(1+r) ────────── ×(1+r) ─────────> A
+             year 1              year 2
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| SI and three of $P,R,T$ are known | Rearrange $SI=PRT/100$; isolate only the missing quantity. |
+| Annual CI | Use growth factor $1+R/100$ once per year. |
+| Half-yearly CI | Use rate $R/2$ and periods $2T$. |
+| Two-year CI minus SI | Use $P(R/100)^2$ directly. |
+| Rate changes by year | Multiply each year's growth factor; do not average the rates. |
+| Depreciation | Use a decreasing factor $1-R/100$ per period. |
+
+## Ten worked examples
 
 ### 1. Find simple interest
 **Question:** Find SI on $5000$ at 8% for 3 years.
@@ -46,32 +58,27 @@
 - **Step by step:** Year 1: $45,000$. Year 2: $40,500$.
 - **Fast way:** $50000(0.9)^2=40500$. **Answer: $40,500$.**
 
-## What exams tend to test
+### 6. Find the simple-interest rate
+**Question:** A principal of $4,000 earns $600 simple interest in 3 years. Find the annual rate.
+- **Step by step:** Rearrange $SI=PRT/100$ to make the rate the subject.
+- **Calculation:** $R=\frac{600(100)}{4000(3)}=5\%$. **Answer: $5\%$ per year.**
 
-- **SSC:** SI-CI comparison and compounding frequency.
-- **RRB:** direct interest and depreciation calculations.
-- **APPSC / PSU:** changing rates, installments, and growth applications.
+### 7. Compound for three years
+**Question:** Find the amount on $2,000 at 5% per year, compounded annually for 3 years.
+- **Step by step:** Apply the 5% growth multiplier once each year.
+- **Calculation:** $A=2000(1.05)^3=2315.25$. **Answer: $2,315.25$.**
 
-## Watch for these
+### 8. Find simple interest quickly
+**Question:** Find SI on $6,000 at 7.5% for 2 years.
+- **Shortcut:** One year's interest is 7.5% of $6,000, or $450.
+- **Calculation:** $450(2)$. **Answer: $900$.**
 
-1. Under CI, the second year's interest is on the new balance.
-2. Half-yearly means rate $R/2$ and periods $2T$.
-3. The quick CI-SI difference applies only to two years of annual compounding.
+### 9. Compound half-yearly
+**Question:** Find the amount on $10,000 at 8% for one year, compounded half-yearly.
+- **Shortcut:** Each half-year earns 4%; apply the factor twice.
+- **Calculation:** $10000(1.04)^2$. **Answer: $10,816$.**
 
-## Quick check
-
-1. Find SI on $3000$ at 6% for 2 years.
-
-<details>
-<summary>Show answer</summary>
-
-$360$.
-</details>
-
-2. Find CI on $1000$ at 10% for 2 years.
-
-<details>
-<summary>Show answer</summary>
-
-$210$: amount $=1000(1.1)^2=1210$.
-</details>
+### 10. Find the three-year CI-SI difference
+**Question:** Find CI minus SI on $10,000 at 10% for 3 years, compounded annually.
+- **Shortcut:** Compare amounts: CI amount $=10000(1.1)^3=13310$; SI $=3000$.
+- **Calculation:** CI is $3,310$, so difference $=3310-3000$. **Answer: $310$.**

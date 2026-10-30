@@ -1,26 +1,38 @@
 # Ratio & Proportion
 
-**The idea:** A ratio compares parts. First make sure the quantities use the same units; then scale the parts to fit the total.
+> **SHARE A TOTAL:** add the parts → find one part → multiply.
 
-## The essentials
+```text
+Total = 840       Ratio = 3 : 4
+                     └─ 7 parts ─┘
+1 part = 840 / 7 = 120
+Shares: 3(120) = 360  |  4(120) = 480
+```
 
-- $a:b$ means $a/b$. Keep units the same before comparing.
-- If a total $S$ is shared in ratio $m:n$, there are $m+n$ parts. One part is $S/(m+n)$.
-- A proportion $a:b=c:d$ means $ad=bc$.
-- **Direct:** both quantities scale together. **Inverse:** one rises as the other falls; their product stays fixed.
-- In a partnership, profit share is proportional to investment $\times$ time.
+## ⚡ Formula cards
 
-## Choose your move
-
-| Question clue | First move |
+| Situation | Formula |
 |---|---|
-| Split a total | Add the ratio parts, then find one part. |
-| Two ratios share a letter | Make that shared amount equal in both ratios. |
-| More items cost more | Use direct proportion. |
-| More workers take fewer days | Use inverse proportion. |
-| Partners invest for different months | Compare capital-month products. |
+| Ratio | **$a:b=\frac ab$** |
+| One part of a shared total | **$\frac{\text{total}}{\text{sum of ratio parts}}$** |
+| Direct proportion | **$\frac{x_1}{y_1}=\frac{x_2}{y_2}$** |
+| Inverse proportion | **$x_1y_1=x_2y_2$** |
+| Partnership | **Share ratio $=(\text{capital}\times\text{time})$** |
 
-## Five common question types
+> **Fast clue:** More of both means direct; more of one and less of the other means inverse.
+
+## Exam shortcut playbook
+
+| If you know... | Shortcut |
+|---|---|
+| A ratio and the total | Add ratio parts; one part $=\text{total}/\text{part sum}$. |
+| A ratio and the difference | One part $=\text{difference}/\text{difference of ratio parts}$. |
+| Two ratios with a shared term | Make the shared terms equal using their LCM. |
+| Direct proportion | Scale both quantities by the same factor. |
+| Inverse proportion | Keep the product constant; more workers means fewer days. |
+| Partnership investment over time | Compare capital-months, not capital alone. |
+
+## Ten worked examples
 
 ### 1. Share a total
 **Question:** Divide $840$ in the ratio $3:4$.
@@ -47,32 +59,27 @@
 - **Step by step:** Both capital-time products are $72,000$, so split equally.
 - **Fast way:** $6000(12):8000(9)=1:1$. **Answer: $5000$ each.**
 
-## What exams tend to test
+### 6. Find a missing ratio term
+**Question:** If $5:8=x:40$, find $x$.
+- **Step by step:** Write the proportion as $\frac{5}{8}=\frac{x}{40}$.
+- **Calculation:** $8x=200$, so **$x=25$.**
 
-- **SSC:** ratios mixed with ages, mixtures, and percentage changes.
-- **RRB:** worker-days, speed, and direct sharing.
-- **APPSC / PSU:** partnerships and multi-step proportional changes.
+### 7. Divide an amount in a three-part ratio
+**Question:** Divide $1,200 in the ratio $2:3:5$.
+- **Step by step:** There are 10 parts, so each part is $1200/10=120$.
+- **Calculation:** Shares are $2(120)$, $3(120)$, and $5(120)$. **Answer: $240, $360, $600$.**
 
-## Watch for these
+### 8. Split a total using parts
+**Question:** A and B share $720 in the ratio $5:7$. Find each share.
+- **Shortcut:** One part $=720/(5+7)=60$.
+- **Calculation:** A gets $5(60)$ and B gets $7(60)$. **Answer: $300$ and $420$.**
 
-1. Match the shared term before combining two ratios.
-2. More workers mean fewer days only when the job and efficiency stay fixed.
-3. Partnership profit depends on both money and investment time.
+### 9. Use a ratio and a difference
+**Question:** Two numbers are in the ratio $3:8$ and differ by 45. Find them.
+- **Shortcut:** The 5-part difference equals 45, so one part is 9.
+- **Calculation:** The numbers are $3(9)$ and $8(9)$. **Answer: $27$ and $72$.**
 
-## Quick check
-
-1. Divide 560 in the ratio $3:5$.
-
-<details>
-<summary>Show answer</summary>
-
-$210$ and $350$.
-</details>
-
-2. Four workers finish in 12 days. How long for 6 equally efficient workers?
-
-<details>
-<summary>Show answer</summary>
-
-8 days: $4\times12/6=8$.
-</details>
+### 10. Scale a direct proportion
+**Question:** If 7 kg of rice costs $280, what do 12 kg cost at the same rate?
+- **Shortcut:** Find the unit cost once: $280/7=40$.
+- **Calculation:** $12(40)$. **Answer: $480$.**

@@ -1,27 +1,39 @@
 # Mensuration
 
-**The idea:** Mensuration is measurement with formulas. First identify the shape, then match the formula to what the question asks: boundary, surface, or capacity.
+> **ASK:** boundary? surface? capacity? Pick perimeter, area, or volume.
 
-## The essentials
+## ⚡ Shape formula cards
 
-- Rectangle: area $=lb$, perimeter $=2(l+b)$. Circle: area $=\pi r^2$, circumference $=2\pi r$.
-- Cuboid: volume $=lbh$. Cylinder: volume $=\pi r^2h$, curved surface $=2\pi rh$.
-- Cone: volume $=\frac13\pi r^2h$; slant height $l=\sqrt{r^2+h^2}$.
-- Sphere: volume $=\frac43\pi r^3$, surface area $=4\pi r^2$.
-- Similar shapes: if lengths scale by $k$, areas scale by $k^2$ and volumes by $k^3$.
-- Area uses square units; volume uses cubic units.
+| Shape | Area / surface | Perimeter / volume |
+|---|---|---|
+| Rectangle | $A=lb$ | $P=2(l+b)$ |
+| Triangle | $A=\frac12 bh$ | — |
+| Circle | $A=\pi r^2$ | $C=2\pi r$ |
+| Cuboid | — | $V=lbh$ |
+| Cylinder | Curved area $=2\pi rh$ | $V=\pi r^2h$ |
+| Cone | — | $V=\frac13\pi r^2h$ |
+| Sphere | Surface $=4\pi r^2$ | $V=\frac43\pi r^3$ |
 
-## Choose your move
+> **Unit check:** Area ends in square units; volume ends in cubic units.
 
-| Question asks for... | Identify... |
+```text
+2D shape ──> perimeter (around) / area (inside)
+3D solid ──> surface area (outside) / volume (inside)
+Scale side by k ──> length k | area k² | volume k³
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
 |---|---|
-| Fence or boundary | Perimeter/circumference. |
-| Covering or painting | Surface area; check whether bases are included. |
-| Capacity or space occupied | Volume. |
-| A combined figure | Split into familiar shapes and add/subtract. |
-| A recast solid | Equate the original and new total volumes. |
+| A boundary/fence | Use perimeter or circumference, not area. |
+| A painted/covered solid | Identify curved vs total surface area; check whether bases are included. |
+| A scale change by $k$ | Length $\times k$, area $\times k^2$, volume $\times k^3$. |
+| A solid melted and recast | Equate volumes; material amount is unchanged. |
+| A circle with diameter given | Use $r=d/2$ before applying circle formulas. |
+| Different measurement units | Convert all lengths to one unit before squaring/cubing. |
 
-## Five common question types
+## Ten worked examples
 
 ### 1. Find rectangle area
 **Question:** Find the area of a rectangle 18 cm by 12 cm.
@@ -48,32 +60,27 @@
 - **Step by step:** Same metal means same total volume: $R^3=n(R/2)^3$, so $n=8$.
 - **Fast way:** Halve each length; volume of each small sphere is $1/8$ as much. **Answer: $8$.**
 
-## What exams tend to test
+### 6. Find a cuboid volume
+**Question:** Find the volume of a box 8 cm long, 5 cm wide, and 3 cm high.
+- **Step by step:** Multiply its three dimensions.
+- **Calculation:** $V=8(5)(3)=120$. **Answer: $120$ cm$^3$.**
 
-- **SSC:** composite shapes, cylinders/cones/spheres, and dimension changes.
-- **RRB:** direct perimeter, area, and volume calculations.
-- **APPSC / PSU:** recasting, capacity, unit conversion, and combined solids.
+### 7. Find a triangle's area
+**Question:** Find the area of a triangle with base 14 cm and perpendicular height 9 cm.
+- **Step by step:** A triangle is half of a rectangle with the same base and height.
+- **Calculation:** $A=\frac{1}{2}(14)(9)=63$. **Answer: $63$ cm$^2$.**
 
-## Watch for these
+### 8. Find circle area from its radius
+**Question:** Find the area of a circle with radius 14 cm. Use $\pi=22/7$.
+- **Shortcut:** Cancel $7$ before multiplying: $\frac{22}{7}(14^2)$.
+- **Calculation:** $22(28)$. **Answer: $616$ cm$^2$.**
 
-1. Curved surface area does not include the base; total surface area does.
-2. Convert units before calculating area or volume.
-3. If all dimensions scale, volume changes by the cube of the scale factor.
+### 9. Find cylinder volume
+**Question:** Find the volume of a cylinder with radius 7 cm and height 10 cm. Use $\pi=22/7$.
+- **Shortcut:** Cancel one 7: $\frac{22}{7}(7^2)(10)$.
+- **Answer:** **1,540 cm$^3$**.
 
-## Quick check
-
-1. Find the circumference of a circle of radius 7 cm using $\pi=22/7$.
-
-<details>
-<summary>Show answer</summary>
-
-44 cm.
-</details>
-
-2. Find the volume of a cube with side 4 cm.
-
-<details>
-<summary>Show answer</summary>
-
-$64$ cm$^3$.
-</details>
+### 10. Scale a cube
+**Question:** A cube's side is tripled. By what factor do its surface area and volume change?
+- **Shortcut:** Surface scales as $k^2$; volume as $k^3$.
+- **Calculation:** $3^2=9$ and $3^3=27$. **Answer: area is 9 times; volume is 27 times.**

@@ -1,25 +1,38 @@
 # HCF & LCM
 
-**The idea:** HCF is the biggest number that divides each value. LCM is the first positive number they all divide into.
+> **HCF = biggest shared divisor. LCM = first shared multiple.**
 
-## The essentials
+## ⚡ Formula cards
 
-- Prime-factorize first. For HCF take the **smallest** power of each shared prime; for LCM take the **largest**.
-- For two numbers only: $a\times b=\operatorname{HCF}(a,b)\times\operatorname{LCM}(a,b)$.
-- To find HCF of large numbers, divide repeatedly: the last non-zero remainder is the HCF.
-- Same remainder on division? The divisor must divide the **differences** between the numbers.
-- Use HCF for the largest equal piece size; use LCM for events that happen together again.
-
-## Choose your move
-
-| Question clue | Use |
+| Find... | Prime-factor rule |
 |---|---|
-| Largest number dividing several values | HCF; use repeated remainders if values are large. |
-| First time schedules match | LCM. |
-| Same remainder for each number | HCF of their differences. |
-| Two numbers, their HCF and LCM, one number missing | Product identity. |
+| HCF | **Shared primes; take the smaller powers** |
+| LCM | **Every prime; take the larger powers** |
+| HCF and LCM of two numbers | **$\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$** |
+| Same remainder | **$\operatorname{HCF}(\text{pairwise differences})$** |
 
-## Five common question types
+> **Memory cue:** HCF stays *inside* what both numbers share; LCM stretches to cover them both.
+
+```text
+HCF:  24 = 2³ × 3       36 = 2² × 3²
+      └─ smaller powers ─┘
+      HCF = 2² × 3 = 12
+
+LCM:  └──── larger powers ────┘
+      LCM = 2³ × 3² = 72
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| Large numbers for HCF | Use Euclid: replace $(a,b)$ with $(b,\text{remainder})$ until remainder is 0. |
+| Small numbers | Prime-factorize; HCF uses minimum powers and LCM uses maximum powers. |
+| Same remainder on division | Subtract the numbers first; find the HCF of their differences. |
+| Two numbers and their HCF | Use $\text{LCM}=ab/\text{HCF}$ instead of listing multiples. |
+| “Together again” or repeating schedules | Choose LCM; for largest equal pieces, choose HCF. |
+
+## Ten worked examples
 
 ### 1. Find an HCF
 **Question:** Find the HCF of 252 and 198.
@@ -46,32 +59,27 @@
 - **Step by step:** The first common multiple of 18 and 24 is 72.
 - **Fast way:** $18=2\cdot3^2$, $24=2^3\cdot3$; LCM $=2^3\cdot3^2=72$. **Answer: $72$ minutes.**
 
-## What exams tend to test
+### 6. Cut equal-length pieces
+**Question:** What is the greatest length of identical pieces that can be cut from ribbons 84 cm and 126 cm long?
+- **Step by step:** The piece length must divide both ribbon lengths.
+- **Calculation:** $\operatorname{HCF}(84,126)=42$. **Answer: $42$ cm.**
 
-- **SSC:** same-remainder puzzles and HCF/LCM word problems.
-- **RRB:** bells, signals, and direct factorization.
-- **APPSC / PSU:** Euclidean algorithm and conditions involving multiples.
+### 7. Find a shared schedule
+**Question:** Two lights flash every 14 and 20 seconds. When do they flash together again?
+- **Step by step:** Find the least common multiple of their intervals.
+- **Calculation:** $14=2\cdot7$, $20=2^2\cdot5$, so $\operatorname{LCM}=2^2\cdot5\cdot7=140$. **Answer: $140$ seconds.**
 
-## Watch for these
+### 8. Find HCF using remainders
+**Question:** Find the HCF of 867 and 255.
+- **Shortcut:** $867=3(255)+102$; $255=2(102)+51$; $102=2(51)$.
+- **Answer:** The last non-zero remainder is **51**.
 
-1. HCF uses smaller prime powers; LCM uses larger ones.
-2. The product identity here is for two numbers, not three.
-3. For equal remainders, find the HCF of differences, not original values.
+### 9. Find LCM without listing multiples
+**Question:** Find the LCM of 36 and 84.
+- **Shortcut:** HCF is 12, so $\text{LCM}=36(84)/12$.
+- **Calculation:** $3(84)$. **Answer: $252$.**
 
-## Quick check
-
-1. Find the HCF of 48 and 72.
-
-<details>
-<summary>Show answer</summary>
-
-$24$.
-</details>
-
-2. Find the LCM of 12 and 15.
-
-<details>
-<summary>Show answer</summary>
-
-$60$.
-</details>
+### 10. Find the greatest divisor leaving the same remainder
+**Question:** Find the greatest number that divides 122, 182, and 242 leaving the same remainder.
+- **Shortcut:** Take differences: $60$ and $120$; their HCF is 60.
+- **Check:** Each number leaves remainder 2 on division by 60. **Answer: $60$.**

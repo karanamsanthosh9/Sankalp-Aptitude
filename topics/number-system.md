@@ -1,27 +1,36 @@
 # Number System
 
-**The idea:** A number question usually asks you to spot a property: divisibility, factors, a remainder, or a repeating pattern.
+> **LOOK FOR:** divisibility → factors → cycles → remainders.
 
-## The essentials
+## ⚡ Formula cards
 
-- **Prime:** exactly two positive factors. $2$ is the only even prime.
-- **Division rule:** dividend $=$ divisor $\times$ quotient $+$ remainder. The remainder is always smaller than the divisor.
-- **Fast divisibility:** digit sum tests $3$ and $9$; last 2 digits test $4$; last 3 digits test $8$; alternating digit sum tests $11$.
-- **Factor count:** if $N=p^a q^b$, number of positive factors $=(a+1)(b+1)$.
-- **Trailing zeros in $n!$:** add $\lfloor n/5\rfloor+\lfloor n/25\rfloor+\lfloor n/125\rfloor+\cdots$. Each division counts another layer of fives.
-- **For two numbers:** product $=$ HCF $\times$ LCM.
-
-## Choose your move
-
-| The question asks for... | Start with... |
+| Find... | Formula / rule |
 |---|---|
-| A missing digit | Apply each divisibility test separately. |
-| A huge power's remainder | Find the repeating remainder cycle. |
-| The last digit | Track only unit digits; most cycles have length 4. |
-| Number of factors | Prime-factorize, then add 1 to each exponent and multiply. |
-| Zeros at the end of a factorial | Count factors of 5, including extra 5s from 25, 125, etc. |
+| Dividend | **$\text{divisor}\times\text{quotient}+\text{remainder}$** |
+| Factors of $N=p^a q^b$ | **$(a+1)(b+1)$** |
+| Trailing zeros in $n!$ | **$\lfloor n/5\rfloor+\lfloor n/25\rfloor+\lfloor n/125\rfloor+\cdots$** |
+| HCF and LCM | **$\operatorname{HCF}(a,b)\operatorname{LCM}(a,b)=ab$** |
 
-## Five common question types
+> **Remainder check:** The remainder must always be smaller than the divisor.
+
+```text
+Huge power? ──> find cycle ──> exponent ÷ cycle length
+                                  │
+                                  └─ remainder picks the answer
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| Divisibility by 3 or 9 | Add digits; test the digit sum. |
+| Divisibility by 4 or 8 | Check only the last 2 or 3 digits. |
+| Divisibility by 11 | Take the alternating digit-sum difference. |
+| A large exponent | Find the repeating remainder/unit-digit cycle; reduce the exponent modulo the cycle length. |
+| Number of factors | Prime-factorize, add 1 to each exponent, then multiply. |
+| Zeros at the end of $n!$ | Count 5s, including extra 5s from 25, 125, and higher powers. |
+
+## Ten worked examples
 
 ### 1. Find a missing digit
 **Question:** Find $x$ if $47x2$ is divisible by both 4 and 9.
@@ -48,32 +57,27 @@
 - **Step by step:** Each zero needs a 2 and a 5; 2s are plentiful, so count 5s. Multiples of 5 give 20 fives; multiples of 25 give 4 extra.
 - **Fast way:** $\lfloor100/5\rfloor+\lfloor100/25\rfloor=24$. **Answer: $24$.**
 
-## What exams tend to test
+### 6. Test divisibility by 11
+**Question:** Is 5,060 divisible by 11?
+- **Step by step:** Find the difference between alternating digit sums: $(5+6)-(0+0)=11$.
+- **Rule:** A multiple of 11 has an alternating-sum difference divisible by 11. **Answer: Yes; $5060\div11=460$.**
 
-- **SSC:** missing digits, combined divisibility, remainders, and algebraic conditions on integers.
-- **RRB:** direct divisibility, factor counts, unit digits, and HCF/LCM.
-- **APPSC / PSU:** prime factors, factorial zeros, and number-property puzzles.
+### 7. Find the last digit of a power
+**Question:** Find the last digit of $8^{23}$.
+- **Step by step:** Powers of 8 cycle through last digits 8, 4, 2, 6. Since $23$ leaves remainder 3 when divided by 4, use the third digit.
+- **Answer:** The last digit is $2$.
 
-## Watch for these
+### 8. Test divisibility by 9
+**Question:** Is 73,845 divisible by 9?
+- **Shortcut:** Add the digits: $7+3+8+4+5=27$.
+- **Rule:** 27 is divisible by 9, so **73,845 is divisible by 9**.
 
-1. Digit sum tests 3 or 9; it does not test divisibility by 7 or 13.
-2. In a power cycle, exponent remainder 0 means the final cycle entry.
-3. For factorial zeros, count multiples of 25, 125, and higher powers too.
+### 9. Find the last digit of a product
+**Question:** Find the last digit of $7^{202}+3^{101}$.
+- **Shortcut:** Both unit-digit cycles have length 4. $202\bmod4=2$ gives 9; $101\bmod4=1$ gives 3.
+- **Calculation:** Last digit of $9+3$ is **2**.
 
-## Quick check
-
-1. How many factors does $72=2^3\cdot3^2$ have?
-
-<details>
-<summary>Show answer</summary>
-
-$(3+1)(2+1)=12$.
-</details>
-
-2. Find the remainder when $2^6$ is divided by 5.
-
-<details>
-<summary>Show answer</summary>
-
-$4$: $2^4$ leaves remainder 1, so $2^6$ leaves the same remainder as $2^2$.
-</details>
+### 10. Count zeros in a factorial
+**Question:** How many trailing zeros does $125!$ have?
+- **Shortcut:** Count all factors of 5: $\lfloor125/5\rfloor+\lfloor125/25\rfloor+\lfloor125/125\rfloor$.
+- **Calculation:** $25+5+1$. **Answer: $31$.**

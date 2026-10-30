@@ -1,25 +1,40 @@
 # Simplification & Approximation
 
-**The idea:** Simplify in the right order. Reduce fractions and familiar decimals before doing long arithmetic.
+> **ORDER:** brackets → powers → ×/÷ left-to-right → +/- left-to-right.
 
-## The essentials
+## ⚡ Formula cards
 
-- **BODMAS:** Brackets, Orders, Division/Multiplication left to right, Addition/Subtraction left to right.
-- Useful decimal fractions: $0.5=1/2$, $0.25=1/4$, $0.2=1/5$, $0.125=1/8$, $0.75=3/4$.
-- Same base: $a^m\times a^n=a^{m+n}$ and $a^m/a^n=a^{m-n}$.
-- Approximation is for an estimate. If the options are close, calculate exactly.
-
-## Choose your move
-
-| Spot this... | Do this... |
+| Pattern | Shortcut |
 |---|---|
-| A fraction multiplied by another fraction | Cancel common factors before multiplying. |
-| A familiar decimal | Turn it into a fraction, such as $0.125=1/8$. |
-| Numbers near 10, 100, or 1000 | Round, then correct the small difference if needed. |
-| Same base with powers | Add exponents for multiplication; subtract for division. |
-| Division and multiplication together | Work from left to right. |
+| Same base, multiply | **$a^m a^n=a^{m+n}$** |
+| Same base, divide | **$\frac{a^m}{a^n}=a^{m-n}$** |
+| Difference of squares | **$(a+b)(a-b)=a^2-b^2$** |
+| Decimal to fraction | **$0.5=\frac12,\quad0.25=\frac14,\quad0.125=\frac18,\quad0.75=\frac34$** |
 
-## Five common question types
+> **BODMAS visual:** Brackets → Orders → Division/Multiplication (left to right) → Addition/Subtraction (left to right).
+
+```text
+  BRACKETS
+     ↓
+  POWERS
+     ↓
+  ×  ÷   (left → right)
+     ↓
+  +  −   (left → right)
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| Fractions multiplied together | Cancel across numerator and denominator **before** multiplying. |
+| A familiar decimal | Replace it with a fraction: $0.125=1/8$, $0.375=3/8$. |
+| Numbers equally distant from a round number | Use $(a-b)(a+b)=a^2-b^2$. |
+| Same base in powers | Add exponents for multiplication; subtract for division. |
+| Division and multiplication together | Work left to right; neither automatically comes first. |
+| Options far apart | Estimate first; calculate exactly only if needed. |
+
+## Ten worked examples
 
 ### 1. Follow the operation order
 **Question:** Evaluate $48\div6\times(3+5)-7$.
@@ -46,32 +61,27 @@
 - **Step by step:** $32\times8/64=4$.
 - **Fast way:** $2^{5+3-6}=2^2=4$. **Answer: $4$.**
 
-## What exams tend to test
+### 6. Simplify a fraction expression
+**Question:** Evaluate $\frac{3}{8}+\frac{1}{4}$.
+- **Step by step:** Use a common denominator: $\frac{1}{4}=\frac{2}{8}$.
+- **Calculation:** $\frac{3}{8}+\frac{2}{8}=\frac{5}{8}$. **Answer: $\frac{5}{8}$.**
 
-- **SSC:** nested brackets, fractions, powers, and surds.
-- **RRB:** quick decimal calculations, squares, and BODMAS.
-- **APPSC / PSU:** multi-step expressions and options that reward safe estimation.
+### 7. Use a square identity
+**Question:** Evaluate $102^2$ without long multiplication.
+- **Step by step:** Write $102=100+2$ and use $(a+b)^2=a^2+2ab+b^2$.
+- **Calculation:** $10000+400+4=10404$. **Answer: $10,404$.**
 
-## Watch for these
+### 8. Multiply numbers around 100
+**Question:** Find $97\times103$.
+- **Shortcut:** They are equally spaced around 100: $(100-3)(100+3)=100^2-3^2$.
+- **Calculation:** $10000-9$. **Answer: $9,991$.**
 
-1. Multiplication does not automatically come before division; work left to right.
-2. Cancel factors in multiplication, never terms across addition or subtraction.
-3. Keep extra digits until you know rounding will not change the answer.
+### 9. Find a fraction of a number
+**Question:** Find $\frac{7}{8}$ of 640.
+- **Shortcut:** Find one eighth first, then multiply by 7.
+- **Calculation:** $640/8=80$; $80(7)$. **Answer: $560$.**
 
-## Quick check
-
-1. Evaluate $72\div8\times3$.
-
-<details>
-<summary>Show answer</summary>
-
-$9\times3=27$.
-</details>
-
-2. Find $3/4$ of 160.
-
-<details>
-<summary>Show answer</summary>
-
-$160\div4\times3=120$.
-</details>
+### 10. Respect left-to-right order
+**Question:** Evaluate $72\div3\times4$.
+- **Shortcut:** Division and multiplication have equal priority; go left to right.
+- **Calculation:** $72/3=24$, then $24(4)$. **Answer: $96$.**

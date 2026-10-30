@@ -1,26 +1,42 @@
 # Geometry
 
-**The idea:** Geometry rewards a labeled diagram. Mark what you know, then use one rule at a time; drawings are not necessarily to scale.
+> **DRAW → MARK GIVEN ANGLES/SIDES → APPLY ONE RULE.**
 
-## The essentials
+## ⚡ Formula cards
 
-- Triangle angles add to $180^\circ$. An exterior angle equals the two opposite interior angles added together.
-- Right triangle: $a^2+b^2=c^2$, where $c$ is the longest side.
-- Similar triangles have equal corresponding angles and proportional sides. Their areas scale as the **square** of the side ratio.
-- Regular $n$-gon interior angle $=(n-2)180^\circ/n$.
-- Circle: angle at the center is twice the angle at the circumference on the same arc.
-
-## Choose your move
-
-| What you see | Try this |
+| Spot this... | Use this... |
 |---|---|
-| Triangle with a missing angle | Use the $180^\circ$ sum or exterior-angle rule. |
-| Right angle and two sides | Use Pythagoras; check for a familiar triple. |
-| Parallel lines or matching angles | Check whether triangles are similar. |
-| Regular polygon | Use the interior-angle formula. |
-| Circle angles on the same arc | Compare central and circumference angles. |
+| Triangle angles | **$A+B+C=180^\circ$** |
+| Right triangle | **$a^2+b^2=c^2$** |
+| Regular $n$-gon interior angle | **$\frac{(n-2)180^\circ}{n}$** |
+| Similar figures: area scale | **$(\text{side scale})^2$** |
+| Same arc in a circle | **$\text{center angle}=2(\text{edge angle})$** |
 
-## Five common question types
+> **Memory cue:** Length scales once, area scales twice, volume scales three times.
+
+```text
+Triangle:       /\
+               /  \    angles = 180°
+              /____\
+
+Right triangle: |\
+                | \ c
+                |__\
+                a  b       a² + b² = c²
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| Triangle angles | Use $180^\circ$ total before doing anything else. |
+| Isosceles triangle | Equal sides have equal opposite angles. |
+| Right triangle with familiar sides | Check $3:4:5$, $5:12:13$, or $8:15:17$ before using a square root. |
+| Similar triangles | Match corresponding sides first; square the ratio only for areas. |
+| Regular polygon | Each exterior angle is $360^\circ/n$; interior $=180^\circ-$ exterior. |
+| Circle angles on the same arc | The central angle is twice the inscribed angle. |
+
+## Ten worked examples
 
 ### 1. Angles in a triangle
 **Question:** A triangle's angles are $2x,3x,4x$. Find the largest.
@@ -47,32 +63,27 @@
 - **Step by step:** Angle sum $=(6-2)180=720^\circ$; divide by 6.
 - **Fast way:** $(n-2)180/n=4(180)/6$. **Answer: $120^\circ$.**
 
-## What exams tend to test
+### 6. Find the third triangle angle
+**Question:** Two angles of a triangle are $38^\circ$ and $77^\circ$. Find the third.
+- **Step by step:** Subtract the known angles from $180^\circ$.
+- **Calculation:** $180^\circ-38^\circ-77^\circ=65^\circ$. **Answer: $65^\circ$.**
 
-- **SSC:** angle chasing, similar triangles, and circle theorems.
-- **RRB:** triangle angles, standard triples, and polygon facts.
-- **APPSC / PSU:** multi-step similarity and parallel-line configurations.
+### 7. Find a missing leg
+**Question:** A right triangle has hypotenuse 13 cm and one leg 5 cm. Find the other leg.
+- **Step by step:** Use $a^2+b^2=c^2$ and subtract the known leg's square.
+- **Calculation:** $\sqrt{13^2-5^2}=\sqrt{144}$. **Answer: $12$ cm.**
 
-## Watch for these
+### 8. Use the isosceles shortcut
+**Question:** An isosceles triangle has a vertex angle of $40^\circ$. Find each base angle.
+- **Shortcut:** The two base angles are equal; together they are $180^\circ-40^\circ=140^\circ$.
+- **Answer:** Each is **$70^\circ$**.
 
-1. Do not assume a diagram is drawn to scale.
-2. An exterior angle can be found by adding the two opposite interior angles.
-3. Square a side ratio to get the corresponding area ratio.
+### 9. Find a circle's central angle
+**Question:** An inscribed angle is $37^\circ$. Find the central angle on the same arc.
+- **Shortcut:** Double the inscribed angle.
+- **Calculation:** $2(37^\circ)$. **Answer: $74^\circ$.**
 
-## Quick check
-
-1. Triangle angles are in ratio $2:3:4$. Find the largest angle.
-
-<details>
-<summary>Show answer</summary>
-
-$80^\circ$: one part is $180/9=20^\circ$.
-</details>
-
-2. Find each interior angle of a regular pentagon.
-
-<details>
-<summary>Show answer</summary>
-
-$108^\circ$: $(5-2)180/5$.
-</details>
+### 10. Find a regular polygon's exterior angle
+**Question:** Find each exterior angle of a regular 10-sided polygon.
+- **Shortcut:** Exterior angles always total $360^\circ$.
+- **Calculation:** $360^\circ/10$. **Answer: $36^\circ$.**

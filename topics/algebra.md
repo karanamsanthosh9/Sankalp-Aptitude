@@ -1,27 +1,39 @@
 # Algebra
 
-**The idea:** Algebra is arithmetic with an unknown. Name the unknown, translate the information into an equation, then undo operations to find it.
+> **ALWAYS:** undo operations in reverse order.
 
-## The essentials
+```text
+  3x + 7 = 31
+  -7       -7       undo +7
+  3x = 24
+  /3       /3       undo x3
+  x = 8
+```
 
-- Keep an equation balanced: whatever you do to one side, do to the other.
-- For $ax+b=c$, undo addition first: $x=(c-b)/a$.
-- Learn these patterns: $(a+b)^2=a^2+2ab+b^2$; $(a-b)^2=a^2-2ab+b^2$; $a^2-b^2=(a-b)(a+b)$.
-- If $x+y$ and $xy$ are known, then $x^2+y^2=(x+y)^2-2xy$.
-- If $x+1/x=k$, then $x^2+1/x^2=k^2-2$. This requires $x\ne0$.
-- For $ax^2+bx+c=0$, root sum $=-b/a$ and root product $=c/a$.
+## ⚡ Formula cards
 
-## Choose your move
-
-| In the question... | Try this first |
+| Pattern | Formula |
 |---|---|
-| One unknown in an equation | Undo operations in reverse order. |
-| Numbers close to each other are squared | Use difference of squares. |
-| $x+y$ and $xy$ are given | Use an identity; do not solve for $x$ and $y$ separately. |
-| A reciprocal expression is given | Square the whole expression. |
-| A quadratic asks only for root sum/product | Use the coefficients; skip factoring. |
+| Square a sum | **$(a+b)^2=a^2+2ab+b^2$** |
+| Square a difference | **$(a-b)^2=a^2-2ab+b^2$** |
+| Difference of squares | **$a^2-b^2=(a-b)(a+b)$** |
+| Sum and product known | **$x^2+y^2=(x+y)^2-2xy$** |
+| Reciprocal expression | **$x^2+\frac1{x^2}=(x+\frac1x)^2-2$** |
+| Quadratic roots | **$ax^2+bx+c=0:\quad \sum r=-\frac ba,\ \prod r=\frac ca$** |
 
-## Five common question types
+> **Memory cue:** The middle term in a squared binomial is always **twice the product**.
+
+## Exam shortcut playbook
+
+| If you spot... | Do this instead of... |
+|---|---|
+| Two squares being subtracted | Factor $(a-b)(a+b)$; don't calculate both squares. |
+| A known sum and product | Substitute into an identity; don't solve for both numbers. |
+| $x+\frac1x$ and a squared reciprocal is asked | Square the whole expression, then subtract 2. |
+| Only the sum/product of quadratic roots is asked | Read $-b/a$ or $c/a$; don't factor the equation. |
+| A clean linear equation | Undo operations in reverse order and check by substitution. |
+
+## Ten worked examples
 
 ### 1. Solve a linear equation
 **Question:** Solve $3x+7=31$.
@@ -48,32 +60,27 @@
 - **Step by step:** Factor: $(2x-1)(x-3)=0$. Roots are $1/2$ and $3$; sum $=7/2$, product $=3/2$.
 - **Fast way:** Read the coefficients: sum $=-(-7)/2=7/2$; product $=3/2$. **Answer: $7/2$ and $3/2$.**
 
-## What exams tend to test
+### 6. Solve an equation with fractions
+**Question:** Solve $\frac{x}{3}+4=9$.
+- **Step by step:** Subtract 4 to get $\frac{x}{3}=5$, then multiply by 3.
+- **Check:** $\frac{15}{3}+4=9$. **Answer: $x=15$.**
 
-- **SSC:** identities, reciprocal expressions, and equations hidden inside word problems.
-- **RRB:** quick equation solving and identity-based simplification.
-- **APPSC / PSU:** quadratics, roots, and expressions built from a known sum or product.
+### 7. Use a difference of squares
+**Question:** Find $51^2-49^2$.
+- **Step by step:** Apply $a^2-b^2=(a-b)(a+b)$.
+- **Fast way:** $(51-49)(51+49)=2(100)$. **Answer: $200$.**
 
-## Watch for these
+### 8. Square a number near 100
+**Question:** Find $98^2$ mentally.
+- **Shortcut:** Write $98=100-2$ and use $(a-b)^2=a^2-2ab+b^2$.
+- **Calculation:** $10000-400+4$. **Answer: $9,604$.**
 
-1. $(a+b)^2$ includes the middle term $2ab$.
-2. Do not divide by an expression until you know it is not zero.
-3. If only root sum or product is asked, factoring may waste time.
+### 9. Factor a quadratic by its sum and product
+**Question:** Solve $x^2-11x+30=0$.
+- **Shortcut:** Find two numbers whose product is 30 and sum is 11: 5 and 6.
+- **Calculation:** $(x-5)(x-6)=0$. **Answer: $x=5$ or $x=6$.**
 
-## Quick check
-
-1. If $x+y=7$ and $xy=10$, find $x^2+y^2$.
-
-<details>
-<summary>Show answer</summary>
-
-$29$: $7^2-2(10)=29$.
-</details>
-
-2. If $x+1/x=4$, find $x^2+1/x^2$.
-
-<details>
-<summary>Show answer</summary>
-
-$14$: $4^2-2=14$.
-</details>
+### 10. Solve a pair by adding equations
+**Question:** If $x+y=17$ and $x-y=5$, find $x$ and $y$.
+- **Shortcut:** Add the equations to cancel $y$: $2x=22$, so $x=11$.
+- **Calculation:** $y=17-11=6$. **Answer: $x=11,\ y=6$.**

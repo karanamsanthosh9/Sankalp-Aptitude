@@ -1,24 +1,35 @@
 # Pipes & Cisterns
 
-**The idea:** Treat filling as positive work and emptying as negative work. Add the rates to find how fast the water level changes.
+> **SIGN RULE:** inlet = plus; outlet/leak = minus.
 
-## The essentials
+## ⚡ Formula cards
 
-- A pipe filling a tank in $x$ hours fills $1/x$ of the tank each hour.
-- An outlet emptying it in $y$ hours removes $1/y$ each hour.
-- Net rate $=$ inlet rates $-$ outlet rates. Time to fill one tank $=1/\text{net rate}$, if the net rate is positive.
-- For a repeating on/off schedule, find work done in one full cycle, then handle the final partial cycle.
-
-## Choose your move
-
-| Question clue | First move |
+| Pipe | Rate |
 |---|---|
-| Multiple pipes open together | Add inlet rates; subtract outlet rates. |
-| A leak delays filling | Inlet rate minus actual net rate is leak rate. |
-| Pipes take turns | Calculate one complete turn cycle. |
-| Tank capacity is given in litres | Work in litres per hour or convert to tank fractions. |
+| Inlet fills in $x$ hours | **$+\frac1x$ tank/hour** |
+| Outlet empties in $y$ hours | **$-\frac1y$ tank/hour** |
+| Several pipes together | **Add signed rates** |
+| Time to fill | **$\frac1{\text{net rate}}$**, if net rate $>0$ |
 
-## Five common question types
+> **Picture the tank:** Filling is **+**; draining is **−**. Add the signs before taking the reciprocal.
+
+```text
+ INLET (+) ──┐
+             ├──> NET RATE ──> flip ──> FILL TIME
+OUTLET (-) ──┘
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| Two or more inlets | Add fractions of a tank filled per hour. |
+| A leak or outlet | Subtract its rate; never subtract filling times. |
+| A known combined time and one pipe time | Subtract rates to isolate the missing pipe. |
+| A tank partly full | Divide only the remaining fraction by the net rate. |
+| Litres per minute and tank capacity | Work directly in litres per minute; no need to convert to tank fractions. |
+
+## Ten worked examples
 
 ### 1. Two inlets together
 **Question:** Pipes fill a tank in 12 and 18 hours. Find their combined time.
@@ -45,32 +56,27 @@
 - **Step by step:** Leak rate $=1/5-1/6=1/30$ tank/hour.
 - **Fast way:** Reciprocal of the leak rate is 30 hours. **Answer: $30$ hours.**
 
-## What exams tend to test
+### 6. Use three pipes together
+**Question:** Two inlets fill a tank in 6 and 8 hours. An outlet empties it in 12 hours. How long do all three take together?
+- **Step by step:** Net rate $=\frac{1}{6}+\frac{1}{8}-\frac{1}{12}=\frac{5}{24}$ tank per hour.
+- **Calculation:** Time $=\frac{24}{5}$. **Answer: $4.8$ hours.**
 
-- **SSC:** leaks, combined pipes, and alternating schedules.
-- **RRB:** direct rate addition and subtraction.
-- **APPSC / PSU:** several pipes or schedules that change over time.
+### 7. Find work completed in part of an hour
+**Question:** A pipe fills a tank in 9 hours. What fraction does it fill in 4 hours?
+- **Step by step:** Multiply its hourly rate by the elapsed time.
+- **Calculation:** $4(\frac{1}{9})=\frac{4}{9}$. **Answer: $\frac{4}{9}$ of the tank.**
 
-## Watch for these
+### 8. Find the time for a partly filled tank
+**Question:** A tank is half full. An inlet fills it in 8 hours and an outlet empties it in 24 hours. How long until it is full with both open?
+- **Shortcut:** Net rate $=1/8-1/24=1/12$ tank/hour. Only half the tank remains.
+- **Calculation:** $(1/2)/(1/12)$. **Answer: $6$ hours.**
 
-1. Subtract an outlet's rate; do not add it.
-2. Take the reciprocal of the net rate to get time for one tank.
-3. Stop when the tank fills, even if a schedule cycle is unfinished.
+### 9. Work directly in litres
+**Question:** A pump adds 30 L per minute to a 900 L tank. How long to fill it?
+- **Shortcut:** Keep units as litres; time $=\text{capacity}/\text{rate}$.
+- **Calculation:** $900/30$. **Answer: $30$ minutes.**
 
-## Quick check
-
-1. A pipe fills in 10 hours; a leak empties in 15. Find the fill time with both open.
-
-<details>
-<summary>Show answer</summary>
-
-30 hours: net rate $=1/10-1/15=1/30$ tank per hour.
-</details>
-
-2. A pipe fills a tank in 6 hours. What fraction does it fill in 2 hours?
-
-<details>
-<summary>Show answer</summary>
-
-$1/3$ of the tank.
-</details>
+### 10. Find an outlet from the combined time
+**Question:** An inlet fills a tank in 10 hours. With an outlet open, the tank fills in 15 hours. How long would the outlet alone take to empty it?
+- **Shortcut:** Outlet rate $=1/10-1/15=1/30$ tank/hour.
+- **Answer:** **30 hours** to empty the tank.

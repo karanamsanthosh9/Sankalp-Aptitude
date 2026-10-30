@@ -1,25 +1,36 @@
 # Profit, Loss & Discount
 
-**The idea:** Profit and loss compare the selling price with the cost price. A discount compares the selling price with the marked price. Keep those bases separate.
+> **BASES:** profit/loss uses CP; discount uses MP.
 
-## The essentials
+## ⚡ Formula cards
 
-- Profit $=SP-CP$; loss $=CP-SP$.
-- Profit/loss percent is based on **CP**. Discount percent is based on **MP**.
-- Profit $p\%$: $SP=CP(1+p/100)$. Loss $l\%$: $SP=CP(1-l/100)$.
-- Two discounts $a\%$ then $b\%$: multiply the remaining fractions, $(1-a/100)(1-b/100)$.
-- Same selling price, one $x\%$ gain and one $x\%$ loss: overall loss $=x^2/100\%$.
-
-## Choose your move
-
-| Question clue | First move |
+| Result | Formula |
 |---|---|
-| Only percentages are given | Assume CP or MP is 100. |
-| Markup then discount | Apply each percentage to the current price. |
-| Find profit/loss percent | Divide profit/loss by CP, not SP. |
-| Equal selling prices with gain and loss | Use the equal-SP loss shortcut if the percentages match. |
+| Profit | **$SP-CP$** |
+| Loss | **$CP-SP$** |
+| Profit / loss percent | **$\frac{\text{profit or loss}}{CP}\times100\%$** |
+| Discount percent | **$\frac{MP-SP}{MP}\times100\%$** |
+| Two discounts $a\%,b\%$ | **Remaining price $=(1-\frac a{100})(1-\frac b{100})$ of MP** |
 
-## Five common question types
+> **Two different bases:** Profit/loss uses **cost price**; discount uses **marked price**.
+
+```text
+CP ── markup/profit ──> SP <── discount ── MP
+  profit % base: CP        discount % base: MP
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| Only a profit/loss percent | Assume CP = 100; convert the percent to SP immediately. |
+| Only a discount percent | Assume MP = 100; apply discount to get SP. |
+| Markup followed by discount | Multiply the price factors; compare final SP with CP. |
+| Two successive discounts | Multiply the remaining-price factors; don't add discounts. |
+| Equal selling prices with equal gain/loss rates | Net result is a loss of $x^2/100\%$. |
+| False weight | If you charge for 1 kg but give $w$ g, gain percent $=\frac{1000-w}{w}\times100\%$. |
+
+## Ten worked examples
 
 ### 1. Find profit percent
 **Question:** An item costs $800$ and sells for $920$. Find the profit percent.
@@ -46,32 +57,27 @@
 - **Step by step:** Their costs are $1000/1.2$ and $1000/0.8$. Total cost exceeds total selling price, giving 4% loss.
 - **Fast way:** Equal-SP shortcut: $20^2/100=4\%$ loss. **Answer: 4% loss.**
 
-## What exams tend to test
+### 6. Find the cost price
+**Question:** An item sells for $1,080 at a 20% profit. Find its cost price.
+- **Step by step:** The selling price is 120% of cost price.
+- **Calculation:** $CP=1080/1.2=900$. **Answer: $900$.**
 
-- **SSC:** marked price, successive discounts, false weights, and CP/SP equations.
-- **RRB:** direct profit, loss, and discount calculations.
-- **APPSC / PSU:** multiple price changes, tax/commission, and equal-selling-price comparisons.
+### 7. Find the selling price after discounts
+**Question:** A $2,500 marked item receives discounts of 10% and 5%. Find its selling price.
+- **Step by step:** Apply the discounts one after the other.
+- **Calculation:** $SP=2500(0.9)(0.95)=2137.5$. **Answer: $2,137.50$.**
 
-## Watch for these
+### 8. Combine two discounts mentally
+**Question:** Find the single discount equivalent to 20% followed by 10%.
+- **Shortcut:** Net discount $=20+10-(20)(10)/100=28\%$.
+- **Answer:** **28%**.
 
-1. Profit/loss percent uses CP; discount percent uses MP.
-2. The second discount applies after the first discount.
-3. Equal percentage gain and loss do not cancel when selling prices are equal.
+### 9. Find the marked price from a discounted price
+**Question:** An item sells for $1,020 after a 15% discount. Find its marked price.
+- **Shortcut:** $1,020$ is 85% of MP; divide by 0.85.
+- **Calculation:** $1020/0.85$. **Answer: $1,200$.**
 
-## Quick check
-
-1. Cost is $500$; selling price is $575$. Find profit percent.
-
-<details>
-<summary>Show answer</summary>
-
-15%: profit $75$ on cost $500$.
-</details>
-
-2. Find the equivalent discount of 10% followed by 20%.
-
-<details>
-<summary>Show answer</summary>
-
-28%: $1-(0.9)(0.8)=0.28$.
-</details>
+### 10. Spot the equal-selling-price loss
+**Question:** Two articles sell for $500 each. One is sold at 25% gain and the other at 25% loss. Find the overall result.
+- **Shortcut:** Equal-SP shortcut: loss $=25^2/100=6.25\%$.
+- **Answer:** **6.25% loss**.

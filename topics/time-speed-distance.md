@@ -1,27 +1,48 @@
 # Time, Speed & Distance
 
-**The idea:** Distance, speed, and time are linked: $D=S\times T$. Before calculating, make all units agree.
+> **FIRST:** match units. Then use the triangle.
 
-## The essentials
+## ⚡ Formula cards
 
-- $D=ST$, $S=D/T$, $T=D/S$.
-- Convert speed: km/h to m/s multiply by $5/18$; m/s to km/h multiply by $18/5$.
-- Average speed always means total distance divided by total time. For equal distances at speeds $u,v$, use $2uv/(u+v)$.
-- Meeting head-on: add speeds. Chasing in the same direction: subtract speeds.
-- Train crossing a platform covers train length plus platform length.
-- Boat: downstream $=b+s$; upstream $=b-s$.
+**The distance triangle**
 
-## Choose your move
+```text
+       D
+     ─────
+      S × T
+```
 
-| Question clue | First move |
+Cover the quantity you need: **$D=S\times T$**, **$S=\frac DT$**, or **$T=\frac DS$**.
+
+```text
+Meet head-on:  A →     ← B     add speeds
+Chase:         A →   B →        subtract speeds
+Train + pole:  [ TRAIN ] |      train length
+Train + platform: [ TRAIN ] ===== platform length
+```
+
+| Situation | Formula / move |
 |---|---|
-| km/h and metres/seconds together | Convert before using $D=ST$. |
-| Two objects meet or overtake | Find relative speed. |
-| Equal distances at different speeds | Use the harmonic-mean shortcut. |
-| Train passes platform | Add both lengths. |
-| Boat goes upstream/downstream | Use the sum and difference equations. |
+| km/h → m/s | **$\times\frac5{18}$** |
+| m/s → km/h | **$\times\frac{18}{5}$** |
+| Equal distances at $u,v$ | **$\frac{2uv}{u+v}$** |
+| Moving toward each other | **Relative speed $=u+v$** |
+| Same direction / chase | **Relative speed $=|u-v|$** |
 
-## Five common question types
+> **Unit check:** Convert first, then calculate. Keep distance, speed, and time units consistent.
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| km/h and m/s together | Convert before using distance = speed $\times$ time. |
+| Meeting head-on | Add speeds; divide starting gap by relative speed. |
+| One vehicle catching another | Subtract speeds; use the initial lead as the gap. |
+| Equal distances at two speeds | Use $2uv/(u+v)$; the ordinary mean is wrong. |
+| Train crossing a pole | Distance is just train length. |
+| Train crossing a platform | Distance is train length + platform length. |
+
+## Ten worked examples
 
 ### 1. Convert speed
 **Question:** Convert 72 km/h to m/s.
@@ -48,32 +69,27 @@
 - **Step by step:** $b+s=15$, $b-s=9$. Add to get $b=12$; subtract to get $s=3$.
 - **Fast way:** Mean gives boat speed; half-difference gives stream speed. **Answer: $12$ km/h and $3$ km/h.**
 
-## What exams tend to test
+### 6. Find journey time
+**Question:** How long does it take to travel 150 km at 50 km/h?
+- **Step by step:** Time is distance divided by speed.
+- **Calculation:** $T=150/50=3$. **Answer: $3$ hours.**
 
-- **SSC:** relative speed, trains, average speed, and unit conversion.
-- **RRB:** train-platform-pole and direct journey questions.
-- **APPSC / PSU:** boats, circular tracks, and multi-stage trips.
+### 7. Catch up to a slower vehicle
+**Question:** A cyclist at 18 km/h is 12 km behind a cyclist travelling at 14 km/h. How long to catch up?
+- **Step by step:** Closing speed $=18-14=4$ km/h.
+- **Calculation:** Time $=12/4=3$. **Answer: $3$ hours.**
 
-## Watch for these
+### 8. Find the average speed for unequal legs
+**Question:** A car travels 60 km at 30 km/h, then 120 km at 60 km/h. Find the average speed.
+- **Shortcut:** Average speed is total distance divided by total time, not the average of 30 and 60.
+- **Calculation:** $180/(60/30+120/60)=180/4$. **Answer: $45$ km/h.**
 
-1. Equal-distance average speed is not the simple mean of the speeds.
-2. Add speeds head-on; subtract for same-direction chasing.
-3. A train crossing a platform covers both lengths.
+### 9. Find a train's pole-crossing time
+**Question:** A 180 m train moves at 54 km/h. How long to pass a pole?
+- **Shortcut:** Convert $54$ km/h to $15$ m/s; crossing distance is only 180 m.
+- **Calculation:** $180/15$. **Answer: $12$ seconds.**
 
-## Quick check
-
-1. Convert 90 km/h to m/s.
-
-<details>
-<summary>Show answer</summary>
-
-25 m/s.
-</details>
-
-2. Find average speed over equal distances at 30 and 60 km/h.
-
-<details>
-<summary>Show answer</summary>
-
-40 km/h: $2(30)(60)/(30+60)$.
-</details>
+### 10. Find the gap closed
+**Question:** Two runners move in the same direction at 8 m/s and 6 m/s. How long for the faster runner to close a 50 m gap?
+- **Shortcut:** Same direction means relative speed $=8-6=2$ m/s.
+- **Calculation:** $50/2$. **Answer: $25$ seconds.**

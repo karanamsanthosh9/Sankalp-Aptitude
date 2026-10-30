@@ -1,28 +1,41 @@
 # Data Interpretation
 
-**The idea:** First read the chart correctly; then do only the calculation the question asks for. Most errors come from misreading units or using the wrong base.
+> **READ → MARK → CALCULATE.** Units and base first.
 
-## The essentials
+## ⚡ Formula cards
 
-- Check the title, labels, units, time period, and footnotes before calculating.
-- Percentage share $=\text{part}/\text{total}\times100\%$.
-- Percentage change $=(\text{new}-\text{old})/\text{old}\times100\%$.
-- Average $=\text{total}/\text{count}$. Pie-chart value $=\text{angle}/360^\circ\times\text{total}$.
-- Keep units consistent. Round only when asked or when answer choices make it safe.
-
-## Choose your move
-
-| Question asks for... | Calculate... |
+| Find... | Formula |
 |---|---|
-| Total | Add the relevant entries only. |
-| Percentage increase/decrease | Change divided by the original value. |
-| Ratio | Add series if needed, then reduce both sides. |
-| Pie-chart value | Sector fraction of $360^\circ$ times the total. |
-| Group average | Combine group totals first; divide by total count. |
+| Share of a total | **$\frac{\text{part}}{\text{total}}\times100\%$** |
+| Percentage change | **$\frac{\text{new}-\text{old}}{\text{old}}\times100\%$** |
+| Average | **$\frac{\text{total}}{\text{count}}$** |
+| Pie-chart value | **$\frac{\text{sector angle}}{360^\circ}\times\text{total}$** |
 
-## Five common question types
+> **Read the chart first:** Check the units and time period before touching the calculator.
 
-Use this data for Questions 1-3: sales (units) for A and B are 40 and 60 in Year 1; 50 and 70 in Year 2.
+```text
+Chart value
+   │
+   ├─ Total?       add entries
+   ├─ % change?    (new - old) / old
+   ├─ Pie sector?  angle / 360 × total
+   └─ Average?     combined total / count
+```
+
+## Exam shortcut playbook
+
+| If you spot... | Shortcut |
+|---|---|
+| A percentage increase/decrease | Change divided by the **old** value; don't use the new value as the base. |
+| A ratio across years/categories | Add each category across the requested rows first, then simplify. |
+| A pie chart | Convert angle to a fraction of $360^\circ$ before multiplying by the total. |
+| Unequal groups | Calculate each group's total, combine totals, then divide by the combined count. |
+| Values in thousands/lakhs | Do the arithmetic in the chart's stated unit; convert only for the final answer. |
+| Multiple-choice options far apart | Estimate to eliminate options, then calculate exactly if needed. |
+
+## Ten worked examples
+
+Use this data for Questions 1-3 and 8-10: sales (units) for A and B are 40 and 60 in Year 1; 50 and 70 in Year 2.
 
 ### 1. Read a total
 **Question:** Find total sales in Year 2.
@@ -49,32 +62,27 @@ Use this data for Questions 1-3: sales (units) for A and B are 40 and 60 in Year
 - **Step by step:** Revenue $=20(30)+30(50)=2100$. Divide by 50 items.
 - **Fast way:** Weighted average $=30+(30/50)(20)=42$. **Answer: $42$.**
 
-## What exams tend to test
+### 6. Find a percentage share
+**Question:** A department produces 240 units out of a company total of 800. What is its share?
+- **Step by step:** Divide the department output by the company total, then convert to a percent.
+- **Calculation:** $\frac{240}{800}\times100\%=30\%$. **Answer: $30\%$.**
 
-- **SSC:** tables, bar/pie charts, and multi-step percentage questions.
-- **RRB:** direct chart reading, ratios, and averages.
-- **APPSC / PSU:** multiple series, growth comparisons, and caselet data.
+### 7. Compare year-on-year change
+**Question:** A shop's monthly sales rise from 1,200 to 1,380. Find the percentage increase.
+- **Step by step:** Increase $=1380-1200=180$; use the original 1,200 as the base.
+- **Calculation:** $\frac{180}{1200}\times100\%=15\%$. **Answer: $15\%$.**
 
-## Watch for these
+### 8. Find an average across years
+**Question:** Using the table above, find A's average sales per year.
+- **Shortcut:** Add A's values, then divide by the two years.
+- **Calculation:** $(40+50)/2$. **Answer: $45$ units per year.**
 
-1. Check whether chart values mean units, thousands, lakhs, or percentages.
-2. Percentage growth uses the old value as the denominator.
-3. Combine group totals before finding an overall average.
+### 9. Find a category's share of a yearly total
+**Question:** What percentage of Year 2 sales came from A?
+- **Shortcut:** Use the Year 2 total as the base: $50/(50+70)$.
+- **Calculation:** $\frac{50}{120}\times100\%=41\frac23\%$. **Answer: $41\frac23\%$.**
 
-## Quick check
-
-Using the table above, find total sales in Year 2.
-
-<details>
-<summary>Show answer</summary>
-
-120 units.
-</details>
-
-Find the percentage increase in A's sales.
-
-<details>
-<summary>Show answer</summary>
-
-25%: increase 10 divided by original 40.
-</details>
+### 10. Compare total growth across years
+**Question:** Find the percentage increase in combined sales from Year 1 to Year 2.
+- **Shortcut:** Year 1 total $=100$; Year 2 total $=120$. Change $=20$.
+- **Calculation:** $20/100\times100\%$. **Answer: $20\%$.**
