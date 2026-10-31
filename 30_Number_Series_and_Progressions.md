@@ -43,7 +43,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "First term $a$, common ratio $r$" | Use $T_n = a \cdot r^{n-1}$ |
 | "Sum of first $n$ terms" | Use the AP or GP sum formula |
 | "Insert $k$ means between $p$ and $q$" | Find $d$ or $r$ for $k+2$ terms |
-| "Sum to infinity" | GP with $|r|<1$; use $S=\dfrac{a}{1-r}$ |
+| "Sum to infinity" | GP with $\lvert r\rvert<1$; use $S=\dfrac{a}{1-r}$ |
 
 ## 3. The core idea
 

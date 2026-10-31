@@ -36,7 +36,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Crosses a man walking at $u\text{ km/h}$" | Use relative speed $S_{\text{train}} \pm u$ and distance $L_t$ |
 | "Crosses a man sitting in another train" | Distance is ONLY the length of the passing train |
 | "Two trains running in opposite directions" | Relative speed $= S_1 + S_2$, Distance $= L_1 + L_2$ |
-| "Two trains running in same direction" | Relative speed $= |S_1 - S_2|$, Distance $= L_1 + L_2$ |
+| "Two trains running in same direction" | Relative speed $= \lvert S_1 - S_2\rvert$, Distance $= L_1 + L_2$ |
 | "After meeting, they reach destinations in $T_1, T_2$" | $\dfrac{S_1}{S_2} = \sqrt{\dfrac{T_2}{T_1}}$ |
 
 ## 3. The core idea

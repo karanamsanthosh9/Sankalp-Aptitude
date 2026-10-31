@@ -176,8 +176,9 @@ To find the remainder of a big power, look for a pattern.
 - Check: $4734 \div 9 = 526$. Correct.
 
 **Solved example:** $4a752b$ divisible by both 4 and 3.
-- Div by 4: last two digits $2b$ must be divisible by 4. $b = 0$: 20 div by 4, yes. $b=4$: 24 div by 4, yes. $b=8$: 28, not div by 4. So $b \in \{0, 4, 8\}$ with 20, 24 work.
-- Div by 3: $4+a+7+5+2+b$ must be divisible by 3.
+- Divisible by 4: the last two digits must be divisible by 4. All three possibilities work: $b=0$ gives 20, $b=4$ gives 24, and $b=8$ gives 28.
+- Divisible by 3: the digit sum is $18+a+b$. For $b=0$, $a \in \{0,3,6,9\}$; for $b=4$, $a \in \{2,5,8\}$; for $b=8$, $a \in \{1,4,7\}$.
+- **Answer:** the valid $(a,b)$ pairs are $(0,0),(3,0),(6,0),(9,0),(2,4),(5,4),(8,4),(1,8),(4,8),(7,8)$.
 
 **Your turn:** find $k$ if $47k5$ is divisible by 9. (Sum: $4+7+k+5 = 16+k$; need $16+k$ divisible by 9; $k = 2$, giving $18$. **Answer: $k=2$**.)
 
