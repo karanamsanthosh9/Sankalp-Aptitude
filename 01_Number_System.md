@@ -81,7 +81,7 @@ Work from the innermost bracket outward.
 
 ### Unit digit trick
 
-When you raise a number to a big power, only the **unit digit of the base** matters for the unit digit of the result. And every unit digit follows a cycle of length 4 (or less) under repeated multiplication:
+Only the last digit of the base matters; the rest of the number is irrelevant. Make the cycle of the last digit (for example, 7 → 7, 9, 3, 1), divide the power by the cycle length, and use the remainder to pick the position; if remainder is 0, use the last element of the cycle. Example: $7^{83}$ → cycle 7,9,3,1; $83 \div 4 = 20$ remainder 3 → unit digit is **3**.
 
 | Unit digit | Cycle (powers 1,2,3,4,…) | Cycle length |
 |---|---|---|
