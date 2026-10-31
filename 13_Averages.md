@@ -1,10 +1,18 @@
-# Averages: Model-wise Notes
+# Averages
 
-## Part 1. What comes from this topic
+> Read this like a class: picture the situation, understand the idea, and then choose a calculation. Try the questions in the guide before peeking at their answers.
+
+## 0. Start here: what is an average really?
+
+Imagine sharing a group’s total marks equally among everyone. The equal share is the average. That picture is useful because an average is not a mysterious new number: it is a compact way to describe a total. Questions ask you to find a missing score, combine classes, work out who joined or left, correct a record, or compare performance over time. In each case, first recover the total with **average × count**, then adjust the total or count that changed.
+
+For example, if 5 scores average 28, together they make 140 points. A missing score is simply whatever is needed to bring the known scores up to 140. Check your answer by dividing the new total by the new count.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Basic average and finding a missing value | 1 |
 | Weighted average and combined groups | 2 |
@@ -19,7 +27,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Average age over time and family changes | 11 |
 | Alligation method for averages | 12 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -32,16 +40,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Consecutive odd or even numbers" | Numbers form an AP; average is the exact middle value |
 | "Bowling average improves by $x$" | Runs conceded per wicket decreases by $x$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Average** $=\dfrac{\text{Sum of all observations}}{\text{Number of observations}}$, so $\text{Sum} = \text{Average} \times \text{Count}$.
 - **Deviation method:** when values change, $\text{New Value} = \text{Old Average} + (\text{New Count} \times \text{Increase})$.
 - For an AP with odd count, the average is the exact middle term; for even count, it is the mean of the two middle terms.
 - **Combined Average:** $A_{\text{comb}} = \dfrac{n_1 A_1 + n_2 A_2}{n_1 + n_2}$.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Basic average and finding a missing value
+### Question type 1. Basic average and finding a missing value
 
 **Idea:** $\text{Missing value} = (\text{Total count} \times \text{Overall average}) - \text{Sum of known values}$.
 
@@ -53,7 +61,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** The average score of a batsman in 7 innings is 48 runs. Find his total runs.
 - $\text{Total runs} = 7 \times 48 =$ **336 runs**.
 
-### Model 2. Weighted average and combined groups
+### Question type 2. Weighted average and combined groups
 
 **Idea:** $A_{\text{comb}} = \dfrac{n_1 A_1 + n_2 A_2 + \dots}{n_1 + n_2 + \dots}$.
 
@@ -65,7 +73,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Total marks} = (25 \times 40) + (35 \times 50) + (40 \times 60) = 1000 + 1750 + 2400 = 5150$.
 - $\text{Average} = \dfrac{5150}{100} =$ **51.5**.
 
-### Model 3. Inclusion (a new member joins)
+### Question type 3. Inclusion (a new member joins)
 
 **Idea:** $\text{New Member} = \text{Old Average} + (\text{New Total Members} \times \text{Increase in Average})$.
 
@@ -75,7 +83,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** The average weight of 19 people is 55 kg. A new person joins and the average drops by 0.5 kg. New person's weight?
 - New weight $= 55 - (20 \times 0.5) = 55 - 10 =$ **45 kg**.
 
-### Model 4. Exclusion (a member leaves)
+### Question type 4. Exclusion (a member leaves)
 
 **Idea:** $\text{Departed Member} = \text{Old Sum} - \text{New Sum} = \text{Old Average} + (\text{New Count} \times \text{Decrease in Average})$.
 
@@ -85,7 +93,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** The average of 10 numbers is 25. If one number is removed, the average becomes 24. Find the removed number.
 - $\text{Removed number} = (10 \times 25) - (9 \times 24) = 250 - 216 =$ **34**.
 
-### Model 5. Replacement (one member replaces another)
+### Question type 5. Replacement (one member replaces another)
 
 **Idea:** $\text{New Value} = \text{Replaced Value} + (\text{Count} \times \text{Change in Average})$.
 
@@ -95,7 +103,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** The average age of 8 women decreases by 1 year when a 40-year-old woman is replaced. Age of the newcomer?
 - $\text{New age} = 40 - (8 \times 1) =$ **32 years**.
 
-### Model 6. Correction of incorrect entries
+### Question type 6. Correction of incorrect entries
 
 **Idea:** $\text{Correct Average} = \text{Old Average} + \dfrac{\text{Correct Values} - \text{Wrong Values}}{\text{Total Count}}$.
 
@@ -107,7 +115,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Difference} = (45 + 35) - (25 + 15) = 80 - 40 = +40$.
 - $\text{Correct average} = 30 + \dfrac{40}{50} = 30 + 0.8 =$ **30.8**.
 
-### Model 7. Overlapping numbers and middle value
+### Question type 7. Overlapping numbers and middle value
 
 **Idea:** $\text{Middle Number} = (\text{Sum of first } k) + (\text{Sum of last } k) - (\text{Total Sum})$.
 
@@ -121,7 +129,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Sum of 8 numbers} = (4 \times 30) + (4 \times 35) = 120 + 140 = 260$.
 - $\text{5th number} = 288 - 260 =$ **28**.
 
-### Model 8. Consecutive numbers and arithmetic progressions
+### Question type 8. Consecutive numbers and arithmetic progressions
 
 **Idea:** For consecutive numbers in AP, $\text{Average} = \dfrac{\text{First} + \text{Last}}{2} = \text{Middle term}$.
 
@@ -133,7 +141,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - The two middle numbers average to 35, so they are 34 and 36.
 - The numbers are $30, 32, 34, 36, 38, 40$. Smallest $=$ **30**.
 
-### Model 9. Cricket batting and bowling averages
+### Question type 9. Cricket batting and bowling averages
 
 **Idea:** $\text{Batting Average} = \dfrac{\text{Total Runs}}{\text{Innings Dismissed}}$. $\text{Bowling Average} = \dfrac{\text{Runs Conceded}}{\text{Wickets Taken}}$.
 
@@ -145,7 +153,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Let previous wickets be $w$. Total runs $= 12.4w + 26$.
 - $12.4w + 26 = 12.0(w + 5) \implies 0.4w = 34 \implies w =$ **85 wickets**.
 
-### Model 10. Group expenditure and sharing bill
+### Question type 10. Group expenditure and sharing bill
 
 **Idea:** If one person pays extra over the overall average $A$, that extra is distributed among the remaining members.
 
@@ -153,7 +161,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Let overall average be $A$. $A = 30 + \dfrac{16}{8} = 30 + 2 = 32$.
 - $\text{Total spent} = 9 \times 32 =$ **Rs 288**.
 
-### Model 11. Average age over time and family changes
+### Question type 11. Average age over time and family changes
 
 **Idea:** If no members change, average increases by $t$ years after $t$ years. Adjust for newborns or departed members.
 
@@ -162,7 +170,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Present sum of 6 members $= 6 \times 17 = 102\text{ years}$.
 - Baby's age $= 102 - 100 =$ **2 years**.
 
-### Model 12. Alligation method for averages
+### Question type 12. Alligation method for averages
 
 **Idea:** Ratio of counts $n_1 : n_2 = (A_2 - A_{\text{comb}}) : (A_{\text{comb}} - A_1)$.
 
@@ -170,7 +178,27 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Ratio Officers : Non-officers $= (12000 - 10000) : (20000 - 12000) = 2000 : 8000 = 1 : 4$.
 - Number of officers $= \dfrac{1}{5} \times 60 =$ **12**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** Six students have an average score of 12. Five scores add up to 55. Find the sixth score.
+
+**Think it through:** the group total is $6 \times 12=72$, so the missing score is $72-55=\mathbf{17}$. Check: $55+17=72$, and $72\div6=12$.
+
+### Quick revision
+
+- Turn an average into a total with $\text{total}=\text{average}\times\text{count}$.
+- If a group changes, calculate the old and new totals separately; their difference is the person or value added or removed.
+- For combined groups, add their totals first, then divide by the combined count.
+- For an AP, the average lies at its middle (or halfway between the middle pair).
+
+### Common mistakes
+
+1. Averaging group averages without weighting by the group sizes.
+2. Using the old count after someone joins or leaves.
+3. Reversing the correction: add correct-minus-wrong, not wrong-minus-correct.
+4. Counting an overlapping middle value twice without subtracting the overall total.
+
+## 6. Practice
 
 1. The average of 8 numbers is 14. If seven of them are 12, 15, 11, 18, 10, 16, and 13, find the eighth number.
 2. The average monthly income of a person for 12 months is Rs 8500. What is the total annual income?

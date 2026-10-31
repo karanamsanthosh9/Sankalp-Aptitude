@@ -2,6 +2,16 @@
 
 > **HCF = biggest shared divisor. LCM = first shared multiple.**
 
+## Which number are we looking for?
+
+Use the HCF when a result must fit evenly inside each given number—for example, the largest equal piece. Use the LCM when a result must be a multiple of all the given numbers—for example, when repeating events line up. Prime factorization makes the distinction visible: HCF keeps shared primes at the smaller powers, while LCM keeps every prime at the larger powers.
+
+### Walk through: HCF and LCM of 24 and 36
+
+Write $24=2^3\cdot3$ and $36=2^2\cdot3^2$. For the HCF, keep common primes with smaller powers: $2^2\cdot3=12$. For the LCM, take the larger powers: $2^3\cdot3^2=72$.
+
+**Sanity check:** 12 divides both numbers; 72 is divisible by both. **Your turn:** find the HCF of 18 and 30. *(Answer: 6; the common prime factors are $2\cdot3$.)*
+
 ## ⚡ Formula cards
 
 | Find... | Prime-factor rule |
@@ -83,3 +93,9 @@ LCM:  └──── larger powers ────┘
 **Question:** Find the greatest number that divides 122, 182, and 242 leaving the same remainder.
 - **Shortcut:** Take differences: $60$ and $120$; their HCF is 60.
 - **Check:** Each number leaves remainder 2 on division by 60. **Answer: $60$.**
+
+## Quick practice
+
+1. Find the LCM of 8 and 12. *(Answer: 24; use the larger prime powers $2^3\cdot3$.)*
+2. Find the HCF of 48 and 60. *(Answer: 12; largest common divisor.)*
+3. Two bells ring every 10 and 15 minutes. When do they next ring together? *(Answer: 30 minutes; use the LCM.)*

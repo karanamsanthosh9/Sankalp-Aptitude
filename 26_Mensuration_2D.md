@@ -1,10 +1,18 @@
-# Mensuration 2D: Model-wise Notes
+# Mensuration 2D
 
-## Part 1. What comes from this topic
+> Read this like a class: sketch the shape, mark its dimensions, and decide whether the question is about its boundary or the space it covers.
+
+## 0. Start here: border or surface?
+
+Imagine fencing a garden and then laying grass inside it. The fence follows the boundary, so it depends on perimeter; the grass covers the inside, so it depends on area. This distinction unlocks questions about triangles, quadrilaterals, circles, paths, wheels, and reshaped wire.
+
+Start with a sketch and label the units. For a rectangle, increasing both sides increases the area faster than the perimeter: if each side doubles, the perimeter doubles but the area becomes four times as large. That is a useful sense check when a problem changes dimensions by a percentage.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Scalene, right, and isosceles triangles | 1 |
 | Equilateral triangles, inradius, and circumradius | 2 |
@@ -21,7 +29,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Percentage and ratio changes in dimensions | 13 |
 | Costing of fencing, paving, turfing, and tiling | 14 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -35,16 +43,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Wire reshaped into another figure" | Perimeter remains constant across both shapes |
 | "Radius/side increased by $x\%$" | Net area change $= 2x + \dfrac{x^2}{100}\%$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Triangle area:** $\text{Area} = \dfrac{1}{2} \times \text{base} \times \text{height} = \sqrt{s(s-a)(s-b)(s-c)} = \dfrac{1}{2}ab\sin\theta$.
 - **Circle standard relations:** Circumference $= 2\pi r$, Area $= \pi r^2$, Sector area $= \dfrac{\theta}{360^\circ} \times \pi r^2 = \dfrac{1}{2}lr$ where $l = \dfrac{\theta}{360^\circ} \times 2\pi r$.
 - **Perimeter vs Area:** Perimeter scales linearly with dimension factor $k$; Area scales with $k^2$. Cost of fencing uses perimeter; cost of turfing/paving uses area.
 - Standard exam convention takes $\pi = \dfrac{22}{7}$ unless specified otherwise.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Scalene, right, and isosceles triangles
+### Question type 1. Scalene, right, and isosceles triangles
 
 **Idea:** Use base-height formula when height is known; use Heron's formula for three sides; use Pythagoras theorem for right and isosceles triangles.
 
@@ -60,7 +68,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Altitude bisects the base: $h = \sqrt{10^2 - 6^2} = \sqrt{100 - 36} = 8\text{ cm}$.
 - $\text{Area} = \dfrac{1}{2} \times 12 \times 8 =$ **48 $\text{cm}^2$**.
 
-### Model 2. Equilateral triangles
+### Question type 2. Equilateral triangles
 
 **Idea:** All sides equal $a$. Area $= \dfrac{\sqrt{3}}{4}a^2$, height $h = \dfrac{\sqrt{3}}{2}a$, inradius $r = \dfrac{a}{2\sqrt{3}}$, circumradius $R = \dfrac{a}{\sqrt{3}}$. Note $R = 2r$.
 
@@ -75,7 +83,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 3:** Find the ratio of the area of the circumcircle to that of the incircle of any equilateral triangle.
 - $R : r = 2 : 1$, so ratio of areas $= R^2 : r^2 = 2^2 : 1^2 =$ **4 : 1**.
 
-### Model 3. Rectangles and squares
+### Question type 3. Rectangles and squares
 
 **Idea:** Rectangle: Area $= L \times B$, Diagonal $d = \sqrt{L^2 + B^2}$. Square: Area $= a^2 = \dfrac{d^2}{2}$, Diagonal $d = a\sqrt{2}$.
 
@@ -88,7 +96,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Area} = \dfrac{d^2}{2} = \dfrac{100}{2} =$ **50 $\text{cm}^2$**.
 - $\text{Side} = \dfrac{10}{\sqrt{2}} = 5\sqrt{2}\text{ cm}$. $\text{Perimeter} = 4 \times 5\sqrt{2} =$ **$20\sqrt{2}\text{ cm}$**.
 
-### Model 4. Parallelograms and rhombuses
+### Question type 4. Parallelograms and rhombuses
 
 **Idea:** Parallelogram: Area $= \text{base} \times \text{height}$. Rhombus: Area $= \dfrac{1}{2}d_1 d_2$, $4a^2 = d_1^2 + d_2^2$, diagonals bisect perpendicularly.
 
@@ -99,7 +107,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Area} = \dfrac{1}{2} \times 16 \times 12 =$ **96 $\text{cm}^2$**.
 - $\text{Side} = \sqrt{8^2 + 6^2} = 10\text{ cm}$. $\text{Perimeter} = 4 \times 10 =$ **40 cm**.
 
-### Model 5. Trapeziums
+### Question type 5. Trapeziums
 
 **Idea:** Area $= \dfrac{1}{2}(a+b)h$, where $a, b$ are parallel sides and $h$ is perpendicular distance between them.
 
@@ -110,7 +118,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\dfrac{1}{2}(x + x + 6) \times 9 = 180 \implies 2x + 6 = 40 \implies 2x = 34 \implies x = 17\text{ cm}$.
 - The parallel sides are **17 cm and 23 cm**.
 
-### Model 6. Regular polygons
+### Question type 6. Regular polygons
 
 **Idea:** For an $n$-sided regular polygon: each interior angle $= \dfrac{(n-2)\times 180^\circ}{n}$, each exterior angle $= \dfrac{360^\circ}{n}$. Regular hexagon area $= 6 \times \dfrac{\sqrt{3}}{4}a^2$.
 
@@ -121,7 +129,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Exterior angle $= 180^\circ - 140^\circ = 40^\circ$.
 - Number of sides $n = \dfrac{360^\circ}{40^\circ} =$ **9 sides**.
 
-### Model 7. Circles, semicircles, sectors, and segments
+### Question type 7. Circles, semicircles, sectors, and segments
 
 **Idea:** Circle: $C = 2\pi r$, $A = \pi r^2$. Semicircle: Perimeter $= \pi r + 2r = \dfrac{36}{7}r$ (when $\pi=\dfrac{22}{7}$), $A = \dfrac{1}{2}\pi r^2$. Sector: $l = \dfrac{\theta}{360^\circ} \times 2\pi r$, $A = \dfrac{\theta}{360^\circ}\pi r^2$.
 
@@ -138,7 +146,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Arc length} = \dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 21 = \dfrac{1}{6} \times 132 =$ **22 cm**.
 - $\text{Area} = \dfrac{60}{360} \times \dfrac{22}{7} \times 21^2 = \dfrac{1}{6} \times 1386 =$ **231 $\text{cm}^2$**.
 
-### Model 8. Pathways and borders
+### Question type 8. Pathways and borders
 
 **Idea:** Outside path: $(L + 2w)(B + 2w) - LB$. Inside path: $LB - (L - 2w)(B - 2w)$. Cross paths through centre: $w(L + B - w)$. Circular ring: $\pi(R^2 - r^2) = \pi(R - r)(R + r)$.
 
@@ -149,7 +157,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2 (Cross paths):** A park $60\text{ m} \times 40\text{ m}$ has two cross roads of width $2\text{ m}$ running through the centre parallel to the sides. Find the area of the roads.
 - $\text{Area} = w(L + B - w) = 2(60 + 40 - 2) = 2 \times 98 =$ **196 $\text{m}^2$**.
 
-### Model 9. Inscribed and circumscribed figures
+### Question type 9. Inscribed and circumscribed figures
 
 **Idea:** Incircle radius of right triangle: $r = \dfrac{a + b - c}{2}$. Circumradius of right triangle: $R = \dfrac{c}{2}$. Square in circle of radius $R$: side $= R\sqrt{2}$. Circle in square of side $a$: radius $= \dfrac{a}{2}$.
 
@@ -163,7 +171,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Area of square} = 14^2 = 196\text{ cm}^2$. $\text{Area of circle} = \dfrac{22}{7} \times 7^2 = 154\text{ cm}^2$.
 - $\text{Remaining area} = 196 - 154 =$ **42 $\text{cm}^2$**.
 
-### Model 10. Revolutions of wheels
+### Question type 10. Revolutions of wheels
 
 **Idea:** Distance covered in $N$ revolutions $= N \times (2\pi r)$. Number of revolutions $N = \dfrac{\text{Total distance}}{\text{Circumference}}$.
 
@@ -175,7 +183,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Distance per revolution} = \dfrac{33000\text{ m}}{5000} = 6.6\text{ m} = 660\text{ cm}$.
 - $\pi d = 660 \implies \dfrac{22}{7}d = 660 \implies d = \dfrac{660 \times 7}{22} =$ **210 cm**.
 
-### Model 11. Wire bending and reshaping
+### Question type 11. Wire bending and reshaping
 
 **Idea:** When a wire is bent from one shape to another, the perimeter remains constant.
 
@@ -189,7 +197,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $2 \times \dfrac{22}{7} \times r = 66 \implies r = \dfrac{66 \times 7}{44} =$ **10.5 cm**.
 - $\text{Area} = \dfrac{22}{7} \times 10.5^2 =$ **346.5 $\text{cm}^2$**.
 
-### Model 12. Shaded regions and leaf shapes
+### Question type 12. Shaded regions and leaf shapes
 
 **Idea:** Space between 4 touching circles of radius $r$: $\text{Area} = (2r)^2 - \pi r^2 = \left(4 - \dfrac{22}{7}\right)r^2 = \dfrac{6}{7}r^2$. Leaf shape between two quadrants in square of side $a$: $\text{Area} = \dfrac{4}{7}a^2$.
 
@@ -199,7 +207,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Find the area of the leaf-shaped region enclosed by arcs of two opposite quadrants in a square of side $14\text{ cm}$.
 - $\text{Area} = \dfrac{4}{7}a^2 = \dfrac{4}{7} \times 14^2 = \dfrac{4}{7} \times 196 =$ **112 $\text{cm}^2$**.
 
-### Model 13. Percentage and ratio changes in dimensions
+### Question type 13. Percentage and ratio changes in dimensions
 
 **Idea:** Net percentage change in area when dimensions change by $x\%$ and $y\%$: $\Delta A = \left(x + y + \dfrac{xy}{100}\right)\%$. For circles and squares with change $x\%$: $\Delta A = \left(2x + \dfrac{x^2}{100}\right)\%$.
 
@@ -212,7 +220,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 3:** If the length of a rectangle increases by $25\%$, by what percentage must breadth decrease so area remains constant?
 - $\text{Decrease} = \dfrac{25}{100 + 25} \times 100 = \dfrac{25}{125} \times 100 =$ **20%**.
 
-### Model 14. Cost of fencing, flooring, turfing, and tiling
+### Question type 14. Cost of fencing, flooring, turfing, and tiling
 
 **Idea:** Fencing cost $= \text{Perimeter} \times \text{Rate per metre}$. Turfing/paving/tiling cost $= \text{Area} \times \text{Rate per unit area}$.
 
@@ -224,7 +232,28 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Area} = \dfrac{22}{7} \times 28^2 = \dfrac{22}{7} \times 784 = 2464\text{ m}^2$.
 - $\text{Cost} = 2464 \times 5 =$ **Rs 12320**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** A square has side 5 cm. If its side doubles, what happens to its perimeter and area?
+
+**Think it through:** Originally the perimeter is $4\times5=20$ cm and area is $5^2=25$ cm$^2$. With side 10 cm they become 40 cm and 100 cm$^2$: perimeter doubles, while area becomes four times as large.
+
+### Quick revision
+
+- Perimeter measures the boundary; area measures the flat region inside.
+- Use perpendicular height—not a sloping side—in base-height area formulas.
+- For a path or border, subtract the inner area from the outer area.
+- Keep linear units (cm) separate from square units (cm$^2$).
+
+### Common mistakes
+
+1. Confusing radius and diameter.
+2. Using the triangle’s sloping side as its height.
+3. Including an internal boundary in a fencing or shaded-area question when it is not part of the requested region.
+4. Adding overlapping road areas twice.
+5. Applying a length percentage directly to area; area changes with the square of the scale factor.
+
+## 6. Practice
 
 1. Find the area of a right-angled triangle whose sides containing the right angle are $9\text{ cm}$ and $12\text{ cm}$.
 2. A triangle has sides $11\text{ cm}$, $13\text{ cm}$, and $20\text{ cm}$. Find its area.

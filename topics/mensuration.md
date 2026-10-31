@@ -2,6 +2,16 @@
 
 > **ASK:** boundary? surface? capacity? Pick perimeter, area, or volume.
 
+## First decide what is being measured
+
+Before choosing a formula, picture the question: walking around a flat shape measures its boundary; covering its inside measures area; filling a solid measures volume. For a solid's outside, use surface area and check whether the question includes the ends or bases. This choice also predicts the units: length, square units, or cubic units.
+
+### Walk through: volume of a cylinder
+
+Think of the cylinder as a stack of identical circular layers. One layer has area $\pi r^2$; stacking it to height $h$ gives $V=\pi r^2h$. With $r=3$ cm and $h=10$ cm, $V=90\pi$ cm$^3$.
+
+**Sanity check:** The answer must be cubic centimetres, and increasing the height would increase the volume in the same proportion. **Your turn:** find the volume when $r=2$ cm and $h=5$ cm. *(Answer: $20\pi$ cm$^3$; $\pi(2)^2(5)$.)*
+
 ## ⚡ Shape formula cards
 
 | Shape | Area / surface | Perimeter / volume |
@@ -84,3 +94,9 @@ Scale side by k ──> length k | area k² | volume k³
 **Question:** A cube's side is tripled. By what factor do its surface area and volume change?
 - **Shortcut:** Surface scales as $k^2$; volume as $k^3$.
 - **Calculation:** $3^2=9$ and $3^3=27$. **Answer: area is 9 times; volume is 27 times.**
+
+## Quick practice
+
+1. A rectangle is 9 cm by 4 cm. Find its perimeter. *(Answer: 26 cm; $2(9+4)$.)*
+2. A circle has diameter 10 cm. Write its area in terms of $\pi$. *(Answer: $25\pi$ cm$^2$; radius is 5 cm.)*
+3. A cube's side is multiplied by 2. By what factor does its surface area change? *(Answer: 4; area scales by $2^2$.)*

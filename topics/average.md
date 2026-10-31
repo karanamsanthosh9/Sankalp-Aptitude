@@ -2,6 +2,16 @@
 
 > **AVERAGE ⇄ TOTAL:** multiply to recover total; divide to recover average.
 
+## An average is a balancing point
+
+The average is the equal share each value would have if the total were redistributed evenly. That is why the total is always average times count. When one member or score changes, compare totals rather than trying to average averages; group sizes matter.
+
+### Walk through: replacing one score
+
+Ten values average 24, so their total is $10(24)=240$. Replace 18 by 38: the total rises by 20 to 260. Spread that increase over the same 10 values and the average rises by 2, to 26.
+
+**Sanity check:** Since the replacement is larger, the average must rise. **Your turn:** five numbers average 12; replace 7 with 17. What is the new average? *(Answer: 14; the total rises by 10, or 2 per value.)*
+
 ```text
         Average
        ┌───┴───┐
@@ -81,3 +91,9 @@
 **Question:** 8 people average 25 years. One person leaves, and the remaining 7 average 24. Find the age of the person who left.
 - **Shortcut:** Person's value $=$ old total $-$ new total.
 - **Calculation:** $8(25)-7(24)=200-168$. **Answer: $32$ years.**
+
+## Quick practice
+
+1. Six values average 14. Find their total. *(Answer: 84; $6(14)$.)*
+2. Four people average 20; a fifth joins and the average becomes 22. Find the new person's value. *(Answer: 30; new total 110 minus old total 80.)*
+3. Ten numbers average 16. One value of 26 is replaced by 6. Find the new average. *(Answer: 14; total falls by 20, so average falls by 2.)*

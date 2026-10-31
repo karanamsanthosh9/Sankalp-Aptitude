@@ -2,6 +2,16 @@
 
 > **SHARE A TOTAL:** add the parts → find one part → multiply.
 
+## Ratios are parts, not actual quantities
+
+The ratio $3:4$ says that the two amounts contain 3 and 4 equal-sized parts. It does not say the amounts are 3 and 4. When a total is known, first find the size of one part; when a quantity changes in proportion, decide whether both quantities move together (direct) or one rises as the other falls (inverse).
+
+### Walk through: share $840$ in the ratio $3:4$
+
+The ratio has $3+4=7$ parts, so each part is $840/7=120$. The shares are $3(120)=360$ and $4(120)=480$. Adding them back gives $840$, as it should.
+
+**Sanity check:** Shares must add to the original total and keep the stated ratio. **Your turn:** divide $560$ in the ratio $3:5$. *(Answer: $210$ and $350$; there are 8 parts worth 70 each.)*
+
 ```text
 Total = 840       Ratio = 3 : 4
                      └─ 7 parts ─┘
@@ -83,3 +93,9 @@ Shares: 3(120) = 360  |  4(120) = 480
 **Question:** If 7 kg of rice costs $280, what do 12 kg cost at the same rate?
 - **Shortcut:** Find the unit cost once: $280/7=40$.
 - **Calculation:** $12(40)$. **Answer: $480$.**
+
+## Quick practice
+
+1. Divide 900 in the ratio $2:7$. *(Answer: 200 and 700; one part is 100.)*
+2. If 4 identical pens cost 60, what do 10 cost? *(Answer: 150; multiply by $10/4$.)*
+3. If 6 workers take 10 days, how long do 15 equally efficient workers take? *(Answer: 4 days; $6(10)=15d$.)*

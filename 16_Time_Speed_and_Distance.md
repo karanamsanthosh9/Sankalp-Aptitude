@@ -1,10 +1,18 @@
-# Time, Speed and Distance: Model-wise Notes
+# Time, Speed and Distance
 
-## Part 1. What comes from this topic
+> Read this like a class: sketch the journey, label what is known, and keep the units beside every number.
+
+## 0. Start here: every journey has three parts
+
+Picture a person travelling from home to a station. The same journey can be described by how far they go, how fast they travel, and how long it takes. This chapter asks you to connect those three quantities, compare journeys, work out meeting or catching times, or follow movement around a track.
+
+Begin with the question’s story: is the distance fixed, is the time fixed, or are two travellers moving relative to one another? For example, covering the same distance faster must take less time. A quick sense check is to ask whether your answer respects that direction, and whether kilometres, metres, hours, and seconds have been made consistent.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Unit conversion and basic formula | 1 |
 | Average speed (equal distances or unequal segments) | 2 |
@@ -19,7 +27,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Linear races, head starts, and dead heats | 11 |
 | Escalators and moving walkways | 12 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -31,16 +39,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "After crossing each other, they reach destinations in $T_1, T_2$" | $\dfrac{S_1}{S_2} = \sqrt{\dfrac{T_2}{T_1}}$ |
 | "A gives B a start of $x$ meters" | In a race of $D$, A runs $D$ while B runs $D - x$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - $\text{Distance} = \text{Speed} \times \text{Time}$, $\text{Speed} = \dfrac{\text{Distance}}{\text{Time}}$, $\text{Time} = \dfrac{\text{Distance}}{\text{Speed}}$.
 - **Average Speed** $= \dfrac{\text{Total Distance}}{\text{Total Time}}$. For two equal distances: $S_{\text{avg}} = \dfrac{2xy}{x+y}$.
 - **Proportionality:** when Distance is constant, $S \propto \dfrac{1}{T}$; when Time is constant, $D \propto S$.
 - **Late/Early shortcut:** $D = \dfrac{S_1 \times S_2}{|S_1 - S_2|} \times \Delta T$.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Unit conversion and basic formula
+### Question type 1. Unit conversion and basic formula
 
 **Idea:** $1\text{ km/h} = \dfrac{5}{18}\text{ m/s}$ and $1\text{ m/s} = \dfrac{18}{5}\text{ km/h}$.
 
@@ -50,7 +58,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Convert $25\text{ m/s}$ to $\text{km/h}$.
 - $25 \times \dfrac{18}{5} = 5 \times 18 =$ **90 km/h**.
 
-### Model 2. Average speed
+### Question type 2. Average speed
 
 **Idea:** $\text{Average Speed} = \dfrac{\text{Total Distance}}{\text{Total Time}}$. For equal segments, use harmonic mean.
 
@@ -61,7 +69,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - LCM of speeds $= 60\text{ km}$. Time taken $= \dfrac{60}{10} + \dfrac{60}{20} + \dfrac{60}{30} = 6 + 3 + 2 = 11\text{ hrs}$.
 - $S_{\text{avg}} = \dfrac{3 \times 60}{11} =$ **$16\frac{4}{11}$ km/h** ($\dfrac{180}{11}\text{ km/h}$).
 
-### Model 3. Constant distance and speed-time inverse ratio
+### Question type 3. Constant distance and speed-time inverse ratio
 
 **Idea:** when distance is fixed, $\dfrac{S_1}{S_2} = \dfrac{T_2}{T_1}$.
 
@@ -70,7 +78,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Difference in time $= 4 - 3 = 1\text{ unit} = 20\text{ minutes}$.
 - Usual time $= 3 \times 20 =$ **60 min** (1 hour).
 
-### Model 4. Constant time and speed-distance direct ratio
+### Question type 4. Constant time and speed-distance direct ratio
 
 **Idea:** when travel time is fixed, $\dfrac{D_1}{D_2} = \dfrac{S_1}{S_2}$.
 
@@ -79,7 +87,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Time taken $= \dfrac{20\text{ km}}{4\text{ km/h}} = 5\text{ hours}$.
 - Actual distance $= 10 \times 5 =$ **50 km**.
 
-### Model 5. Late and early arrival times
+### Question type 5. Late and early arrival times
 
 **Idea:** $D = \dfrac{S_1 \times S_2}{|S_1 - S_2|} \times \Delta T$, where $\Delta T$ is total time difference in hours.
 
@@ -87,14 +95,14 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\Delta T = 10\text{ min late} - (-5\text{ min early}) = 15\text{ min} = \dfrac{15}{60}\text{ hr} = \dfrac{1}{4}\text{ hr}$.
 - $D = \dfrac{4 \times 5}{5 - 4} \times \dfrac{1}{4} = 20 \times \dfrac{1}{4} =$ **5 km**.
 
-### Model 6. Stoppages and rest time per hour
+### Question type 6. Stoppages and rest time per hour
 
 **Idea:** $\text{Stoppage time per hour} = \dfrac{S_{\text{without stop}} - S_{\text{with stop}}}{S_{\text{without stop}}} \times 60\text{ min}$.
 
 **Example:** Excluding stoppages, the speed of a bus is $54\text{ km/h}$ and including stoppages it is $45\text{ km/h}$. For how many minutes does the bus stop per hour?
 - $\text{Stoppage time} = \dfrac{54 - 45}{54} \times 60 = \dfrac{9}{54} \times 60 = \dfrac{1}{6} \times 60 =$ **10 min/hr**.
 
-### Model 7. Relative speed and meeting time
+### Question type 7. Relative speed and meeting time
 
 **Idea:** Opposite directions $\implies S_{\text{rel}} = S_1 + S_2$; Same direction $\implies S_{\text{rel}} = |S_1 - S_2|$.
 
@@ -102,7 +110,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Time to meet $= \dfrac{300}{60 + 40} = \dfrac{300}{100} =$ **3 hours**.
 - Distance from A $= 3 \times 60 =$ **180 km**.
 
-### Model 8. Speed ratio after meeting
+### Question type 8. Speed ratio after meeting
 
 **Idea:** $\dfrac{S_1}{S_2} = \sqrt{\dfrac{T_2}{T_1}}$.
 
@@ -110,7 +118,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\dfrac{S_A}{S_B} = \sqrt{\dfrac{9}{4}} = \dfrac{3}{2}$.
 - $S_B = 45 \times \dfrac{2}{3} =$ **30 km/h**.
 
-### Model 9. Two-part journey with mixed transport modes
+### Question type 9. Two-part journey with mixed transport modes
 
 **Idea:** Total time equation: $\dfrac{D_1}{S_1} + \dfrac{D_{\text{total}} - D_1}{S_2} = T_{\text{total}}$.
 
@@ -118,7 +126,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Let time on foot be $t$ hours: $4t + 9(9 - t) = 61 \implies 81 - 5t = 61 \implies 5t = 20 \implies t = 4\text{ hours}$.
 - Distance on foot $= 4 \times 4 =$ **16 km**.
 
-### Model 10. Circular tracks and race loops
+### Question type 10. Circular tracks and race loops
 
 **Idea:** First meeting time $= \dfrac{\text{Circumference}}{S_{\text{rel}}}$. Meeting at starting point $= \text{LCM}(T_1, T_2, \dots)$.
 
@@ -126,7 +134,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Relative speed $= 5 - 3 = 2\text{ m/s}$.
 - First meeting time $= \dfrac{400}{2} =$ **200 seconds** (3 min 20 s).
 
-### Model 11. Linear races, head starts, and dead heats
+### Question type 11. Linear races, head starts, and dead heats
 
 **Idea:** If A beats B by $x$ meters or $t$ seconds, then B covers $x$ meters in $t$ seconds ($\text{Speed of B} = \dfrac{x}{t}$).
 
@@ -135,7 +143,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Time taken by B for $1000\text{ m} = \dfrac{1000}{10} = 100\text{ seconds}$.
 - Time taken by A $= 100 - 10 =$ **90 seconds**.
 
-### Model 12. Escalators and moving walkways
+### Question type 12. Escalators and moving walkways
 
 **Idea:** Total visible steps $N = T \times (v_{\text{person}} \pm v_{\text{escalator}})$.
 
@@ -144,7 +152,28 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $N = 30(1 + e) = 20(2 + e) \implies 30 + 30e = 40 + 20e \implies 10e = 10 \implies e = 1\text{ step/s}$.
 - $N = 30(1 + 1) =$ **60 steps**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** A car travels 120 km at 60 km/h, then another 120 km at 40 km/h. What is its average speed for the whole trip?
+
+**Think it through:** The first leg takes 2 hours and the second takes 3 hours. Total distance is 240 km and total time is 5 hours, so average speed is $240\div5=\mathbf{48\ km/h}$. It is not the simple mean of the two speeds because the slower leg takes longer.
+
+### Quick revision
+
+- Write $\text{distance}=\text{speed}\times\text{time}$ and check units before substituting.
+- Average speed always means total distance divided by total time.
+- For relative motion, add speeds when moving toward each other and subtract when moving in the same direction.
+- For journeys in stages, calculate each stage’s time separately.
+
+### Common mistakes
+
+1. Taking the arithmetic mean of speeds for unequal travel times or equal distances.
+2. Adding speeds for travellers going in the same direction.
+3. Comparing speeds in km/h with distances in metres without converting.
+4. Forgetting that “late” and “early” are on opposite sides of the scheduled time.
+5. Using circumference only once when solving multiple-lap track questions.
+
+## 6. Practice
 
 1. Convert a speed of $108\text{ km/h}$ into meters per second.
 2. A car covers $540\text{ km}$ in 6 hours. Find its speed in meters per second.

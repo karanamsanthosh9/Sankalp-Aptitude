@@ -1,10 +1,18 @@
-# Pipes and Cisterns: Model-wise Notes
+# Pipes and Cisterns
 
-## Part 1. What comes from this topic
+> Read this like a class, not a formula sheet. Imagine a tank with water levels rising or falling; work each stage on paper before checking the answer.
+
+## 0. Start here: picture the water level
+
+A tank is a container, and each open pipe changes its water level at a certain pace. An inlet adds water; an outlet or leak removes it. So questions about several pipes are really asking: **how much does the water level change in one unit of time, and how much remains to be done?** You may be asked when the tank fills, what a leak does, how a staggered opening changes the finish time, or how much water the tank holds.
+
+If a pipe fills one tank in 6 hours, it fills one-sixth of the tank each hour. A second inlet adds to that rate; a leak subtracts from it. Check the direction and size of your answer: a leak should slow filling, and a positive net rate is needed for the tank to fill.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Multiple inlet pipes filling together | 1 |
 | Inlets and outlets operating simultaneously | 2 |
@@ -19,7 +27,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Clogging and partial flow rates | 11 |
 | Taps fitted at different heights | 12 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -31,16 +39,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Diameter is doubled" | Flow rate is quadrupled ($\text{Rate} \propto d^2$) |
 | "Alternating hours starting with A" | 2-hour cycles until near full, then turn-by-turn |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - Inlets have positive rates ($+\text{units/hr}$); outlets and leaks have negative rates ($-\text{units/hr}$).
 - **Fast method:** assume total capacity as the $\text{LCM}$ of given times.
 - $\text{Time} = \dfrac{\text{Total Capacity}}{\text{Net Rate}}$. If net rate is positive, tank fills; if negative, tank empties.
 - **Diameter rule:** rate of flow is directly proportional to the area of cross-section, hence $\text{Rate} \propto d^2$.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Multiple inlet pipes filling together
+### Question type 1. Multiple inlet pipes filling together
 
 **Idea:** add individual filling rates: $T = \dfrac{\text{LCM}}{\text{Sum of efficiencies}}$.
 
@@ -52,7 +60,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - LCM $= 60$. Rates: A $= 5$, B $= 4$, C $= 3$. Combined rate $= 12$ units/hr.
 - $T = \dfrac{60}{12} =$ **5 hours**.
 
-### Model 2. Inlets and outlets operating simultaneously
+### Question type 2. Inlets and outlets operating simultaneously
 
 **Idea:** $\text{Net Rate} = \sum \text{Inlet Rates} - \sum \text{Outlet Rates}$.
 
@@ -64,7 +72,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - LCM $= 60$. Rates: A $= +6$, B $= +5$, C $= -4$. Net rate $= 6 + 5 - 4 = +7$ units/hr.
 - $T = \dfrac{60}{7} =$ **$8\frac{4}{7}$ hours**.
 
-### Model 3. Leak in the tank
+### Question type 3. Leak in the tank
 
 **Idea:** $\text{Leak Rate} = \text{Inlet Rate} - \text{Net Rate with leak}$.
 
@@ -73,7 +81,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Leak rate $= 5 - 4 = 1$ unit/hr.
 - Time for leak $= \dfrac{40}{1} =$ **40 hours**.
 
-### Model 4. Finding the capacity of the tank
+### Question type 4. Finding the capacity of the tank
 
 **Idea:** $\text{Capacity} = \text{Emptying/Filling time (min)} \times \text{Rate (liters/min)}$.
 
@@ -82,7 +90,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Leak takes $\dfrac{60}{1} = 60\text{ hours} = 3600\text{ minutes}$ to empty full tank.
 - $\text{Capacity} = 3600 \times 4 =$ **14400 liters**.
 
-### Model 5. Pipes opened at staggered times
+### Question type 5. Pipes opened at staggered times
 
 **Idea:** calculate volume filled during initial intervals, subtract from total, then divide remainder by active combined rate.
 
@@ -92,7 +100,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - From 10:00 AM, both run at $3 + 2 = 5$ units/hr: $\text{Time} = \dfrac{30}{5} = 6\text{ hours}$.
 - Tank is full at $10:00\text{ AM} + 6\text{ hours} =$ **4:00 PM**.
 
-### Model 6. Pipe closed midway or before tank fills
+### Question type 6. Pipe closed midway or before tank fills
 
 **Idea:** let unknown time be $T$. Set $\sum (\text{Rate}_i \times \text{Time}_i) = \text{Total Capacity}$.
 
@@ -105,7 +113,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - LCM $= 60$. A $= 3$, B $= 2$. B works $T$ min, A works $(T - 5)$ min.
 - $3(T - 5) + 2T = 60 \implies 5T = 75 \implies T =$ **15 min**.
 
-### Model 7. Alternating hours and helper cycles
+### Question type 7. Alternating hours and helper cycles
 
 **Idea:** calculate work done in 1 cycle. Multiply for maximum full cycles without overflowing, then solve turn by turn.
 
@@ -115,7 +123,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Hour 7 (A's turn): A needs $\dfrac{3}{4}\text{ hour} = 45\text{ min}$.
 - Total time $= 6 + \dfrac{3}{4} =$ **$6\frac{3}{4}$ hours** (6 hrs 45 min).
 
-### Model 8. Pipe efficiency and diameter ratios
+### Question type 8. Pipe efficiency and diameter ratios
 
 **Idea:** flow rate is proportional to the square of the diameter: $\text{Rate} \propto d^2$.
 
@@ -124,7 +132,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Total capacity $= 9 \times 42 = 378$ units.
 - Combined time $= \dfrac{378}{14} =$ **27 min**.
 
-### Model 9. Fraction of tank filled or emptied
+### Question type 9. Fraction of tank filled or emptied
 
 **Idea:** if a pipe fills fraction $f$ in time $t$, its full time is $\dfrac{t}{f}$.
 
@@ -132,7 +140,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - A alone takes $4 \div \dfrac{1}{3} = 12\text{ hours}$. B alone takes $9 \div \dfrac{1}{2} = 18\text{ hours}$.
 - $T = \dfrac{12 \times 18}{12 + 18} = \dfrac{216}{30} =$ **7.2 hours** (7 hrs 12 min).
 
-### Model 10. Time difference and quadratic equations
+### Question type 10. Time difference and quadratic equations
 
 **Idea:** if Pipe A is $k$ hours faster than Pipe B, set $\dfrac{1}{x} + \dfrac{1}{x+k} = \dfrac{1}{T_{\text{together}}}$.
 
@@ -140,7 +148,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\dfrac{1}{x} + \dfrac{1}{x+5} = \dfrac{1}{6} \implies 6(2x+5) = x(x+5) \implies x^2 - 7x - 30 = 0$.
 - $(x-10)(x+3) = 0 \implies x =$ **10 hours** (Pipe B takes 15 hours).
 
-### Model 11. Clogging and partial flow rates
+### Question type 11. Clogging and partial flow rates
 
 **Idea:** multiply normal efficiencies by the reduction fraction during the clogged period.
 
@@ -150,7 +158,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Restored flow rate $= 3 + 2 = 5$ units/min: $\text{Time} = \dfrac{36}{5} = 7.2\text{ min}$.
 - Total time $= 8 + 7.2 =$ **15.2 min** (15 min 12 s).
 
-### Model 12. Taps fitted at different heights
+### Question type 12. Taps fitted at different heights
 
 **Idea:** each section of height is emptied only by the taps situated at or below that water level.
 
@@ -159,7 +167,28 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Top quarter (4 taps): $\dfrac{3}{4}\text{ hr}$; 2nd quarter (3 taps): $\dfrac{3}{3} = 1\text{ hr}$; 3rd (2 taps): $\dfrac{3}{2} = 1.5\text{ hrs}$; Bottom (1 tap): $\dfrac{3}{1} = 3\text{ hrs}$.
 - Total time $= 0.75 + 1 + 1.5 + 3 =$ **6.25 hours** (6 hrs 15 min).
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** An inlet fills a tank in 8 hours and an outlet empties it in 24 hours. How long do they take together to fill an empty tank?
+
+**Think it through:** In 24 units of capacity, the inlet adds 3 units per hour and the outlet removes 1. The net rate is 2 units per hour, so the tank takes $24\div2=\mathbf{12}$ hours. This is slower than the inlet alone, as it should be.
+
+### Quick revision
+
+- Choose a convenient total capacity (often the LCM of the times), then convert every pipe into units per hour.
+- Add inlet rates and subtract outlet/leak rates.
+- When a pipe opens or closes, split the story into stages and carry forward the water already added.
+- For alternating pipes, calculate a full cycle, then follow the final turn carefully.
+
+### Common mistakes
+
+1. Adding emptying rates instead of subtracting them.
+2. Mixing minutes and hours in one rate calculation.
+3. Forgetting the work done before a pipe opens or closes.
+4. Applying the diameter ratio to diameter instead of area: flow rate is proportional to $d^2$.
+5. Treating every outlet as active at every water level in a tank with taps at different heights.
+
+## 6. Practice
 
 1. Pipe A fills a tank in 20 hours and Pipe B in 30 hours. How long will they take working together?
 2. Three pipes A, B, and C can fill a tank in 10, 12, and 15 hours respectively. In how many hours will they fill it together?

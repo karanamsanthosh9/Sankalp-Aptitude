@@ -2,6 +2,16 @@
 
 > **FIRST:** match units. Then use the triangle.
 
+## Turn motion into a rate story
+
+Distance, speed, and time are linked: distance is speed times time. The main challenge is usually not the formula but the setup—convert units before combining values, and decide how quickly the gap changes. Opposite directions close a gap at the sum of speeds; same-direction pursuit closes it at the difference.
+
+### Walk through: a head-on meeting
+
+Two cars are 300 km apart and travel toward each other at 40 and 60 km/h. Each hour, the gap shrinks by $40+60=100$ km. Divide the 300 km gap by 100 km/h: they meet in 3 hours.
+
+**Sanity check:** In 3 hours they cover $120+180=300$ km altogether, exactly the initial gap. **Your turn:** two walkers 24 km apart approach at 3 and 5 km/h. When do they meet? *(Answer: 3 hours; $24/(3+5)$.)*
+
 ## ⚡ Formula cards
 
 **The distance triangle**
@@ -93,3 +103,9 @@ Train + platform: [ TRAIN ] ===== platform length
 **Question:** Two runners move in the same direction at 8 m/s and 6 m/s. How long for the faster runner to close a 50 m gap?
 - **Shortcut:** Same direction means relative speed $=8-6=2$ m/s.
 - **Calculation:** $50/2$. **Answer: $25$ seconds.**
+
+## Quick practice
+
+1. Convert 36 km/h to m/s. *(Answer: 10 m/s; multiply by $5/18$.)*
+2. A 120 km trip takes 3 hours. Find average speed. *(Answer: 40 km/h; distance divided by time.)*
+3. Two vehicles move in the same direction at 70 and 50 km/h. How long for the faster one to close a 40 km gap? *(Answer: 2 hours; relative speed is 20 km/h.)*

@@ -1,10 +1,18 @@
-# Number Series and Progressions: Model-wise Notes
+# Number Series and Progressions
 
-## Part 1. What comes from this topic
+> Read this like a class: look for a pattern you can explain simply, then test it against every term you have.
+
+## 0. Start here: what changes from term to term?
+
+A number series is a sequence with a rule. Sometimes the rule adds the same amount each time; sometimes it multiplies by a fixed amount; other times the differences, squares, or alternating positions reveal the pattern. Questions ask for the next or missing term, an incorrect term, or a particular term or sum in an arithmetic or geometric progression.
+
+Start by subtracting neighboring terms. If those differences are not constant, compare ratios or take differences again; also check odd and even positions separately. A good pattern should explain all the given terms, not just the last two. If two patterns seem possible, prefer the simpler one commonly used in aptitude questions.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Find the next term: constant difference | 1 |
 | Find the next term: constant ratio | 2 |
@@ -22,7 +30,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Inserting means between two numbers | 14 |
 | Sum to infinity of a GP | 15 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -37,7 +45,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Insert $k$ means between $p$ and $q$" | Find $d$ or $r$ for $k+2$ terms |
 | "Sum to infinity" | GP with $|r|<1$; use $S=\dfrac{a}{1-r}$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **AP** (arithmetic progression): each term differs by a constant $d$. $T_n = a+(n-1)d$, $S_n = \dfrac{n}{2}[2a+(n-1)d]$.
 - **GP** (geometric progression): each term is multiplied by a constant $r$. $T_n = a \cdot r^{n-1}$, $S_n = \dfrac{a(r^n-1)}{r-1}$ (for $r \neq 1$).
@@ -45,9 +53,9 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - For a **missing or wrong term**: work out the pattern (difference, ratio, squares, primes), then check which term breaks it.
 - **Number of terms in AP**: $n = \dfrac{l - a}{d} + 1$, where $l$ is the last term.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Constant-difference (arithmetic) series
+### Question type 1. Constant-difference (arithmetic) series
 
 **Idea:** subtract consecutive terms to get the common difference $d$, then add $d$ to find the next term.
 
@@ -59,7 +67,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Differences: $3, 5, 7, 9$. The differences increase by $2$ each time.
 - Next difference $= 11$. Next term $= 26 + 11 =$ **37**.
 
-### Model 2. Constant-ratio (geometric) series
+### Question type 2. Constant-ratio (geometric) series
 
 **Idea:** divide consecutive terms to get the common ratio $r$, then multiply to find the next term.
 
@@ -69,7 +77,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** $162, 54, 18, 6, ?$
 - Ratio $= \dfrac{1}{3}$. Next term $= 6 \times \dfrac{1}{3} =$ **2**.
 
-### Model 3. Square-based series
+### Question type 3. Square-based series
 
 **Idea:** check if terms are perfect squares, or squares $\pm$ a constant, or $n^2 \pm n$.
 
@@ -79,7 +87,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** $2, 5, 10, 17, 26, ?$
 - Terms are $1^2+1, 2^2+1, 3^2+1, 4^2+1, 5^2+1$. Next $= 6^2+1 =$ **37**.
 
-### Model 4. Cube-based series
+### Question type 4. Cube-based series
 
 **Idea:** check if terms are perfect cubes or cubes $\pm$ a constant.
 
@@ -89,7 +97,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** $2, 9, 28, 65, ?$
 - Terms are $1^3+1, 2^3+1, 3^3+1, 4^3+1$. Next $= 5^3+1 =$ **126**.
 
-### Model 5. Prime-number series
+### Question type 5. Prime-number series
 
 **Idea:** list the primes in order: $2, 3, 5, 7, 11, 13, 17, 19, 23, \ldots$ and match the pattern.
 
@@ -99,7 +107,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** $4, 6, 10, 14, 22, 26, ?$
 - Terms are $2 \times$ (consecutive primes): $2\times2, 2\times3, 2\times5, 2\times7, 2\times11, 2\times13$. Next $= 2\times17 =$ **34**.
 
-### Model 6. Alternating / interleaved series
+### Question type 6. Alternating / interleaved series
 
 **Idea:** split the series into two separate sub-series by taking odd-position and even-position terms, then find each pattern independently.
 
@@ -109,7 +117,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** $1, 2, 4, 3, 9, 4, ?$
 - Odd positions: $1, 4, 9, ?$ (perfect squares $\to$ next $= 16$). Even positions: $2, 3, 4$ (add 1). Blank is in odd position $\to$ **16**.
 
-### Model 7. Two-step / triangular-number series
+### Question type 7. Two-step / triangular-number series
 
 **Idea:** the differences themselves form an AP. Take differences of differences (second-order difference) to confirm a constant.
 
@@ -121,7 +129,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Differences: $2, 3, 4, 5, 6$. Next difference $= 7$.
 - Next term $= 25 + 7 =$ **32**.
 
-### Model 8. Missing number in the middle
+### Question type 8. Missing number in the middle
 
 **Idea:** establish the rule from the known terms, then apply it to the blank.
 
@@ -131,7 +139,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** $3, 7, ?, 19, 27$
 - Differences: $4, ?, ?, 8$. The differences alternate $4, 8, 4, 8$. So the missing difference $= 8$. Missing term $= 7 + 8 =$ **15**.
 
-### Model 9. Wrong number in a series
+### Question type 9. Wrong number in a series
 
 **Idea:** establish the correct rule from the majority of terms, then identify the one term that breaks the rule.
 
@@ -141,7 +149,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** $3, 7, 15, 27, 63, 127$
 - Rule: $2^n - 1$: $3, 7, 15, 31, 63, 127$. The term $27$ should be **31**.
 
-### Model 10. AP: nth term and sum
+### Question type 10. AP: nth term and sum
 
 **Idea:** $T_n = a + (n-1)d$ and $S_n = \dfrac{n}{2}[2a + (n-1)d]$.
 
@@ -151,7 +159,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Find the sum of the first 20 terms of $5, 8, 11, \ldots$
 - $a=5$, $d=3$, $n=20$. $S_{20} = \dfrac{20}{2}[10 + 19\times3] = 10\times67 =$ **670**.
 
-### Model 11. GP: nth term and sum
+### Question type 11. GP: nth term and sum
 
 **Idea:** $T_n = a \cdot r^{n-1}$ and $S_n = \dfrac{a(r^n - 1)}{r - 1}$.
 
@@ -161,7 +169,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Find the sum of the first 6 terms of $3, 6, 12, \ldots$
 - $a=3$, $r=2$. $S_6 = \dfrac{3(2^6-1)}{2-1} = 3\times63 =$ **189**.
 
-### Model 12. Arithmetic and geometric means
+### Question type 12. Arithmetic and geometric means
 
 **Idea:** AM of an AP $= \dfrac{a+l}{2}$. GM of a GP $= (T_1 \times T_2 \times \cdots \times T_n)^{1/n}$.
 
@@ -171,7 +179,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Find the GM of the GP $2, 4, 8, 16, 32$.
 - Product $= 2\times4\times8\times16\times32 = 2^{15}$. GM $= (2^{15})^{1/5} = 2^3 =$ **8**.
 
-### Model 13. Number of terms in an AP or GP
+### Question type 13. Number of terms in an AP or GP
 
 **Idea:** AP: $n = \dfrac{l-a}{d}+1$. GP: solve $a \cdot r^{n-1} = l$ for $n$.
 
@@ -181,7 +189,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Find the sum of all odd numbers from 1 to 99.
 - AP: $a=1$, $l=99$, $d=2$. $n=50$. Sum $= \dfrac{50}{2}(1+99) = 25\times100 =$ **2500**.
 
-### Model 14. Inserting means between two numbers
+### Question type 14. Inserting means between two numbers
 
 **Idea:** inserting $k$ means creates $k+2$ terms total. For AP: $d = \dfrac{l-a}{k+1}$. For GP: $r = \left(\dfrac{l}{a}\right)^{1/(k+1)}$.
 
@@ -191,7 +199,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Insert 3 geometric means between 2 and 162.
 - $r = \left(\dfrac{162}{2}\right)^{1/4} = 81^{1/4} = 3$. Means: **6, 18, 54**.
 
-### Model 15. Sum to infinity of a GP
+### Question type 15. Sum to infinity of a GP
 
 **Idea:** valid only when $|r| < 1$. $S_\infty = \dfrac{a}{1-r}$.
 
@@ -201,7 +209,29 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Find $\dfrac{1}{3} + \dfrac{1}{9} + \dfrac{1}{27} + \cdots$
 - $a=\dfrac{1}{3}$, $r=\dfrac{1}{3}$. $S_\infty = \dfrac{\frac{1}{3}}{\frac{2}{3}} =$ **$\dfrac{1}{2}$**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** Find the next term: $4, 7, 10, 13, \ldots$
+
+**Think it through:** Each step adds 3, so the next term is $13+3=\mathbf{16}$. Check each adjacent difference: all are 3.
+
+### Quick revision
+
+- AP: fixed difference; use $T_n=a+(n-1)d$.
+- GP: fixed ratio; use $T_n=ar^{n-1}$.
+- For an AP sum, identify the number of terms and the first and last terms.
+- A GP sum to infinity exists only when $|r|<1$.
+- For a missing or incorrect term, verify the proposed rule across the whole sequence.
+
+### Common mistakes
+
+1. Confusing the common difference with the common ratio.
+2. Using $n$ instead of $n-1$ in the nth-term formula.
+3. Assuming a pattern from too few terms without checking the rest.
+4. Forgetting the condition $|r|<1$ for an infinite GP.
+5. Counting the first term as a mean when inserting means between two endpoints.
+
+## 6. Practice
 
 1. Find the next term: $2, 5, 8, 11, ?$
 2. Find the next term: $3, 9, 27, 81, ?$

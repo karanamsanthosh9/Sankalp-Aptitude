@@ -2,6 +2,16 @@
 
 > **SIGN RULE:** inlet = plus; outlet/leak = minus.
 
+## Think about the tank each hour
+
+A pipe's filling time tells you its rate: the fraction of a tank it adds in one hour. If two pipes are open, the tank receives both contributions each hour. A leak removes water, so subtract its rate—not its emptying time. Once the net fraction per hour is known, divide the fraction still needed by that rate.
+
+### Walk through: an inlet fills in 8 hours; an outlet empties in 12
+
+The inlet adds $1/8$ tank per hour; the outlet removes $1/12$. The net is $1/8-1/12=1/24$ tank per hour, so a full tank takes 24 hours.
+
+**Sanity check:** The leak slows filling, so the combined time must be longer than 8 hours. **Your turn:** an inlet fills in 6 hours and a leak empties in 18. How long together? *(Answer: 9 hours; net rate $1/6-1/18=1/9$.)*
+
 ## ⚡ Formula cards
 
 | Pipe | Rate |
@@ -80,3 +90,9 @@ OUTLET (-) ──┘
 **Question:** An inlet fills a tank in 10 hours. With an outlet open, the tank fills in 15 hours. How long would the outlet alone take to empty it?
 - **Shortcut:** Outlet rate $=1/10-1/15=1/30$ tank/hour.
 - **Answer:** **30 hours** to empty the tank.
+
+## Quick practice
+
+1. Two inlets fill a tank in 4 and 12 hours. How long together? *(Answer: 3 hours; rate $1/4+1/12=1/3$.)*
+2. A pipe fills $2/5$ of a tank in 4 hours. How long for a full tank at the same rate? *(Answer: 10 hours; rate is $1/10$ tank per hour.)*
+3. A tank is one-quarter full; a pipe fills 1/8 tank per hour. How long to fill it? *(Answer: 6 hours; remaining $3/4$ divided by $1/8$.)*

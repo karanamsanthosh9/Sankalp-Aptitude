@@ -2,6 +2,16 @@
 
 > **LOOK FOR:** divisibility → factors → cycles → remainders.
 
+## Start with what the digits are telling you
+
+Number-system problems often become simpler when you stop calculating the whole number. Divisibility rules inspect just the digits that matter; prime factors describe all the ways a number can be built; and a repeating remainder cycle lets a huge exponent shrink to a small one.
+
+### Walk through: the last digit of $8^{23}$
+
+Track just the units digit: powers of 8 end in $8,4,2,6$, then repeat every four powers. Since $23=4(5)+3$, use the third entry in that cycle: 2.
+
+**Sanity check:** A cycle answer must be one of its listed digits. **Your turn:** what is the last digit of $3^{10}$? *(Answer: 9; the cycle is $3,9,7,1$, and $10$ leaves remainder 2 when divided by 4.)*
+
 ## ⚡ Formula cards
 
 | Find... | Formula / rule |
@@ -81,3 +91,9 @@ Huge power? ──> find cycle ──> exponent ÷ cycle length
 **Question:** How many trailing zeros does $125!$ have?
 - **Shortcut:** Count all factors of 5: $\lfloor125/5\rfloor+\lfloor125/25\rfloor+\lfloor125/125\rfloor$.
 - **Calculation:** $25+5+1$. **Answer: $31$.**
+
+## Quick practice
+
+1. Is 5,832 divisible by 9? *(Answer: yes; its digit sum is 18.)*
+2. How many positive factors does $72=2^3\cdot3^2$ have? *(Answer: $(3+1)(2+1)=12$.)*
+3. Find the remainder when $2^8$ is divided by 5. *(Answer: 1; powers of 2 cycle modulo 5 as $2,4,3,1$.)*

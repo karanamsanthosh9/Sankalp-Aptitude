@@ -2,6 +2,16 @@
 
 > **BASE FIRST:** write the original value as 100 before comparing percentages.
 
+## Every percentage needs a base
+
+A percentage tells you a portion of some reference value. For a change, that reference is normally the starting value. After a first percentage change, the new value becomes the base for the next change, so successive changes are best handled by multiplying factors rather than adding the percentages.
+
+### Walk through: rise 20%, then fall 10%
+
+Take the starting value as 100. A 20% rise makes it 120. The 10% decrease is now 10% of 120, or 12, leaving 108. The net change is an 8% increase.
+
+**Sanity check:** The decrease removes more than 10 units because it applies to 120, not 100. **Your turn:** increase 200 by 10%, then decrease the result by 10%. *(Answer: 198, a 1% decrease; $200(1.1)(0.9)$.)*
+
 ```text
 Original 100
     │ +20%
@@ -84,3 +94,9 @@ Original 100
 **Question:** After a 25% discount, a bag costs $900$. Find its marked price.
 - **Shortcut:** The sale price is $3/4$ of the marked price; multiply by $4/3$.
 - **Calculation:** $900\times\frac43=1200$. **Answer: $1,200$.**
+
+## Quick practice
+
+1. Find 15% of 200. *(Answer: 30; $0.15(200)$.)*
+2. A value falls from 80 to 68. Find the percentage decrease. *(Answer: 15%; decrease 12 divided by starting value 80.)*
+3. After a 20% increase, a value is 360. Find the original. *(Answer: 300; 360 is $1.2$ times the original.)*

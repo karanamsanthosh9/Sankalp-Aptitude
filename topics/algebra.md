@@ -2,6 +2,16 @@
 
 > **ALWAYS:** undo operations in reverse order.
 
+## Let's make the symbols feel familiar
+
+An equation is a balanced scale: whatever you do to one side, do to the other. To uncover an unknown, undo the operations in reverse order—first remove the added 7, then undo multiplication by 3. For expressions, identities are shortcuts that let us use a known sum or product without expanding everything from scratch.
+
+### Walk through: $3x+7=31$
+
+Subtract 7 from both sides: $3x=24$. Divide both sides by 3: $x=8$. Check by putting it back: $3(8)+7=31$, so both sides balance.
+
+**Sanity check:** Substitution should make the original equation true. **Your turn:** solve $4x+5=21$. *(Answer: $x=4$; $4(4)+5=21$.)*
+
 ```text
   3x + 7 = 31
   -7       -7       undo +7
@@ -84,3 +94,9 @@
 **Question:** If $x+y=17$ and $x-y=5$, find $x$ and $y$.
 - **Shortcut:** Add the equations to cancel $y$: $2x=22$, so $x=11$.
 - **Calculation:** $y=17-11=6$. **Answer: $x=11,\ y=6$.**
+
+## Quick practice
+
+1. Solve $5x-6=19$. *(Answer: $x=5$; add 6, then divide by 5.)*
+2. If $a+b=9$ and $ab=14$, find $a^2+b^2$. *(Answer: $81-28=53$.)*
+3. If $x+1/x=4$, find $x^2+1/x^2$. *(Answer: $4^2-2=14$.)*

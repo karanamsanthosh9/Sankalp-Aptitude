@@ -2,6 +2,16 @@
 
 > **SI:** same principal each year. **CI:** new balance each year.
 
+## Two ways interest can grow
+
+With simple interest, every period's interest is calculated from the original principal, so the add-on stays level. With compound interest, each new period works from the updated balance; the balance is multiplied again. That is why the compound amount uses one growth factor per period. For a decrease in value, use a factor below 1 instead.
+
+### Walk through: $10{,}000$ at 10% compound interest for 2 years
+
+After year 1, the balance is $10{,}000(1.10)=11{,}000$. The next 10% applies to $11{,}000$, making $12{,}100$. The interest earned is the final amount minus the original principal: $12{,}100-10{,}000=2{,}100$.
+
+**Sanity check:** Compound interest here should exceed simple interest ($2{,}000$), because year 2 earns interest on the first year's interest. **Your turn:** find the amount on $1{,}000$ at 10% for 2 years, compounded annually. *(Answer: $1{,}210$; $1000(1.1)^2$.)*
+
 ## ⚡ Formula cards
 
 | Situation | Formula |
@@ -82,3 +92,9 @@ CI:  P ── ×(1+r) ────────── ×(1+r) ──────�
 **Question:** Find CI minus SI on $10,000 at 10% for 3 years, compounded annually.
 - **Shortcut:** Compare amounts: CI amount $=10000(1.1)^3=13310$; SI $=3000$.
 - **Calculation:** CI is $3,310$, so difference $=3310-3000$. **Answer: $310$.**
+
+## Quick practice
+
+1. Find SI on $2{,}000$ at 5% for 3 years. *(Answer: $300$; $2000(5)(3)/100$.)*
+2. Find the amount on $5{,}000$ at 10% for one year, compounded annually. *(Answer: $5{,}500$; multiply by 1.10.)*
+3. A $800$ item depreciates by 25% once. What is its new value? *(Answer: $600$; retain 75% of the value.)*

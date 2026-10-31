@@ -1,10 +1,18 @@
-# Permutations and Combinations: Model-wise Notes
+# Permutations and Combinations
 
-## Part 1. What comes from this topic
+> Read this like a class: before counting, decide what counts as a different outcome.
+
+## 0. Start here: choose or arrange?
+
+Imagine choosing three students for a team, then imagine seating those same three students in a row. The team is unchanged when you swap two names, but the seating is different. That is the heart of this chapter: **selection** ignores order; **arrangement** cares about order. Other questions add rules such as “together,” “never together,” or “at least.”
+
+Start by naming the slots or the group, then check whether changing the order changes the answer. For example, choosing A and B is the same group as choosing B and A, so it is one selection, not two. A useful sense check is that an arrangement count should be at least as large as the corresponding selection count.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Fundamental counting principle and digit formation | 1 |
 | Linear arrangements and $^n P_r$ formula | 2 |
@@ -20,7 +28,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Number and sum of factors | 12 |
 | Sum of all numbers formed by given digits | 13 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -33,7 +41,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Seated around a circular table" | Fix 1 person to eliminate rotational symmetry: $(n-1)!$ |
 | "Identical coins among children" | Stars and bars: $^{n+r-1}C_{r-1}$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Permutation:** order matters $\implies ^n P_r = \dfrac{n!}{(n-r)!}$.
 - **Combination:** order does not matter $\implies ^n C_r = \dfrac{n!}{r!(n-r)!}$.
@@ -41,9 +49,9 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - **Addition rule (OR):** mutually exclusive cases add ($m + n$).
 - **Complement rule:** $\text{Ways without condition} = \text{Total ways} - \text{Ways with forbidden condition}$.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Fundamental counting principle and digit formation
+### Question type 1. Fundamental counting principle and digit formation
 
 **Idea:** fill positional slots from left to right respecting given constraints (zero cannot be the leading digit).
 
@@ -56,7 +64,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Hundreds: 5 choices (including 0). Tens: 4 choices. Units: 3 choices.
 - Total $= 5 \times 5 \times 4 \times 3 =$ **300**.
 
-### Model 2. Linear arrangements and $^n P_r$ formula
+### Question type 2. Linear arrangements and $^n P_r$ formula
 
 **Idea:** $n$ distinct objects can be arranged in a line in $n!$ ways; selecting and arranging $r$ objects from $n$ is $^n P_r$.
 
@@ -64,7 +72,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Choosing and ordering 4 chairs out of 7 is $^7 P_4 = \dfrac{7!}{(7-4)!} = 7 \times 6 \times 5 \times 4$.
 - Total $=$ **840**.
 
-### Model 3. Word arrangements with repeated letters
+### Question type 3. Word arrangements with repeated letters
 
 **Idea:** for $n$ total letters where letter 1 repeats $p$ times, letter 2 repeats $q$ times, total arrangements $= \dfrac{n!}{p!\,q!\,r!\dots}$.
 
@@ -76,7 +84,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Total letters $= 11$; M: 1, I: 4, S: 4, P: 2.
 - $\dfrac{11!}{4!\,4!\,2!} = \dfrac{39916800}{24 \times 24 \times 2} =$ **34650**.
 
-### Model 4. Items must come together (Tie / Block method)
+### Question type 4. Items must come together (Tie / Block method)
 
 **Idea:** treat the items that must stay together as a single super-item. Permute the resulting items, then multiply by the internal permutations of the block.
 
@@ -86,7 +94,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Units arrange in $4! = 24$ ways; vowels inside block arrange in $5! = 120$ ways.
 - Total $= 24 \times 120 =$ **2880**.
 
-### Model 5. Items never come together / Gap method
+### Question type 5. Items never come together / Gap method
 
 **Idea:** either subtract "all together" from total, or arrange unrestricted items first and place restricted items into the available gaps.
 
@@ -101,7 +109,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Place 4 girls into 6 gaps: $^6 P_4 = 6 \times 5 \times 4 \times 3 = 360$ ways.
 - Total $= 120 \times 360 =$ **43200**.
 
-### Model 6. Combinations and selection of groups ($^n C_r$)
+### Question type 6. Combinations and selection of groups ($^n C_r$)
 
 **Idea:** when order of selection does not matter, use $^n C_r = \dfrac{n!}{r!(n-r)!}$.
 
@@ -110,7 +118,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Ways to select 2 women from 6: $^6 C_2 = \dfrac{6 \times 5}{2 \times 1} = 15$.
 - Total $= 35 \times 15 =$ **525**.
 
-### Model 7. Selections with constraints
+### Question type 7. Selections with constraints
 
 **Idea:** split into mutually exclusive cases for "at least" or "at most"; reduce available pool for fixed inclusions or exclusions.
 
@@ -120,7 +128,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Case 3 (5 men, 0 women): $^6 C_5 \times ^4 C_0 = 6 \times 1 = 6$.
 - Total $= 120 + 60 + 6 =$ **186**.
 
-### Model 8. Geometry problems
+### Question type 8. Geometry problems
 
 **Idea:** straight lines from $n$ points $= ^n C_2$; triangles $= ^n C_3$; diagonals of $n$-sided polygon $= ^n C_2 - n = \dfrac{n(n-3)}{2}$; handshakes $= ^n C_2$.
 
@@ -132,7 +140,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Collinear points cannot form triangles: $^5 C_3 = 10$.
 - Valid triangles $= 220 - 10 =$ **210**.
 
-### Model 9. Circular permutations and necklaces
+### Question type 9. Circular permutations and necklaces
 
 **Idea:** $n$ distinct objects in a circle $= (n-1)!$. If clockwise and counter-clockwise arrangements are identical (necklaces, garlands), divide by 2: $\dfrac{(n-1)!}{2}$.
 
@@ -142,14 +150,14 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** In how many ways can 8 different beads be strung into a necklace?
 - $\dfrac{(8-1)!}{2} = \dfrac{7!}{2} = \dfrac{5040}{2} =$ **2520**.
 
-### Model 10. Distribution of items (Stars and bars) and division
+### Question type 10. Distribution of items (Stars and bars) and division
 
 **Idea:** distributing $n$ identical items into $r$ distinct bins gives $^{n+r-1}C_{r-1}$ ways (non-negative) or $^{n-1}C_{r-1}$ ways (each gets at least 1).
 
 **Example:** In how many ways can 10 identical coins be distributed among 3 children so that each gets at least 1 coin?
 - Stars and bars for positive integers: $^{10-1} C_{3-1} = ^9 C_2 = \dfrac{9 \times 8}{2} =$ **36**.
 
-### Model 11. Rank of a word in dictionary order
+### Question type 11. Rank of a word in dictionary order
 
 **Idea:** list letters in alphabetical order, count words starting with preceding letters, then step through prefix matches.
 
@@ -161,7 +169,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Words starting with R: alphabetical order gives RAKN (1st), RANK (2nd).
 - Rank $= 6 + 6 + 6 + 2 =$ **20**.
 
-### Model 12. Number and sum of factors
+### Question type 12. Number and sum of factors
 
 **Idea:** for $N = p_1^{a} p_2^{b} p_3^{c}$, total factors $= (a+1)(b+1)(c+1)$.
 
@@ -169,7 +177,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Prime factorisation: $360 = 2^3 \times 3^2 \times 5^1$.
 - Total factors $= (3+1)(2+1)(1+1) = 4 \times 3 \times 2 =$ **24**.
 
-### Model 13. Sum of all numbers formed by given digits
+### Question type 13. Sum of all numbers formed by given digits
 
 **Idea:** sum of all $n$-digit numbers formed by $n$ distinct non-zero digits without repetition $= (\text{Sum of digits}) \times (n-1)! \times \underbrace{11\dots 1}_{n\text{ ones}}$.
 
@@ -177,7 +185,28 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Sum of digits $= 1 + 2 + 3 = 6$.
 - Formula: $6 \times (3-1)! \times 111 = 6 \times 2 \times 111 =$ **1332**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** From 6 students, how many different 2-person teams can you choose? How many 2-person line-ups can you make?
+
+**Think it through:** For a team, order does not matter: $\binom{6}{2}=15$. For a line-up, first choose the first person (6 choices), then the second (5): $6\times5=30$. The arrangement count is twice the team count because each team can line up in two orders.
+
+### Quick revision
+
+- Selection: order does not matter, so use combinations.
+- Arrangement: order matters, so use permutations.
+- “Together” often means make a block; “no two together” often means arrange the others first and use gaps.
+- “At least” and “at most” usually mean split into non-overlapping cases or use a complement.
+
+### Common mistakes
+
+1. Counting the same committee more than once by treating its members as ordered.
+2. Forgetting the leading-zero restriction when making numbers.
+3. Forgetting to arrange the objects inside a block.
+4. Using combinations for placing distinct objects into positions.
+5. Applying stars and bars before checking whether each recipient must get at least one.
+
+## 6. Practice
 
 1. How many 3-digit numbers can be formed using digits 1, 2, 3, 4, 5 without repetition?
 2. How many 4-digit numbers can be formed using digits 0, 1, 2, 3, 4, 5 without repetition?

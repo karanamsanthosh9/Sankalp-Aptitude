@@ -1,10 +1,18 @@
-# Trigonometry and Heights and Distances: Model-wise Notes
+# Trigonometry and Heights and Distances
 
-## Part 1. What comes from this topic
+> Read this like a class: draw the right triangle first, mark the angle you can actually see, and label the sides relative to that angle.
+
+## 0. Start here: turn looking up into a triangle
+
+When you look up at a tower, the ground, the tower, and your line of sight form a right triangle. The angle of elevation is the angle at your eyes; the height and horizontal distance are the two sides that let you calculate with trigonometry. Looking down from a height gives an angle of depression, which matches the corresponding angle of elevation on the ground.
+
+Questions ask for a height, a distance, or an angle, often after someone moves to a second observation point. Draw one triangle for each position and label what stays the same. A useful sense check: from the same ground level, moving closer to a tower makes the angle of elevation larger.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Height of tower from angle of elevation and distance | 1 |
 | Distance from tower given angle of depression | 2 |
@@ -22,7 +30,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Angle between two buildings or objects | 14 |
 | Sum or product identity simplification | 15 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -36,7 +44,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "$\sin\theta = \dfrac{p}{h}$" | Use $\cos^2\theta + \sin^2\theta = 1$ to find other ratios |
 | "top angle $\alpha$, bottom angle $\beta$" | Two $\tan$ equations; subtract to isolate height of segment |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Standard values** (memorise):
 
@@ -50,9 +58,9 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - **Key relations:** $\tan\theta = \dfrac{\sin\theta}{\cos\theta}$; $\cot\theta = \dfrac{1}{\tan\theta}$; $\sec\theta = \dfrac{1}{\cos\theta}$; $\text{cosec}\,\theta = \dfrac{1}{\sin\theta}$.
 - **Complementary:** $\sin(90°-\theta) = \cos\theta$, $\tan(90°-\theta) = \cot\theta$.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Height of tower from angle of elevation
+### Question type 1. Height of tower from angle of elevation
 
 **Idea:** draw the right triangle; the tower is the opposite side, the horizontal distance is the adjacent side. $\tan\theta = \dfrac{h}{d}$.
 
@@ -62,14 +70,14 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** The angle of elevation is $45°$ and the height is 50 m. Find the distance from the tower.
 - $d = \dfrac{h}{\tan 45°} = \dfrac{50}{1} =$ **50 m**.
 
-### Model 2. Distance from base using angle of depression
+### Question type 2. Distance from base using angle of depression
 
 **Idea:** the angle of depression equals the angle of elevation from the ground (alternate interior angles). Set $\tan\theta = \dfrac{h}{d}$ and solve for $d$.
 
 **Example:** An observer at the top of a 40 m tower sees a car at an angle of depression of $30°$. Distance of the car from the base?
 - $\tan 30° = \dfrac{40}{d}$, so $d = \dfrac{40}{\tan 30°} = 40\sqrt{3} \approx$ **69.28 m**.
 
-### Model 3. Two elevation angles from two points on the same line
+### Question type 3. Two elevation angles from two points on the same line
 
 **Idea:** set up two equations ($\tan\alpha = h/x$ and $\tan\beta = h/(x+d)$), then divide or subtract to eliminate the unknown distance.
 
@@ -78,7 +86,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\tan 30° = h/(x+20) \Rightarrow x+20 = h\sqrt{3}$.
 - Subtracting: $h\sqrt{3} - h/\sqrt{3} = 20 \Rightarrow \dfrac{2h}{\sqrt{3}} = 20 \Rightarrow h = 10\sqrt{3} \approx$ **17.32 m**.
 
-### Model 4. Angles from foot and top of a building to a pole
+### Question type 4. Angles from foot and top of a building to a pole
 
 **Idea:** from the foot the elevation is large; from the top the elevation is smaller (since the observer is now closer in height). Write two $\tan$ equations and subtract.
 
@@ -88,7 +96,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - From top: $\tan 30° = (p-30)/d \Rightarrow (p-30)/(p/\sqrt{3}) = 1/\sqrt{3} \Rightarrow 3(p-30) = p \Rightarrow 2p = 90$.
 - $p =$ **45 m**.
 
-### Model 5. Shadow problems
+### Question type 5. Shadow problems
 
 **Idea:** the sun's angle of elevation $\theta$ satisfies $\tan\theta = \dfrac{\text{pole height}}{\text{shadow length}}$.
 
@@ -98,7 +106,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** A 10 m pole casts a shadow of 10 m. What is the angle of elevation of the sun?
 - $\tan\theta = 10/10 = 1 \Rightarrow \theta =$ **45°**.
 
-### Model 6. Elevation angle changes as observer moves closer
+### Question type 6. Elevation angle changes as observer moves closer
 
 **Idea:** the observer moves from point A to point B (closer to the tower). Write two $\tan$ equations and subtract distances.
 
@@ -107,7 +115,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - At $30°$: $\tan 30° = h/d_1 \Rightarrow d_1 = h\sqrt{3}$.
 - $d_1 - d_2 = 10$: $h\sqrt{3} - h = 10 \Rightarrow h(\sqrt{3}-1) = 10 \Rightarrow h = \dfrac{10}{\sqrt{3}-1} = 5(\sqrt{3}+1) \approx$ **13.66 m**.
 
-### Model 7. Width of river using two observation points
+### Question type 7. Width of river using two observation points
 
 **Idea:** the tower (or tree) stands on one bank; angles are measured from two points on the other bank separated by a known distance.
 
@@ -116,7 +124,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\tan 60° = h/w \Rightarrow h = w\sqrt{3}$.
 - $\tan 30° = h/(w+30) \Rightarrow 3w = w+30 \Rightarrow w =$ **15 m**. Height $= 15\sqrt{3}$ m.
 
-### Model 8. Cliff with a lighthouse on top
+### Question type 8. Cliff with a lighthouse on top
 
 **Idea:** two angles are given to the top and bottom of the lighthouse from a ship. The lighthouse sits on the cliff. Write two $\tan$ equations and subtract.
 
@@ -126,7 +134,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\tan 60° = (c+100)/d \Rightarrow c+100 = d\sqrt{3} = 3c \Rightarrow 2c = 100$.
 - Cliff height $=$ **50 m**.
 
-### Model 9. Ladder or inclined plane
+### Question type 9. Ladder or inclined plane
 
 **Idea:** a ladder of length $L$ leaning at angle $\theta$ from the ground: height $= L\sin\theta$, base distance $= L\cos\theta$.
 
@@ -134,7 +142,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Height $= 20\sin 60° = 20\times\dfrac{\sqrt{3}}{2} = 10\sqrt{3} \approx$ **17.32 m**.
 - Distance from wall $= 20\cos 60° = 20\times0.5 =$ **10 m**.
 
-### Model 10. Trigonometric identities
+### Question type 10. Trigonometric identities
 
 **Idea:** use $\sin^2\theta + \cos^2\theta = 1$ to find unknown ratios. Memorise the Pythagorean triples: $(3, 4, 5)$, $(5, 12, 13)$, $(8, 15, 17)$, $(7, 24, 25)$.
 
@@ -144,7 +152,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** $\tan\theta = \dfrac{5}{12}$. Find $\sec\theta$.
 - $\sec^2\theta = 1 + \tan^2\theta = 1 + \dfrac{25}{144} = \dfrac{169}{144}$. $\sec\theta = \dfrac{13}{12}$.
 
-### Model 11. Complementary angles
+### Question type 11. Complementary angles
 
 **Idea:** $\sin(90°-\theta)=\cos\theta$, $\cos(90°-\theta)=\sin\theta$, $\tan(90°-\theta)=\cot\theta$. Pairs that add to $90°$ simplify products to 1.
 
@@ -156,7 +164,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{cosec}\,50° = 1/\sin 50° = 1/\cos 40°$ (since $\sin 50° = \cos 40°$).
 - $\cos 40° \times (1/\cos 40°) =$ **1**.
 
-### Model 12. Tower seen from two directions (north-south)
+### Question type 12. Tower seen from two directions (north-south)
 
 **Idea:** set up two right triangles back-to-back. The total horizontal distance is the sum of the two base distances.
 
@@ -165,7 +173,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - From north: $\tan 30° = h/b \Rightarrow b = h\sqrt{3}$.
 - $a + b = 40$: $h + h\sqrt{3} = 40 \Rightarrow h = \dfrac{40}{1+\sqrt{3}} = 20(\sqrt{3}-1) \approx$ **14.64 m**.
 
-### Model 13. Moving object changing elevation angle
+### Question type 13. Moving object changing elevation angle
 
 **Idea:** a bird or aeroplane flies horizontally at a fixed height $H$. Its horizontal distance from the observer changes, causing the angle to change.
 
@@ -174,7 +182,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - At $60°$: $d_2 = 100/\tan 60° = 100/\sqrt{3}$.
 - Distance flown $= d_1 - d_2 = 100\sqrt{3} - 100/\sqrt{3} = \dfrac{200}{\sqrt{3}} = \dfrac{200\sqrt{3}}{3} \approx$ **115.47 m**.
 
-### Model 14. Angle between two buildings or objects
+### Question type 14. Angle between two buildings or objects
 
 **Idea:** draw the horizontal and the difference in heights. $\tan\theta = \dfrac{\text{height difference}}{\text{horizontal distance}}$.
 
@@ -182,7 +190,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Height difference $= 10$ m, horizontal distance $= 20$ m.
 - $\tan\theta = \dfrac{10}{20} = \dfrac{1}{2}$. $\theta = \arctan(0.5) \approx$ **26.57°**.
 
-### Model 15. Sum and product identity simplification
+### Question type 15. Sum and product identity simplification
 
 **Idea:** expand using algebraic identities, then apply Pythagorean identities to simplify.
 
@@ -191,7 +199,28 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $(\cos A + \sec A)^2 = \cos^2 A + 2 + \sec^2 A$.
 - Sum $= (\sin^2 A + \cos^2 A) + 4 + \text{cosec}^2 A + \sec^2 A = 1 + 4 + (1+\cot^2 A) + (1+\tan^2 A) =$ **$7 + \tan^2 A + \cot^2 A$**. Verified.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** You stand 20 m from a tree. The angle of elevation to its top is 45°. How tall is the tree, ignoring your eye height?
+
+**Think it through:** $\tan45°=\text{height}/20=1$, so the height is $\mathbf{20\text{ m}}$. At a 45° angle the opposite and adjacent sides are equal.
+
+### Quick revision
+
+- Draw the right triangle and identify opposite, adjacent, and hypotenuse relative to the marked angle.
+- Use $\tan\theta=\text{opposite}/\text{adjacent}$ for height and horizontal distance.
+- Use sine and cosine when the hypotenuse (such as a ladder) is involved.
+- Convert all lengths to the same unit before solving.
+
+### Common mistakes
+
+1. Measuring the angle from the vertical when the question gives it from the horizontal.
+2. Mixing up the horizontal distance and the slant line of sight.
+3. Using the full tower height when an observer is already above ground level.
+4. Forgetting that the angle of depression equals the matching angle of elevation.
+5. Choosing a trigonometric ratio before identifying which sides are known and unknown.
+
+## 6. Practice
 
 1. From a point 50 m away, the angle of elevation of a tower is $30°$. Find the height of the tower.
 2. The angle of elevation of a tower is $45°$ and the observer is 40 m from the base. Find the height.

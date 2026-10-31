@@ -1,10 +1,18 @@
-# Geometry: Model-wise Notes
+# Geometry
 
-## Part 1. What comes from this topic
+> Read this like a class: draw the figure, label what is given, and mark the angle or length you are trying to find.
+
+## 0. Start here: geometry is a story about relationships
+
+A diagram is more than a picture: parallel lines create equal angles, a triangle’s angles add to 180°, and a circle’s chords and tangents obey predictable relationships. Questions ask you to use one or more of these facts to find a missing angle, side, area, or coordinate.
+
+Begin by copying the given information onto a sketch. Then identify the relationship that connects it to the unknown. For example, if one angle on a straight line is 65°, the adjacent angle must be $180°-65°=115°$. Check that your final angles and lengths fit the figure—angles in a triangle must total 180°, and lengths must be positive.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Parallel lines, transversals, and intersecting angle pairs | 1 |
 | Triangle angle sum, exterior angles, and angle bisectors | 2 |
@@ -21,7 +29,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Coordinate geometry: distance, section, and midpoint formulas | 13 |
 | Coordinate geometry: area of triangle and line slopes | 14 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -36,16 +44,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Direct Common Tangent ($DCT$)" | $DCT = \sqrt{d^2 - (r_1 - r_2)^2}$ |
 | "Transverse Common Tangent ($TCT$)" | $TCT = \sqrt{d^2 - (r_1 + r_2)^2}$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Triangle angle sum:** Sum of angles $= 180^\circ$. Exterior angle equals the sum of two interior opposite angles.
 - **Centres of triangle:** Centroid ($G$, medians, $2:1$), Incentre ($I$, angle bisectors, equidistant from sides), Circumcentre ($O$, perpendicular bisectors, equidistant from vertices), Orthocentre ($H$, altitudes).
 - **Circle geometry:** Angle subtended at the centre is twice the angle subtended at any point on the remaining circumference. Angle in a semicircle is $90^\circ$.
 - **Polygons:** Sum of interior angles $= (n-2) \times 180^\circ$, Number of diagonals $= \dfrac{n(n-3)}{2}$, Sum of exterior angles $= 360^\circ$.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Parallel lines and transversals
+### Question type 1. Parallel lines and transversals
 
 **Idea:** When two parallel lines are cut by a transversal, alternate interior angles are equal, corresponding angles are equal, and consecutive interior (co-interior) angles are supplementary ($A + B = 180^\circ$).
 
@@ -58,7 +66,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\angle BOE = 70^\circ - 40^\circ =$ **30^\circ**.
 - $\angle COE = 180^\circ - 70^\circ = 110^\circ$, so reflex $\angle COE = 360^\circ - 110^\circ =$ **250^\circ**.
 
-### Model 2. Triangle angle properties and angle bisectors
+### Question type 2. Triangle angle properties and angle bisectors
 
 **Idea:** Angle sum $= 180^\circ$. Exterior angle $=$ sum of non-adjacent interior angles. Interior angle bisector theorem: $\dfrac{AB}{AC} = \dfrac{BD}{DC}$.
 
@@ -69,7 +77,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\dfrac{BD}{DC} = \dfrac{AB}{AC} = \dfrac{6}{8} = \dfrac{3}{4}$.
 - $BD = \dfrac{3}{3 + 4} \times 7 = \dfrac{3}{7} \times 7 =$ **3 cm**.
 
-### Model 3. Congruence, similarity, and Thales theorem
+### Question type 3. Congruence, similarity, and Thales theorem
 
 **Idea:** If $\triangle ABC \sim \triangle DEF$, then $\dfrac{\text{Area}(ABC)}{\text{Area}(DEF)} = \left(\dfrac{AB}{DE}\right)^2 = \left(\dfrac{BC}{EF}\right)^2$. If $DE \parallel BC$, then $\dfrac{AD}{DB} = \dfrac{AE}{EC}$ (Thales theorem).
 
@@ -81,7 +89,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\dfrac{AD}{DB} = \dfrac{AE}{EC} \implies \dfrac{3}{5} = \dfrac{4.5}{EC} \implies EC = \dfrac{5 \times 4.5}{3} = 7.5\text{ cm}$.
 - $AC = AE + EC = 4.5 + 7.5 =$ **12 cm** (and $EC =$ **7.5 cm**).
 
-### Model 4. Triangle centres
+### Question type 4. Triangle centres
 
 **Idea:** Incentre $I$: $\angle BIC = 90^\circ + \dfrac{\angle A}{2}$. Circumcentre $O$: $\angle BOC = 2\angle A$. Orthocentre $H$: $\angle BHC = 180^\circ - \angle A$. Centroid $G$: Divides median $AD$ in ratio $AG : GD = 2 : 1$.
 
@@ -93,7 +101,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** $G$ is the centroid of $\triangle ABC$ and $AD$ is a median of length $12\text{ cm}$. Find the lengths of $AG$ and $GD$.
 - $AG = \dfrac{2}{3} \times 12 =$ **8 cm**, $GD = \dfrac{1}{3} \times 12 =$ **4 cm**.
 
-### Model 5. Apollonius theorem and medians
+### Question type 5. Apollonius theorem and medians
 
 **Idea:** If $AD$ is a median to side $BC$, then $AB^2 + AC^2 = 2(AD^2 + BD^2) = 2\left(AD^2 + \left(\dfrac{BC}{2}\right)^2\right)$.
 
@@ -102,7 +110,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $7^2 + 9^2 = 2(AD^2 + 4^2) \implies 49 + 81 = 2(AD^2 + 16)$.
 - $130 = 2(AD^2 + 16) \implies AD^2 + 16 = 65 \implies AD^2 = 49 \implies AD =$ **7 cm**.
 
-### Model 6. Right-angled and equilateral triangles
+### Question type 6. Right-angled and equilateral triangles
 
 **Idea:** Right $\triangle ABC$ with altitude $BD$ on hypotenuse $AC$: $BD = \dfrac{AB \times BC}{AC}$, $BD^2 = AD \times CD$, $AB^2 = AD \times AC$.
 
@@ -113,7 +121,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Find the altitude of an equilateral triangle whose side is $8\text{ cm}$.
 - $\text{Altitude} = \dfrac{\sqrt{3}}{2} \times 8 =$ **$4\sqrt{3}\text{ cm}$**.
 
-### Model 7. Quadrilaterals and cyclic quadrilaterals
+### Question type 7. Quadrilaterals and cyclic quadrilaterals
 
 **Idea:** In a cyclic quadrilateral: $\angle A + \angle C = 180^\circ$, $\angle B + \angle D = 180^\circ$. Exterior angle equals the opposite interior angle.
 
@@ -124,7 +132,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Side $AB$ of cyclic quadrilateral $ABCD$ is produced to $E$. If exterior angle $\angle CBE = 85^\circ$, find $\angle ADC$.
 - Exterior angle equals opposite interior angle: $\angle ADC = \angle CBE =$ **85^\circ**.
 
-### Model 8. Circle chords and distances from centre
+### Question type 8. Circle chords and distances from centre
 
 **Idea:** Perpendicular from centre bisects chord: $r^2 = d^2 + \left(\dfrac{L}{2}\right)^2$. Intersecting chords theorem: $PA \cdot PB = PC \cdot PD$.
 
@@ -136,7 +144,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $AP \cdot PB = CP \cdot PD \implies 4 \times 6 = 3 \times PD \implies PD = 8\text{ cm}$.
 - $CD = CP + PD = 3 + 8 =$ **11 cm** (and $PD =$ **8 cm**).
 
-### Model 9. Angles subtended by arcs and chords
+### Question type 9. Angles subtended by arcs and chords
 
 **Idea:** Angle at centre is double the angle at circumference: $\angle AOB = 2\angle ACB$. Angles in the same segment are equal. Angle in a semicircle is $90^\circ$.
 
@@ -147,7 +155,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\angle ACB = 90^\circ$ (angle in semicircle).
 - $\angle ABC = 180^\circ - 90^\circ - 35^\circ =$ **55^\circ**.
 
-### Model 10. Tangents, secants, and alternate segment theorem
+### Question type 10. Tangents, secants, and alternate segment theorem
 
 **Idea:** Radius is perpendicular to tangent at point of contact. Tangent lengths from an external point are equal ($PA = PB$). Tangent-Secant theorem: $PT^2 = PA \cdot PB$.
 
@@ -158,7 +166,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $PB = PA + AB = 4 + 5 = 9\text{ cm}$.
 - $PT^2 = PA \times PB = 4 \times 9 = 36 \implies PT =$ **6 cm**.
 
-### Model 11. Common tangents to two circles
+### Question type 11. Common tangents to two circles
 
 **Idea:** Distance between centres $d$, radii $r_1$ and $r_2$. Direct Common Tangent: $DCT = \sqrt{d^2 - (r_1 - r_2)^2}$. Transverse Common Tangent: $TCT = \sqrt{d^2 - (r_1 + r_2)^2}$.
 
@@ -166,7 +174,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $DCT = \sqrt{13^2 - (8 - 3)^2} = \sqrt{169 - 25} = \sqrt{144} =$ **12 cm**.
 - $TCT = \sqrt{13^2 - (8 + 3)^2} = \sqrt{169 - 121} = \sqrt{48} =$ **$4\sqrt{3}\text{ cm}$**.
 
-### Model 12. Polygons and diagonals
+### Question type 12. Polygons and diagonals
 
 **Idea:** $n$-sided polygon: Sum of interior angles $= (n-2) \times 180^\circ$, Number of diagonals $= \dfrac{n(n-3)}{2}$, Sum of exterior angles $= 360^\circ$.
 
@@ -176,7 +184,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** The sum of the interior angles of a polygon is $1260^\circ$. Find the number of sides.
 - $(n - 2) \times 180^\circ = 1260^\circ \implies n - 2 = \dfrac{1260}{180} = 7 \implies n =$ **9 sides**.
 
-### Model 13. Coordinate geometry: distance, section, and midpoint
+### Question type 13. Coordinate geometry: distance, section, and midpoint
 
 **Idea:** Distance $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. Section point $P = \left(\dfrac{mx_2 + nx_1}{m + n}, \dfrac{my_2 + ny_1}{m + n}\right)$. Midpoint $= \left(\dfrac{x_1 + x_2}{2}, \dfrac{y_1 + y_2}{2}\right)$.
 
@@ -187,7 +195,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $x = \dfrac{2(6) + 3(1)}{2 + 3} = \dfrac{12 + 3}{5} = 3$, $y = \dfrac{2(7) + 3(2)}{2 + 3} = \dfrac{14 + 6}{5} = 4$.
 - Point $P =$ **(3, 4)**.
 
-### Model 14. Coordinate geometry: area and line slopes
+### Question type 14. Coordinate geometry: area and line slopes
 
 **Idea:** Area of triangle $= \dfrac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$. Slope $m = \dfrac{y_2 - y_1}{x_2 - x_1}$. Parallel lines: $m_1 = m_2$. Perpendicular lines: $m_1 m_2 = -1$.
 
@@ -198,7 +206,28 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Slope $m = \dfrac{7 - 3}{4 - 2} = \dfrac{4}{2} =$ **2**.
 - Perpendicular slope $= -\dfrac{1}{m} =$ **$-\dfrac{1}{2}$**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** Two angles in a triangle are 48° and 67°. Find the third angle.
+
+**Think it through:** All three angles sum to 180°, so the missing angle is $180°-48°-67°=\mathbf{65°}$. The three values add back to 180°.
+
+### Quick revision
+
+- Write down the theorem before substituting values.
+- Similar figures have corresponding sides in the same ratio; their areas scale by the square of that ratio.
+- In a cyclic quadrilateral, opposite angles add to 180°.
+- For coordinate questions, use the labelled coordinates in a consistent order.
+
+### Common mistakes
+
+1. Confusing equal angles with supplementary angles.
+2. Comparing the wrong corresponding sides in similar triangles.
+3. Treating the angle at the centre as equal to the angle at the circumference; for the same arc, the centre angle is twice the inscribed angle.
+4. Using a theorem without checking its condition (for example, cyclicity or parallel lines).
+5. Losing a negative sign in coordinate differences.
+
+## 6. Practice
 
 1. In two parallel lines cut by a transversal, one co-interior angle is $125^\circ$. Find the other co-interior angle.
 2. Two angles of a linear pair are in the relationship where one exceeds the other by $40^\circ$. Find the smaller angle.

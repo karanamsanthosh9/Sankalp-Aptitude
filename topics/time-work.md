@@ -2,6 +2,16 @@
 
 > **NEVER ADD DAYS.** Convert each worker to rate, then add rates.
 
+## Imagine the job as a pile of work
+
+Days describe how long a worker needs; rates describe how much of the job is completed each day. A worker who finishes in 12 days does $1/12$ of the job per day. With people working together, add the fractions completed per day, then divide the remaining work by the new rate. This same idea handles a team change: find completed work first, then switch rates.
+
+### Walk through: one worker joins later
+
+A finishes in 10 days, so in 2 days alone A completes $2/10=1/5$ of the job. The remaining $4/5$ is done by the pair at rate $1/10+1/15=1/6$ per day. It takes $(4/5)/(1/6)=24/5=4.8$ more days, or 6.8 days total.
+
+**Sanity check:** The pair is faster than A alone, but the first two days were solo work. **Your turn:** if A does $1/4$ of a job in 3 days, how long for the whole job? *(Answer: 12 days; multiply the time by 4.)*
+
 ## ⚡ Formula cards
 
 | Situation | Formula |
@@ -80,3 +90,9 @@ Together         →  add rates → flip to get days
 **Question:** A finishes in 8 days and B in 12 days. How much work do they complete together in 2 days?
 - **Shortcut:** Let total work be $\text{LCM}(8,12)=24$ units. Rates are 3 and 2 units/day.
 - **Calculation:** Together they do $5(2)=10$ units, or **$\frac{10}{24}=\frac{5}{12}$ of the job**.
+
+## Quick practice
+
+1. A takes 8 days and B takes 8 days. How long together? *(Answer: 4 days; their rates add to $1/4$ job per day.)*
+2. A and B together finish in 5 days; A alone takes 10. How long for B alone? *(Answer: 10 days; B's rate is $1/5-1/10=1/10$.)*
+3. Nine equally efficient workers finish in 12 days. How long for 18 workers? *(Answer: 6 days; doubling workers halves the time.)*

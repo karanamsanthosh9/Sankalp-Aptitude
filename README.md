@@ -1,9 +1,9 @@
 # Sankalp-Aptitude
 Curated master repository for Quantitative Aptitude &amp; Reasoning. Topic-wise global shortcut tricks, high-yield model classifications, and exam-specific blueprint strategies for APPSC, RRB (NTPC/Group D/JE), SSC (CGL/CHSL), and PSUs.
 
-Topic notes are designed as quick revision sheets: visual shortcut maps first, then worked exam patterns.
+Topic notes are written as guided lessons: they introduce the idea in plain language, explain the method, and build it up through worked examples and practice.
 
-Each topic includes a compact formula reference and ten solved examples. For rendered equations, view the Markdown on GitHub or in a math-enabled Markdown preview.
+The numbered chapters provide detailed explanations and practice; the notes in `topics/` offer a concise, reader-friendly companion. For rendered equations, view the Markdown on GitHub or in a math-enabled Markdown preview.
 
 ## Quantitative Aptitude
 

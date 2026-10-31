@@ -1,10 +1,18 @@
-# Calendars: Model-wise Notes
+# Calendars
 
-## Part 1. What comes from this topic
+> Read this like a class: a calendar question is a counting question, and the only part that matters for weekdays is the remainder after groups of seven days.
+
+## 0. Start here: why do weekdays shift?
+
+A week has 7 days. After 7, 14, or 21 days, the weekday is unchanged; only the leftover days move it forward. An ordinary year has 365 days, or 52 weeks and 1 extra day, so the same date shifts by one weekday. A leap year has 2 extra days, so it shifts by two.
+
+Questions ask for a weekday on a date, a matching calendar, or the number of times a weekday can occur. First identify the time span, count the days that are actually crossed, and keep only the remainder upon division by 7. As a sense check, moving forward by a positive number of days should never move backward through the week.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Day of the week for an absolute date | 1 |
 | Reference date given within the same year | 2 |
@@ -19,7 +27,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Relative day language (days before yesterday/after tomorrow) | 11 |
 | Finding all dates of a given weekday in a month | 12 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -30,16 +38,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Which two months have identical calendars?" | Months whose intervening days sum to a multiple of 7 |
 | "Day before yesterday was Thursday" | Reference day algebra relative to Today $= 0$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Odd days:** the remainder when total days are divided by 7 ($\text{Days} \pmod 7$).
 - **Ordinary year:** 365 days $= 52\text{ weeks} + 1\text{ odd day}$. **Leap year:** 366 days $= 52\text{ weeks} + 2\text{ odd days}$.
 - **Century odd days:** 100 yrs $= 5$, 200 yrs $= 3$, 300 yrs $= 1$, 400 yrs $= 0$.
 - **Day codes:** $0 = \text{Sunday}, 1 = \text{Monday}, 2 = \text{Tuesday}, 3 = \text{Wednesday}, 4 = \text{Thursday}, 5 = \text{Friday}, 6 = \text{Saturday}$.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Day of the week for an absolute date
+### Question type 1. Day of the week for an absolute date
 
 **Idea:** split into completed centuries $+$ completed years $+$ days in the current year, then take $\text{total odd days} \pmod 7$.
 
@@ -55,7 +63,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Jan 1950: 26 days $\equiv 5\text{ odd days}$.
 - Total $= 6 + 5 = 11 \equiv 4\implies$ **Thursday**.
 
-### Model 2. Reference date given within the same year
+### Question type 2. Reference date given within the same year
 
 **Idea:** count days between dates and take remainder modulo 7.
 
@@ -66,7 +74,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $153 \div 7 = 21$ weeks $+ 6$ odd days.
 - $\text{Tuesday} + 6\text{ days} =$ **Monday**.
 
-### Model 3. Reference date given in different years
+### Question type 3. Reference date given in different years
 
 **Idea:** each ordinary year adds $+1$ day; each leap year whose February 29 is included adds $+2$ days.
 
@@ -81,7 +89,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Total odd days $= 8 + 2 = 10 \equiv 3\pmod 7$.
 - $\text{Thursday} + 3\text{ days} =$ **Sunday**.
 
-### Model 4. Repetition of calendar years
+### Question type 4. Repetition of calendar years
 
 **Idea:** a year immediately after a leap year repeats in $+6$ years; other ordinary years repeat in $+11$ years; leap years repeat in $+28$ years.
 
@@ -93,7 +101,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - 2024 is a leap year $\implies +28$ years.
 - $2024 + 28 =$ **2052**.
 
-### Model 5. Same calendar months within a year
+### Question type 5. Same calendar months within a year
 
 **Idea:** two months have identical calendars if the total odd days between their starting days is a multiple of 7.
 
@@ -102,7 +110,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Sum Jan to Sep $= 3 + 0 + 3 + 2 + 3 + 2 + 3 + 3 + 2 = 21 \equiv 0\pmod 7$.
 - Answer: **October**.
 
-### Model 6. Odd days in century spans
+### Question type 6. Odd days in century spans
 
 **Idea:** 100 years has 24 leap years and 76 ordinary years $= 24\times 2 + 76\times 1 = 124 \equiv 5\pmod 7$.
 
@@ -111,7 +119,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $300\text{ yrs} = 3 \times 5 = 15 \equiv 1\pmod 7$.
 - Answer: **1 odd day**.
 
-### Model 7. Leap year and century leap year rules
+### Question type 7. Leap year and century leap year rules
 
 **Idea:** non-century years are leap if divisible by 4; century years are leap only if divisible by 400.
 
@@ -119,7 +127,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $1900 \div 400 = 4.75$ (not divisible by 400) $\implies$ **1900 is an ordinary year**.
 - $2000 \div 400 = 5$ (divisible by 400) $\implies$ **2000 is a leap year**.
 
-### Model 8. First and last days of a century
+### Question type 8. First and last days of a century
 
 **Idea:** last day of 100th, 200th, 300th, 400th century has odd days 5, 3, 1, 0, which correspond to Friday, Wednesday, Monday, Sunday.
 
@@ -127,7 +135,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Possible last days: Friday (5), Wednesday (3), Monday (1), Sunday (0).
 - Impossible last days: **Tuesday, Thursday, Saturday**.
 
-### Model 9. Frequency of weekdays and 53 Sundays
+### Question type 9. Frequency of weekdays and 53 Sundays
 
 **Idea:** ordinary year has $365 = 52\times 7 + 1$ (1 extra day); leap year has $366 = 52\times 7 + 2$ (2 extra days).
 
@@ -136,7 +144,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Out of 7 pairs, 2 contain Sunday: (Sat, Sun) and (Sun, Mon).
 - Probability $= \mathbf{\dfrac{2}{7}}$.
 
-### Model 10. Birthday and anniversary day shifts
+### Question type 10. Birthday and anniversary day shifts
 
 **Idea:** each non-leap birthday advances by $+1$ day; leap year birthday advances by $+2$ days if Feb 29 falls between the two dates.
 
@@ -145,7 +153,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Cumulative odd days: 2020: 2, 2021: 3, 2022: 4, 2023: 5, 2024: $5 + 2 = 7 \equiv 0\pmod 7$.
 - Answer: **2024**.
 
-### Model 11. Relative day language
+### Question type 11. Relative day language
 
 **Idea:** set $\text{Today} = 0$. Yesterday $= -1$, Tomorrow $= +1$. Add or subtract days algebraically.
 
@@ -155,7 +163,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Difference $= +3 - (-4) = 7$ days $\equiv 0\pmod 7$.
 - Answer: **Wednesday**.
 
-### Model 12. Finding all dates of a given weekday in a month
+### Question type 12. Finding all dates of a given weekday in a month
 
 **Idea:** find the day of the week on the 1st of the month, then locate the first required weekday and add 7 repeatedly.
 
@@ -164,7 +172,28 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - 1st is Sunday $\implies$ 2nd is Monday, 3rd is Tuesday, 4th is Wednesday.
 - Wednesdays: **4th, 11th, 18th, 25th April**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** If today is Wednesday, what weekday will it be 100 days from today?
+
+**Think it through:** $100=14\times7+2$. The full weeks do not change the weekday; move two days ahead: Wednesday → Thursday → **Friday**.
+
+### Quick revision
+
+- Count crossed days, then reduce the total modulo 7.
+- An ordinary year shifts a date by one weekday; a leap year shifts it by two only when February 29 is crossed.
+- Apply the century leap-year rule: divisible by 4, except century years must also be divisible by 400.
+- For weekday frequency, a normal year has 52 of each weekday and one extra; a leap year has two extra consecutive weekdays.
+
+### Common mistakes
+
+1. Counting both endpoint dates when counting the gap between dates.
+2. Forgetting whether February 29 lies inside the interval.
+3. Treating every century year as a leap year.
+4. Adding all days without reducing modulo 7.
+5. Assuming that 53 occurrences can only happen for Sunday; it depends on the weekday(s) left over.
+
+## 6. Practice
 
 1. What day of the week was 15 August 1947?
 2. What day of the week was 26 January 1950?

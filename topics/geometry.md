@@ -2,6 +2,16 @@
 
 > **DRAW → MARK GIVEN ANGLES/SIDES → APPLY ONE RULE.**
 
+## Let the diagram organize the information
+
+In geometry, mark the facts you know before calculating: equal sides, a right angle, parallel lines, or a shared arc. Then choose a rule that uses those facts. For a triangle, the angle sum is 180°; for a right triangle, side lengths follow Pythagoras; for similar shapes, side and area ratios scale differently.
+
+### Walk through: an isosceles triangle
+
+If the vertex angle is $40^\circ$, the two equal base angles share the remaining $180^\circ-40^\circ=140^\circ$. Each is $140^\circ/2=70^\circ$.
+
+**Sanity check:** $40+70+70=180^\circ$, and the equal sides face equal angles. **Your turn:** a triangle has angles $50^\circ$ and $60^\circ$. Find the third. *(Answer: $70^\circ$; subtract the known angles from 180°.)*
+
 ## ⚡ Formula cards
 
 | Spot this... | Use this... |
@@ -87,3 +97,9 @@ Right triangle: |\
 **Question:** Find each exterior angle of a regular 10-sided polygon.
 - **Shortcut:** Exterior angles always total $360^\circ$.
 - **Calculation:** $360^\circ/10$. **Answer: $36^\circ$.**
+
+## Quick practice
+
+1. A right triangle has legs 6 and 8. Find the hypotenuse. *(Answer: 10; $\sqrt{6^2+8^2}$.)*
+2. Find each interior angle of a regular pentagon. *(Answer: $108^\circ$; $(5-2)180^\circ/5$.)*
+3. Similar figures have corresponding side ratio $3:4$. What is their area ratio? *(Answer: $9:16$; square the side ratio.)*

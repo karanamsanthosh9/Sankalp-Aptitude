@@ -2,6 +2,16 @@
 
 > **READ → MARK → CALCULATE.** Units and base first.
 
+## Read the story before doing arithmetic
+
+A chart is a compact data story. First identify what each entry measures and which row or time period the question refers to. Then choose the operation: add for a total, divide a part by its correct whole for a share, or compare the change with the starting value for percentage growth. This prevents a correct calculation on the wrong numbers.
+
+### Walk through: growth from 40 to 50
+
+The new value is 50 and the old (starting) value is 40. The increase is $50-40=10$. Percentage increase is $10/40\times100\%=25\%$.
+
+**Sanity check:** The change is one quarter of 40, so 25% is reasonable. **Your turn:** a value rises from 80 to 100. What is the percentage increase? *(Answer: 25%; the increase of 20 is one quarter of 80.)*
+
 ## ⚡ Formula cards
 
 | Find... | Formula |
@@ -86,3 +96,9 @@ Use this data for Questions 1-3 and 8-10: sales (units) for A and B are 40 and 6
 **Question:** Find the percentage increase in combined sales from Year 1 to Year 2.
 - **Shortcut:** Year 1 total $=100$; Year 2 total $=120$. Change $=20$.
 - **Calculation:** $20/100\times100\%$. **Answer: $20\%$.**
+
+## Quick practice
+
+1. A category has 30 units out of a total of 120. What is its share? *(Answer: 25%; $30/120\times100\%$.)*
+2. Find the average of 18 and 26. *(Answer: 22; total 44 divided by 2.)*
+3. A pie sector is $72^\circ$ in a total of 500. What value does it represent? *(Answer: 100; $72/360=1/5$ of the total.)*

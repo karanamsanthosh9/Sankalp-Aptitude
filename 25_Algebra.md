@@ -1,10 +1,18 @@
-# Algebra: Model-wise Notes
+# Algebra
 
-## Part 1. What comes from this topic
+> Read this like a class: an equation is a balance, and every operation must preserve that balance.
+
+## 0. Start here: turn words into a relationship
+
+Imagine balancing two sides of a scale. If you add, subtract, multiply, or divide one side, do the same to the other. That simple picture carries you from one-step equations to simultaneous equations and quadratics. Algebra questions ask you to find an unknown, describe how roots are related, test whether real roots exist, or simplify an expression without calculating every power directly.
+
+First decide what the unknown represents and write the relationship. Solve it, then substitute your answer back into the original equation. For a quadratic word problem, also check which roots make sense in the story: a length or count cannot be negative.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Linear equations in one variable | 1 |
 | Simultaneous linear equations in two variables | 2 |
@@ -22,7 +30,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Quadratic word problems | 14 |
 | Inequality comparison of quadratic roots (Banking type) | 15 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -34,7 +42,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "If $a + b + c = 0$" | $a^3 + b^3 + c^3 = 3abc$ |
 | "Quantity A vs Quantity B" | Solve both quadratics and compare root sets |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Linear system:** $a_1 x + b_1 y = c_1$, $a_2 x + b_2 y = c_2$.
 - **Quadratic formula:** for $ax^2 + bx + c = 0$, $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
@@ -42,9 +50,9 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - **Discriminant:** $D = b^2 - 4ac$. $D > 0 \implies$ real and distinct; $D = 0 \implies$ real and equal; $D < 0 \implies$ complex/no real roots.
 - **Extrema of $ax^2+bx+c$:** occurs at $x = -\dfrac{b}{2a}$; value is $\dfrac{4ac-b^2}{4a}$ (minimum if $a>0$, maximum if $a<0$).
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Linear equations in one variable
+### Question type 1. Linear equations in one variable
 
 **Idea:** expand brackets, collect like terms on one side, isolate $x$.
 
@@ -53,7 +61,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $2x - 7 = 11 \implies 2x = 18$.
 - $x =$ **9**.
 
-### Model 2. Simultaneous linear equations in two variables
+### Question type 2. Simultaneous linear equations in two variables
 
 **Idea:** eliminate one variable by multiplying equations by suitable coefficients.
 
@@ -63,7 +71,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Substitute $x = 5$: $3(5) + 2y = 23 \implies 2y = 8 \implies y = 4$.
 - Solution: **$x = 5, y = 4$**.
 
-### Model 3. Consistency of linear systems
+### Question type 3. Consistency of linear systems
 
 **Idea:** compare $\dfrac{a_1}{a_2}, \dfrac{b_1}{b_2}, \dfrac{c_1}{c_2}$. Unique: $\neq$; Infinite: all equal; No solution: first two equal, third unequal.
 
@@ -73,7 +81,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** For what value of $p$ does $px + 3y = 5$ and $2x + 6y = 8$ have no solution?
 - $\dfrac{p}{2} = \dfrac{3}{6} \neq \dfrac{5}{8} \implies \dfrac{p}{2} = \dfrac{1}{2} \implies p =$ **1**.
 
-### Model 4. Word problems leading to linear equations
+### Question type 4. Word problems leading to linear equations
 
 **Idea:** express given statements as a system of linear equations.
 
@@ -84,7 +92,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Add equations: $2n = 50 \implies n = 25$, so $p = 10$.
 - Cost: **Pen = Rs 10, Notebook = Rs 25** (combined **Rs 35**).
 
-### Model 5. Solving quadratic equations by factorisation and formula
+### Question type 5. Solving quadratic equations by factorisation and formula
 
 **Idea:** split the middle term into two numbers whose product is $ac$ and sum is $b$.
 
@@ -93,7 +101,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $2x^2 - 6x - x + 3 = 2x(x - 3) - 1(x - 3) = (2x - 1)(x - 3) = 0$.
 - Roots: **$x = \dfrac{1}{2}, 3$**.
 
-### Model 6. Relations between roots and coefficients
+### Question type 6. Relations between roots and coefficients
 
 **Idea:** $\alpha + \beta = -\dfrac{b}{a}$, $\alpha\beta = \dfrac{c}{a}$. New equation with roots $r_1, r_2$ is $x^2 - (r_1+r_2)x + r_1r_2 = 0$.
 
@@ -102,7 +110,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - New sum $= 2(\alpha+\beta) = 10$. New product $= 4\alpha\beta = 24$.
 - Equation: **$x^2 - 10x + 24 = 0$**.
 
-### Model 7. Symmetric expressions in roots
+### Question type 7. Symmetric expressions in roots
 
 **Idea:** express required terms in $\alpha+\beta$ and $\alpha\beta$: $\alpha^2+\beta^2 = (\alpha+\beta)^2 - 2\alpha\beta$; $\alpha^3+\beta^3 = (\alpha+\beta)^3 - 3\alpha\beta(\alpha+\beta)$.
 
@@ -111,7 +119,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\alpha^2 + \beta^2 = 6^2 - 2(4) = 36 - 8 =$ **28**.
 - $\alpha^3 + \beta^3 = 6^3 - 3(4)(6) = 216 - 72 =$ **144**.
 
-### Model 8. Nature of roots and discriminant
+### Question type 8. Nature of roots and discriminant
 
 **Idea:** $D = b^2 - 4ac$. Equal roots $\implies D = 0$. Real roots $\implies D \ge 0$.
 
@@ -119,7 +127,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $D = (-k)^2 - 4(3)(12) = k^2 - 144 = 0$.
 - $k^2 = 144 \implies k =$ **$\pm 12$**.
 
-### Model 9. Common roots between two quadratic equations
+### Question type 9. Common roots between two quadratic equations
 
 **Idea:** find roots of the simpler equation and substitute into the second, or factorise both.
 
@@ -128,7 +136,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Roots of second: $x = 3, 4$.
 - Common root: **3**.
 
-### Model 10. Maximum and minimum value of quadratic expressions
+### Question type 10. Maximum and minimum value of quadratic expressions
 
 **Idea:** for $ax^2 + bx + c$, vertex at $x = -\dfrac{b}{2a}$, value $= \dfrac{4ac-b^2}{4a}$.
 
@@ -136,7 +144,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Here $a = 2 > 0$ (has minimum). Vertex at $x = -\dfrac{-8}{2(2)} = 2$.
 - Minimum value $= 2(2)^2 - 8(2) + 11 = 8 - 16 + 11 =$ **3**.
 
-### Model 11. Standard algebraic identities ($x + \frac{1}{x}$)
+### Question type 11. Standard algebraic identities ($x + \frac{1}{x}$)
 
 **Idea:** $(x + \frac{1}{x})^2 = x^2 + \frac{1}{x^2} + 2 \implies x^2 + \frac{1}{x^2} = k^2 - 2$; $x^3 + \frac{1}{x^3} = k^3 - 3k$.
 
@@ -144,7 +152,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $x^2 + \dfrac{1}{x^2} = 3^2 - 2 =$ **7**.
 - $x^3 + \dfrac{1}{x^3} = 3^3 - 3(3) = 27 - 9 =$ **18**.
 
-### Model 12. Higher power identities
+### Question type 12. Higher power identities
 
 **Idea:** $x^4 + \dfrac{1}{x^4} = (x^2 + \dfrac{1}{x^2})^2 - 2$; $x^5 + \dfrac{1}{x^5} = (x^2 + \dfrac{1}{x^2})(x^3 + \dfrac{1}{x^3}) - (x + \dfrac{1}{x})$.
 
@@ -152,14 +160,14 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $x^2 + \dfrac{1}{x^2} = 7$, $x^3 + \dfrac{1}{x^3} = 18$.
 - $x^5 + \dfrac{1}{x^5} = (7 \times 18) - 3 = 126 - 3 =$ **123**.
 
-### Model 13. Three-variable identity ($a^3+b^3+c^3-3abc$)
+### Question type 13. Three-variable identity ($a^3+b^3+c^3-3abc$)
 
 **Idea:** if $a + b + c = 0$, then $a^3 + b^3 + c^3 = 3abc$.
 
 **Example:** Evaluate $15^3 + (-10)^3 + (-5)^3$.
 - $15 + (-10) + (-5) = 0 \implies a^3 + b^3 + c^3 = 3(15)(-10)(-5) = 3 \times 750 =$ **2250**.
 
-### Model 14. Quadratic word problems
+### Question type 14. Quadratic word problems
 
 **Idea:** set up an equation from word description, form standard quadratic $ax^2+bx+c=0$.
 
@@ -168,7 +176,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $(x + 14)(x - 12) = 0 \implies x = 12$ (as $x > 0$).
 - Numbers: **12 and 14**.
 
-### Model 15. Inequality comparison of quadratic roots (Banking type)
+### Question type 15. Inequality comparison of quadratic roots (Banking type)
 
 **Idea:** solve both equations for $x$ and $y$, compare all pairs $(x_i, y_j)$.
 
@@ -177,7 +185,28 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Equation II: $(y - 4)(y - 5) = 0 \implies y = 4, 5$.
 - Comparing: $3 < 4, 3 < 5, 4 \le 4, 4 < 5 \implies \mathbf{x \le y}$.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** Solve $3(x-2)=12$, then check your answer in the original equation.
+
+**Think it through:** Divide both sides by 3: $x-2=4$. Add 2: $x=\mathbf{6}$. Check: $3(6-2)=3\times4=12$.
+
+### Quick revision
+
+- Keep an equation balanced by applying the same operation to both sides.
+- For a quadratic, identify $a,b,c$ before using the discriminant or quadratic formula.
+- Use the sum and product of roots when an expression is symmetric in the roots.
+- The sign of $a$ tells whether a quadratic has a minimum ($a>0$) or maximum ($a<0$).
+
+### Common mistakes
+
+1. Changing a sign when moving a term without applying the operation to both sides.
+2. Forgetting the denominator $2a$ in the quadratic formula.
+3. Using root sum $b/a$ instead of $-b/a$.
+4. Treating a negative discriminant as real roots.
+5. Keeping an algebraic root that cannot fit the word problem.
+
+## 6. Practice
 
 1. Solve for $x$: $5(2x - 3) - 3(3x - 1) = 4$.
 2. Solve for $x$: $\dfrac{2x + 5}{3} - \dfrac{x - 2}{4} = 3$.

@@ -1,10 +1,18 @@
-# Mensuration 3D: Model-wise Notes
+# Mensuration 3D
 
-## Part 1. What comes from this topic
+> Read this like a class: picture the solid you are measuring, and ask whether you need what it holds or what must be covered.
+
+## 0. Start here: inside or outside?
+
+A box has a volume—the space inside it—and a surface area—the material needed to cover it. A water tank question may ask how much it holds; a painting question asks for surface area. This chapter uses the same distinction for cubes, cylinders, cones, spheres, and combinations of solids.
+
+Sketch the solid and mark its dimensions before choosing a formula. Volume uses cubic units; area uses square units. As a sense check, doubling every length makes a solid’s volume eight times as large, because $2^3=8$, while each surface area becomes four times as large.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Cube (volume, surface areas, space diagonal) | 1 |
 | Cuboid and longest rod in a room | 2 |
@@ -21,7 +29,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Immersion of solid objects in liquids and level rise | 13 |
 | Percentage and ratio changes in 3D dimensions | 14 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -35,16 +43,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Water flows at speed $v$ through pipe radius $r$" | Volume per second $= \pi r^2 v$ |
 | "Solid immersed into liquid in container" | $\text{Base area of container} \times \text{Rise in level} = \text{Volume of solid}$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Volume:** Space occupied. Cube $= a^3$, Cuboid $= lbh$, Cylinder $= \pi r^2 h$, Cone $= \dfrac{1}{3}\pi r^2 h$, Sphere $= \dfrac{4}{3}\pi r^3$, Hemisphere $= \dfrac{2}{3}\pi r^3$.
 - **Surface areas:** Curved/Lateral Surface Area (CSA/LSA) covers the sides only. Total Surface Area (TSA) includes top and bottom bases: $\text{TSA} = \text{CSA} + \text{Base areas}$.
 - **Prism and Pyramid rule:** Prism volume $= \text{Base area} \times h$. Pyramid volume $= \dfrac{1}{3} \times \text{Base area} \times h$.
 - When melting or recasting, mass and volume are conserved: $N \times V_{\text{small}} = V_{\text{large}}$. Standard convention takes $\pi = \dfrac{22}{7}$.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Cube
+### Question type 1. Cube
 
 **Idea:** Side $a$. Volume $V = a^3$, $\text{LSA} = 4a^2$, $\text{TSA} = 6a^2$, Space diagonal $d = a\sqrt{3}$.
 
@@ -58,7 +66,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Volume} = 8^3 =$ **512 $\text{cm}^3$**.
 - $\text{TSA} = 6 \times 8^2 = 6 \times 64 =$ **384 $\text{cm}^2$**.
 
-### Model 2. Cuboid
+### Question type 2. Cuboid
 
 **Idea:** Dimensions $l, b, h$. Volume $V = lbh$, $\text{TSA} = 2(lb + bh + hl)$, Area of 4 walls $= 2(l + b)h$, Space diagonal $d = \sqrt{l^2 + b^2 + h^2}$.
 
@@ -70,7 +78,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Find the length of the longest rod that can be placed in a room $12\text{ m}$ long, $9\text{ m}$ broad, and $8\text{ m}$ high.
 - $\text{Longest rod} = \sqrt{12^2 + 9^2 + 8^2} = \sqrt{144 + 81 + 64} = \sqrt{289} =$ **17 m**.
 
-### Model 3. Right circular cylinder
+### Question type 3. Right circular cylinder
 
 **Idea:** Solid cylinder: $V = \pi r^2 h$, $\text{CSA} = 2\pi rh$, $\text{TSA} = 2\pi r(r + h)$. Hollow cylinder: $V = \pi(R^2 - r^2)h$.
 
@@ -83,7 +91,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Outer radius $R = 10\text{ cm}$, Inner radius $r = 8\text{ cm}$.
 - $\text{Volume} = \dfrac{22}{7}(10^2 - 8^2) \times 14 = \dfrac{22}{7} \times 36 \times 14 = 22 \times 36 \times 2 =$ **1584 $\text{cm}^3$**.
 
-### Model 4. Right circular cone
+### Question type 4. Right circular cone
 
 **Idea:** Slant height $l = \sqrt{r^2 + h^2}$. Volume $V = \dfrac{1}{3}\pi r^2 h$, $\text{CSA} = \pi r l$, $\text{TSA} = \pi r(r + l)$.
 
@@ -93,7 +101,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{CSA} = \dfrac{22}{7} \times 7 \times 25 =$ **550 $\text{cm}^2$**.
 - $\text{TSA} = \dfrac{22}{7} \times 7 \times (7 + 25) = 22 \times 32 =$ **704 $\text{cm}^2$**.
 
-### Model 5. Sphere and hemisphere
+### Question type 5. Sphere and hemisphere
 
 **Idea:** Sphere: Volume $V = \dfrac{4}{3}\pi r^3$, $\text{Surface Area} = 4\pi r^2$. Solid hemisphere: Volume $V = \dfrac{2}{3}\pi r^3$, $\text{CSA} = 2\pi r^2$, $\text{TSA} = 3\pi r^2$.
 
@@ -105,7 +113,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{CSA} = 2 \times \dfrac{22}{7} \times 7^2 =$ **308 $\text{cm}^2$**.
 - $\text{TSA} = 3 \times \dfrac{22}{7} \times 7^2 = 3 \times 154 =$ **462 $\text{cm}^2$**.
 
-### Model 6. Frustum of a cone
+### Question type 6. Frustum of a cone
 
 **Idea:** Radii $R$ and $r$, vertical height $h$. Slant height $l = \sqrt{h^2 + (R-r)^2}$, Volume $V = \dfrac{1}{3}\pi h (R^2 + r^2 + Rr)$, $\text{CSA} = \pi(R + r)l$.
 
@@ -113,7 +121,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Slant height $l = \sqrt{8^2 + (10 - 4)^2} = \sqrt{64 + 36} =$ **10 cm**.
 - $\text{CSA} = \dfrac{22}{7} \times (10 + 4) \times 10 = \dfrac{22}{7} \times 14 \times 10 =$ **440 $\text{cm}^2$**.
 
-### Model 7. Right prism and right pyramid
+### Question type 7. Right prism and right pyramid
 
 **Idea:** Prism: Volume $= \text{Base Area} \times h$, $\text{LSA} = \text{Base Perimeter} \times h$, $\text{TSA} = \text{LSA} + 2(\text{Base Area})$. Pyramid: Volume $= \dfrac{1}{3} \times \text{Base Area} \times h$, $\text{LSA} = \dfrac{1}{2} \times \text{Base Perimeter} \times \text{Slant Height}$.
 
@@ -127,7 +135,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Volume} = \dfrac{1}{3} \times 10^2 \times 12 =$ **400 $\text{cm}^3$**.
 - $\text{LSA} = \dfrac{1}{2} \times (4 \times 10) \times 13 = 260\text{ cm}^2$. $\text{TSA} = 260 + 100 =$ **360 $\text{cm}^2$**.
 
-### Model 8. Regular tetrahedron
+### Question type 8. Regular tetrahedron
 
 **Idea:** A pyramid with 4 congruent equilateral triangular faces of side $a$. Volume $V = \dfrac{\sqrt{2}}{12}a^3$, $\text{TSA} = \sqrt{3}a^2$, Height $h = \sqrt{\dfrac{2}{3}}a$.
 
@@ -135,7 +143,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Volume} = \dfrac{\sqrt{2}}{12} \times 6^3 = \dfrac{\sqrt{2} \times 216}{12} =$ **$18\sqrt{2}\text{ cm}^3$**.
 - $\text{TSA} = \sqrt{3} \times 6^2 =$ **$36\sqrt{3}\text{ cm}^2$**.
 
-### Model 9. Melting, recasting, and reshaping
+### Question type 9. Melting, recasting, and reshaping
 
 **Idea:** When solids are melted and recast, total volume remains constant: $\sum V_{\text{initial}} = \sum V_{\text{final}}$.
 
@@ -145,7 +153,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** A solid metallic cone of radius $6\text{ cm}$ and height $24\text{ cm}$ is melted and recast into small solid spheres of radius $3\text{ cm}$. Find the number of spheres formed.
 - $\text{Number } N = \dfrac{\frac{1}{3}\pi \times 6^2 \times 24}{\frac{4}{3}\pi \times 3^3} = \dfrac{36 \times 24}{4 \times 27} = \dfrac{864}{108} =$ **8 spheres**.
 
-### Model 10. Composite solids
+### Question type 10. Composite solids
 
 **Idea:** Add volumes of individual components; for surface area, sum only the exposed/outer surfaces.
 
@@ -153,7 +161,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Canvas} = \text{CSA(Cylinder)} + \text{CSA(Cone)} = 2\pi rh + \pi r l = \pi r (2h + l)$.
 - $\text{Area} = \dfrac{22}{7} \times 14 \times (2 \times 3 + 10) = 44 \times 16 =$ **704 $\text{m}^2$**.
 
-### Model 11. Cutting and slicing solids
+### Question type 11. Cutting and slicing solids
 
 **Idea:** Cutting adds new exposed faces to the surface area. For similar sections (like cones cut parallel to base), volume scales as the cube of linear scale factor: $\dfrac{V_1}{V_2} = \left(\dfrac{h_1}{h_2}\right)^3$.
 
@@ -165,7 +173,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\dfrac{V_{\text{top}}}{V_{\text{full}}} = \left(\dfrac{1}{2}\right)^3 = \dfrac{1}{8}$.
 - $V_{\text{frustum}} = 8 - 1 = 7$. Ratio $V_{\text{top}} : V_{\text{frustum}} =$ **1 : 7**.
 
-### Model 12. Water flow through pipes
+### Question type 12. Water flow through pipes
 
 **Idea:** Volume of water discharged in time $t = \text{Cross-sectional Area} \times \text{Speed} \times t$. Equate this to $\text{Tank Base Area} \times \text{Rise in Height}$.
 
@@ -175,7 +183,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Tank volume $= \pi \times 40^2 \times H = 1600\pi H$.
 - $1600\pi H = 126000\pi \implies H = \dfrac{126000}{1600} =$ **78.75 cm**.
 
-### Model 13. Immersion of objects in liquids
+### Question type 13. Immersion of objects in liquids
 
 **Idea:** Volume of submerged object $=$ Volume of displaced liquid $= \text{Base Area of container} \times \text{Rise in level}$.
 
@@ -184,7 +192,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Base area of vessel} = \pi \times 12^2 = 144\pi\text{ cm}^2$.
 - $\text{Rise in level } h = \dfrac{288\pi}{144\pi} =$ **2 cm**.
 
-### Model 14. Percentage and ratio changes in 3D dimensions
+### Question type 14. Percentage and ratio changes in 3D dimensions
 
 **Idea:** If radius of a sphere increases by $x\%$, new volume factor is $\left(1 + \dfrac{x}{100}\right)^3$. For cylinder/cone: $V \propto r^2 h$.
 
@@ -193,7 +201,28 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Ratio of new volume to old $= (1.1)^3 = 1.331$.
 - $\text{Percentage increase} = (1.331 - 1) \times 100 =$ **33.1% increase**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** A cube’s edge changes from 2 cm to 4 cm. By what factor do its volume and total surface area change?
+
+**Think it through:** The edge doubles. Volume scales by $2^3=8$, and surface area scales by $2^2=4$. So the volume is multiplied by 8 and the surface area by 4.
+
+### Quick revision
+
+- Volume measures capacity; surface area measures covering.
+- Curved/lateral area covers the sides; total surface area also includes the exposed bases.
+- In melting and recasting, conserve total volume.
+- For a water-level rise, displaced volume equals container base area times rise in level.
+
+### Common mistakes
+
+1. Using diameter where the formula expects radius.
+2. Confusing vertical height with slant height in cones and pyramids.
+3. Including hidden faces in the surface area of a joined solid.
+4. Adding lengths, areas, or volumes with incompatible units.
+5. Forgetting that dimensions scale to the second power for area and third power for volume.
+
+## 6. Practice
 
 1. Find the volume of a cube whose edge is $12\text{ cm}$.
 2. The total surface area of a cube is $150\text{ cm}^2$. Find the length of its diagonal.

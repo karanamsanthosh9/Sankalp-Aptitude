@@ -1,10 +1,18 @@
-# Trains: Model-wise Notes
+# Trains
 
-## Part 1. What comes from this topic
+> Read this like a class: sketch the track, mark the lengths, and decide what distance must pass the other object.
+
+## 0. Start here: what does “cross” mean?
+
+Imagine watching a whole train pass a pole. The engine reaching the pole is not the end of the crossing; the rear of the train must pass it too. So it travels its own full length. To clear a platform, it must travel its length plus the platform’s length. Questions build on this picture: two trains pass, one catches another, or trains meet between stations.
+
+The central question is always **how quickly is the gap closing, and how much distance must close?** Use relative speed for the closing rate. As a sense check, opposite-moving trains should close the gap faster than either one alone; same-direction trains close it only at the difference of their speeds.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Train crossing a stationary point object (pole, tree, person) | 1 |
 | Train crossing a stationary extended object (platform, bridge, tunnel) | 2 |
@@ -19,7 +27,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Breakdown or accident midway and speed reduction | 11 |
 | Train crossing two moving persons or cyclists | 12 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -31,16 +39,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Two trains running in same direction" | Relative speed $= |S_1 - S_2|$, Distance $= L_1 + L_2$ |
 | "After meeting, they reach destinations in $T_1, T_2$" | $\dfrac{S_1}{S_2} = \sqrt{\dfrac{T_2}{T_1}}$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - Always convert speeds to $\text{m/s}$ when lengths are in meters: $1\text{ km/h} = \dfrac{5}{18}\text{ m/s}$, $1\text{ m/s} = \dfrac{18}{5}\text{ km/h}$.
 - **Point object (pole/standing person):** $\text{Time} = \dfrac{L_{\text{train}}}{S_{\text{train}}}$.
 - **Extended object (platform/bridge/tunnel):** $\text{Time} = \dfrac{L_{\text{train}} + L_{\text{object}}}{S_{\text{train}}}$.
 - **Two trains crossing:** $\text{Time} = \dfrac{L_1 + L_2}{S_{\text{rel}}}$, where $S_{\text{rel}} = S_1 + S_2$ (opposite) or $|S_1 - S_2|$ (same direction).
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Train crossing a stationary point object
+### Question type 1. Train crossing a stationary point object
 
 **Idea:** distance covered equals the length of the train: $T = \dfrac{L_t}{S}$.
 
@@ -48,7 +56,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Speed} = 54 \times \dfrac{5}{18} = 15\text{ m/s}$.
 - $T = \dfrac{180}{15} =$ **12 seconds**.
 
-### Model 2. Train crossing a stationary extended object
+### Question type 2. Train crossing a stationary extended object
 
 **Idea:** distance covered equals the length of train plus length of object: $T = \dfrac{L_t + L_p}{S}$.
 
@@ -57,7 +65,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Total distance} = 200 + 300 = 500\text{ m}$.
 - $T = \dfrac{500}{20} =$ **25 seconds**.
 
-### Model 3. Train crossing a moving person
+### Question type 3. Train crossing a moving person
 
 **Idea:** distance covered is $L_t$; speed is relative speed between train and person.
 
@@ -65,7 +73,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Relative speed $= 68 - 8 = 60\text{ km/h} = 60 \times \dfrac{5}{18} = \dfrac{50}{3}\text{ m/s}$.
 - $T = \dfrac{150}{50/3} = 150 \times \dfrac{3}{50} =$ **9 seconds**.
 
-### Model 4. Two trains crossing in opposite directions
+### Question type 4. Two trains crossing in opposite directions
 
 **Idea:** $\text{Total distance} = L_1 + L_2$; Relative speed $= S_1 + S_2$.
 
@@ -74,7 +82,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Relative speed $= 40 + 50 = 90\text{ km/h} = 90 \times \dfrac{5}{18} = 25\text{ m/s}$.
 - $T = \dfrac{300}{25} =$ **12 seconds**.
 
-### Model 5. Two trains crossing in same direction (overtaking)
+### Question type 5. Two trains crossing in same direction (overtaking)
 
 **Idea:** $\text{Total distance} = L_1 + L_2$; Relative speed $= |S_1 - S_2|$.
 
@@ -83,7 +91,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Relative speed $= 70 - 52 = 18\text{ km/h} = 18 \times \dfrac{5}{18} = 5\text{ m/s}$.
 - $T = \dfrac{250}{5} =$ **50 seconds**.
 
-### Model 6. Train crossing a passenger inside another train
+### Question type 6. Train crossing a passenger inside another train
 
 **Idea:** distance is only the length of the passing train (passenger is treated as a moving point).
 
@@ -92,7 +100,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Distance $= 150\text{ m}$ (length of passing train only).
 - $T = \dfrac{150}{30} =$ **5 seconds**.
 
-### Model 7. Finding speed and length from two crossing events
+### Question type 7. Finding speed and length from two crossing events
 
 **Idea:** $\text{Speed} = \dfrac{\Delta \text{Distance}}{\Delta \text{Time}}$, then $\text{Length} = (\text{Speed} \times T_1) - L_1$.
 
@@ -100,7 +108,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Speed} = \dfrac{162 - 120}{18 - 15} = \dfrac{42}{3} = 14\text{ m/s}$ ($50.4\text{ km/h}$).
 - $\text{Length} = (14 \times 15) - 120 = 210 - 120 =$ **90 m**.
 
-### Model 8. Two trains starting simultaneously from opposite stations
+### Question type 8. Two trains starting simultaneously from opposite stations
 
 **Idea:** $\text{Meeting Time} = \dfrac{\text{Distance between stations}}{S_1 + S_2}$.
 
@@ -108,7 +116,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Time to meet $= \dfrac{450}{50 + 40} = \dfrac{450}{90} =$ **5 hours**.
 - Distance from A $= 5 \times 50 =$ **250 km**.
 
-### Model 9. Two trains starting at different times from opposite stations
+### Question type 9. Two trains starting at different times from opposite stations
 
 **Idea:** calculate distance covered by first train before second starts, subtract from total, then divide remainder by $(S_1 + S_2)$.
 
@@ -118,14 +126,14 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Relative speed $= 20 + 25 = 45\text{ km/h} \implies \text{Time} = \dfrac{180}{45} = 4\text{ hours}$.
 - Meeting time $= 8:00\text{ AM} + 4\text{ hours} =$ **12:00 noon**.
 
-### Model 10. Speed ratio after meeting
+### Question type 10. Speed ratio after meeting
 
 **Idea:** $\dfrac{S_1}{S_2} = \sqrt{\dfrac{T_2}{T_1}}$.
 
 **Example:** Trains X and Y start at the same time towards each other. After meeting, X takes $4\text{ hrs } 48\text{ min}$ ($4.8\text{ hrs}$) to reach destination and Y takes $3\text{ hrs } 20\text{ min}$ ($\dfrac{10}{3}\text{ hrs}$). Find the ratio of their speeds.
 - $\dfrac{S_X}{S_Y} = \sqrt{\dfrac{10/3}{24/5}} = \sqrt{\dfrac{50}{72}} = \sqrt{\dfrac{25}{36}} =$ **$5:6$**.
 
-### Model 11. Breakdown or accident midway and speed reduction
+### Question type 11. Breakdown or accident midway and speed reduction
 
 **Idea:** compare the delay produced over the shifted distance segment.
 
@@ -134,7 +142,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Extra time} = \dfrac{24}{(3/4)S} - \dfrac{24}{S} = \dfrac{32}{S} - \dfrac{24}{S} = \dfrac{8}{S}\text{ hr}$.
 - $\dfrac{8}{S} = \dfrac{1}{6} \implies S =$ **48 km/h**.
 
-### Model 12. Train crossing two moving persons or cyclists
+### Question type 12. Train crossing two moving persons or cyclists
 
 **Idea:** equate train length $L = (S - u_1) \times t_1 = (S - u_2) \times t_2$ (for same direction).
 
@@ -142,7 +150,29 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $9(S - 2) = 10(S - 4) \implies 9S - 18 = 10S - 40 \implies S =$ **22 km/h**.
 - Length $= (22 - 2) \times \dfrac{5}{18} \times 9 = 20 \times \dfrac{5}{2} =$ **50 m**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** A 150 m train travels at 54 km/h. How long does it take to pass a 50 m platform?
+
+**Think it through:** It must cover $150+50=200$ m. Convert $54$ km/h to $15$ m/s, then divide: $200\div15=13\frac{1}{3}$ seconds. Check: a platform crossing takes longer than passing a pole.
+
+### Quick revision
+
+- Pole or standing person: distance is the train length.
+- Platform or bridge: distance is train length plus object length.
+- Two trains passing: distance is the sum of their lengths.
+- Relative speed is a sum for opposite directions and a difference for the same direction.
+- Convert to m/s when lengths are in metres.
+
+### Common mistakes
+
+1. Using only one train’s length when two complete trains pass each other.
+2. Adding speeds when trains move in the same direction.
+3. Forgetting the platform length.
+4. Mixing units, especially km/h and m/s.
+5. Treating a passenger in another train like the entire second train.
+
+## 6. Practice
 
 1. A train $300\text{ m}$ long is running at a speed of $90\text{ km/h}$. How many seconds will it take to cross a telegraph post?
 2. A $120\text{ m}$ long train crosses a tree in 6 seconds. Find the speed of the train in $\text{km/h}$.

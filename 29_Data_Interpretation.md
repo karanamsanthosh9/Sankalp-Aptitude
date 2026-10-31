@@ -1,10 +1,18 @@
-# Data Interpretation: Model-wise Notes
+# Data Interpretation
 
-## Part 1. What comes from this topic
+> Read this like a class: understand the display before doing arithmetic, and keep the question in view while you read the data.
+
+## 0. Start here: turn a chart into a small story
+
+A table, bar chart, line graph, or pie chart is a compact story about quantities. The question may ask what changed, how two groups compare, what share belongs to one category, or what a missing value must be. Your job is to find the right values, choose the correct total as the reference, and then calculate.
+
+Before calculating, read the title, units, labels, and scale. For a percentage increase, divide by the starting value—not the ending value. As a sense check, make sure your result answers the requested comparison and has a reasonable size: a percentage share of a whole should be between 0% and 100%.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Tabular charts (simple and multi-column tables) | 1 |
 | Bar charts (single, clustered, and stacked bars) | 2 |
@@ -21,7 +29,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Weighted averages and aggregate marks / sales | 13 |
 | Data sufficiency in DI | 14 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -34,15 +42,15 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Weighted average of groups" | $\dfrac{n_1 A_1 + n_2 A_2 + \dots}{n_1 + n_2 + \dots}$ |
 | "Both $P$ and $Q$" in Venn sets | Intersection $P \cap Q$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Core arithmetic tools:** Almost every DI question tests three fundamental operations: **Percentages** ($\frac{\text{part}}{\text{whole}} \times 100$), **Ratios** ($\frac{A}{B}$), and **Averages** ($\frac{\text{sum}}{n}$).
 - **Pie chart conversions:** $100\% = 360^\circ \implies 1\% = 3.6^\circ \implies 10\% = 36^\circ$. To find difference between sectors, subtract percentages/degrees first before multiplying by total.
 - **Speed calculation techniques:** Use fractional equivalents ($12.5\% = \frac{1}{8}$, $16.67\% = \frac{1}{6}$, $33.33\% = \frac{1}{3}$) and ratio cancellation instead of computing raw absolute values first.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Tabular charts
+### Question type 1. Tabular charts
 
 **Idea:** Extract rows and columns cleanly. Sum rows/columns for totals before computing requested ratios or percentages.
 
@@ -63,7 +71,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Total Commerce $= 100 + 130 + 150 = 380$.
 - $\text{Ratio} = 360 : 380 =$ **18 : 19**.
 
-### Model 2. Bar charts
+### Question type 2. Bar charts
 
 **Idea:** Compare heights/values across discrete categories or years.
 
@@ -83,7 +91,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 2:** Find the average annual production over the 4 years.
 - $\text{Average} = \dfrac{40 + 50 + 65 + 80}{4} = \dfrac{235}{4} =$ **58.75 thousand**.
 
-### Model 3. Line graphs and time-series trends
+### Question type 3. Line graphs and time-series trends
 
 **Idea:** Track upward and downward slopes across continuous periods to spot growth rates and turning points.
 
@@ -100,7 +108,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Y4} \to \text{Y5}: \dfrac{45}{180} \times 100 = 25\%$.
 - Maximum percentage increase was in **Y4 (33.33%)**.
 
-### Model 4. Single pie charts
+### Question type 4. Single pie charts
 
 **Idea:** Degree values sum to $360^\circ$; percentages sum to $100\%$. Compute differences in degrees/percents first before multiplying by the total.
 
@@ -117,7 +125,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Degree difference $= 90^\circ - 60^\circ = 30^\circ$.
 - $\text{Difference} = \dfrac{30}{360} \times 72000 = \dfrac{1}{12} \times 72000 =$ **Rs 6000**.
 
-### Model 5. Double / two-tier pie charts
+### Question type 5. Double / two-tier pie charts
 
 **Idea:** First pie gives the universal total distribution; second pie gives a sub-group (e.g., females). Subtract to find the complementary sub-group (e.g., males).
 
@@ -130,7 +138,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Female IT employees $= 25\% \text{ of } 800 = 200$.
 - Male IT employees $= 540 - 200 =$ **340**.
 
-### Model 6. Radar / spider web charts
+### Question type 6. Radar / spider web charts
 
 **Idea:** Multi-axis comparison of multiple entities across standardized performance metrics.
 
@@ -145,7 +153,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\text{Difference} = 90 - 70 = 20$.
 - Percentage excess $= \dfrac{20}{70} \times 100 = \dfrac{200}{7}\% \approx$ **28.57%**.
 
-### Model 7. Mixed / combined charts
+### Question type 7. Mixed / combined charts
 
 **Idea:** Cross-reference information from one representation (e.g., total production pie) with another (e.g., defect rate table).
 
@@ -163,7 +171,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Model S: $20\% \times 2400 \times 5\% = 480 \times 0.05 = 24$.
 - $\text{Total defective} = 24 + 42 + 48 + 24 =$ **138 units**.
 
-### Model 8. Caselet DI: Venn diagram / set theory
+### Question type 8. Caselet DI: Venn diagram / set theory
 
 **Idea:** Fill standard 3-circle Venn regions starting from the central intersection of all three sets outwards: $\text{Only } A = n(A) - n(A \cap B) - n(A \cap C) + n(A \cap B \cap C)$.
 
@@ -181,7 +189,7 @@ $F \cap C = 90$, $C \cap B = 80$, $F \cap B = 70$, All three ($F \cap C \cap B$)
 - Total playing at least one $= 120 + 90 + 70 + 50 + 40 + 30 + 40 = 440$.
 - Playing none $= 500 - 440 =$ **60 students**.
 
-### Model 9. Caselet DI: Paragraph and equation based
+### Question type 9. Caselet DI: Paragraph and equation based
 
 **Idea:** Convert paragraph statements into a clean table step-by-step using given proportions and equations.
 
@@ -195,7 +203,7 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 - Dept C Females $= \dfrac{160}{2} = 80$.
 - $\text{Total females} = 96 + 80 + 80 =$ **256 females**.
 
-### Model 10. Missing data interpretation
+### Question type 10. Missing data interpretation
 
 **Idea:** Solve for unknown table cells using row sums, column sums, or stated algebraic conditions.
 
@@ -210,7 +218,7 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 - Emp 1 DA $= 30000 - (20000 + 4000) =$ **Rs 6000**.
 - Emp 2 DA $= 30\% \times 25000 = 7500 \implies \text{Total} = 25000 + 5000 + 7500 =$ **Rs 37500**.
 
-### Model 11. Percentage change and growth rates
+### Question type 11. Percentage change and growth rates
 
 **Idea:** Growth rate $= \dfrac{\text{Final} - \text{Initial}}{\text{Initial}} \times 100\%$. Annual simple growth rate $= \dfrac{\text{Overall Growth Rate}}{n}$.
 
@@ -223,7 +231,7 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 **Example 1:** Find the overall percentage growth from 2020 to 2023.
 - $\text{Growth} = \dfrac{180 - 100}{100} \times 100 =$ **80%**.
 
-### Model 12. Ratio and proportion based DI
+### Question type 12. Ratio and proportion based DI
 
 **Idea:** Split totals into component ratios and combine across categories.
 
@@ -237,7 +245,7 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 - Total Girls $= 30 + 40 + 50 = 120$.
 - $\text{Ratio} = 180 : 120 =$ **3 : 2**.
 
-### Model 13. Average and weighted average DI
+### Question type 13. Average and weighted average DI
 
 **Idea:** Combined average $\bar{X} = \dfrac{\sum n_i x_i}{\sum n_i}$.
 
@@ -249,7 +257,7 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 **Example 1:** Find the combined average marks of all three classes.
 - $\text{Combined average} = \dfrac{(40 \times 60) + (60 \times 70) + (50 \times 80)}{40 + 60 + 50} = \dfrac{2400 + 4200 + 4000}{150} = \dfrac{10600}{150} \approx$ **70.67 marks**.
 
-### Model 14. Data sufficiency in DI
+### Question type 14. Data sufficiency in DI
 
 **Idea:** Determine whether Statement I alone, Statement II alone, or both together are sufficient to find a unique numeric answer without unnecessary full calculations.
 
@@ -260,7 +268,29 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 - From II alone: B is known, but A is unknown $\implies$ Not sufficient.
 - Combining I and II: $\text{B} = 25000, \text{A} = 1.2 \times 25000 = 30000 \implies \text{Total} = 55000 \implies$ **Both statements together are sufficient**.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** A shop sells 80 items in January and 100 in February. By what percentage did sales increase?
+
+**Think it through:** The increase is $100-80=20$ items. Compare it with the January starting value: $20\div80\times100=\mathbf{25\%}$. Check that the calculation uses the starting month as its base.
+
+### Quick revision
+
+- Read chart titles, units, labels, and scales before extracting values.
+- For “A is what percent of B?”, calculate $A/B\times100\%$.
+- For percentage change, use $(\text{new}-\text{old})/\text{old}\times100\%$.
+- In a pie chart, value $=(\text{angle}/360°)\times\text{total}$.
+- For a combined average, add group totals before dividing by the total count.
+
+### Common mistakes
+
+1. Dividing by the new value instead of the starting/reference value.
+2. Reading a chart’s scale as one unit per tick when each tick represents more.
+3. Comparing absolute changes when the question asks for percentage changes.
+4. Adding overlapping categories without subtracting their intersection.
+5. Rounding intermediate values too early.
+
+## 6. Practice
 
 **Questions 1–3 refer to the following table (Marks out of 100 scored by students in 3 subjects):**
 

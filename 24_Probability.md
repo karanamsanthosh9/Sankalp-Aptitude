@@ -1,10 +1,18 @@
-# Probability: Model-wise Notes
+# Probability
 
-## Part 1. What comes from this topic
+> Read this like a class: name the outcomes that could happen before counting the ones you want.
+
+## 0. Start here: probability is a fair share of possibilities
+
+Imagine drawing one card from a well-shuffled deck. If every card is equally likely, the chance of drawing a heart is the number of hearts divided by the total number of cards. A probability question asks you to define the possible outcomes, decide which are favourable, and compare the two. The same idea works for coins, dice, cards, bags, and compound events.
+
+Before calculating, ask: are outcomes equally likely, are the events independent, and is the draw with or without replacement? For a fair experiment, a probability must lie between 0 and 1. If your favourable cases exceed the sample space, revisit the counting.
+
+## 1. Choose the question type
 
 Questions on this topic fall into a few fixed types. Spot the type, then use that model.
 
-| Type of question | Model |
+| Type of question | Walkthrough |
 |---|---|
 | Single and multiple coin tosses | 1 |
 | Single and multiple dice throws | 2 |
@@ -20,7 +28,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Leap year and calendar probability | 12 |
 | Selection of numbers and divisibility | 13 |
 
-## Part 2. What data is usually given
+## 2. Translate the wording
 
 | Data you will see | What it means |
 |---|---|
@@ -32,7 +40,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | "Odds in favour are $a:b$" | Probability is $\dfrac{a}{a+b}$ |
 | "A speaks truth in 75%, B in 80%" | Contradiction $= P(A\bar{B}) + P(\bar{A}B)$ |
 
-## Part 3. The base idea (read once)
+## 3. The core idea
 
 - **Probability:** $P(E) = \dfrac{\text{Number of favourable outcomes } n(E)}{\text{Total number of outcomes } n(S)}$.
 - **Complement:** $P(E') = 1 - P(E) \implies P(\text{at least one}) = 1 - P(\text{none})$.
@@ -40,9 +48,9 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - **Multiplication rule:** for independent events, $P(A \cap B) = P(A) \times P(B)$.
 - **Odds:** odds in favour $a:b \implies P = \dfrac{a}{a+b}$; odds against $b:a \implies P = \dfrac{a}{a+b}$.
 
-## Part 4. Models
+## 4. Question-type walkthroughs
 
-### Model 1. Single and multiple coin tosses
+### Question type 1. Single and multiple coin tosses
 
 **Idea:** for $n$ coins, total outcomes $= 2^n$. Favourable cases with $r$ heads $= ^n C_r$.
 
@@ -55,7 +63,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Total outcomes $= 2^4 = 16$. Favourable $= ^4 C_2 = 6$.
 - $P = \dfrac{6}{16} =$ **$\dfrac{3}{8}$**.
 
-### Model 2. Single and multiple dice throws
+### Question type 2. Single and multiple dice throws
 
 **Idea:** for 2 dice, total outcomes $= 36$. Sum ranges from 2 to 12. Sum $S$ frequencies: $2(1), 3(2), 4(3), 5(4), 6(5), 7(6), 8(5), 9(4), 10(3), 11(2), 12(1)$.
 
@@ -67,7 +75,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Sums 10, 11, 12 have frequencies $3 + 2 + 1 = 6$.
 - $P = \dfrac{6}{36} =$ **$\dfrac{1}{6}$**.
 
-### Model 3. Pack of 52 cards
+### Question type 3. Pack of 52 cards
 
 **Idea:** 52 cards $= 4$ suits of 13 each (26 Red, 26 Black); 12 face cards (4 J, 4 Q, 4 K); 4 Aces.
 
@@ -79,7 +87,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Favourable $= ^4 C_2 = 6$. Total $= ^{52} C_2 = 1326$.
 - $P = \dfrac{6}{1326} =$ **$\dfrac{1}{221}$**.
 
-### Model 4. Balls drawn from an urn or bag
+### Question type 4. Balls drawn from an urn or bag
 
 **Idea:** total balls $N$, selecting $n$ balls gives $^{N} C_n$ sample space; count combinations of each colour.
 
@@ -93,14 +101,14 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Total ways $= ^{12} C_3 = \dfrac{12 \times 11 \times 10}{6} = 220$.
 - $P = \dfrac{60}{220} =$ **$\dfrac{3}{11}$**.
 
-### Model 5. Addition theorem and non-mutually exclusive events
+### Question type 5. Addition theorem and non-mutually exclusive events
 
 **Idea:** $P(A \cup B) = P(A) + P(B) - P(A \cap B)$.
 
 **Example:** If $P(A) = \dfrac{1}{3}$, $P(B) = \dfrac{1}{4}$, and $P(A \cap B) = \dfrac{1}{6}$, find $P(A \cup B)$.
 - $P(A \cup B) = \dfrac{1}{3} + \dfrac{1}{4} - \dfrac{1}{6} = \dfrac{4 + 3 - 2}{12} = \mathbf{\dfrac{5}{12}}$.
 
-### Model 6. Independent events and problem solving
+### Question type 6. Independent events and problem solving
 
 **Idea:** for independent events, $P(\text{problem solved}) = 1 - P(\text{all fail}) = 1 - P(\bar{A})P(\bar{B})P(\bar{C})$.
 
@@ -113,7 +121,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $P(A\bar{B}\bar{C}) + P(\bar{A}B\bar{C}) + P(\bar{A}\bar{B}C) = \left(\dfrac{1}{2}\times\dfrac{2}{3}\times\dfrac{3}{4}\right) + \left(\dfrac{1}{2}\times\dfrac{1}{3}\times\dfrac{3}{4}\right) + \left(\dfrac{1}{2}\times\dfrac{2}{3}\times\dfrac{1}{4}\right)$.
 - Sum $= \dfrac{6}{24} + \dfrac{3}{24} + \dfrac{2}{24} = \mathbf{\dfrac{11}{24}}$.
 
-### Model 7. Conditional probability
+### Question type 7. Conditional probability
 
 **Idea:** $P(A|B) = \dfrac{P(A \cap B)}{P(B)} = \dfrac{n(A \cap B)}{n(B)}$.
 
@@ -122,7 +130,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Prime outcomes $A = \{2, 3, 5\} \implies A \cap B = \{3, 5\} \implies n(A \cap B) = 2$.
 - $P(A|B) = \mathbf{\dfrac{2}{3}}$.
 
-### Model 8. At least one event occurs (Complement rule)
+### Question type 8. At least one event occurs (Complement rule)
 
 **Idea:** $P(\text{at least one success in } n \text{ trials}) = 1 - [P(\text{failure in 1 trial})]^n$.
 
@@ -131,21 +139,21 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $P(\text{no 6 in 3 throws}) = \left(\dfrac{5}{6}\right)^3 = \dfrac{125}{216}$.
 - $P(\text{at least one 6}) = 1 - \dfrac{125}{216} = \mathbf{\dfrac{91}{216}}$.
 
-### Model 9. Probability with odds in favour and odds against
+### Question type 9. Probability with odds in favour and odds against
 
 **Idea:** odds in favour $a:b \implies P(E) = \dfrac{a}{a+b}$; odds against $b:a \implies P(E) = \dfrac{a}{a+b}$.
 
 **Example:** The odds in favour of an event are $3:5$. Find its probability.
 - $P(E) = \dfrac{3}{3 + 5} = \mathbf{\dfrac{3}{8}}$.
 
-### Model 10. Truth and lie / Contradiction problems
+### Question type 10. Truth and lie / Contradiction problems
 
 **Idea:** contradiction occurs when one speaks truth and the other lies: $P(A)P(\bar{B}) + P(\bar{A})P(B)$.
 
 **Example:** A speaks truth in 75% cases ($\frac{3}{4}$) and B in 80% cases ($\frac{4}{5}$). What is the probability that they contradict each other?
 - $P(A\bar{B}) + P(\bar{A}B) = \left(\dfrac{3}{4} \times \dfrac{1}{5}\right) + \left(\dfrac{1}{4} \times \dfrac{4}{5}\right) = \dfrac{3}{20} + \dfrac{4}{20} = \dfrac{7}{20} =$ **35%** (or $\mathbf{\dfrac{7}{20}}$).
 
-### Model 11. Total probability and Bayes' theorem
+### Question type 11. Total probability and Bayes' theorem
 
 **Idea:** $P(B_1|A) = \dfrac{P(B_1)P(A|B_1)}{P(B_1)P(A|B_1) + P(B_2)P(A|B_2)}$.
 
@@ -155,7 +163,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Denominator $= \left(\dfrac{1}{2} \times \dfrac{2}{3}\right) + \left(\dfrac{1}{2} \times \dfrac{3}{8}\right) = \dfrac{1}{3} + \dfrac{3}{16} = \dfrac{25}{48}$.
 - $P(B_1|W) = \dfrac{1/3}{25/48} = \dfrac{16}{25} =$ **$\dfrac{16}{25}$**.
 
-### Model 12. Leap year and calendar probability
+### Question type 12. Leap year and calendar probability
 
 **Idea:** ordinary year has 1 extra day ($\frac{1}{7}$ probability); leap year has 2 extra days ($\frac{2}{7}$ probability of 53 specified weekdays).
 
@@ -163,7 +171,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Extra 2 days form 7 possible pairs; 2 pairs contain Sunday.
 - Probability $= \mathbf{\dfrac{2}{7}}$.
 
-### Model 13. Selection of numbers and divisibility
+### Question type 13. Selection of numbers and divisibility
 
 **Idea:** count multiples within range using floor division: $n(k) = \lfloor \text{limit}/k \rfloor$.
 
@@ -172,7 +180,29 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Favourable $= 16 + 10 - 3 = 23$. Total $= 50$.
 - Probability $= \mathbf{\dfrac{23}{50}}$.
 
-## Part 5. Practice
+## 5. Before you practise
+
+**Your turn:** A fair die is rolled. What is the probability of getting an even number or a number greater than 4?
+
+**Think it through:** Even outcomes are $\{2,4,6\}$; outcomes greater than 4 are $\{5,6\}$. Their union is $\{2,4,5,6\}$, so the probability is $4/6=\mathbf{2/3}$. The 6 is counted once, not twice.
+
+### Quick revision
+
+- Start with a clear sample space; use ordered outcomes when order distinguishes results.
+- “At least one” is often easiest as $1-P(\text{none})$.
+- For a union, subtract the overlap once.
+- Multiply probabilities only for independent events; without replacement, update the sample space.
+- Conditional probability restricts attention to the condition that is already known.
+
+### Common mistakes
+
+1. Counting an overlapping outcome twice in “A or B.”
+2. Assuming events are independent when the first outcome changes the second.
+3. Using an unconditional sample space after a condition is given.
+4. Treating “at least one” as “exactly one.”
+5. Forgetting to simplify the final fraction or check it lies between 0 and 1.
+
+## 6. Practice
 
 1. Two unbiased coins are tossed. Find the probability of getting at least one head.
 2. Three unbiased coins are tossed. Find the probability of getting exactly two tails.

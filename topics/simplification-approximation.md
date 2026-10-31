@@ -2,6 +2,16 @@
 
 > **ORDER:** brackets → powers → ×/÷ left-to-right → +/- left-to-right.
 
+## Make the expression smaller before calculating
+
+Simplification is mostly about respecting the order of operations and spotting structure. Brackets tell you what to handle first; multiplication and division share priority and go left to right. Fractions often cancel before multiplication, while nearby numbers can be rewritten around a convenient round number.
+
+### Walk through: $48\div6\times(3+5)-7$
+
+First evaluate the bracket: $3+5=8$. Then do division and multiplication from left to right: $48\div6=8$, and $8(8)=64$. Finally subtract 7 to get 57.
+
+**Sanity check:** Doing multiplication before the division would change the expression, so follow the written left-to-right order. **Your turn:** evaluate $36\div3\times2$. *(Answer: 24; $36\div3=12$, then $12(2)$.)*
+
 ## ⚡ Formula cards
 
 | Pattern | Shortcut |
@@ -85,3 +95,9 @@
 **Question:** Evaluate $72\div3\times4$.
 - **Shortcut:** Division and multiplication have equal priority; go left to right.
 - **Calculation:** $72/3=24$, then $24(4)$. **Answer: $96$.**
+
+## Quick practice
+
+1. Evaluate $6+4\times3$. *(Answer: 18; multiply before adding.)*
+2. Simplify $\frac{5}{12}\times\frac{18}{25}$. *(Answer: $3/10$; cancel before multiplying.)*
+3. Find $0.25$ of 360. *(Answer: 90; $0.25=1/4$.)*

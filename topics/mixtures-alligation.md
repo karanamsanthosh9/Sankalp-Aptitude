@@ -2,6 +2,16 @@
 
 > **ALLIGATION:** cross-subtract from the target; opposite difference gives the quantity.
 
+## A mixture is a weighted average
+
+The final price or concentration depends on how much of each ingredient you use. More of the expensive or stronger ingredient pulls the average toward its value. Alligation is simply a shortcut for balancing those differences; when quantities are given, calculate the total value and divide by the total amount.
+
+### Walk through: blend $40$/kg and $60$/kg rice to get $48$/kg
+
+The target is $8$ above the low price and $12$ below the high price. The low-price quantity must therefore be in the ratio $12:8$ to the high-price quantity—the opposite difference. That simplifies to $3:2$.
+
+**Sanity check:** The target, $48$, lies between $40$ and $60$, and the mixture uses more of the lower-priced rice. **Your turn:** mix values 10 and 30 to get 25. Find low:high quantities. *(Answer: $1:3$; opposite differences are 5 and 15.)*
+
 ## ⚡ Formula cards
 
 | Problem | Formula |
@@ -86,3 +96,9 @@
 **Question:** From a 30 L full container, remove 10 L and refill twice. How much original liquid remains?
 - **Shortcut:** Each round keeps $1-10/30=2/3$ of the original liquid.
 - **Calculation:** $30(2/3)^2$. **Answer: $13\frac13$ L.**
+
+## Quick practice
+
+1. Mix 2 kg at $30$/kg with 3 kg at $50$/kg. Find the blend price. *(Answer: $42$/kg; total cost $210$ over 5 kg.)*
+2. How much salt is in 10 kg of a 15% solution? *(Answer: 1.5 kg; $0.15(10)$.)*
+3. From 20 L, remove 5 L and replace it once. What fraction of the original liquid remains? *(Answer: $3/4$; each round retains $1-5/20$.)*

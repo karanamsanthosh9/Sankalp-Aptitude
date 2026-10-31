@@ -2,6 +2,16 @@
 
 > **BASES:** profit/loss uses CP; discount uses MP.
 
+## Start by naming the price you're comparing
+
+Cost price (CP) is what the seller paid; marked price (MP) is the displayed starting price; selling price (SP) is what the buyer pays. Profit or loss compares SP with CP, while a discount compares SP with MP. The percentages can look similar, but their bases are different.
+
+### Walk through: markup followed by discount
+
+Suppose CP is $1{,}000$. A 40% markup makes MP $1{,}400$. A 20% discount removes 20% of that marked price, so SP is $1{,}400(0.8)=1{,}120$. Compared with CP, the profit is $120$, which is 12%.
+
+**Sanity check:** The final multiplier is $1.4(0.8)=1.12$, so SP is 112% of CP. **Your turn:** CP is $500$, marked up by 20%, then discounted by 10%. Find profit percent. *(Answer: 8%; $1.2(0.9)=1.08$ of CP.)*
+
 ## ⚡ Formula cards
 
 | Result | Formula |
@@ -81,3 +91,9 @@ CP ── markup/profit ──> SP <── discount ── MP
 **Question:** Two articles sell for $500 each. One is sold at 25% gain and the other at 25% loss. Find the overall result.
 - **Shortcut:** Equal-SP shortcut: loss $=25^2/100=6.25\%$.
 - **Answer:** **6.25% loss**.
+
+## Quick practice
+
+1. CP is $400$ and SP is $460$. Find profit percent. *(Answer: 15%; profit $60$ is 15% of CP.)*
+2. Find the single discount equivalent to 10% followed by 20%. *(Answer: 28%; retain $0.9(0.8)=0.72$.)*
+3. A $900$ marked price has a 10% discount. Find SP. *(Answer: $810; pay 90% of MP.)*
