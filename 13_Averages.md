@@ -56,10 +56,10 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** The average of 5 numbers is 28. Four of the numbers are 22, 26, 30, and 34. Find the 5th number.
 - $\text{Total sum} = 5 \times 28 = 140$.
 - $\text{Sum of 4 numbers} = 22 + 26 + 30 + 34 = 112$.
-- $\text{5th number} = 140 - 112 =$ **28**.
+- $\text{5th number} = 140 - 112$ = **28**.
 
 **Example 2:** The average score of a batsman in 7 innings is 48 runs. Find his total runs.
-- $\text{Total runs} = 7 \times 48 =$ **336 runs**.
+- $\text{Total runs} = 7 \times 48$ = **336 runs**.
 
 ### Question type 2. Weighted average and combined groups
 
@@ -67,41 +67,41 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** Class A has 30 students with an average score of 60. Class B has 20 students with an average score of 70. Find the combined average.
 - $\text{Total marks} = (30 \times 60) + (20 \times 70) = 1800 + 1400 = 3200$.
-- $\text{Combined average} = \dfrac{3200}{50} =$ **64**.
+- $\text{Combined average} = \dfrac{3200}{50}$ = **64**.
 
 **Example 2:** Three sections with 25, 35, and 40 students have average marks of 40, 50, and 60. Overall average?
 - $\text{Total marks} = (25 \times 40) + (35 \times 50) + (40 \times 60) = 1000 + 1750 + 2400 = 5150$.
-- $\text{Average} = \dfrac{5150}{100} =$ **51.5**.
+- $\text{Average} = \dfrac{5150}{100}$ = **51.5**.
 
 ### Question type 3. Inclusion (a new member joins)
 
 **Idea:** $\text{New Member} = \text{Old Average} + (\text{New Total Members} \times \text{Increase in Average})$.
 
 **Example 1:** The average age of 24 students is 15 years. When the teacher joins, the average becomes 16 years. Teacher's age?
-- Teacher's age $= 15 + (25 \times 1) =$ **40 years**.
+- Teacher's age $= 15 + (25 \times 1)$ = **40 years**.
 
 **Example 2:** The average weight of 19 people is 55 kg. A new person joins and the average drops by 0.5 kg. New person's weight?
-- New weight $= 55 - (20 \times 0.5) = 55 - 10 =$ **45 kg**.
+- New weight $= 55 - (20 \times 0.5) = 55 - 10$ = **45 kg**.
 
 ### Question type 4. Exclusion (a member leaves)
 
 **Idea:** $\text{Departed Member} = \text{Old Sum} - \text{New Sum} = \text{Old Average} + (\text{New Count} \times \text{Decrease in Average})$.
 
 **Example 1:** The average age of 30 students and a teacher is 16 years. When the teacher leaves, the average becomes 15 years. Teacher's age?
-- $\text{Teacher's age} = (31 \times 16) - (30 \times 15) = 496 - 450 =$ **46 years**.
+- $\text{Teacher's age} = (31 \times 16) - (30 \times 15) = 496 - 450$ = **46 years**.
 
 **Example 2:** The average of 10 numbers is 25. If one number is removed, the average becomes 24. Find the removed number.
-- $\text{Removed number} = (10 \times 25) - (9 \times 24) = 250 - 216 =$ **34**.
+- $\text{Removed number} = (10 \times 25) - (9 \times 24) = 250 - 216$ = **34**.
 
 ### Question type 5. Replacement (one member replaces another)
 
 **Idea:** $\text{New Value} = \text{Replaced Value} + (\text{Count} \times \text{Change in Average})$.
 
 **Example 1:** The average weight of 12 men increases by 2 kg when a man weighing 60 kg is replaced. Weight of the new man?
-- $\text{New weight} = 60 + (12 \times 2) = 60 + 24 =$ **84 kg**.
+- $\text{New weight} = 60 + (12 \times 2) = 60 + 24$ = **84 kg**.
 
 **Example 2:** The average age of 8 women decreases by 1 year when a 40-year-old woman is replaced. Age of the newcomer?
-- $\text{New age} = 40 - (8 \times 1) =$ **32 years**.
+- $\text{New age} = 40 - (8 \times 1)$ = **32 years**.
 
 ### Question type 6. Correction of incorrect entries
 
@@ -109,11 +109,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** The average of 25 numbers is 40. A number 36 was wrongly entered as 61. Find the correct average.
 - $\text{Difference} = 36 - 61 = -25$.
-- $\text{Correct average} = 40 + \dfrac{-25}{25} = 40 - 1 =$ **39**.
+- $\text{Correct average} = 40 + \dfrac{-25}{25} = 40 - 1$ = **39**.
 
 **Example 2:** The average of 50 items is 30. Two items 45 and 35 were misread as 25 and 15. Correct average?
 - $\text{Difference} = (45 + 35) - (25 + 15) = 80 - 40 = +40$.
-- $\text{Correct average} = 30 + \dfrac{40}{50} = 30 + 0.8 =$ **30.8**.
+- $\text{Correct average} = 30 + \dfrac{40}{50} = 30 + 0.8$ = **30.8**.
 
 ### Question type 7. Overlapping numbers and middle value
 
@@ -122,12 +122,12 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** The average of 11 numbers is 50. The average of the first 6 is 49 and the last 6 is 52. Find the 6th number.
 - $\text{Sum of first 6} = 6 \times 49 = 294$; $\text{Sum of last 6} = 6 \times 52 = 312$.
 - $\text{Total sum} = 11 \times 50 = 550$.
-- $\text{6th number} = 294 + 312 - 550 =$ **56**.
+- $\text{6th number} = 294 + 312 - 550$ = **56**.
 
 **Example 2:** The average of 9 numbers is 32. The average of the first 4 is 30 and the last 4 is 35. Find the 5th number.
 - $\text{Total sum} = 9 \times 32 = 288$.
 - $\text{Sum of 8 numbers} = (4 \times 30) + (4 \times 35) = 120 + 140 = 260$.
-- $\text{5th number} = 288 - 260 =$ **28**.
+- $\text{5th number} = 288 - 260$ = **28**.
 
 ### Question type 8. Consecutive numbers and arithmetic progressions
 
@@ -135,11 +135,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** The average of 5 consecutive odd numbers is 27. Find the largest number.
 - The middle (3rd) number is 27. The numbers are $23, 25, 27, 29, 31$.
-- Largest number $=$ **31**.
+- Largest number = **31**.
 
 **Example 2:** The average of 6 consecutive even numbers is 35. Find the smallest number.
 - The two middle numbers average to 35, so they are 34 and 36.
-- The numbers are $30, 32, 34, 36, 38, 40$. Smallest $=$ **30**.
+- The numbers are $30, 32, 34, 36, 38, 40$. Smallest = **30**.
 
 ### Question type 9. Cricket batting and bowling averages
 
@@ -147,11 +147,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1 (batting):** A batsman has an average of 40 in 15 innings. He scores 88 in the 16th inning. New average?
 - $\text{Total runs} = (15 \times 40) + 88 = 600 + 88 = 688$.
-- $\text{New average} = \dfrac{688}{16} =$ **43**.
+- $\text{New average} = \dfrac{688}{16}$ = **43**.
 
 **Example 2 (bowling):** A bowler's average is 12.4 runs/wicket. He takes 5 wickets for 26 runs, improving his average by 0.4. Total wickets before this match?
 - Let previous wickets be $w$. Total runs $= 12.4w + 26$.
-- $12.4w + 26 = 12.0(w + 5) \implies 0.4w = 34 \implies w =$ **85 wickets**.
+- $12.4w + 26 = 12.0(w + 5) \implies 0.4w = 34 \implies w$ = **85 wickets**.
 
 ### Question type 10. Group expenditure and sharing bill
 
@@ -159,7 +159,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** 9 friends go for dinner. 8 spend Rs 30 each. The 9th spends Rs 16 more than the average of all 9. Total money spent?
 - Let overall average be $A$. $A = 30 + \dfrac{16}{8} = 30 + 2 = 32$.
-- $\text{Total spent} = 9 \times 32 =$ **Rs 288**.
+- $\text{Total spent} = 9 \times 32$ = **Rs 288**.
 
 ### Question type 11. Average age over time and family changes
 
@@ -168,7 +168,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** 3 years ago, the average age of a family of 5 members was 17 years. A baby is born, and the average age of the family is the same today. Age of the baby?
 - Present sum of the 5 original members $= 5 \times (17 + 3) = 100\text{ years}$.
 - Present sum of 6 members $= 6 \times 17 = 102\text{ years}$.
-- Baby's age $= 102 - 100 =$ **2 years**.
+- Baby's age $= 102 - 100$ = **2 years**.
 
 ### Question type 12. Alligation method for averages
 
@@ -176,7 +176,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** The average salary of 60 employees is Rs 12000. Officers earn an average of Rs 20000 and non-officers earn Rs 10000. Find the number of officers.
 - Ratio Officers : Non-officers $= (12000 - 10000) : (20000 - 12000) = 2000 : 8000 = 1 : 4$.
-- Number of officers $= \dfrac{1}{5} \times 60 =$ **12**.
+- Number of officers $= \dfrac{1}{5} \times 60$ = **12**.
 
 ## 5. Before you practise
 

@@ -57,90 +57,90 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Idea:** use $n(A \cup B) = n(A) + n(B) - n(A \cap B)$.
 
 **Example 1:** $n(A)=30$, $n(B)=25$, $n(A \cap B)=10$. Find $n(A \cup B)$.
-- $n(A \cup B) = 30 + 25 - 10 =$ **45**.
+- $n(A \cup B) = 30 + 25 - 10$ = **45**.
 
 **Example 2:** $n(A \cup B)=50$, $n(A)=32$, $n(B)=28$. Find $n(A \cap B)$.
-- $n(A \cap B) = 32 + 28 - 50 =$ **10**.
+- $n(A \cap B) = 32 + 28 - 50$ = **10**.
 
 ### Question type 2. Three-set union
 
 **Idea:** $n(A \cup B \cup C) = n(A)+n(B)+n(C) - n(A \cap B) - n(B \cap C) - n(C \cap A) + n(A \cap B \cap C)$.
 
 **Example 1:** $n(A)=40$, $n(B)=35$, $n(C)=30$, $n(A \cap B)=10$, $n(B \cap C)=8$, $n(C \cap A)=6$, $n(A \cap B \cap C)=3$.
-- $n(A \cup B \cup C) = 40+35+30 - 10-8-6 + 3 =$ **84**.
+- $n(A \cup B \cup C) = 40+35+30 - 10-8-6 + 3$ = **84**.
 
 **Example 2:** $n(A)=50$, $n(B)=40$, $n(C)=30$, each pairwise intersection $=5$, $n(A \cap B \cap C)=2$.
-- $n(A \cup B \cup C) = 50+40+30 - 5-5-5 + 2 =$ **107**.
+- $n(A \cup B \cup C) = 50+40+30 - 5-5-5 + 2$ = **107**.
 
 ### Question type 3. Only one set or only two sets (three-set)
 
 **Idea:** Only $A = n(A) - n(A \cap B) - n(A \cap C) + n(A \cap B \cap C)$. Exactly two $= \sum(\text{pairwise}) - 3\,n(\text{all three})$.
 
 **Example:** $n(A)=40$, $n(B)=35$, $n(C)=30$, $n(A \cap B)=10$, $n(B \cap C)=8$, $n(C \cap A)=6$, $n(A \cap B \cap C)=3$.
-- Only $A = 40 - 10 - 6 + 3 =$ **27**.
-- Only $B = 35 - 10 - 8 + 3 =$ **20**.
-- Only $C = 30 - 8 - 6 + 3 =$ **19**.
-- Exactly two $= (10+8+6) - 3\times3 = 24 - 9 =$ **15**.
+- Only $A = 40 - 10 - 6 + 3$ = **27**.
+- Only $B = 35 - 10 - 8 + 3$ = **20**.
+- Only $C = 30 - 8 - 6 + 3$ = **19**.
+- Exactly two $= (10+8+6) - 3\times3 = 24 - 9$ = **15**.
 
 ### Question type 4. How many are in none of the sets
 
 **Idea:** $\text{neither} = \text{total} - n(A \cup B)$ for two sets; subtract $n(A \cup B \cup C)$ from the total for three sets.
 
 **Example 1:** In a survey of 100 people, 60 like tea, 50 like coffee, and 20 like both. How many like neither?
-- $n(\text{tea} \cup \text{coffee}) = 60 + 50 - 20 = 90$. Neither $= 100 - 90 =$ **10**.
+- $n(\text{tea} \cup \text{coffee}) = 60 + 50 - 20 = 90$. Neither $= 100 - 90$ = **10**.
 
 **Example 2:** 80 students: Maths $= 55$, Science $= 45$, both $= 30$. How many study neither?
-- $n(\text{M} \cup \text{S}) = 55 + 45 - 30 = 70$. Neither $= 80 - 70 =$ **10**.
+- $n(\text{M} \cup \text{S}) = 55 + 45 - 30 = 70$. Neither $= 80 - 70$ = **10**.
 
 ### Question type 5. At least one of two or three sets
 
 **Idea:** "at least one" is the same as the union. Use the inclusion-exclusion formula directly.
 
 **Example:** In a class of 40, cricket $= 25$, football $= 20$, both $= 10$. How many play at least one sport?
-- $n(\text{C} \cup \text{F}) = 25 + 20 - 10 =$ **35**.
-- Neither $= 40 - 35 =$ **5**.
+- $n(\text{C} \cup \text{F}) = 25 + 20 - 10$ = **35**.
+- Neither $= 40 - 35$ = **5**.
 
 ### Question type 6. Finding a missing intersection
 
 **Idea:** rearrange the union formula: $n(A \cap B) = n(A) + n(B) - n(A \cup B)$. If neither is given, $n(A \cup B) = \text{total} - \text{neither}$.
 
 **Example:** In a group of 70, 45 read newspaper A, 30 read newspaper B, and 10 read neither. Find $n(A \cap B)$.
-- $n(A \cup B) = 70 - 10 = 60$. $n(A \cap B) = 45 + 30 - 60 =$ **15**.
+- $n(A \cup B) = 70 - 10 = 60$. $n(A \cap B) = 45 + 30 - 60$ = **15**.
 
 ### Question type 7. Subsets, proper subsets and power set
 
 **Idea:** a set with $n$ elements has $2^n$ subsets (including the empty set) and $2^n - 1$ proper subsets.
 
 **Example 1:** How many subsets does $\{1, 2, 3, 4\}$ have? How many are proper subsets?
-- Total subsets $= 2^4 =$ **16**. Proper subsets $= 16 - 1 =$ **15**.
+- Total subsets $= 2^4$ = **16**. Proper subsets $= 16 - 1$ = **15**.
 
 **Example 2:** A set has 5 elements. How many subsets contain exactly 2 elements?
-- $\binom{5}{2} = \dfrac{5\times4}{2} =$ **10**.
+- $\binom{5}{2} = \dfrac{5\times4}{2}$ = **10**.
 
 ### Question type 8. Cartesian product
 
 **Idea:** $n(A \times B) = n(A)\times n(B)$.
 
 **Example:** $n(A)=3$ and $n(B)=4$. Find $n(A \times B)$.
-- $n(A \times B) = 3\times4 =$ **12**.
+- $n(A \times B) = 3\times4$ = **12**.
 
 ### Question type 9. Set difference and complement
 
 **Idea:** $A - B$ (elements in A but not in B) $= n(A) - n(A \cap B)$. Complement $A' = n(U) - n(A)$.
 
 **Example:** $n(U)=10$, $n(A)=6$, $n(B)=5$, $n(A \cap B)=3$.
-- $A - B = 6 - 3 =$ **3** (only in A).
-- $B - A = 5 - 3 =$ **2** (only in B).
-- $(A \cup B)' = 10 - (6+5-3) =$ **2** (in neither).
+- $A - B = 6 - 3$ = **3** (only in A).
+- $B - A = 5 - 3$ = **2** (only in B).
+- $(A \cup B)' = 10 - (6+5-3)$ = **2** (in neither).
 
 ### Question type 10. Exactly one, exactly two, all three
 
 **Idea:** use the direct formulas. "Exactly one" and "exactly two" are favourite exam types.
 
 **Example:** In a class of 100 students: English $=60$, French $=50$, German $=40$, E and F $=20$, F and G $=15$, E and G $=25$, all three $=10$.
-- Exactly one $= 60+50+40 - 2(20+15+25) + 3\times10 = 150 - 120 + 30 =$ **60**.
-- Exactly two $= (20+15+25) - 3\times10 = 60 - 30 =$ **30**.
-- All three $=$ **10**.
+- Exactly one $= 60+50+40 - 2(20+15+25) + 3\times10 = 150 - 120 + 30$ = **60**.
+- Exactly two $= (20+15+25) - 3\times10 = 60 - 30$ = **30**.
+- All three = **10**.
 - Total in at least one $= 60 + 30 + 10 = 100$ (all students).
 
 ### Question type 11. Relations and ordered pairs
@@ -148,14 +148,14 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Idea:** the number of relations from set $A$ to set $A$ (i.e., subsets of $A \times A$) is $2^{n^2}$, where $n = n(A)$.
 
 **Example:** How many relations can be defined on the set $A = \{1, 2, 3\}$?
-- $n(A) = 3$. Number of relations $= 2^{3^2} = 2^9 =$ **512**.
+- $n(A) = 3$. Number of relations $= 2^{3^2} = 2^9$ = **512**.
 
 ### Question type 12. De Morgan's laws
 
 **Idea:** $(A \cup B)' = A' \cap B'$ and $(A \cap B)' = A' \cup B'$.
 
 **Example:** $n(U)=30$, $n(A)=18$, $n(B)=14$, $n(A \cap B)=7$. Find $n((A \cap B)')$.
-- $n((A \cap B)') = n(U) - n(A \cap B) = 30 - 7 =$ **23**.
+- $n((A \cap B)') = n(U) - n(A \cap B) = 30 - 7$ = **23**.
 - Verify by De Morgan: $n(A' \cup B') = n(U) - n(A \cap B) = 23$. Consistent.
 
 ## 5. Before you practise

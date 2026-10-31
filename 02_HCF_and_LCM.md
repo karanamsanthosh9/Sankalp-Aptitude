@@ -48,7 +48,7 @@ $$\text{HCF}(a, b) \times \text{LCM}(a, b) = a \times b$$
 
 ### Your turn
 
-$\text{HCF}(36, 48) = 12$. Find $\text{LCM}(36, 48)$. (Answer: $\frac{36 \times 48}{12} = $ **144**.)
+$\text{HCF}(36, 48) = 12$. Find $\text{LCM}(36, 48)$. (Answer: $\frac{36 \times 48}{12}$ = **144**.)
 
 ## 2. The shortcuts that save 30 seconds in every question
 
@@ -78,7 +78,7 @@ Divide repeatedly by prime numbers until all quotients are 1. Multiply all the d
   |  1   1   1
 ```
 
-$\text{LCM} = 2 \times 2 \times 2 \times 3 \times 3 = $ **72**.
+$\text{LCM} = 2 \times 2 \times 2 \times 3 \times 3$ = **72**.
 
 ### Finding HCF and LCM from prime factorisation
 
@@ -117,7 +117,7 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 
 **Solved example:** HCF and LCM of 84 and 112.
 - $112 = 84 \times 1 + 28$; $84 = 28 \times 3 + 0$. **HCF = 28**.
-- $\text{LCM} = \frac{84 \times 112}{28} = $ **336**.
+- $\text{LCM} = \frac{84 \times 112}{28}$ = **336**.
 - Check: $28 \times 336 = 9408 = 84 \times 112$. Correct.
 
 **Your turn:** find HCF and LCM of 36 and 48. (HCF = 12; LCM = $36 \times 48 / 12$ = **144**.)
@@ -129,13 +129,13 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 **Think:** use $a \times b = \text{HCF} \times \text{LCM}$.
 
 **Solved example:** HCF = 12, LCM = 144, first number = 36.
-- Other number $= \frac{12 \times 144}{36} = $ **48**.
+- Other number $= \frac{12 \times 144}{36}$ = **48**.
 - Check: $\text{HCF}(36, 48) = 12$, $\text{LCM}(36, 48) = 144$. Correct.
 
 **Exam twist:** "The product of two numbers is 2028 and their HCF is 13. Find their LCM."
-- $\text{LCM} = \frac{2028}{13} = $ **156**.
+- $\text{LCM} = \frac{2028}{13}$ = **156**.
 
-**Your turn:** HCF of two numbers is 8, LCM is 240, one number is 40. Find the other. ($\frac{8 \times 240}{40} = $ **48**. Check: HCF(40,48) = 8, LCM(40,48) = 240.)
+**Your turn:** HCF of two numbers is 8, LCM is 240, one number is 40. Find the other. ($\frac{8 \times 240}{40}$ = **48**. Check: HCF(40,48) = 8, LCM(40,48) = 240.)
 
 ### Type 3. Largest number that divides given numbers leaving the same remainder
 
@@ -167,14 +167,14 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 
 **Solved example:** smallest number that when divided by 5, 6, 7, 8 leaves remainder 4.
 - $\text{LCM}(5, 6, 7, 8) = 840$.
-- Answer: $840 + 4 = $ **844**.
+- Answer: $840 + 4$ = **844**.
 - Check: $844 \div 5 = 168$ r 4; $844 \div 8 = 105$ r 4. Correct.
 
 **Exam twist:** "smallest number that when divided by 2, 3, 4, 5 leaves remainder 1, and is divisible by 7."
 - $\text{LCM}(2,3,4,5) = 60$; numbers: $61, 121, 181, 241, 301, \ldots$
 - $301 \div 7 = 43$, no remainder. **Answer: 301**.
 
-**Your turn:** smallest number divisible by 4, 6, 8, 10, 12? ($\text{LCM}(4,6,8,10,12) = $ **120**.)
+**Your turn:** smallest number divisible by 4, 6, 8, 10, 12? ($\text{LCM}(4,6,8,10,12)$ = **120**.)
 
 ### Type 5. HCF and LCM of fractions
 
@@ -200,12 +200,12 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 
 **Solved example:** floor 525 cm × 315 cm.
 - $\text{HCF}(525, 315)$: $525 = 315 \times 1 + 210$; $315 = 210 \times 1 + 105$; $210 = 105 \times 2 + 0$. HCF = **105**.
-- Tiles: $(525/105) \times (315/105) = 5 \times 3 = $ **15 tiles**.
+- Tiles: $(525/105) \times (315/105) = 5 \times 3$ = **15 tiles**.
 
 **Solved example:** floor 528 cm × 252 cm.
-- $\text{HCF}(528, 252) = 12$. Tiles $= 44 \times 21 = $ **924 tiles**.
+- $\text{HCF}(528, 252) = 12$. Tiles $= 44 \times 21$ = **924 tiles**.
 
-**Your turn:** a room 429 cm × 143 cm is to be tiled with the largest possible square tiles. How many tiles? ($\text{HCF}(429,143)$: $429 = 143 \times 3 + 0$. HCF = 143. Tiles $= (429/143) \times (143/143) = 3 \times 1 = $ **3 tiles**.)
+**Your turn:** a room 429 cm × 143 cm is to be tiled with the largest possible square tiles. How many tiles? ($\text{HCF}(429,143)$: $429 = 143 \times 3 + 0$. HCF = 143. Tiles $= (429/143) \times (143/143) = 3 \times 1$ = **3 tiles**.)
 
 ### Type 7. Bells, traffic lights, circular motion (LCM word problem)
 
@@ -223,7 +223,7 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 **Exam twist:** "4 bells ring at 4, 6, 8, 10, 12 seconds. How many times do they ring together in 3 hours?"
 - $\text{LCM}(4,6,8,10,12) = 120$ seconds.
 - 3 hours = 10800 seconds.
-- Times: $10800 \div 120 = $ **90 times** (not counting the start).
+- Times: $10800 \div 120$ = **90 times** (not counting the start).
 
 **Your turn:** two buses leave the same stop, one every 20 minutes and one every 28 minutes. They leave together at 8 am. When is the next time they leave together? ($\text{LCM}(20,28) = 140$ minutes. **Answer: 10:20 am**.)
 
@@ -235,13 +235,13 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 
 **Solved example:** ratio 2:3:5, HCF = 6.
 - Numbers: 12, 18, 30.
-- $\text{LCM}(2,3,5) = 30$. $\text{LCM}(12,18,30) = 6 \times 30 = $ **180**.
+- $\text{LCM}(2,3,5) = 30$. $\text{LCM}(12,18,30) = 6 \times 30$ = **180**.
 
 **Solved example:** ratio 3:4:5, HCF = 4. Numbers = 12, 16, 20.
 - LCM(12, 16, 20) = **240**.
 - Sum = $12 + 16 + 20 = 48$.
 
-**Your turn:** two numbers in ratio 3:4 with HCF = 12. Find their LCM. (Numbers: 36, 48. $\text{LCM}(36,48) = $ **144**.)
+**Your turn:** two numbers in ratio 3:4 with HCF = 12. Find their LCM. (Numbers: 36, 48. $\text{LCM}(36,48)$ = **144**.)
 
 ### Type 9. Largest / smallest n-digit number divisible by given numbers
 
@@ -251,13 +251,13 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 
 **Solved example:** largest 3-digit number divisible by both 18 and 24.
 - $\text{LCM}(18, 24) = 72$.
-- $999 \div 72 = 13.875$. Largest whole multiple: $13 \times 72 = $ **936**.
+- $999 \div 72 = 13.875$. Largest whole multiple: $13 \times 72$ = **936**.
 
 **Solved example:** smallest 4-digit number divisible by 8, 10, 12, 14.
 - $\text{LCM}(8,10,12,14) = 840$.
-- $840 < 1000$; $2 \times 840 = $ **1680**.
+- $840 < 1000$; $2 \times 840$ = **1680**.
 
-**Your turn:** find the largest 4-digit number divisible by 18, 24, and 32. ($\text{LCM}(18,24,32) = 288$. $9999 \div 288 = 34.7$; $34 \times 288 = $ **9792**.)
+**Your turn:** find the largest 4-digit number divisible by 18, 24, and 32. ($\text{LCM}(18,24,32) = 288$. $9999 \div 288 = 34.7$; $34 \times 288$ = **9792**.)
 
 ### Type 10. Smallest number N such that (N + k) is divisible by given numbers
 
@@ -267,14 +267,14 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 
 **Solved example:** $N + 3$ divisible by 5, 7, 9, 11.
 - $\text{LCM}(5,7,9,11) = 3465$.
-- $N = 3465 - 3 = $ **3462**.
+- $N = 3465 - 3$ = **3462**.
 
 **Solved example:** smallest N such that $(N+1)$ is divisible by 12, 16, 18, 21.
 - $\text{LCM}(12,16,18,21) = 1008$.
-- $N = 1008 - 1 = $ **1007**.
+- $N = 1008 - 1$ = **1007**.
 - Check: $1008 \div 12 = 84$; $1008 \div 21 = 48$. Correct.
 
-**Your turn:** find the smallest number that when increased by 7 is exactly divisible by 12, 16, and 24. ($\text{LCM}(12,16,24) = 48$. $N = 48 - 7 = $ **41**. Check: $48 \div 12 = 4$.)
+**Your turn:** find the smallest number that when increased by 7 is exactly divisible by 12, 16, and 24. ($\text{LCM}(12,16,24) = 48$. $N = 48 - 7$ = **41**. Check: $48 \div 12 = 4$.)
 
 ### Type 11. LCM : HCF ratio problems
 
@@ -283,14 +283,14 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 **Think:** $\text{LCM} = 20 \times \text{HCF} = 20 \times 5 = 100$. Then $\text{other} = \frac{\text{HCF} \times \text{LCM}}{\text{one number}}$.
 
 **Solved example:** HCF = 5, LCM = 100, one number = 20.
-- Other $= \frac{5 \times 100}{20} = $ **25**.
+- Other $= \frac{5 \times 100}{20}$ = **25**.
 - Check: $\text{HCF}(20, 25) = 5$, $\text{LCM}(20, 25) = 100$. Correct.
 
 **Solved example:** HCF = 30, LCM = 2310, one number = 210.
-- Other $= \frac{30 \times 2310}{210} = $ **330**.
+- Other $= \frac{30 \times 2310}{210}$ = **330**.
 - Check: $\text{HCF}(210, 330) = 30$, $\text{LCM}(210, 330) = 2310$. Correct.
 
-**Your turn:** two numbers have HCF 12 and LCM 720. One number is 144. Find the other. ($\frac{12 \times 720}{144} = $ **60**.)
+**Your turn:** two numbers have HCF 12 and LCM 720. One number is 144. Find the other. ($\frac{12 \times 720}{144}$ = **60**.)
 
 ### Type 12. HCF conditions with sum or difference
 
@@ -301,9 +301,9 @@ Find $\text{LCM}\!\left(\dfrac{3}{4}, \dfrac{5}{8}, \dfrac{7}{12}\right)$. (LCM 
 **Solved example:** HCF = 12, sum = 108, difference = 12.
 - $a + b = 9$, $a - b = 1$. So $a = 5$, $b = 4$.
 - Numbers: $12 \times 5 = 60$ and $12 \times 4 = 48$.
-- $\text{LCM}(48, 60) = $ **240**.
+- $\text{LCM}(48, 60)$ = **240**.
 
-**Your turn:** HCF of two numbers is 8 and their sum is 88. One possible pair is (24, 64). Find their LCM. ($\text{LCM}(24, 64) = $ **192**. Check: $\text{HCF}(24,64)=8$; $24+64=88$.)
+**Your turn:** HCF of two numbers is 8 and their sum is 88. One possible pair is (24, 64). Find their LCM. ($\text{LCM}(24, 64)$ = **192**. Check: $\text{HCF}(24,64)=8$; $24+64=88$.)
 
 ### Type 13. Maximum number of students / groups (equal distribution)
 

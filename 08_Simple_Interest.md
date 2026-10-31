@@ -27,8 +27,8 @@ Questions look like these:
 **Per annum** means "per year". **8% per annum** means: for every Rs 100 lent, you earn Rs 8 each year.
 
 - On Rs 100, interest for 1 year is Rs 8.
-- On Rs 5000, which is fifty hundreds, interest for 1 year is $50\times8=$ Rs 400.
-- For 3 years, the same Rs 400 is earned each year, so $400\times3=$ Rs 1200.
+- On Rs 5000, which is fifty hundreds, interest for 1 year is $50\times8=\text{Rs }400$.
+- For 3 years, the same Rs 400 is earned each year, so $400\times3=\text{Rs }1200$.
 
 That small story is the whole formula:
 
@@ -68,7 +68,7 @@ Find the SI on Rs 7500 at 4% per annum for 3 years. (Answer: Rs 900. One year gi
 
 Always ask: "How much interest does this earn in ONE year?" That is $\dfrac{P\times R}{100}$. Then multiply by years. This avoids big products in one go.
 
-**Example.** Rs 6000 at 10% for 9 months. One year gives Rs 600. Nine months is $\dfrac{9}{12}=\dfrac{3}{4}$ of a year, so $600\times\dfrac{3}{4}=$ **Rs 450**.
+**Example.** Rs 6000 at 10% for 9 months. One year gives Rs 600. Nine months is $\dfrac{9}{12}=\dfrac{3}{4}$ of a year, so $600\times\dfrac{3}{4}$ = **Rs 450**.
 
 ### Shortcut 2. Rate times time is all that matters
 
@@ -84,13 +84,13 @@ If $R\times T=30$, the amount is $1.30$ times the principal. In general:
 
 $$A=P\times\dfrac{100+RT}{100}$$
 
-**Example.** Rs 7800 is the amount after 5 years at 6%. $RT=30$, so $P=\dfrac{7800}{1.3}=$ **Rs 6000**.
+**Example.** Rs 7800 is the amount after 5 years at 6%. $RT=30$, so $P=\dfrac{7800}{1.3}$ = **Rs 6000**.
 
 ### Shortcut 4. The 365 and 73 trick for days
 
 For days, use $\dfrac{\text{days}}{365}$ as the fraction of a year. If the principal is a multiple of 7300 ($=20\times365$), the day fraction cancels cleanly.
 
-**Example.** Rs 7300 at 10% for 73 days. One year $=730$. $\dfrac{73}{365}=\dfrac{1}{5}$ of a year. $730\div5=$ **Rs 146**.
+**Example.** Rs 7300 at 10% for 73 days. One year $=730$. $\dfrac{73}{365}=\dfrac{1}{5}$ of a year. $730\div5$ = **Rs 146**.
 
 ## 3. Types of questions and how to crack each one
 
@@ -104,13 +104,13 @@ Every type you can meet is below. Each has: how you spot it, how to think, an ex
 
 **Example 1.** Rs 8000, 6%, 3 years.
 - One year: $\dfrac{8000\times6}{100}=480$.
-- Three years: **Rs 1440**. Amount $=8000+1440=$ **Rs 9440**.
+- Three years: **Rs 1440**. Amount $=8000+1440$ = **Rs 9440**.
 
 **Example 2.** Rs 12500 at 8% for 2 years.
 - One year: $1000$. Two years: **Rs 2000**.
 
 **Example 3.** Rs 4500 at 12% for $2\frac{1}{2}$ years.
-- One year: $540$. For 2.5 years: $540\times2.5=$ **Rs 1350**.
+- One year: $540$. For 2.5 years: $540\times2.5$ = **Rs 1350**.
 
 **Your turn:** SI on Rs 7500 at 4% for 3 years. (Answer: Rs 900)
 
@@ -123,13 +123,13 @@ Every type you can meet is below. Each has: how you spot it, how to think, an ex
 $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qquad T=\dfrac{100\times\text{SI}}{P\,R}$$
 
 **Example 1 (principal).** SI Rs 1800, rate 12%, time 3 years.
-- $P=\dfrac{1800\times100}{12\times3}=$ **Rs 5000**.
+- $P=\dfrac{1800\times100}{12\times3}$ = **Rs 5000**.
 
 **Example 2 (time).** Rs 2000 earns Rs 900 at 9%.
-- $T=\dfrac{900\times100}{2000\times9}=$ **5 years**.
+- $T=\dfrac{900\times100}{2000\times9}$ = **5 years**.
 
 **Example 3 (rate).** Rs 3500 earns Rs 1260 in 9 years.
-- $R=\dfrac{1260\times100}{3500\times9}=$ **4%**.
+- $R=\dfrac{1260\times100}{3500\times9}$ = **4%**.
 
 **Your turn:** Rs 8000 earns Rs 2400 in 5 years. Rate? (Answer: 6%. One year gives 480, and $\dfrac{480}{8000}=6\%$.)
 
@@ -140,14 +140,14 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 **Think:** turn time into years first. Months over 12. Days over 365.
 
 **Example 1.** Rs 6000 at 10% for 9 months.
-- $\dfrac{6000\times10}{100}\times\dfrac{9}{12}=600\times\dfrac{3}{4}=$ **Rs 450**.
+- $\dfrac{6000\times10}{100}\times\dfrac{9}{12}=600\times\dfrac{3}{4}$ = **Rs 450**.
 
 **Example 2.** Rs 9125 at 8% for 73 days.
-- One year: $730$. $\dfrac{73}{365}=\dfrac{1}{5}$. Interest $=730\div5=$ **Rs 146**.
+- One year: $730$. $\dfrac{73}{365}=\dfrac{1}{5}$. Interest $=730\div5$ = **Rs 146**.
 
 **Example 3 (dates).** Rs 7300 at 10% from 10 January to 20 March in a normal year.
 - Days: 21 more days of January, 28 of February, 20 of March: $21+28+20=69$ days.
-- One year: $730$. $730\times\dfrac{69}{365}=$ **Rs 138**.
+- One year: $730$. $730\times\dfrac{69}{365}$ = **Rs 138**.
 
 **Exam twist:** when two dates are given, count the day of lending or the day of return, **not both**. A rate may also be "per month", which is covered in Type 15.
 
@@ -160,13 +160,13 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 **Think:** subtract to get the SI, or use Amount $=P(1+\frac{RT}{100})$.
 
 **Example 1.** Rs 5000 becomes Rs 6200 in 3 years. Rate?
-- SI $=1200$. $R=\dfrac{1200\times100}{5000\times3}=$ **8%**.
+- SI $=1200$. $R=\dfrac{1200\times100}{5000\times3}$ = **8%**.
 
 **Example 2.** What sum becomes Rs 7800 in 5 years at 6%?
-- $RT=30$. $P=\dfrac{7800}{1.3}=$ **Rs 6000**.
+- $RT=30$. $P=\dfrac{7800}{1.3}$ = **Rs 6000**.
 
 **Example 3.** Rs 9000 becomes Rs 11880 in 8 years. Rate?
-- SI $=2880$. $R=\dfrac{2880\times100}{9000\times8}=$ **4%**.
+- SI $=2880$. $R=\dfrac{2880\times100}{9000\times8}$ = **4%**.
 
 **Your turn:** Rs 6000 becomes Rs 8400 in 5 years. Rate? (Answer: 8%. SI is 2400, and $\dfrac{2400\times100}{6000\times5}$.)
 
@@ -180,13 +180,13 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 - Tripling: $RT=200$.
 - Becoming 4 times: $RT=300$.
 
-**Example 1.** Doubles in 8 years. $R=\dfrac{100}{8}=$ **12.5%**.
+**Example 1.** Doubles in 8 years. $R=\dfrac{100}{8}$ = **12.5%**.
 
-**Example 2.** At 10%, in how many years does it triple? $T=\dfrac{200}{10}=$ **20 years**.
+**Example 2.** At 10%, in how many years does it triple? $T=\dfrac{200}{10}$ = **20 years**.
 
-**Example 3.** Becomes 4 times in 15 years. $R=\dfrac{300}{15}=$ **20%**.
+**Example 3.** Becomes 4 times in 15 years. $R=\dfrac{300}{15}$ = **20%**.
 
-**Exam twist:** "A sum doubles in 8 years. In how many years will it become 5 times?" Interest per year is $\frac{1}{8}$ of $P$. Four times $P$ needs $4\times8=$ **32 years**. The time grows with $(n-1)$, not with $n$.
+**Exam twist:** "A sum doubles in 8 years. In how many years will it become 5 times?" Interest per year is $\frac{1}{8}$ of $P$. Four times $P$ needs $4\times8$ = **32 years**. The time grows with $(n-1)$, not with $n$.
 
 **Your turn:** at 20%, in how many years does a sum become 3 times? (Answer: 10 years. $RT=200$.)
 
@@ -198,11 +198,11 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 
 **Example 1.** Rs 5800 after 2 years, Rs 7000 after 5 years.
 - Gap $=1200$ for 3 years, so one year $=400$.
-- $P=5800-2\times400=$ **Rs 5000**. Rate $=\dfrac{400}{5000}=$ **8%**.
+- $P=5800-2\times400$ = **Rs 5000**. Rate $=\dfrac{400}{5000}$ = **8%**.
 
 **Example 2.** Rs 8800 after 2 years, Rs 10400 after 6 years.
 - Gap $=1600$ for 4 years, so one year $=400$.
-- $P=8800-800=$ **Rs 8000**. Rate $=\dfrac{400}{8000}=$ **5%**.
+- $P=8800-800$ = **Rs 8000**. Rate $=\dfrac{400}{8000}$ = **5%**.
 
 **Your turn:** Rs 5900 after 3 years, Rs 6800 after 6 years. Sum and rate? (Answer: Rs 5000 and 6%. One year is 300, and $5900-900=5000$.)
 
@@ -213,10 +213,10 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 **Think:** $R=T$, so $\text{SI}=\dfrac{P\times R^2}{100}$. Find $R^2$, then take the square root.
 
 **Example 1.** SI on Rs 4000 is Rs 1440 and rate equals time.
-- $R^2=\dfrac{1440\times100}{4000}=36$. $R=$ **6%**.
+- $R^2=\dfrac{1440\times100}{4000}=36$. $R$ = **6%**.
 
 **Example 2.** The interest earned is $\frac{1}{4}$ of the sum, and rate equals time.
-- $\dfrac{R^2}{100}=\dfrac{1}{4}$, so $R^2=25$. $R=$ **5%** (and 5 years).
+- $\dfrac{R^2}{100}=\dfrac{1}{4}$, so $R^2=25$. $R$ = **5%** (and 5 years).
 
 **Your turn:** SI on Rs 2500 is Rs 900 and rate equals time. Rate? (Answer: 6%. $R^2=\dfrac{900\times100}{2500}=36$.)
 
@@ -226,11 +226,11 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 
 **Think:** the interest is $P\times R\times T$ divided by 100, so equal interest means $P_1R_1T_1=P_2R_2T_2$. Cancel 100 and solve.
 
-**Example 1.** $3000\times4\times5=2500\times6\times T$, so $60000=15000T$, and $T=$ **4 years**.
+**Example 1.** $3000\times4\times5=2500\times6\times T$, so $60000=15000T$, and $T$ = **4 years**.
 
 **Example 2.** SI on Rs 3000 at 5% for 4 years equals SI on Rs 1500 at 8% for how many years?
 - $3000\times5\times4=60000$. $1500\times8=12000$ per year.
-- $T=60000\div12000=$ **5 years**.
+- $T=60000\div12000$ = **5 years**.
 
 **Your turn:** SI on Rs 2000 at 6% for 5 years equals SI on Rs 3000 at 4% for how many years? (Answer: 5 years. Both sides are 600.)
 
@@ -260,7 +260,7 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 **Example 1.** Rs 12000 at 6% and 9%, yearly interest Rs 840.
 - Average rate $=\dfrac{840}{12000}=7\%$.
 - Distances: $9-7=2$ and $7-6=1$. Ratio part at 6% : part at 9% $=2:1$.
-- Part at 6% $=$ **Rs 8000**. Part at 9% $=$ Rs 4000.
+- Part at 6% = **Rs 8000**. Part at 9% = Rs 4000.
 
 **Example 2.** Rs 10000 at 5% and 8%, yearly interest Rs 740.
 - Average $=7.4\%$. Ratio of 5% : 8% $=(8-7.4):(7.4-5)=0.6:2.4=1:4$.
@@ -276,10 +276,10 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 
 **Example 1.** Rs 5000 for 7 years at 6% for 2, 8% for 3, 10% for 2.
 - Total percent $=12+24+20=56$.
-- SI $=56\%$ of $5000=$ **Rs 2800**.
+- SI $=56\%$ of $5000$ = **Rs 2800**.
 
 **Example 2.** Rs 4000 at 5% for 3 years then 7% for 2 years.
-- $15+14=29\%$ of 4000 $=$ **Rs 1160**.
+- $15+14=29\%$ of 4000 = **Rs 1160**.
 
 **Your turn:** Rs 2000 at 4% for 2 years, 6% for 3 years, 8% for 2 years. SI? (Answer: Rs 840. $8+18+16=42\%$ of 2000.)
 
@@ -289,10 +289,10 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 
 **Think:** he gains the **difference in rates** on the same sum for the same time.
 
-**Example 1.** Gain $=\dfrac{8000\times(9-6)\times3}{100}=$ **Rs 720**.
+**Example 1.** Gain $=\dfrac{8000\times(9-6)\times3}{100}$ = **Rs 720**.
 
 **Example 2 (find the sum).** Gain of Rs 360 in 2 years from a rate difference of 3%.
-- $P=\dfrac{360\times100}{3\times2}=$ **Rs 6000**.
+- $P=\dfrac{360\times100}{3\times2}$ = **Rs 6000**.
 
 **Your turn:** a man borrows Rs 5000 at a rate 3% lower than the rate at which he lends it. Over 4 years, what is his gain? (Answer: Rs 600. $5000\times3\times4\div100$.)
 
@@ -303,10 +303,10 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 **Think:** the extra interest comes only from the extra rate. So extra $=\dfrac{P\times(\text{extra rate})\times T}{100}$.
 
 **Example 1.** Extra rate 2%, 3 years, Rs 480 more.
-- $P=\dfrac{480\times100}{2\times3}=$ **Rs 8000**.
+- $P=\dfrac{480\times100}{2\times3}$ = **Rs 8000**.
 
 **Example 2.** Extra rate 3%, 4 years, Rs 540 more.
-- $P=\dfrac{540\times100}{3\times4}=$ **Rs 4500**.
+- $P=\dfrac{540\times100}{3\times4}$ = **Rs 4500**.
 
 **Your turn:** extra rate 2%, 5 years, Rs 600 more. Sum? (Answer: Rs 6000. $\dfrac{600\times100}{2\times5}$.)
 
@@ -319,7 +319,7 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 **Example.** Rs 3500 at 10% SI for 2 years. Cleared in two equal yearly instalments, the first at the end of year 1. Find each.
 - Debt at end of 2 years: $3500\times1.2=4200$.
 - First instalment $x$ earns interest for 1 year: $1.1x$. Second instalment: $x$.
-- $1.1x+x=4200$, so $2.1x=4200$ and $x=$ **Rs 2000**.
+- $1.1x+x=4200$, so $2.1x=4200$ and $x$ = **Rs 2000**.
 
 **Your turn:** Rs 7000 at 10% SI for 2 years, cleared in two equal yearly instalments. Each instalment? (Answer: Rs 4000. Debt 8400, and $2.1x=8400$.)
 
@@ -330,13 +330,13 @@ $$P=\dfrac{100\times\text{SI}}{R\,T}\qquad R=\dfrac{100\times\text{SI}}{P\,T}\qq
 **Think:** turn a monthly rate into a yearly one by multiplying by 12, or keep the time in months and use the monthly rate directly.
 
 **Example 1.** Rs 5000 at 1.5% per month for 8 months.
-- $5000\times\dfrac{1.5}{100}\times8=$ **Rs 600**.
+- $5000\times\dfrac{1.5}{100}\times8$ = **Rs 600**.
 
 **Example 2.** 2 paise per rupee per month. Yearly rate?
-- 2 paise per rupee is 2%. That is 2% every month, so per year $2\times12=$ **24%**.
+- 2 paise per rupee is 2%. That is 2% every month, so per year $2\times12$ = **24%**.
 
 **Example 3.** Rs 2400 at 2.5% per month for 1 year.
-- Yearly rate $=30\%$. Interest $=30\%$ of $2400=$ **Rs 720**.
+- Yearly rate $=30\%$. Interest $=30\%$ of $2400$ = **Rs 720**.
 
 **Your turn:** Rs 4000 at 1.5% per month for 10 months. SI? (Answer: Rs 600. $1.5\times10=15\%$ of 4000.)
 

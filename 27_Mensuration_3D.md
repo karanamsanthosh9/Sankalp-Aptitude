@@ -57,39 +57,39 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Idea:** Side $a$. Volume $V = a^3$, $\text{LSA} = 4a^2$, $\text{TSA} = 6a^2$, Space diagonal $d = a\sqrt{3}$.
 
 **Example 1:** Find the volume, TSA, and space diagonal of a cube of edge $6\text{ cm}$.
-- $\text{Volume} = 6^3 =$ **216 $\text{cm}^3$**.
-- $\text{TSA} = 6 \times 6^2 = 6 \times 36 =$ **216 $\text{cm}^2$**.
-- $\text{Diagonal} = 6\sqrt{3} =$ **$6\sqrt{3}\text{ cm}$**.
+- $\text{Volume} = 6^3$ = **216 $\text{cm}^3$**.
+- $\text{TSA} = 6 \times 6^2 = 6 \times 36$ = **216 $\text{cm}^2$**.
+- $\text{Diagonal} = 6\sqrt{3}$ = **$6\sqrt{3}\text{ cm}$**.
 
 **Example 2:** The diagonal of a cube is $8\sqrt{3}\text{ cm}$. Find its volume and total surface area.
 - $a\sqrt{3} = 8\sqrt{3} \implies a = 8\text{ cm}$.
-- $\text{Volume} = 8^3 =$ **512 $\text{cm}^3$**.
-- $\text{TSA} = 6 \times 8^2 = 6 \times 64 =$ **384 $\text{cm}^2$**.
+- $\text{Volume} = 8^3$ = **512 $\text{cm}^3$**.
+- $\text{TSA} = 6 \times 8^2 = 6 \times 64$ = **384 $\text{cm}^2$**.
 
 ### Question type 2. Cuboid
 
 **Idea:** Dimensions $l, b, h$. Volume $V = lbh$, $\text{TSA} = 2(lb + bh + hl)$, Area of 4 walls $= 2(l + b)h$, Space diagonal $d = \sqrt{l^2 + b^2 + h^2}$.
 
 **Example 1:** A cuboid has length $10\text{ cm}$, breadth $8\text{ cm}$, and height $6\text{ cm}$. Find its volume, TSA, and space diagonal.
-- $\text{Volume} = 10 \times 8 \times 6 =$ **480 $\text{cm}^3$**.
-- $\text{TSA} = 2(10 \times 8 + 8 \times 6 + 10 \times 6) = 2(80 + 48 + 60) = 2(188) =$ **376 $\text{cm}^2$**.
-- $\text{Diagonal} = \sqrt{10^2 + 8^2 + 6^2} = \sqrt{100 + 64 + 36} = \sqrt{200} =$ **$10\sqrt{2}\text{ cm}$**.
+- $\text{Volume} = 10 \times 8 \times 6$ = **480 $\text{cm}^3$**.
+- $\text{TSA} = 2(10 \times 8 + 8 \times 6 + 10 \times 6) = 2(80 + 48 + 60) = 2(188)$ = **376 $\text{cm}^2$**.
+- $\text{Diagonal} = \sqrt{10^2 + 8^2 + 6^2} = \sqrt{100 + 64 + 36} = \sqrt{200}$ = **$10\sqrt{2}\text{ cm}$**.
 
 **Example 2:** Find the length of the longest rod that can be placed in a room $12\text{ m}$ long, $9\text{ m}$ broad, and $8\text{ m}$ high.
-- $\text{Longest rod} = \sqrt{12^2 + 9^2 + 8^2} = \sqrt{144 + 81 + 64} = \sqrt{289} =$ **17 m**.
+- $\text{Longest rod} = \sqrt{12^2 + 9^2 + 8^2} = \sqrt{144 + 81 + 64} = \sqrt{289}$ = **17 m**.
 
 ### Question type 3. Right circular cylinder
 
 **Idea:** Solid cylinder: $V = \pi r^2 h$, $\text{CSA} = 2\pi rh$, $\text{TSA} = 2\pi r(r + h)$. Hollow cylinder: $V = \pi(R^2 - r^2)h$.
 
 **Example 1:** A cylinder has base radius $7\text{ cm}$ and height $10\text{ cm}$. Find its volume, CSA, and TSA.
-- $\text{Volume} = \dfrac{22}{7} \times 7^2 \times 10 = 154 \times 10 =$ **1540 $\text{cm}^3$**.
-- $\text{CSA} = 2 \times \dfrac{22}{7} \times 7 \times 10 =$ **440 $\text{cm}^2$**.
-- $\text{TSA} = 2 \times \dfrac{22}{7} \times 7 \times (7 + 10) = 44 \times 17 =$ **748 $\text{cm}^2$**.
+- $\text{Volume} = \dfrac{22}{7} \times 7^2 \times 10 = 154 \times 10$ = **1540 $\text{cm}^3$**.
+- $\text{CSA} = 2 \times \dfrac{22}{7} \times 7 \times 10$ = **440 $\text{cm}^2$**.
+- $\text{TSA} = 2 \times \dfrac{22}{7} \times 7 \times (7 + 10) = 44 \times 17$ = **748 $\text{cm}^2$**.
 
 **Example 2:** A hollow iron pipe is $14\text{ cm}$ long. Its outer and inner diameters are $20\text{ cm}$ and $16\text{ cm}$ respectively. Find the volume of iron in the pipe.
 - Outer radius $R = 10\text{ cm}$, Inner radius $r = 8\text{ cm}$.
-- $\text{Volume} = \dfrac{22}{7}(10^2 - 8^2) \times 14 = \dfrac{22}{7} \times 36 \times 14 = 22 \times 36 \times 2 =$ **1584 $\text{cm}^3$**.
+- $\text{Volume} = \dfrac{22}{7}(10^2 - 8^2) \times 14 = \dfrac{22}{7} \times 36 \times 14 = 22 \times 36 \times 2$ = **1584 $\text{cm}^3$**.
 
 ### Question type 4. Right circular cone
 
@@ -97,29 +97,29 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** A cone has base radius $7\text{ cm}$ and height $24\text{ cm}$. Find its slant height, volume, CSA, and TSA.
 - Slant height $l = \sqrt{7^2 + 24^2} = \sqrt{49 + 576} = 25\text{ cm}$.
-- $\text{Volume} = \dfrac{1}{3} \times \dfrac{22}{7} \times 7^2 \times 24 = \dfrac{1}{3} \times 154 \times 24 =$ **1232 $\text{cm}^3$**.
-- $\text{CSA} = \dfrac{22}{7} \times 7 \times 25 =$ **550 $\text{cm}^2$**.
-- $\text{TSA} = \dfrac{22}{7} \times 7 \times (7 + 25) = 22 \times 32 =$ **704 $\text{cm}^2$**.
+- $\text{Volume} = \dfrac{1}{3} \times \dfrac{22}{7} \times 7^2 \times 24 = \dfrac{1}{3} \times 154 \times 24$ = **1232 $\text{cm}^3$**.
+- $\text{CSA} = \dfrac{22}{7} \times 7 \times 25$ = **550 $\text{cm}^2$**.
+- $\text{TSA} = \dfrac{22}{7} \times 7 \times (7 + 25) = 22 \times 32$ = **704 $\text{cm}^2$**.
 
 ### Question type 5. Sphere and hemisphere
 
 **Idea:** Sphere: Volume $V = \dfrac{4}{3}\pi r^3$, $\text{Surface Area} = 4\pi r^2$. Solid hemisphere: Volume $V = \dfrac{2}{3}\pi r^3$, $\text{CSA} = 2\pi r^2$, $\text{TSA} = 3\pi r^2$.
 
 **Example 1:** Find the volume and surface area of a sphere of radius $21\text{ cm}$.
-- $\text{Volume} = \dfrac{4}{3} \times \dfrac{22}{7} \times 21^3 = 4 \times 22 \times 441 =$ **38808 $\text{cm}^3$**.
-- $\text{Surface Area} = 4 \times \dfrac{22}{7} \times 21^2 = 4 \times 1386 =$ **5544 $\text{cm}^2$**.
+- $\text{Volume} = \dfrac{4}{3} \times \dfrac{22}{7} \times 21^3 = 4 \times 22 \times 441$ = **38808 $\text{cm}^3$**.
+- $\text{Surface Area} = 4 \times \dfrac{22}{7} \times 21^2 = 4 \times 1386$ = **5544 $\text{cm}^2$**.
 
 **Example 2:** Find the CSA and TSA of a solid hemisphere of radius $7\text{ cm}$.
-- $\text{CSA} = 2 \times \dfrac{22}{7} \times 7^2 =$ **308 $\text{cm}^2$**.
-- $\text{TSA} = 3 \times \dfrac{22}{7} \times 7^2 = 3 \times 154 =$ **462 $\text{cm}^2$**.
+- $\text{CSA} = 2 \times \dfrac{22}{7} \times 7^2$ = **308 $\text{cm}^2$**.
+- $\text{TSA} = 3 \times \dfrac{22}{7} \times 7^2 = 3 \times 154$ = **462 $\text{cm}^2$**.
 
 ### Question type 6. Frustum of a cone
 
 **Idea:** Radii $R$ and $r$, vertical height $h$. Slant height $l = \sqrt{h^2 + (R-r)^2}$, Volume $V = \dfrac{1}{3}\pi h (R^2 + r^2 + Rr)$, $\text{CSA} = \pi(R + r)l$.
 
 **Example 1:** A bucket in the shape of a frustum of a cone has circular top radius $10\text{ cm}$, bottom radius $4\text{ cm}$, and vertical height $8\text{ cm}$. Find its slant height and CSA.
-- Slant height $l = \sqrt{8^2 + (10 - 4)^2} = \sqrt{64 + 36} =$ **10 cm**.
-- $\text{CSA} = \dfrac{22}{7} \times (10 + 4) \times 10 = \dfrac{22}{7} \times 14 \times 10 =$ **440 $\text{cm}^2$**.
+- Slant height $l = \sqrt{8^2 + (10 - 4)^2} = \sqrt{64 + 36}$ = **10 cm**.
+- $\text{CSA} = \dfrac{22}{7} \times (10 + 4) \times 10 = \dfrac{22}{7} \times 14 \times 10$ = **440 $\text{cm}^2$**.
 
 ### Question type 7. Right prism and right pyramid
 
@@ -127,31 +127,31 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1 (Prism):** The base of a right prism is an equilateral triangle of side $6\text{ cm}$ and its height is $10\text{ cm}$. Find its volume and LSA.
 - $\text{Base Area} = \dfrac{\sqrt{3}}{4} \times 6^2 = 9\sqrt{3}\text{ cm}^2$.
-- $\text{Volume} = 9\sqrt{3} \times 10 =$ **$90\sqrt{3}\text{ cm}^3$**.
-- $\text{LSA} = (3 \times 6) \times 10 =$ **180 $\text{cm}^2$**.
+- $\text{Volume} = 9\sqrt{3} \times 10$ = **$90\sqrt{3}\text{ cm}^3$**.
+- $\text{LSA} = (3 \times 6) \times 10$ = **180 $\text{cm}^2$**.
 
 **Example 2 (Pyramid):** A right pyramid has a square base of side $10\text{ cm}$ and vertical height $12\text{ cm}$. Find its slant height, volume, and TSA.
 - Slant height $l = \sqrt{12^2 + 5^2} = \sqrt{144 + 25} = 13\text{ cm}$.
-- $\text{Volume} = \dfrac{1}{3} \times 10^2 \times 12 =$ **400 $\text{cm}^3$**.
-- $\text{LSA} = \dfrac{1}{2} \times (4 \times 10) \times 13 = 260\text{ cm}^2$. $\text{TSA} = 260 + 100 =$ **360 $\text{cm}^2$**.
+- $\text{Volume} = \dfrac{1}{3} \times 10^2 \times 12$ = **400 $\text{cm}^3$**.
+- $\text{LSA} = \dfrac{1}{2} \times (4 \times 10) \times 13 = 260\text{ cm}^2$. $\text{TSA} = 260 + 100$ = **360 $\text{cm}^2$**.
 
 ### Question type 8. Regular tetrahedron
 
 **Idea:** A pyramid with 4 congruent equilateral triangular faces of side $a$. Volume $V = \dfrac{\sqrt{2}}{12}a^3$, $\text{TSA} = \sqrt{3}a^2$, Height $h = \sqrt{\dfrac{2}{3}}a$.
 
 **Example 1:** Find the volume and TSA of a regular tetrahedron of edge $6\text{ cm}$.
-- $\text{Volume} = \dfrac{\sqrt{2}}{12} \times 6^3 = \dfrac{\sqrt{2} \times 216}{12} =$ **$18\sqrt{2}\text{ cm}^3$**.
-- $\text{TSA} = \sqrt{3} \times 6^2 =$ **$36\sqrt{3}\text{ cm}^2$**.
+- $\text{Volume} = \dfrac{\sqrt{2}}{12} \times 6^3 = \dfrac{\sqrt{2} \times 216}{12}$ = **$18\sqrt{2}\text{ cm}^3$**.
+- $\text{TSA} = \sqrt{3} \times 6^2$ = **$36\sqrt{3}\text{ cm}^2$**.
 
 ### Question type 9. Melting, recasting, and reshaping
 
 **Idea:** When solids are melted and recast, total volume remains constant: $\sum V_{\text{initial}} = \sum V_{\text{final}}$.
 
 **Example 1:** Three metallic solid spheres of radii $3\text{ cm}$, $4\text{ cm}$, and $5\text{ cm}$ are melted into a single solid sphere. Find the radius of the resulting sphere.
-- $R^3 = 3^3 + 4^3 + 5^3 = 27 + 64 + 125 = 216 \implies R =$ **6 cm**.
+- $R^3 = 3^3 + 4^3 + 5^3 = 27 + 64 + 125 = 216 \implies R$ = **6 cm**.
 
 **Example 2:** A solid metallic cone of radius $6\text{ cm}$ and height $24\text{ cm}$ is melted and recast into small solid spheres of radius $3\text{ cm}$. Find the number of spheres formed.
-- $\text{Number } N = \dfrac{\frac{1}{3}\pi \times 6^2 \times 24}{\frac{4}{3}\pi \times 3^3} = \dfrac{36 \times 24}{4 \times 27} = \dfrac{864}{108} =$ **8 spheres**.
+- $\text{Number } N = \dfrac{\frac{1}{3}\pi \times 6^2 \times 24}{\frac{4}{3}\pi \times 3^3} = \dfrac{36 \times 24}{4 \times 27} = \dfrac{864}{108}$ = **8 spheres**.
 
 ### Question type 10. Composite solids
 
@@ -159,7 +159,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** A circus tent consists of a cylindrical base of radius $14\text{ m}$ and height $3\text{ m}$, surmounted by a conical roof with slant height $10\text{ m}$. Find the total canvas required.
 - $\text{Canvas} = \text{CSA(Cylinder)} + \text{CSA(Cone)} = 2\pi rh + \pi r l = \pi r (2h + l)$.
-- $\text{Area} = \dfrac{22}{7} \times 14 \times (2 \times 3 + 10) = 44 \times 16 =$ **704 $\text{m}^2$**.
+- $\text{Area} = \dfrac{22}{7} \times 14 \times (2 \times 3 + 10) = 44 \times 16$ = **704 $\text{m}^2$**.
 
 ### Question type 11. Cutting and slicing solids
 
@@ -167,11 +167,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** A solid sphere of radius $7\text{ cm}$ is cut into two equal hemispheres. Find the increase in total surface area.
 - Two new circular base faces are created, each of area $\pi r^2$.
-- $\text{Increase in TSA} = 2\pi r^2 = 2 \times \dfrac{22}{7} \times 7^2 =$ **308 $\text{cm}^2$**.
+- $\text{Increase in TSA} = 2\pi r^2 = 2 \times \dfrac{22}{7} \times 7^2$ = **308 $\text{cm}^2$**.
 
 **Example 2:** A cone of height $H$ is cut into two parts by a plane parallel to its base at midpoint $\dfrac{H}{2}$. Find the ratio of the volume of the smaller top cone to that of the lower frustum.
 - $\dfrac{V_{\text{top}}}{V_{\text{full}}} = \left(\dfrac{1}{2}\right)^3 = \dfrac{1}{8}$.
-- $V_{\text{frustum}} = 8 - 1 = 7$. Ratio $V_{\text{top}} : V_{\text{frustum}} =$ **1 : 7**.
+- $V_{\text{frustum}} = 8 - 1 = 7$. Ratio $V_{\text{top}} : V_{\text{frustum}}$ = **1 : 7**.
 
 ### Question type 12. Water flow through pipes
 
@@ -181,16 +181,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Pipe radius $r = 1\text{ cm}$, Time $= 30 \times 60 = 1800\text{ s}$.
 - Volume delivered $= \pi \times 1^2 \times (70 \times 1800) = 126000\pi\text{ cm}^3$.
 - Tank volume $= \pi \times 40^2 \times H = 1600\pi H$.
-- $1600\pi H = 126000\pi \implies H = \dfrac{126000}{1600} =$ **78.75 cm**.
+- $1600\pi H = 126000\pi \implies H = \dfrac{126000}{1600}$ = **78.75 cm**.
 
 ### Question type 13. Immersion of objects in liquids
 
-**Idea:** Volume of submerged object $=$ Volume of displaced liquid $= \text{Base Area of container} \times \text{Rise in level}$.
+**Idea:** Volume of submerged object = Volume of displaced liquid $= \text{Base Area of container} \times \text{Rise in level}$.
 
 **Example 1:** A solid sphere of radius $6\text{ cm}$ is dropped into a cylindrical vessel of radius $12\text{ cm}$ containing water. Find the rise in water level.
 - $\text{Volume of sphere} = \dfrac{4}{3}\pi \times 6^3 = \dfrac{4}{3}\pi \times 216 = 288\pi\text{ cm}^3$.
 - $\text{Base area of vessel} = \pi \times 12^2 = 144\pi\text{ cm}^2$.
-- $\text{Rise in level } h = \dfrac{288\pi}{144\pi} =$ **2 cm**.
+- $\text{Rise in level } h = \dfrac{288\pi}{144\pi}$ = **2 cm**.
 
 ### Question type 14. Percentage and ratio changes in 3D dimensions
 
@@ -199,7 +199,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** If the radius of a sphere is increased by $10\%$, find the percentage increase in its volume.
 - Ratio of new radius to old $= 1.1 : 1$.
 - Ratio of new volume to old $= (1.1)^3 = 1.331$.
-- $\text{Percentage increase} = (1.331 - 1) \times 100 =$ **33.1% increase**.
+- $\text{Percentage increase} = (1.331 - 1) \times 100$ = **33.1% increase**.
 
 ## 5. Before you practise
 

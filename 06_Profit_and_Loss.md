@@ -54,9 +54,9 @@ $$\text{SP} = \text{MP}\times\dfrac{100-\text{Discount\%}}{100}$$
 
 Instead of computing profit in rupees and then finding percent, just compare the two multipliers:
 
-CP $\times$ (profit multiplier) $=$ SP. Multiplier $= \dfrac{100+p}{100}$ or $\dfrac{100-p}{100}$.
+CP $\times$ (profit multiplier) = SP. Multiplier $= \dfrac{100+p}{100}$ or $\dfrac{100-p}{100}$.
 
-For a chain (mark up then discount): SP $=$ CP $\times \dfrac{100+m}{100} \times \dfrac{100-d}{100}$.
+For a chain (mark up then discount): SP = CP $\times \dfrac{100+m}{100} \times \dfrac{100-d}{100}$.
 
 ### Shortcut 2: same SP, one profit one loss (critical exam trick)
 
@@ -130,19 +130,19 @@ Let CP $= x$. $0.9x + 50 = 1.15x \implies 50 = 0.25x \implies x = \mathbf{Rs\ 20
 
 **How you spot it:** "a shopkeeper marks 25% above CP and sells at 10% discount. Find profit%."
 
-**Think:** SP $=$ MP $\times (1-d/100) =$ CP $\times (1+m/100) \times (1-d/100)$.
+**Think:** $SP = MP \times (1-d/100) = CP \times (1+m/100) \times (1-d/100)$.
 
-**Example.** CP Rs 750, mark up 20% ($= $Rs 900), give 20% discount.
+**Example.** CP Rs 750, mark up 20% (=Rs 900), give 20% discount.
 
 SP $= 900\times0.8 = 720$. Loss $= 750-720 = 30$. Loss\% $= \dfrac{30}{750}\times100 = \mathbf{4\%}$.
 
-**Another.** CP Rs 640, mark 25% above ($=$Rs 800), give 5% discount.
+**Another.** CP Rs 640, mark 25% above (=Rs 800), give 5% discount.
 
 SP $= 800\times0.95 = 760$. Profit $= 120$. Profit\% $= \dfrac{120}{640}\times100 = \mathbf{18.75\%}$.
 
 **Exam twist:** given SP and discount%, find MP. MP $= \text{SP}\div(1-d/100)$. If SP $= 756$ after 10% disc, MP $= 756\div0.9 = Rs\ 840$.
 
-**Your turn:** CP Rs 400, marked 25% up, sold at 20% discount. Profit or loss%? (Answer: SP $=500\times0.8=400=$ CP, so **0% profit**. Net change formula: $25-20-5=0\%$)
+**Your turn:** CP Rs 400, marked 25% up, sold at 20% discount. Profit or loss%? (Answer: $SP=500\times0.8=400=CP$, so **0% profit**. Net change formula: $25-20-5=0\%$.)
 
 ### Type 5. Successive discounts
 
@@ -244,7 +244,7 @@ SP $= 600\times1.25 = \mathbf{Rs\ 750}$.
 
 **Think:** gain $= 10\times\text{CP per article}$. Total CP $= 30\times\text{CP per article}$. Profit\% $= 10/30\times100$.
 
-**Example.** Gain on selling 50 articles $=$ SP of 10 articles.
+**Example.** Gain on selling 50 articles = SP of 10 articles.
 
 Gain $= 50\times\text{SP} - 50\times\text{CP} = 10\times\text{SP}$.
 
@@ -252,7 +252,7 @@ $50\text{SP} - 50\text{CP} = 10\text{SP} \implies 40\text{SP} = 50\text{CP} \imp
 
 Profit\% $= \dfrac{5/4-1}{1}\times100 = \mathbf{25\%}$.
 
-**Example.** Gain on selling 30 articles $=$ CP of 10 articles. Profit\% $= 10/30\times100 = 33.33\%$.
+**Example.** Gain on selling 30 articles = CP of 10 articles. Profit\% $= 10/30\times100 = 33.33\%$.
 
 **Your turn:** by selling 40 articles, a trader gains equal to CP of 10 articles. Profit%? (Answer: profit $=10\times$CP$_\text{unit}$, total CP $=40\times$CP$_\text{unit}$, profit\% $=25\%$)
 
@@ -274,11 +274,11 @@ $0.2A - 0.1(2000-A) = 100 \implies 0.3A = 300 \implies A = \mathbf{Rs\ 1000}$, $
 
 **Think:** express CP in terms of SP, then find loss%.
 
-**Example.** Loss $= \dfrac{1}{5}$ of SP. CP $=$ SP $+$ loss $=$ SP $+ \dfrac{1}{5}$SP $= \dfrac{6}{5}$SP.
+**Example.** Loss $= \dfrac{1}{5}$ of SP. CP = SP $+$ loss = SP $+ \dfrac{1}{5}$SP $= \dfrac{6}{5}$SP.
 
 Loss\% $= \dfrac{\text{loss}}{\text{CP}}\times100 = \dfrac{SP/5}{6SP/5}\times100 = \dfrac{1}{6}\times100 = \mathbf{16.\overline{6}\%}$.
 
-**Your turn:** profit $= \dfrac{1}{4}$ of SP. Find profit%? (Answer: CP $= $SP $-$ SP/4 $= 3$SP$/4$. Profit\% $= (SP/4)/(3SP/4)\times100 = 33.33\%$)
+**Your turn:** profit $= \dfrac{1}{4}$ of SP. Find profit%? (Answer: CP =SP $-$ SP/4 $= 3$SP$/4$. Profit\% $= (SP/4)/(3SP/4)\times100 = 33.33\%$)
 
 ## 4. One page to revise before the exam
 
@@ -293,9 +293,9 @@ Loss\% $= \dfrac{\text{loss}}{\text{CP}}\times100 = \dfrac{SP/5}{6SP/5}\times100
 | Same SP, one profit one loss at same \% | Net loss $=P^2/100$ |
 | False weight | Profit\% $=(E-G)/G\times100$ where $G$ is given, $E$ is expected |
 | Buy at one rate, sell at another | Find CP/unit and SP/unit, then \% |
-| Gain $=$ CP of $n$ articles (selling $m$) | Profit\% $=n/m\times100$ |
+| Gain = CP of $n$ articles (selling $m$) | Profit\% $=n/m\times100$ |
 | Cost $+$ overhead | Add all costs to get effective CP |
-| Loss $=$ fraction of SP | Express CP in terms of SP, then compute |
+| Loss = fraction of SP | Express CP in terms of SP, then compute |
 
 ### Key percent-fraction equivalents for this chapter
 
@@ -318,7 +318,7 @@ Loss\% $= \dfrac{\text{loss}}{\text{CP}}\times100 = \dfrac{SP/5}{6SP/5}\times100
 4. **Treating overhead as profit.** Add transport, repair, loading costs to CP before computing profit%.
 5. **Adding successive discounts.** 20% and 10% discount is not 30%. It is $20+10-2=28\%$ equivalent. Apply them one by one.
 6. **False weight profit on selling price.** Profit from false weight is on the weight given (false weight), not on the weight claimed. Use the formula $(E-G)/G\times100$.
-7. **Reversing the "gain on selling $n$ articles" logic.** If gain $=$ CP of $k$ articles out of $n$ sold, profit\% $= k/n\times100$.
+7. **Reversing the "gain on selling $n$ articles" logic.** If gain = CP of $k$ articles out of $n$ sold, profit\% $= k/n\times100$.
 
 ## 6. Practice questions
 

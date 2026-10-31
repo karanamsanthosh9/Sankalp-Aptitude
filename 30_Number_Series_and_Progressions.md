@@ -61,58 +61,58 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** $3, 7, 11, 15, ?$
 - Differences: $4, 4, 4$. Common difference $d = 4$.
-- Next term $= 15 + 4 =$ **19**.
+- Next term $= 15 + 4$ = **19**.
 
 **Example 2:** $2, 5, 10, 17, 26, ?$
 - Differences: $3, 5, 7, 9$. The differences increase by $2$ each time.
-- Next difference $= 11$. Next term $= 26 + 11 =$ **37**.
+- Next difference $= 11$. Next term $= 26 + 11$ = **37**.
 
 ### Question type 2. Constant-ratio (geometric) series
 
 **Idea:** divide consecutive terms to get the common ratio $r$, then multiply to find the next term.
 
 **Example 1:** $3, 6, 12, 24, ?$
-- Ratio $= 2$. Next term $= 24 \times 2 =$ **48**.
+- Ratio $= 2$. Next term $= 24 \times 2$ = **48**.
 
 **Example 2:** $162, 54, 18, 6, ?$
-- Ratio $= \dfrac{1}{3}$. Next term $= 6 \times \dfrac{1}{3} =$ **2**.
+- Ratio $= \dfrac{1}{3}$. Next term $= 6 \times \dfrac{1}{3}$ = **2**.
 
 ### Question type 3. Square-based series
 
 **Idea:** check if terms are perfect squares, or squares $\pm$ a constant, or $n^2 \pm n$.
 
 **Example 1:** $1, 4, 9, 16, 25, ?$
-- Terms are $1^2, 2^2, 3^2, 4^2, 5^2$. Next $= 6^2 =$ **36**.
+- Terms are $1^2, 2^2, 3^2, 4^2, 5^2$. Next $= 6^2$ = **36**.
 
 **Example 2:** $2, 5, 10, 17, 26, ?$
-- Terms are $1^2+1, 2^2+1, 3^2+1, 4^2+1, 5^2+1$. Next $= 6^2+1 =$ **37**.
+- Terms are $1^2+1, 2^2+1, 3^2+1, 4^2+1, 5^2+1$. Next $= 6^2+1$ = **37**.
 
 ### Question type 4. Cube-based series
 
 **Idea:** check if terms are perfect cubes or cubes $\pm$ a constant.
 
 **Example 1:** $1, 8, 27, 64, ?$
-- Terms are $1^3, 2^3, 3^3, 4^3$. Next $= 5^3 =$ **125**.
+- Terms are $1^3, 2^3, 3^3, 4^3$. Next $= 5^3$ = **125**.
 
 **Example 2:** $2, 9, 28, 65, ?$
-- Terms are $1^3+1, 2^3+1, 3^3+1, 4^3+1$. Next $= 5^3+1 =$ **126**.
+- Terms are $1^3+1, 2^3+1, 3^3+1, 4^3+1$. Next $= 5^3+1$ = **126**.
 
 ### Question type 5. Prime-number series
 
 **Idea:** list the primes in order: $2, 3, 5, 7, 11, 13, 17, 19, 23, \ldots$ and match the pattern.
 
 **Example 1:** $2, 3, 5, 7, 11, 13, ?$
-- Consecutive primes. Next prime $=$ **17**.
+- Consecutive primes. Next prime = **17**.
 
 **Example 2:** $4, 6, 10, 14, 22, 26, ?$
-- Terms are $2 \times$ (consecutive primes): $2\times2, 2\times3, 2\times5, 2\times7, 2\times11, 2\times13$. Next $= 2\times17 =$ **34**.
+- Terms are $2 \times$ (consecutive primes): $2\times2, 2\times3, 2\times5, 2\times7, 2\times11, 2\times13$. Next $= 2\times17$ = **34**.
 
 ### Question type 6. Alternating / interleaved series
 
 **Idea:** split the series into two separate sub-series by taking odd-position and even-position terms, then find each pattern independently.
 
 **Example 1:** $2, 3, 4, 6, 6, 12, 8, ?$
-- Odd positions: $2, 4, 6, 8$ (add 2). Even positions: $3, 6, 12, ?$ (multiply by 2). Next even-position term $= 12\times2 =$ **24**.
+- Odd positions: $2, 4, 6, 8$ (add 2). Even positions: $3, 6, 12, ?$ (multiply by 2). Next even-position term $= 12\times2$ = **24**.
 
 **Example 2:** $1, 2, 4, 3, 9, 4, ?$
 - Odd positions: $1, 4, 9, ?$ (perfect squares $\to$ next $= 16$). Even positions: $2, 3, 4$ (add 1). Blank is in odd position $\to$ **16**.
@@ -123,21 +123,21 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** $1, 2, 4, 7, 11, 16, ?$
 - Differences: $1, 2, 3, 4, 5$. Second differences: all $1$.
-- Next difference $= 6$. Next term $= 16 + 6 =$ **22**.
+- Next difference $= 6$. Next term $= 16 + 6$ = **22**.
 
 **Example 2:** $5, 7, 10, 14, 19, 25, ?$
 - Differences: $2, 3, 4, 5, 6$. Next difference $= 7$.
-- Next term $= 25 + 7 =$ **32**.
+- Next term $= 25 + 7$ = **32**.
 
 ### Question type 8. Missing number in the middle
 
 **Idea:** establish the rule from the known terms, then apply it to the blank.
 
 **Example 1:** $6, ?, 24, 48$
-- Ratio $= 2$ (each term doubles). Missing term $= 6\times2 =$ **12**.
+- Ratio $= 2$ (each term doubles). Missing term $= 6\times2$ = **12**.
 
 **Example 2:** $3, 7, ?, 19, 27$
-- Differences: $4, ?, ?, 8$. The differences alternate $4, 8, 4, 8$. So the missing difference $= 8$. Missing term $= 7 + 8 =$ **15**.
+- Differences: $4, ?, ?, 8$. The differences alternate $4, 8, 4, 8$. So the missing difference $= 8$. Missing term $= 7 + 8$ = **15**.
 
 ### Question type 9. Wrong number in a series
 
@@ -154,40 +154,40 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Idea:** $T_n = a + (n-1)d$ and $S_n = \dfrac{n}{2}[2a + (n-1)d]$.
 
 **Example 1:** Find the 15th term of $3, 7, 11, \ldots$
-- $a=3$, $d=4$. $T_{15} = 3 + 14\times4 = 3 + 56 =$ **59**.
+- $a=3$, $d=4$. $T_{15} = 3 + 14\times4 = 3 + 56$ = **59**.
 
 **Example 2:** Find the sum of the first 20 terms of $5, 8, 11, \ldots$
-- $a=5$, $d=3$, $n=20$. $S_{20} = \dfrac{20}{2}[10 + 19\times3] = 10\times67 =$ **670**.
+- $a=5$, $d=3$, $n=20$. $S_{20} = \dfrac{20}{2}[10 + 19\times3] = 10\times67$ = **670**.
 
 ### Question type 11. GP: nth term and sum
 
 **Idea:** $T_n = a \cdot r^{n-1}$ and $S_n = \dfrac{a(r^n - 1)}{r - 1}$.
 
 **Example 1:** Find the 8th term of $2, 6, 18, \ldots$
-- $a=2$, $r=3$. $T_8 = 2\times3^7 = 2\times2187 =$ **4374**.
+- $a=2$, $r=3$. $T_8 = 2\times3^7 = 2\times2187$ = **4374**.
 
 **Example 2:** Find the sum of the first 6 terms of $3, 6, 12, \ldots$
-- $a=3$, $r=2$. $S_6 = \dfrac{3(2^6-1)}{2-1} = 3\times63 =$ **189**.
+- $a=3$, $r=2$. $S_6 = \dfrac{3(2^6-1)}{2-1} = 3\times63$ = **189**.
 
 ### Question type 12. Arithmetic and geometric means
 
 **Idea:** AM of an AP $= \dfrac{a+l}{2}$. GM of a GP $= (T_1 \times T_2 \times \cdots \times T_n)^{1/n}$.
 
 **Example 1:** Find the sum of the AP $4, 8, 12, \ldots, 40$.
-- AM $= \dfrac{4+40}{2} = 22$. Number of terms $= \dfrac{40-4}{4}+1 = 10$. Sum $= 10\times22 =$ **220**.
+- AM $= \dfrac{4+40}{2} = 22$. Number of terms $= \dfrac{40-4}{4}+1 = 10$. Sum $= 10\times22$ = **220**.
 
 **Example 2:** Find the GM of the GP $2, 4, 8, 16, 32$.
-- Product $= 2\times4\times8\times16\times32 = 2^{15}$. GM $= (2^{15})^{1/5} = 2^3 =$ **8**.
+- Product $= 2\times4\times8\times16\times32 = 2^{15}$. GM $= (2^{15})^{1/5} = 2^3$ = **8**.
 
 ### Question type 13. Number of terms in an AP or GP
 
 **Idea:** AP: $n = \dfrac{l-a}{d}+1$. GP: solve $a \cdot r^{n-1} = l$ for $n$.
 
 **Example 1:** How many terms in the AP $8, 11, 14, \ldots, 56$?
-- $n = \dfrac{56-8}{3}+1 = 16+1 =$ **17**.
+- $n = \dfrac{56-8}{3}+1 = 16+1$ = **17**.
 
 **Example 2:** Find the sum of all odd numbers from 1 to 99.
-- AP: $a=1$, $l=99$, $d=2$. $n=50$. Sum $= \dfrac{50}{2}(1+99) = 25\times100 =$ **2500**.
+- AP: $a=1$, $l=99$, $d=2$. $n=50$. Sum $= \dfrac{50}{2}(1+99) = 25\times100$ = **2500**.
 
 ### Question type 14. Inserting means between two numbers
 
@@ -204,10 +204,10 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Idea:** valid only when $|r| < 1$. $S_\infty = \dfrac{a}{1-r}$.
 
 **Example 1:** Find $1 + \dfrac{1}{2} + \dfrac{1}{4} + \cdots$
-- $a=1$, $r=\dfrac{1}{2}$. $S_\infty = \dfrac{1}{1-\frac{1}{2}} =$ **2**.
+- $a=1$, $r=\dfrac{1}{2}$. $S_\infty = \dfrac{1}{1-\frac{1}{2}}$ = **2**.
 
 **Example 2:** Find $\dfrac{1}{3} + \dfrac{1}{9} + \dfrac{1}{27} + \cdots$
-- $a=\dfrac{1}{3}$, $r=\dfrac{1}{3}$. $S_\infty = \dfrac{\frac{1}{3}}{\frac{2}{3}} =$ **$\dfrac{1}{2}$**.
+- $a=\dfrac{1}{3}$, $r=\dfrac{1}{3}$. $S_\infty = \dfrac{\frac{1}{3}}{\frac{2}{3}}$ = **$\dfrac{1}{2}$**.
 
 ## 5. Before you practise
 

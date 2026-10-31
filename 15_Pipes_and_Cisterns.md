@@ -54,11 +54,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** Pipe A fills a tank in 10 hours and Pipe B in 15 hours. Both together?
 - LCM $= 30$. Rates: A $= 3$, B $= 2$. Net rate $= 5$ units/hr.
-- $T = \dfrac{30}{5} =$ **6 hours**.
+- $T = \dfrac{30}{5}$ = **6 hours**.
 
 **Example 2:** Three pipes A, B, and C fill a tank in 12, 15, and 20 hours. All three together?
 - LCM $= 60$. Rates: A $= 5$, B $= 4$, C $= 3$. Combined rate $= 12$ units/hr.
-- $T = \dfrac{60}{12} =$ **5 hours**.
+- $T = \dfrac{60}{12}$ = **5 hours**.
 
 ### Question type 2. Inlets and outlets operating simultaneously
 
@@ -66,11 +66,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** An inlet fills a tank in 12 hours and an outlet empties it in 18 hours. Both open?
 - LCM $= 36$. Inlet $= +3$, Outlet $= -2$. Net rate $= +1$ unit/hr.
-- $T = \dfrac{36}{1} =$ **36 hours**.
+- $T = \dfrac{36}{1}$ = **36 hours**.
 
 **Example 2:** Inlets A and B fill in 10 and 12 hours; outlet C empties in 15 hours. All open?
 - LCM $= 60$. Rates: A $= +6$, B $= +5$, C $= -4$. Net rate $= 6 + 5 - 4 = +7$ units/hr.
-- $T = \dfrac{60}{7} =$ **$8\frac{4}{7}$ hours**.
+- $T = \dfrac{60}{7}$ = **$8\frac{4}{7}$ hours**.
 
 ### Question type 3. Leak in the tank
 
@@ -79,7 +79,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** A pump fills a tank in 8 hours. Due to a leak at the bottom, it takes 10 hours to fill. The leak alone empties a full tank in?
 - LCM $= 40$. Inlet $= +5$, Net with leak $= +4$.
 - Leak rate $= 5 - 4 = 1$ unit/hr.
-- Time for leak $= \dfrac{40}{1} =$ **40 hours**.
+- Time for leak $= \dfrac{40}{1}$ = **40 hours**.
 
 ### Question type 4. Finding the capacity of the tank
 
@@ -88,7 +88,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** A pipe fills a tank in 15 hours. A leak empties water at 4 L/min. With both open, the tank fills in 20 hours. Find tank capacity.
 - LCM $= 60$. Pipe rate $= 4$, Net rate $= 3 \implies \text{Leak rate} = 1$ unit/hr.
 - Leak takes $\dfrac{60}{1} = 60\text{ hours} = 3600\text{ minutes}$ to empty full tank.
-- $\text{Capacity} = 3600 \times 4 =$ **14400 liters**.
+- $\text{Capacity} = 3600 \times 4$ = **14400 liters**.
 
 ### Question type 5. Pipes opened at staggered times
 
@@ -98,7 +98,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - LCM $= 36$. A $= 3$, B $= 2$.
 - From 8:00 to 10:00 AM (2 hours), A fills $2 \times 3 = 6$ units. Remaining $= 30$ units.
 - From 10:00 AM, both run at $3 + 2 = 5$ units/hr: $\text{Time} = \dfrac{30}{5} = 6\text{ hours}$.
-- Tank is full at $10:00\text{ AM} + 6\text{ hours} =$ **4:00 PM**.
+- Tank is full at $10:00\text{ AM} + 6\text{ hours}$ = **4:00 PM**.
 
 ### Question type 6. Pipe closed midway or before tank fills
 
@@ -107,11 +107,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1 (closed midway):** Pipe A fills in 12 min, B in 16 min. Both open. After how many min should B be closed so tank is full in 9 min?
 - A runs all 9 min: fills $9 \times \dfrac{1}{12} = \dfrac{3}{4}$ of the tank.
 - B must fill $1 - \dfrac{3}{4} = \dfrac{1}{4}$ of the tank.
-- Time for B $= \dfrac{1}{4} \times 16 =$ **4 min**.
+- Time for B $= \dfrac{1}{4} \times 16$ = **4 min**.
 
 **Example 2 (closed before end):** Pipe A fills in 20 min, B in 30 min. Pipe A is closed 5 min before full. Total time?
 - LCM $= 60$. A $= 3$, B $= 2$. B works $T$ min, A works $(T - 5)$ min.
-- $3(T - 5) + 2T = 60 \implies 5T = 75 \implies T =$ **15 min**.
+- $3(T - 5) + 2T = 60 \implies 5T = 75 \implies T$ = **15 min**.
 
 ### Question type 7. Alternating hours and helper cycles
 
@@ -121,7 +121,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - LCM $= 24$. Rates: A $= 4$, B $= 3$. A 2-hour cycle fills $4 + 3 = 7$ units.
 - 3 full cycles (6 hours) fill $3 \times 7 = 21$ units. Remaining $= 3$ units.
 - Hour 7 (A's turn): A needs $\dfrac{3}{4}\text{ hour} = 45\text{ min}$.
-- Total time $= 6 + \dfrac{3}{4} =$ **$6\frac{3}{4}$ hours** (6 hrs 45 min).
+- Total time $= 6 + \dfrac{3}{4}$ = **$6\frac{3}{4}$ hours** (6 hrs 45 min).
 
 ### Question type 8. Pipe efficiency and diameter ratios
 
@@ -130,7 +130,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** Three pipes have diameters 1 cm, 2 cm, 3 cm. The largest fills a tank in 42 min. Time for all three together?
 - Flow rates: $1^2 : 2^2 : 3^2 = 1 : 4 : 9$. Total rate $= 1 + 4 + 9 = 14$ units/min.
 - Total capacity $= 9 \times 42 = 378$ units.
-- Combined time $= \dfrac{378}{14} =$ **27 min**.
+- Combined time $= \dfrac{378}{14}$ = **27 min**.
 
 ### Question type 9. Fraction of tank filled or emptied
 
@@ -138,7 +138,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** Pipe A fills $\dfrac{1}{3}$ of a tank in 4 hours. Pipe B fills $\dfrac{1}{2}$ of it in 9 hours. Both together for the full tank?
 - A alone takes $4 \div \dfrac{1}{3} = 12\text{ hours}$. B alone takes $9 \div \dfrac{1}{2} = 18\text{ hours}$.
-- $T = \dfrac{12 \times 18}{12 + 18} = \dfrac{216}{30} =$ **7.2 hours** (7 hrs 12 min).
+- $T = \dfrac{12 \times 18}{12 + 18} = \dfrac{216}{30}$ = **7.2 hours** (7 hrs 12 min).
 
 ### Question type 10. Time difference and quadratic equations
 
@@ -146,7 +146,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** Pipe A fills a tank 5 hours faster than Pipe B. Together they fill it in 6 hours. Time taken by Pipe A alone?
 - $\dfrac{1}{x} + \dfrac{1}{x+5} = \dfrac{1}{6} \implies 6(2x+5) = x(x+5) \implies x^2 - 7x - 30 = 0$.
-- $(x-10)(x+3) = 0 \implies x =$ **10 hours** (Pipe B takes 15 hours).
+- $(x-10)(x+3) = 0 \implies x$ = **10 hours** (Pipe B takes 15 hours).
 
 ### Question type 11. Clogging and partial flow rates
 
@@ -156,7 +156,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - LCM $= 60$. Normal: A $= 3$, B $= 2$. Clogged: A $= 2$, B $= 1$ (combined $= 3$ units/min).
 - First 8 min fills $8 \times 3 = 24$ units. Remaining $= 36$ units.
 - Restored flow rate $= 3 + 2 = 5$ units/min: $\text{Time} = \dfrac{36}{5} = 7.2\text{ min}$.
-- Total time $= 8 + 7.2 =$ **15.2 min** (15 min 12 s).
+- Total time $= 8 + 7.2$ = **15.2 min** (15 min 12 s).
 
 ### Question type 12. Taps fitted at different heights
 
@@ -165,7 +165,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** A tank has 4 identical taps at equal vertical intervals (bottom, $\frac{1}{4}, \frac{2}{4}, \frac{3}{4}$ height). One tap empties full tank in 12 hours. Time to empty full tank with all taps open?
 - Each quarter requires $12 \div 4 = 3\text{ tap-hours}$.
 - Top quarter (4 taps): $\dfrac{3}{4}\text{ hr}$; 2nd quarter (3 taps): $\dfrac{3}{3} = 1\text{ hr}$; 3rd (2 taps): $\dfrac{3}{2} = 1.5\text{ hrs}$; Bottom (1 tap): $\dfrac{3}{1} = 3\text{ hrs}$.
-- Total time $= 0.75 + 1 + 1.5 + 3 =$ **6.25 hours** (6 hrs 15 min).
+- Total time $= 0.75 + 1 + 1.5 + 3$ = **6.25 hours** (6 hrs 15 min).
 
 ## 5. Before you practise
 

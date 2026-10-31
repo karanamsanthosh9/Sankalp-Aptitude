@@ -140,7 +140,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 **Solved example:** $225 - [48 - \{36 - (18 - 6)\}]$
 - $(18-6)=12$; $\{36-12\}=24$; $[48-24]=24$; $225-24=\mathbf{201}$.
 
-**Your turn:** evaluate $36 \div 4 + 5 \times 3 - 8$. ($9 + 15 - 8 = $ **16**.)
+**Your turn:** evaluate $36 \div 4 + 5 \times 3 - 8$. ($9 + 15 - 8$ = **16**.)
 
 ### Type 2. Simplification using indices
 
@@ -154,7 +154,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 
 **Exam twist:** "Simplify $\dfrac{x^5 \times x^7}{x^9}$." Answer: $x^{5+7-9} = x^3$.
 
-**Your turn:** simplify $2^5 \times 2^3 \div 2^6$. ($2^{5+3-6} = 2^2 = $ **4**.)
+**Your turn:** simplify $2^5 \times 2^3 \div 2^6$. ($2^{5+3-6} = 2^2$ = **4**.)
 
 ### Type 3. Simplification using algebraic identities
 
@@ -172,7 +172,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 
 **Solved example:** $(a-b)^3 = a^3 - b^3 - 3ab(a-b)$. So if $a=7$, $b=3$: $7^3 - 3^3 - 3 \times 7 \times 3 \times (7-3) = 4^3 = \mathbf{64}$.
 
-**Your turn:** evaluate $(12 - 15)^2$ using the identity $(a-b)^2 = a^2 - 2ab + b^2$. ($144 + 225 - 360 = $ **9** $= (-3)^2$.)
+**Your turn:** evaluate $(12 - 15)^2$ using the identity $(a-b)^2 = a^2 - 2ab + b^2$. ($144 + 225 - 360$ = **9** $= (-3)^2$.)
 
 ### Type 4. Simplification with surds and square roots
 
@@ -190,7 +190,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 
 **Exam twist:** $\dfrac{1}{\sqrt{2}+1} = \sqrt{2}-1$ after rationalising the denominator.
 
-**Your turn:** evaluate $\sqrt{2.25}$. ($\sqrt{225/100} = 15/10 = $ **1.5**.)
+**Your turn:** evaluate $\sqrt{2.25}$. ($\sqrt{225/100} = 15/10$ = **1.5**.)
 
 ### Type 5. Decimal and fraction operations
 
@@ -205,7 +205,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 
 **Solved example:** recurring decimal $0.6363\ldots = \dfrac{63}{99} = \dfrac{7}{11}$.
 
-**Your turn:** simplify $\dfrac{11}{12} - \dfrac{5}{12} \times 1$. ($\dfrac{6}{12} = \dfrac{1}{2} = $ **0.5**.)
+**Your turn:** simplify $\dfrac{11}{12} - \dfrac{5}{12} \times 1$. ($\dfrac{6}{12} = \dfrac{1}{2}$ = **0.5**.)
 
 ### Type 6. Percentage expressions in simplification
 
@@ -221,7 +221,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 
 **Trick:** notice $0.48 \times 450 = 0.24 \times 900$ because $0.48/0.24 = 2$ and $900/450 = 2$ (the factors invert).
 
-**Your turn:** evaluate $32\%$ of $475 + 48\%$ of $475$. ($(32+48)\%$ of $475 = 80\%$ of $475 = 0.8 \times 475 = $ **380**.)
+**Your turn:** evaluate $32\%$ of $475 + 48\%$ of $475$. ($(32+48)\%$ of $475 = 80\%$ of $475 = 0.8 \times 475$ = **380**.)
 
 ### Type 7. Approximation: rounding to clean numbers
 
@@ -240,7 +240,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 **Exam twist:** "approximate $17.96^2 - 3.02^2$."
 - $\approx 18^2 - 3^2 = 324 - 9 = 315$. Or use the identity: $(18-3)(18+3) = 15 \times 21 = \mathbf{315}$.
 
-**Your turn:** approximate $4.999 \times \sqrt{36.01} + (2.99)^3$. ($\approx 5 \times 6 + 27 = 30 + 27 = $ **57**.)
+**Your turn:** approximate $4.999 \times \sqrt{36.01} + (2.99)^3$. ($\approx 5 \times 6 + 27 = 30 + 27$ = **57**.)
 
 ### Type 8. Approximation with division
 
@@ -255,7 +255,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 **Solved example:** $\dfrac{1299.98}{13.01} - \dfrac{99.85}{20.01}$.
 - $\approx \dfrac{1300}{13} - \dfrac{100}{20} = 100 - 5 = \mathbf{95}$.
 
-**Your turn:** approximate $\dfrac{0.0403 \times 2.47}{0.00124}$. ($\approx \dfrac{0.04 \times 2.5}{0.00125} = \dfrac{0.1}{0.00125} = $ **80**.)
+**Your turn:** approximate $\dfrac{0.0403 \times 2.47}{0.00124}$. ($\approx \dfrac{0.04 \times 2.5}{0.00125} = \dfrac{0.1}{0.00125}$ = **80**.)
 
 ### Type 9. Approximation with powers and roots of large numbers
 
@@ -269,7 +269,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 
 **Solved example:** $\sqrt{1024.36} \approx \sqrt{1024} = 32$.
 
-**Your turn:** approximate $(4137)^{0} + \sqrt{900.1}$. ($= 1 + 30 = $ **31**. Any non-zero base to power 0 is 1; $\sqrt{900}=30$.)
+**Your turn:** approximate $(4137)^{0} + \sqrt{900.1}$. ($= 1 + 30$ = **31**. Any non-zero base to power 0 is 1; $\sqrt{900}=30$.)
 
 ### Type 10. Simplification using $(a+b)^2 - (a-b)^2 = 4ab$
 
@@ -293,7 +293,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 
 **Solved example:** $0.9 \times 0.9 + 0.9 \times 0.1 = 0.9 \times (0.9 + 0.1) = 0.9 \times 1 = \mathbf{0.9}$.
 
-**Your turn:** $0.0625 \times 64 + 2^3 - 3$. ($4 + 8 - 3 = $ **9**.)
+**Your turn:** $0.0625 \times 64 + 2^3 - 3$. ($4 + 8 - 3$ = **9**.)
 
 ### Type 12. Telescoping and partial fractions
 
@@ -305,7 +305,7 @@ Convert all fractions to the same denominator, or cancel common factors before m
 
 $$= \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2}-\frac{1}{3}\right) + \cdots + \left(\frac{1}{9}-\frac{1}{10}\right) = 1 - \frac{1}{10} = \frac{9}{10}$$
 
-**Your turn:** $\dfrac{1}{3 \times 4} + \dfrac{1}{4 \times 5} + \dfrac{1}{5 \times 6}$. ($= \frac{1}{3} - \frac{1}{6} = \frac{2-1}{6} = $ **$\frac{1}{6}$**.)
+**Your turn:** $\dfrac{1}{3 \times 4} + \dfrac{1}{4 \times 5} + \dfrac{1}{5 \times 6}$. ($= \frac{1}{3} - \frac{1}{6} = \frac{2-1}{6}$ = **$\frac{1}{6}$**.)
 
 ### Type 13. Approximation involving percentages
 
@@ -316,7 +316,7 @@ $$= \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2}-\frac{1}{3}\right) + \cdots
 **Solved example:** $45.02\%$ of $999.7 + 55.04\%$ of $1199.9$.
 - $\approx 45\%$ of $1000 + 55\%$ of $1200 = 450 + 660 = \mathbf{1110}$.
 
-**Your turn:** approximate $24\%$ of $999 + 76\%$ of $999$. ($(24+76)\%$ of $1000 = 100\%$ of $1000 = $ **1000**.)
+**Your turn:** approximate $24\%$ of $999 + 76\%$ of $999$. ($(24+76)\%$ of $1000 = 100\%$ of $1000$ = **1000**.)
 
 ### Type 14. Simplification with cube identity
 
@@ -329,7 +329,7 @@ $$= \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2}-\frac{1}{3}\right) + \cdots
 **Solved example:** evaluate $(0.8)^3 + (0.2)^3$ using $a^3 + b^3 = (a+b)(a^2-ab+b^2)$.
 - $(0.8+0.2)(0.64 - 0.16 + 0.04) = 1 \times 0.52 = \mathbf{0.52}$.
 
-**Your turn:** evaluate $(8^{2/3}) \times 2$. ($8^{2/3} = (8^{1/3})^2 = 2^2 = 4$. $4 \times 2 = $ **8**.)
+**Your turn:** evaluate $(8^{2/3}) \times 2$. ($8^{2/3} = (8^{1/3})^2 = 2^2 = 4$. $4 \times 2$ = **8**.)
 
 ## 4. One page to revise before the exam
 

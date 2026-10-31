@@ -57,12 +57,12 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** How many 3-digit numbers can be formed using digits 1, 2, 3, 4, 5 without repetition?
 - Hundreds place: 5 choices. Tens place: 4 choices. Units place: 3 choices.
-- Total $= 5 \times 4 \times 3 =$ **60**.
+- Total $= 5 \times 4 \times 3$ = **60**.
 
 **Example 2:** How many 4-digit numbers can be formed using digits 0, 1, 2, 3, 4, 5 without repetition?
 - Thousands place: cannot be 0, so 5 choices (1 to 5).
 - Hundreds: 5 choices (including 0). Tens: 4 choices. Units: 3 choices.
-- Total $= 5 \times 5 \times 4 \times 3 =$ **300**.
+- Total $= 5 \times 5 \times 4 \times 3$ = **300**.
 
 ### Question type 2. Linear arrangements and $^n P_r$ formula
 
@@ -70,7 +70,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** In how many ways can 4 students sit in a row of 7 chairs?
 - Choosing and ordering 4 chairs out of 7 is $^7 P_4 = \dfrac{7!}{(7-4)!} = 7 \times 6 \times 5 \times 4$.
-- Total $=$ **840**.
+- Total = **840**.
 
 ### Question type 3. Word arrangements with repeated letters
 
@@ -78,11 +78,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** How many words can be formed from the letters of LEADER?
 - Total letters $= 6$; 'E' repeats 2 times.
-- $\dfrac{6!}{2!} = \dfrac{720}{2} =$ **360**.
+- $\dfrac{6!}{2!} = \dfrac{720}{2}$ = **360**.
 
 **Example 2:** How many words can be formed from MISSISSIPPI?
 - Total letters $= 11$; M: 1, I: 4, S: 4, P: 2.
-- $\dfrac{11!}{4!\,4!\,2!} = \dfrac{39916800}{24 \times 24 \times 2} =$ **34650**.
+- $\dfrac{11!}{4!\,4!\,2!} = \dfrac{39916800}{24 \times 24 \times 2}$ = **34650**.
 
 ### Question type 4. Items must come together (Tie / Block method)
 
@@ -92,7 +92,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Vowels (E, U, A, I, O): 5. Consonants (Q, T, N): 3.
 - Bundle 5 vowels into 1 block. Total units to arrange: 3 consonants $+ 1\text{ block} = 4\text{ units}$.
 - Units arrange in $4! = 24$ ways; vowels inside block arrange in $5! = 120$ ways.
-- Total $= 24 \times 120 =$ **2880**.
+- Total $= 24 \times 120$ = **2880**.
 
 ### Question type 5. Items never come together / Gap method
 
@@ -101,13 +101,13 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1 (total minus together):** In how many ways can letters of LEADING be arranged such that vowels never come together?
 - Total arrangements of 7 letters $= 7! = 5040$.
 - Vowels (E, A, I) together: bundle as 1 unit with 4 consonants $\implies 5! \times 3! = 120 \times 6 = 720$.
-- Never together $= 5040 - 720 =$ **4320**.
+- Never together $= 5040 - 720$ = **4320**.
 
 **Example 2 (gap method - no two together):** In how many ways can 5 boys and 4 girls sit in a row such that no two girls sit together?
 - Arrange 5 boys first: $5! = 120$ ways.
 - Number of gaps created around 5 boys: $5 + 1 = 6$ gaps.
 - Place 4 girls into 6 gaps: $^6 P_4 = 6 \times 5 \times 4 \times 3 = 360$ ways.
-- Total $= 120 \times 360 =$ **43200**.
+- Total $= 120 \times 360$ = **43200**.
 
 ### Question type 6. Combinations and selection of groups ($^n C_r$)
 
@@ -116,7 +116,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** Out of 7 men and 6 women, a committee of 5 is to be formed consisting of 3 men and 2 women. How many ways?
 - Ways to select 3 men from 7: $^7 C_3 = \dfrac{7 \times 6 \times 5}{3 \times 2 \times 1} = 35$.
 - Ways to select 2 women from 6: $^6 C_2 = \dfrac{6 \times 5}{2 \times 1} = 15$.
-- Total $= 35 \times 15 =$ **525**.
+- Total $= 35 \times 15$ = **525**.
 
 ### Question type 7. Selections with constraints
 
@@ -126,36 +126,36 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Case 1 (3 men, 2 women): $^6 C_3 \times ^4 C_2 = 20 \times 6 = 120$.
 - Case 2 (4 men, 1 woman): $^6 C_4 \times ^4 C_1 = 15 \times 4 = 60$.
 - Case 3 (5 men, 0 women): $^6 C_5 \times ^4 C_0 = 6 \times 1 = 6$.
-- Total $= 120 + 60 + 6 =$ **186**.
+- Total $= 120 + 60 + 6$ = **186**.
 
 ### Question type 8. Geometry problems
 
 **Idea:** straight lines from $n$ points $= ^n C_2$; triangles $= ^n C_3$; diagonals of $n$-sided polygon $= ^n C_2 - n = \dfrac{n(n-3)}{2}$; handshakes $= ^n C_2$.
 
 **Example 1:** How many diagonals does an octagon (8 sides) have?
-- $\dfrac{8(8-3)}{2} = \dfrac{8 \times 5}{2} =$ **20**.
+- $\dfrac{8(8-3)}{2} = \dfrac{8 \times 5}{2}$ = **20**.
 
 **Example 2:** There are 12 points in a plane, of which 5 are collinear. How many triangles can be formed?
 - Total triangles without collinearity $= ^{12} C_3 = \dfrac{12 \times 11 \times 10}{6} = 220$.
 - Collinear points cannot form triangles: $^5 C_3 = 10$.
-- Valid triangles $= 220 - 10 =$ **210**.
+- Valid triangles $= 220 - 10$ = **210**.
 
 ### Question type 9. Circular permutations and necklaces
 
 **Idea:** $n$ distinct objects in a circle $= (n-1)!$. If clockwise and counter-clockwise arrangements are identical (necklaces, garlands), divide by 2: $\dfrac{(n-1)!}{2}$.
 
 **Example 1:** In how many ways can 6 people sit around a circular table?
-- $(6 - 1)! = 5! =$ **120**.
+- $(6 - 1)! = 5!$ = **120**.
 
 **Example 2:** In how many ways can 8 different beads be strung into a necklace?
-- $\dfrac{(8-1)!}{2} = \dfrac{7!}{2} = \dfrac{5040}{2} =$ **2520**.
+- $\dfrac{(8-1)!}{2} = \dfrac{7!}{2} = \dfrac{5040}{2}$ = **2520**.
 
 ### Question type 10. Distribution of items (Stars and bars) and division
 
 **Idea:** distributing $n$ identical items into $r$ distinct bins gives $^{n+r-1}C_{r-1}$ ways (non-negative) or $^{n-1}C_{r-1}$ ways (each gets at least 1).
 
 **Example:** In how many ways can 10 identical coins be distributed among 3 children so that each gets at least 1 coin?
-- Stars and bars for positive integers: $^{10-1} C_{3-1} = ^9 C_2 = \dfrac{9 \times 8}{2} =$ **36**.
+- Stars and bars for positive integers: $^{10-1} C_{3-1} = ^9 C_2 = \dfrac{9 \times 8}{2}$ = **36**.
 
 ### Question type 11. Rank of a word in dictionary order
 
@@ -167,7 +167,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Words starting with K: $3! = 6$.
 - Words starting with N: $3! = 6$.
 - Words starting with R: alphabetical order gives RAKN (1st), RANK (2nd).
-- Rank $= 6 + 6 + 6 + 2 =$ **20**.
+- Rank $= 6 + 6 + 6 + 2$ = **20**.
 
 ### Question type 12. Number and sum of factors
 
@@ -175,7 +175,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** Find the total number of factors of 360.
 - Prime factorisation: $360 = 2^3 \times 3^2 \times 5^1$.
-- Total factors $= (3+1)(2+1)(1+1) = 4 \times 3 \times 2 =$ **24**.
+- Total factors $= (3+1)(2+1)(1+1) = 4 \times 3 \times 2$ = **24**.
 
 ### Question type 13. Sum of all numbers formed by given digits
 
@@ -183,7 +183,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** Find the sum of all 3-digit numbers formed using digits 1, 2, 3 without repetition.
 - Sum of digits $= 1 + 2 + 3 = 6$.
-- Formula: $6 \times (3-1)! \times 111 = 6 \times 2 \times 111 =$ **1332**.
+- Formula: $6 \times (3-1)! \times 111 = 6 \times 2 \times 111$ = **1332**.
 
 ## 5. Before you practise
 

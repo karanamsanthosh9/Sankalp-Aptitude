@@ -57,11 +57,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** Three unbiased coins are tossed. What is the probability of getting at least 2 heads?
 - Total outcomes $= 2^3 = 8$.
 - Favourable (2 heads or 3 heads): $^3 C_2 + ^3 C_3 = 3 + 1 = 4$.
-- $P = \dfrac{4}{8} =$ **$\dfrac{1}{2}$**.
+- $P = \dfrac{4}{8}$ = **$\dfrac{1}{2}$**.
 
 **Example 2:** Four coins are tossed. What is the probability of getting exactly 2 heads?
 - Total outcomes $= 2^4 = 16$. Favourable $= ^4 C_2 = 6$.
-- $P = \dfrac{6}{16} =$ **$\dfrac{3}{8}$**.
+- $P = \dfrac{6}{16}$ = **$\dfrac{3}{8}$**.
 
 ### Question type 2. Single and multiple dice throws
 
@@ -73,7 +73,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 2:** Two dice are thrown. What is the probability that the sum is at least 10?
 - Sums 10, 11, 12 have frequencies $3 + 2 + 1 = 6$.
-- $P = \dfrac{6}{36} =$ **$\dfrac{1}{6}$**.
+- $P = \dfrac{6}{36}$ = **$\dfrac{1}{6}$**.
 
 ### Question type 3. Pack of 52 cards
 
@@ -81,11 +81,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** One card is drawn from 52 cards. What is the probability of getting a King or a Spade?
 - $P(\text{King}) = \dfrac{4}{52}$, $P(\text{Spade}) = \dfrac{13}{52}$, $P(\text{King of Spades}) = \dfrac{1}{52}$.
-- $P = \dfrac{4}{52} + \dfrac{13}{52} - \dfrac{1}{52} = \dfrac{16}{52} =$ **$\dfrac{4}{13}$**.
+- $P = \dfrac{4}{52} + \dfrac{13}{52} - \dfrac{1}{52} = \dfrac{16}{52}$ = **$\dfrac{4}{13}$**.
 
 **Example 2:** Two cards are drawn together from 52 cards. Find the probability that both are Aces.
 - Favourable $= ^4 C_2 = 6$. Total $= ^{52} C_2 = 1326$.
-- $P = \dfrac{6}{1326} =$ **$\dfrac{1}{221}$**.
+- $P = \dfrac{6}{1326}$ = **$\dfrac{1}{221}$**.
 
 ### Question type 4. Balls drawn from an urn or bag
 
@@ -94,12 +94,12 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** A bag contains 4 red, 5 blue, and 6 green balls. If 2 balls are drawn, what is the probability that both are red?
 - Total balls $= 15$. Total ways $= ^{15} C_2 = 105$.
 - Favourable ways $= ^4 C_2 = 6$.
-- $P = \dfrac{6}{105} =$ **$\dfrac{2}{35}$**.
+- $P = \dfrac{6}{105}$ = **$\dfrac{2}{35}$**.
 
 **Example 2:** A box contains 3 red, 4 white, and 5 blue marbles. If 3 marbles are drawn, find the probability of getting exactly one of each colour.
 - Favourable ways $= ^3 C_1 \times ^4 C_1 \times ^5 C_1 = 3 \times 4 \times 5 = 60$.
 - Total ways $= ^{12} C_3 = \dfrac{12 \times 11 \times 10}{6} = 220$.
-- $P = \dfrac{60}{220} =$ **$\dfrac{3}{11}$**.
+- $P = \dfrac{60}{220}$ = **$\dfrac{3}{11}$**.
 
 ### Question type 5. Addition theorem and non-mutually exclusive events
 
@@ -115,7 +115,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** A problem is given to A, B, and C whose chances of solving are $\dfrac{1}{2}, \dfrac{1}{3}, \dfrac{1}{4}$. What is the probability that the problem is solved?
 - $P(\bar{A}) = \dfrac{1}{2}$, $P(\bar{B}) = \dfrac{2}{3}$, $P(\bar{C}) = \dfrac{3}{4}$.
 - $P(\text{none solves}) = \dfrac{1}{2} \times \dfrac{2}{3} \times \dfrac{3}{4} = \dfrac{1}{4}$.
-- $P(\text{solved}) = 1 - \dfrac{1}{4} =$ **$\dfrac{3}{4}$**.
+- $P(\text{solved}) = 1 - \dfrac{1}{4}$ = **$\dfrac{3}{4}$**.
 
 **Example 2:** With the same probabilities, what is the probability that exactly one solves it?
 - $P(A\bar{B}\bar{C}) + P(\bar{A}B\bar{C}) + P(\bar{A}\bar{B}C) = \left(\dfrac{1}{2}\times\dfrac{2}{3}\times\dfrac{3}{4}\right) + \left(\dfrac{1}{2}\times\dfrac{1}{3}\times\dfrac{3}{4}\right) + \left(\dfrac{1}{2}\times\dfrac{2}{3}\times\dfrac{1}{4}\right)$.
@@ -151,7 +151,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Idea:** contradiction occurs when one speaks truth and the other lies: $P(A)P(\bar{B}) + P(\bar{A})P(B)$.
 
 **Example:** A speaks truth in 75% cases ($\frac{3}{4}$) and B in 80% cases ($\frac{4}{5}$). What is the probability that they contradict each other?
-- $P(A\bar{B}) + P(\bar{A}B) = \left(\dfrac{3}{4} \times \dfrac{1}{5}\right) + \left(\dfrac{1}{4} \times \dfrac{4}{5}\right) = \dfrac{3}{20} + \dfrac{4}{20} = \dfrac{7}{20} =$ **35%** (or $\mathbf{\dfrac{7}{20}}$).
+- $P(A\bar{B}) + P(\bar{A}B) = \left(\dfrac{3}{4} \times \dfrac{1}{5}\right) + \left(\dfrac{1}{4} \times \dfrac{4}{5}\right) = \dfrac{3}{20} + \dfrac{4}{20} = \dfrac{7}{20}$ = **35%** (or $\mathbf{\dfrac{7}{20}}$).
 
 ### Question type 11. Total probability and Bayes' theorem
 
@@ -161,7 +161,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $P(B_1) = P(B_2) = \dfrac{1}{2}$. $P(W|B_1) = \dfrac{4}{6} = \dfrac{2}{3}$, $P(W|B_2) = \dfrac{3}{8}$.
 - Numerator $= \dfrac{1}{2} \times \dfrac{2}{3} = \dfrac{1}{3}$.
 - Denominator $= \left(\dfrac{1}{2} \times \dfrac{2}{3}\right) + \left(\dfrac{1}{2} \times \dfrac{3}{8}\right) = \dfrac{1}{3} + \dfrac{3}{16} = \dfrac{25}{48}$.
-- $P(B_1|W) = \dfrac{1/3}{25/48} = \dfrac{16}{25} =$ **$\dfrac{16}{25}$**.
+- $P(B_1|W) = \dfrac{1/3}{25/48} = \dfrac{16}{25}$ = **$\dfrac{16}{25}$**.
 
 ### Question type 12. Leap year and calendar probability
 

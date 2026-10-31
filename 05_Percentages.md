@@ -136,7 +136,7 @@ If price rises 25%, reduce consumption by $\dfrac{25}{125}\times100 = 20\%$.
 
 **Example 1:** 480 increased by $12.5\%$. $480\times\dfrac{9}{8} = \mathbf{540}$.
 
-**Example 2:** income Rs 10000, spends 80%, saves? Saves $20\%$ of Rs 10000 $=$ **Rs 2000**.
+**Example 2:** income Rs 10000, spends 80%, saves? Saves $20\%$ of Rs 10000 = **Rs 2000**.
 
 **Your turn:** 600 decreased by $16.\overline{6}\%$. (Answer: $600\times\dfrac{5}{6}=500$)
 
@@ -250,7 +250,7 @@ $48 = 36+0.6x \implies 0.6x=12 \implies x = \mathbf{20L}$.
 
 **How you spot it:** salary Rs 12000, spends 70% on household, 15% on clothes. Save?
 
-**Think:** savings $=$ income $-$ expenditure. If spending fractions are given, sum them and subtract from 100%.
+**Think:** savings = income $-$ expenditure. If spending fractions are given, sum them and subtract from 100%.
 
 **Example:** income Rs 15000, spends 60% on household, 15% on clothes. Saves?
 
@@ -262,7 +262,7 @@ Remaining $= 100-60-15 = 25\%$. Savings $= 15000\times0.25 = \mathbf{Rs\ 3750}$.
 
 ### Type 13. Ratio from percentage condition
 
-**How you spot it:** "20% of A $=$ 30% of B. Find A:B."
+**How you spot it:** "20% of A = 30% of B. Find A:B."
 
 **Think:** write the equation and solve.
 
@@ -284,7 +284,7 @@ $\dfrac{20}{100}\times A = \dfrac{30}{100}\times B \implies \dfrac{A}{B} = \dfra
 | Successive changes $a\%$ and $b\%$ | $a+b+ab/100$ |
 | Price up $x\%$, keep spend same | Reduce consumption by $x/(100+x)\times100\%$ |
 | Election: win by $N$ votes, difference $d\%$ | Total votes $= N/d\times100$ |
-| Pass\%, fail number given | Total $=$ fail number $\div$ fail\% |
+| Pass\%, fail number given | Total = fail number $\div$ fail\% |
 | Population year on year | Multiply by factor for each year |
 | Mixture dilution | Quantity of solute stays constant |
 | Ratio from percent condition | Write equation, cross-multiply |

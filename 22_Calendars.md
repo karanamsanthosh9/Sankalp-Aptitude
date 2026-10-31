@@ -72,7 +72,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - April: 30, May: 31, June: 30, July: 31, August: 15.
 - Total $= 16 + 30 + 31 + 30 + 31 + 15 = 153$ days.
 - $153 \div 7 = 21$ weeks $+ 6$ odd days.
-- $\text{Tuesday} + 6\text{ days} =$ **Monday**.
+- $\text{Tuesday} + 6\text{ days}$ = **Monday**.
 
 ### Question type 3. Reference date given in different years
 
@@ -81,13 +81,13 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** If 5 March 2011 was Saturday, what day of the week was 5 March 2012?
 - 2012 is a leap year, and 29 February 2012 falls within this period.
 - Period has 366 days $= 52\text{ weeks} + 2\text{ odd days}$.
-- $\text{Saturday} + 2\text{ days} =$ **Monday**.
+- $\text{Saturday} + 2\text{ days}$ = **Monday**.
 
 **Example 2:** If 15 August 2013 was Thursday, what day of the week was 15 August 2021?
 - Number of years $= 2021 - 2013 = 8$ years.
 - Leap years crossed: 2016, 2020 $= 2$ leap years.
 - Total odd days $= 8 + 2 = 10 \equiv 3\pmod 7$.
-- $\text{Thursday} + 3\text{ days} =$ **Sunday**.
+- $\text{Thursday} + 3\text{ days}$ = **Sunday**.
 
 ### Question type 4. Repetition of calendar years
 
@@ -95,11 +95,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** Which year will have the same calendar as 2017?
 - $2017 = 2016 (\text{leap}) + 1\implies +6$ years.
-- $2017 + 6 =$ **2023**.
+- $2017 + 6$ = **2023**.
 
 **Example 2:** Which year will have the same calendar as 2024?
 - 2024 is a leap year $\implies +28$ years.
-- $2024 + 28 =$ **2052**.
+- $2024 + 28$ = **2052**.
 
 ### Question type 5. Same calendar months within a year
 

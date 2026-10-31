@@ -59,23 +59,23 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** Two parallel lines $AB \parallel CD$ are intersected by a transversal. If one interior angle is $65^\circ$, find its alternate interior angle and its co-interior angle.
 - Alternate interior angle $= 65^\circ$.
-- Co-interior angle $= 180^\circ - 65^\circ =$ **115^\circ**.
+- Co-interior angle $= 180^\circ - 65^\circ$ = **115^\circ**.
 
 **Example 2:** In two intersecting straight lines $AB$ and $CD$ meeting at $O$, $\angle AOC + \angle BOE = 70^\circ$ and $\angle BOD = 40^\circ$. Find $\angle BOE$ and reflex $\angle COE$.
 - Vertically opposite angles: $\angle AOC = \angle BOD = 40^\circ$.
-- $\angle BOE = 70^\circ - 40^\circ =$ **30^\circ**.
-- $\angle COE = 180^\circ - 70^\circ = 110^\circ$, so reflex $\angle COE = 360^\circ - 110^\circ =$ **250^\circ**.
+- $\angle BOE = 70^\circ - 40^\circ$ = **30^\circ**.
+- $\angle COE = 180^\circ - 70^\circ = 110^\circ$, so reflex $\angle COE = 360^\circ - 110^\circ$ = **250^\circ**.
 
 ### Question type 2. Triangle angle properties and angle bisectors
 
-**Idea:** Angle sum $= 180^\circ$. Exterior angle $=$ sum of non-adjacent interior angles. Interior angle bisector theorem: $\dfrac{AB}{AC} = \dfrac{BD}{DC}$.
+**Idea:** Angle sum $= 180^\circ$. Exterior angle = sum of non-adjacent interior angles. Interior angle bisector theorem: $\dfrac{AB}{AC} = \dfrac{BD}{DC}$.
 
 **Example 1:** In $\triangle ABC$, $\angle A = 70^\circ$ and $\angle B = 50^\circ$. Side $BC$ is extended to $D$. Find exterior angle $\angle ACD$.
-- Exterior $\angle ACD = \angle A + \angle B = 70^\circ + 50^\circ =$ **120^\circ**.
+- Exterior $\angle ACD = \angle A + \angle B = 70^\circ + 50^\circ$ = **120^\circ**.
 
 **Example 2:** In $\triangle ABC$, $AD$ is the bisector of $\angle A$ meeting $BC$ at $D$. If $AB = 6\text{ cm}$, $AC = 8\text{ cm}$, and $BC = 7\text{ cm}$, find the length of $BD$.
 - $\dfrac{BD}{DC} = \dfrac{AB}{AC} = \dfrac{6}{8} = \dfrac{3}{4}$.
-- $BD = \dfrac{3}{3 + 4} \times 7 = \dfrac{3}{7} \times 7 =$ **3 cm**.
+- $BD = \dfrac{3}{3 + 4} \times 7 = \dfrac{3}{7} \times 7$ = **3 cm**.
 
 ### Question type 3. Congruence, similarity, and Thales theorem
 
@@ -83,23 +83,23 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** $\triangle ABC \sim \triangle DEF$. $\text{Area}(\triangle ABC) = 64\text{ cm}^2$, $\text{Area}(\triangle DEF) = 121\text{ cm}^2$, and $BC = 8\text{ cm}$. Find $EF$.
 - $\dfrac{\text{Area}(ABC)}{\text{Area}(DEF)} = \left(\dfrac{BC}{EF}\right)^2 \implies \dfrac{64}{121} = \left(\dfrac{8}{EF}\right)^2$.
-- $\dfrac{8}{11} = \dfrac{8}{EF} \implies EF =$ **11 cm**.
+- $\dfrac{8}{11} = \dfrac{8}{EF} \implies EF$ = **11 cm**.
 
 **Example 2:** In $\triangle ABC$, $DE \parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $AD = 3\text{ cm}$, $DB = 5\text{ cm}$, and $AE = 4.5\text{ cm}$, find $EC$ and $AC$.
 - $\dfrac{AD}{DB} = \dfrac{AE}{EC} \implies \dfrac{3}{5} = \dfrac{4.5}{EC} \implies EC = \dfrac{5 \times 4.5}{3} = 7.5\text{ cm}$.
-- $AC = AE + EC = 4.5 + 7.5 =$ **12 cm** (and $EC =$ **7.5 cm**).
+- $AC = AE + EC = 4.5 + 7.5$ = **12 cm** (and $EC$ = **7.5 cm**).
 
 ### Question type 4. Triangle centres
 
 **Idea:** Incentre $I$: $\angle BIC = 90^\circ + \dfrac{\angle A}{2}$. Circumcentre $O$: $\angle BOC = 2\angle A$. Orthocentre $H$: $\angle BHC = 180^\circ - \angle A$. Centroid $G$: Divides median $AD$ in ratio $AG : GD = 2 : 1$.
 
 **Example 1:** In $\triangle ABC$, $\angle A = 80^\circ$. Find $\angle BIC$ where $I$ is incentre, $\angle BOC$ where $O$ is circumcentre, and $\angle BHC$ where $H$ is orthocentre.
-- $\angle BIC = 90^\circ + \dfrac{80^\circ}{2} = 90^\circ + 40^\circ =$ **130^\circ**.
-- $\angle BOC = 2 \times 80^\circ =$ **160^\circ**.
-- $\angle BHC = 180^\circ - 80^\circ =$ **100^\circ**.
+- $\angle BIC = 90^\circ + \dfrac{80^\circ}{2} = 90^\circ + 40^\circ$ = **130^\circ**.
+- $\angle BOC = 2 \times 80^\circ$ = **160^\circ**.
+- $\angle BHC = 180^\circ - 80^\circ$ = **100^\circ**.
 
 **Example 2:** $G$ is the centroid of $\triangle ABC$ and $AD$ is a median of length $12\text{ cm}$. Find the lengths of $AG$ and $GD$.
-- $AG = \dfrac{2}{3} \times 12 =$ **8 cm**, $GD = \dfrac{1}{3} \times 12 =$ **4 cm**.
+- $AG = \dfrac{2}{3} \times 12$ = **8 cm**, $GD = \dfrac{1}{3} \times 12$ = **4 cm**.
 
 ### Question type 5. Apollonius theorem and medians
 
@@ -108,7 +108,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** In $\triangle ABC$, $AB = 7\text{ cm}$, $AC = 9\text{ cm}$, and $BC = 8\text{ cm}$. Find the length of median $AD$.
 - $BD = \dfrac{8}{2} = 4\text{ cm}$.
 - $7^2 + 9^2 = 2(AD^2 + 4^2) \implies 49 + 81 = 2(AD^2 + 16)$.
-- $130 = 2(AD^2 + 16) \implies AD^2 + 16 = 65 \implies AD^2 = 49 \implies AD =$ **7 cm**.
+- $130 = 2(AD^2 + 16) \implies AD^2 + 16 = 65 \implies AD^2 = 49 \implies AD$ = **7 cm**.
 
 ### Question type 6. Right-angled and equilateral triangles
 
@@ -116,10 +116,10 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** In right-angled $\triangle ABC$ ($\angle B = 90^\circ$), $AB = 15\text{ cm}$ and $BC = 20\text{ cm}$. Find the length of perpendicular $BD$ dropped on hypotenuse $AC$.
 - Hypotenuse $AC = \sqrt{15^2 + 20^2} = 25\text{ cm}$.
-- $BD = \dfrac{AB \times BC}{AC} = \dfrac{15 \times 20}{25} =$ **12 cm**.
+- $BD = \dfrac{AB \times BC}{AC} = \dfrac{15 \times 20}{25}$ = **12 cm**.
 
 **Example 2:** Find the altitude of an equilateral triangle whose side is $8\text{ cm}$.
-- $\text{Altitude} = \dfrac{\sqrt{3}}{2} \times 8 =$ **$4\sqrt{3}\text{ cm}$**.
+- $\text{Altitude} = \dfrac{\sqrt{3}}{2} \times 8$ = **$4\sqrt{3}\text{ cm}$**.
 
 ### Question type 7. Quadrilaterals and cyclic quadrilaterals
 
@@ -127,10 +127,10 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** In a cyclic quadrilateral $ABCD$, $\angle A = (2x + 10)^\circ$ and $\angle C = (3x + 20)^\circ$. Find the value of $x$ and $\angle A$.
 - $(2x + 10) + (3x + 20) = 180 \implies 5x + 30 = 180 \implies 5x = 150 \implies x = 30$.
-- $\angle A = 2(30) + 10 =$ **70^\circ**.
+- $\angle A = 2(30) + 10$ = **70^\circ**.
 
 **Example 2:** Side $AB$ of cyclic quadrilateral $ABCD$ is produced to $E$. If exterior angle $\angle CBE = 85^\circ$, find $\angle ADC$.
-- Exterior angle equals opposite interior angle: $\angle ADC = \angle CBE =$ **85^\circ**.
+- Exterior angle equals opposite interior angle: $\angle ADC = \angle CBE$ = **85^\circ**.
 
 ### Question type 8. Circle chords and distances from centre
 
@@ -138,73 +138,73 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** A chord of length $16\text{ cm}$ is at a distance of $6\text{ cm}$ from the centre of a circle. Find the radius of the circle.
 - Half chord $= \dfrac{16}{2} = 8\text{ cm}$.
-- Radius $r = \sqrt{8^2 + 6^2} = \sqrt{64 + 36} = \sqrt{100} =$ **10 cm**.
+- Radius $r = \sqrt{8^2 + 6^2} = \sqrt{64 + 36} = \sqrt{100}$ = **10 cm**.
 
 **Example 2:** Two chords $AB$ and $CD$ intersect inside a circle at point $P$. If $AP = 4\text{ cm}$, $PB = 6\text{ cm}$, and $CP = 3\text{ cm}$, find $PD$ and $CD$.
 - $AP \cdot PB = CP \cdot PD \implies 4 \times 6 = 3 \times PD \implies PD = 8\text{ cm}$.
-- $CD = CP + PD = 3 + 8 =$ **11 cm** (and $PD =$ **8 cm**).
+- $CD = CP + PD = 3 + 8$ = **11 cm** (and $PD$ = **8 cm**).
 
 ### Question type 9. Angles subtended by arcs and chords
 
 **Idea:** Angle at centre is double the angle at circumference: $\angle AOB = 2\angle ACB$. Angles in the same segment are equal. Angle in a semicircle is $90^\circ$.
 
 **Example 1:** Chord $AB$ subtends an angle of $110^\circ$ at the centre $O$. Find the angle subtended by $AB$ at any point $C$ on the major arc.
-- $\angle ACB = \dfrac{110^\circ}{2} =$ **55^\circ**.
+- $\angle ACB = \dfrac{110^\circ}{2}$ = **55^\circ**.
 
 **Example 2:** $AB$ is a diameter of a circle and $C$ is a point on the circumference. If $\angle CAB = 35^\circ$, find $\angle ABC$.
 - $\angle ACB = 90^\circ$ (angle in semicircle).
-- $\angle ABC = 180^\circ - 90^\circ - 35^\circ =$ **55^\circ**.
+- $\angle ABC = 180^\circ - 90^\circ - 35^\circ$ = **55^\circ**.
 
 ### Question type 10. Tangents, secants, and alternate segment theorem
 
 **Idea:** Radius is perpendicular to tangent at point of contact. Tangent lengths from an external point are equal ($PA = PB$). Tangent-Secant theorem: $PT^2 = PA \cdot PB$.
 
 **Example 1:** From an external point $P$, a tangent $PT$ is drawn to a circle of radius $5\text{ cm}$ centered at $O$. If $OP = 13\text{ cm}$, find the length of tangent $PT$.
-- In right $\triangle OTP$: $PT = \sqrt{OP^2 - OT^2} = \sqrt{13^2 - 5^2} = \sqrt{144} =$ **12 cm**.
+- In right $\triangle OTP$: $PT = \sqrt{OP^2 - OT^2} = \sqrt{13^2 - 5^2} = \sqrt{144}$ = **12 cm**.
 
 **Example 2:** A tangent $PT$ and a secant $PAB$ are drawn from point $P$ to a circle. If $PA = 4\text{ cm}$ and $AB = 5\text{ cm}$, find the length of tangent $PT$.
 - $PB = PA + AB = 4 + 5 = 9\text{ cm}$.
-- $PT^2 = PA \times PB = 4 \times 9 = 36 \implies PT =$ **6 cm**.
+- $PT^2 = PA \times PB = 4 \times 9 = 36 \implies PT$ = **6 cm**.
 
 ### Question type 11. Common tangents to two circles
 
 **Idea:** Distance between centres $d$, radii $r_1$ and $r_2$. Direct Common Tangent: $DCT = \sqrt{d^2 - (r_1 - r_2)^2}$. Transverse Common Tangent: $TCT = \sqrt{d^2 - (r_1 + r_2)^2}$.
 
 **Example 1:** Two circles of radii $8\text{ cm}$ and $3\text{ cm}$ have centres $13\text{ cm}$ apart. Find the lengths of their direct and transverse common tangents.
-- $DCT = \sqrt{13^2 - (8 - 3)^2} = \sqrt{169 - 25} = \sqrt{144} =$ **12 cm**.
-- $TCT = \sqrt{13^2 - (8 + 3)^2} = \sqrt{169 - 121} = \sqrt{48} =$ **$4\sqrt{3}\text{ cm}$**.
+- $DCT = \sqrt{13^2 - (8 - 3)^2} = \sqrt{169 - 25} = \sqrt{144}$ = **12 cm**.
+- $TCT = \sqrt{13^2 - (8 + 3)^2} = \sqrt{169 - 121} = \sqrt{48}$ = **$4\sqrt{3}\text{ cm}$**.
 
 ### Question type 12. Polygons and diagonals
 
 **Idea:** $n$-sided polygon: Sum of interior angles $= (n-2) \times 180^\circ$, Number of diagonals $= \dfrac{n(n-3)}{2}$, Sum of exterior angles $= 360^\circ$.
 
 **Example 1:** Find the number of diagonals in an octagon ($n = 8$).
-- $\text{Diagonals} = \dfrac{8(8 - 3)}{2} = \dfrac{8 \times 5}{2} =$ **20**.
+- $\text{Diagonals} = \dfrac{8(8 - 3)}{2} = \dfrac{8 \times 5}{2}$ = **20**.
 
 **Example 2:** The sum of the interior angles of a polygon is $1260^\circ$. Find the number of sides.
-- $(n - 2) \times 180^\circ = 1260^\circ \implies n - 2 = \dfrac{1260}{180} = 7 \implies n =$ **9 sides**.
+- $(n - 2) \times 180^\circ = 1260^\circ \implies n - 2 = \dfrac{1260}{180} = 7 \implies n$ = **9 sides**.
 
 ### Question type 13. Coordinate geometry: distance, section, and midpoint
 
 **Idea:** Distance $d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$. Section point $P = \left(\dfrac{mx_2 + nx_1}{m + n}, \dfrac{my_2 + ny_1}{m + n}\right)$. Midpoint $= \left(\dfrac{x_1 + x_2}{2}, \dfrac{y_1 + y_2}{2}\right)$.
 
 **Example 1:** Find the distance between points $A(3, 4)$ and $B(7, 1)$.
-- $d = \sqrt{(7 - 3)^2 + (1 - 4)^2} = \sqrt{4^2 + (-3)^2} = \sqrt{16 + 9} = \sqrt{25} =$ **5 units**.
+- $d = \sqrt{(7 - 3)^2 + (1 - 4)^2} = \sqrt{4^2 + (-3)^2} = \sqrt{16 + 9} = \sqrt{25}$ = **5 units**.
 
 **Example 2:** Find the coordinates of the point $P$ which divides the line joining $A(1, 2)$ and $B(6, 7)$ internally in the ratio $2 : 3$.
 - $x = \dfrac{2(6) + 3(1)}{2 + 3} = \dfrac{12 + 3}{5} = 3$, $y = \dfrac{2(7) + 3(2)}{2 + 3} = \dfrac{14 + 6}{5} = 4$.
-- Point $P =$ **(3, 4)**.
+- Point $P$ = **(3, 4)**.
 
 ### Question type 14. Coordinate geometry: area and line slopes
 
 **Idea:** Area of triangle $= \dfrac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$. Slope $m = \dfrac{y_2 - y_1}{x_2 - x_1}$. Parallel lines: $m_1 = m_2$. Perpendicular lines: $m_1 m_2 = -1$.
 
 **Example 1:** Find the area of the triangle formed by vertices $A(1, 2)$, $B(4, 6)$, and $C(7, 2)$.
-- $\text{Area} = \dfrac{1}{2}|1(6 - 2) + 4(2 - 2) + 7(2 - 6)| = \dfrac{1}{2}|4 + 0 - 28| = \dfrac{1}{2}|-24| =$ **12 sq units**.
+- $\text{Area} = \dfrac{1}{2}|1(6 - 2) + 4(2 - 2) + 7(2 - 6)| = \dfrac{1}{2}|4 + 0 - 28| = \dfrac{1}{2}|-24|$ = **12 sq units**.
 
 **Example 2:** A line passes through $(2, 3)$ and $(4, 7)$. Find its slope and the slope of any line perpendicular to it.
-- Slope $m = \dfrac{7 - 3}{4 - 2} = \dfrac{4}{2} =$ **2**.
-- Perpendicular slope $= -\dfrac{1}{m} =$ **$-\dfrac{1}{2}$**.
+- Slope $m = \dfrac{7 - 3}{4 - 2} = \dfrac{4}{2}$ = **2**.
+- Perpendicular slope $= -\dfrac{1}{m}$ = **$-\dfrac{1}{2}$**.
 
 ## 5. Before you practise
 

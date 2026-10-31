@@ -53,21 +53,21 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Idea:** $1\text{ km/h} = \dfrac{5}{18}\text{ m/s}$ and $1\text{ m/s} = \dfrac{18}{5}\text{ km/h}$.
 
 **Example 1:** Convert $72\text{ km/h}$ to $\text{m/s}$.
-- $72 \times \dfrac{5}{18} = 4 \times 5 =$ **20 m/s**.
+- $72 \times \dfrac{5}{18} = 4 \times 5$ = **20 m/s**.
 
 **Example 2:** Convert $25\text{ m/s}$ to $\text{km/h}$.
-- $25 \times \dfrac{18}{5} = 5 \times 18 =$ **90 km/h**.
+- $25 \times \dfrac{18}{5} = 5 \times 18$ = **90 km/h**.
 
 ### Question type 2. Average speed
 
 **Idea:** $\text{Average Speed} = \dfrac{\text{Total Distance}}{\text{Total Time}}$. For equal segments, use harmonic mean.
 
 **Example 1 (two equal distances):** A motorist travels to a town at $60\text{ km/h}$ and returns at $40\text{ km/h}$. Average speed?
-- $S_{\text{avg}} = \dfrac{2 \times 60 \times 40}{60 + 40} = \dfrac{4800}{100} =$ **48 km/h**.
+- $S_{\text{avg}} = \dfrac{2 \times 60 \times 40}{60 + 40} = \dfrac{4800}{100}$ = **48 km/h**.
 
 **Example 2 (three equal distances):** A car covers 3 equal consecutive distances at $10\text{ km/h}$, $20\text{ km/h}$, and $30\text{ km/h}$.
 - LCM of speeds $= 60\text{ km}$. Time taken $= \dfrac{60}{10} + \dfrac{60}{20} + \dfrac{60}{30} = 6 + 3 + 2 = 11\text{ hrs}$.
-- $S_{\text{avg}} = \dfrac{3 \times 60}{11} =$ **$16\frac{4}{11}$ km/h** ($\dfrac{180}{11}\text{ km/h}$).
+- $S_{\text{avg}} = \dfrac{3 \times 60}{11}$ = **$16\frac{4}{11}$ km/h** ($\dfrac{180}{11}\text{ km/h}$).
 
 ### Question type 3. Constant distance and speed-time inverse ratio
 
@@ -76,7 +76,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** Walking at $\dfrac{3}{4}$ of his usual speed, a man reaches his office 20 minutes late. Find his usual time.
 - Speed ratio (New : Usual) $= 3 : 4 \implies$ Time ratio $= 4 : 3$.
 - Difference in time $= 4 - 3 = 1\text{ unit} = 20\text{ minutes}$.
-- Usual time $= 3 \times 20 =$ **60 min** (1 hour).
+- Usual time $= 3 \times 20$ = **60 min** (1 hour).
 
 ### Question type 4. Constant time and speed-distance direct ratio
 
@@ -85,7 +85,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** A person walks at $14\text{ km/h}$ instead of $10\text{ km/h}$ and covers $20\text{ km}$ more in the same time. Find the actual distance walked at $10\text{ km/h}$.
 - Difference in speed $= 14 - 10 = 4\text{ km/h}$.
 - Time taken $= \dfrac{20\text{ km}}{4\text{ km/h}} = 5\text{ hours}$.
-- Actual distance $= 10 \times 5 =$ **50 km**.
+- Actual distance $= 10 \times 5$ = **50 km**.
 
 ### Question type 5. Late and early arrival times
 
@@ -93,22 +93,22 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** If a boy walks at $4\text{ km/h}$, he reaches school 10 min late. If he walks at $5\text{ km/h}$, he arrives 5 min early. Distance to school?
 - $\Delta T = 10\text{ min late} - (-5\text{ min early}) = 15\text{ min} = \dfrac{15}{60}\text{ hr} = \dfrac{1}{4}\text{ hr}$.
-- $D = \dfrac{4 \times 5}{5 - 4} \times \dfrac{1}{4} = 20 \times \dfrac{1}{4} =$ **5 km**.
+- $D = \dfrac{4 \times 5}{5 - 4} \times \dfrac{1}{4} = 20 \times \dfrac{1}{4}$ = **5 km**.
 
 ### Question type 6. Stoppages and rest time per hour
 
 **Idea:** $\text{Stoppage time per hour} = \dfrac{S_{\text{without stop}} - S_{\text{with stop}}}{S_{\text{without stop}}} \times 60\text{ min}$.
 
 **Example:** Excluding stoppages, the speed of a bus is $54\text{ km/h}$ and including stoppages it is $45\text{ km/h}$. For how many minutes does the bus stop per hour?
-- $\text{Stoppage time} = \dfrac{54 - 45}{54} \times 60 = \dfrac{9}{54} \times 60 = \dfrac{1}{6} \times 60 =$ **10 min/hr**.
+- $\text{Stoppage time} = \dfrac{54 - 45}{54} \times 60 = \dfrac{9}{54} \times 60 = \dfrac{1}{6} \times 60$ = **10 min/hr**.
 
 ### Question type 7. Relative speed and meeting time
 
 **Idea:** Opposite directions $\implies S_{\text{rel}} = S_1 + S_2$; Same direction $\implies S_{\text{rel}} = |S_1 - S_2|$.
 
 **Example:** Two towns A and B are $300\text{ km}$ apart. Car 1 leaves A at $60\text{ km/h}$ and Car 2 leaves B at $40\text{ km/h}$ simultaneously towards each other. When and where do they meet?
-- Time to meet $= \dfrac{300}{60 + 40} = \dfrac{300}{100} =$ **3 hours**.
-- Distance from A $= 3 \times 60 =$ **180 km**.
+- Time to meet $= \dfrac{300}{60 + 40} = \dfrac{300}{100}$ = **3 hours**.
+- Distance from A $= 3 \times 60$ = **180 km**.
 
 ### Question type 8. Speed ratio after meeting
 
@@ -116,7 +116,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** A and B start towards each other. After passing each other, A takes 4 hours to reach B's start and B takes 9 hours to reach A's start. If A travels at $45\text{ km/h}$, find B's speed.
 - $\dfrac{S_A}{S_B} = \sqrt{\dfrac{9}{4}} = \dfrac{3}{2}$.
-- $S_B = 45 \times \dfrac{2}{3} =$ **30 km/h**.
+- $S_B = 45 \times \dfrac{2}{3}$ = **30 km/h**.
 
 ### Question type 9. Two-part journey with mixed transport modes
 
@@ -124,7 +124,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** A man travels $61\text{ km}$ in 9 hours, partly on foot at $4\text{ km/h}$ and partly on bicycle at $9\text{ km/h}$. Distance travelled on foot?
 - Let time on foot be $t$ hours: $4t + 9(9 - t) = 61 \implies 81 - 5t = 61 \implies 5t = 20 \implies t = 4\text{ hours}$.
-- Distance on foot $= 4 \times 4 =$ **16 km**.
+- Distance on foot $= 4 \times 4$ = **16 km**.
 
 ### Question type 10. Circular tracks and race loops
 
@@ -132,7 +132,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** On a circular track of $400\text{ m}$, A runs at $5\text{ m/s}$ and B runs at $3\text{ m/s}$ in the same direction. When do they first meet?
 - Relative speed $= 5 - 3 = 2\text{ m/s}$.
-- First meeting time $= \dfrac{400}{2} =$ **200 seconds** (3 min 20 s).
+- First meeting time $= \dfrac{400}{2}$ = **200 seconds** (3 min 20 s).
 
 ### Question type 11. Linear races, head starts, and dead heats
 
@@ -141,7 +141,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** In a $1000\text{ m}$ race, A beats B by $100\text{ m}$ or 10 seconds. Find A's time to run the race.
 - B's speed $= \dfrac{100\text{ m}}{10\text{ s}} = 10\text{ m/s}$.
 - Time taken by B for $1000\text{ m} = \dfrac{1000}{10} = 100\text{ seconds}$.
-- Time taken by A $= 100 - 10 =$ **90 seconds**.
+- Time taken by A $= 100 - 10$ = **90 seconds**.
 
 ### Question type 12. Escalators and moving walkways
 
@@ -150,7 +150,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** A person walking up a moving escalator takes 30 steps in 30 seconds. Another person walking up faster takes 40 steps in 20 seconds. Find the total visible steps when stationary.
 - Let escalator speed be $e$ steps/s. Person 1 speed $= 1\text{ step/s}$, Person 2 speed $= 2\text{ steps/s}$.
 - $N = 30(1 + e) = 20(2 + e) \implies 30 + 30e = 40 + 20e \implies 10e = 10 \implies e = 1\text{ step/s}$.
-- $N = 30(1 + 1) =$ **60 steps**.
+- $N = 30(1 + 1)$ = **60 steps**.
 
 ## 5. Before you practise
 

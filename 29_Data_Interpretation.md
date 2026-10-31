@@ -64,12 +64,12 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** What percentage of total students in School A are in the Science stream?
 - Science students in School A $= 180$, Total in School A $= 400$.
-- Percentage $= \dfrac{180}{400} \times 100 =$ **45%**.
+- Percentage $= \dfrac{180}{400} \times 100$ = **45%**.
 
 **Example 2:** Find the ratio of total Arts students to total Commerce students across all three schools.
 - Total Arts $= 120 + 150 + 90 = 360$.
 - Total Commerce $= 100 + 130 + 150 = 380$.
-- $\text{Ratio} = 360 : 380 =$ **18 : 19**.
+- $\text{Ratio} = 360 : 380$ = **18 : 19**.
 
 ### Question type 2. Bar charts
 
@@ -86,10 +86,10 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** Find the percentage increase in car production from 2020 to 2023.
 - $\text{Increase} = 80 - 40 = 40$.
-- Percentage increase $= \dfrac{40}{40} \times 100 =$ **100%**.
+- Percentage increase $= \dfrac{40}{40} \times 100$ = **100%**.
 
 **Example 2:** Find the average annual production over the 4 years.
-- $\text{Average} = \dfrac{40 + 50 + 65 + 80}{4} = \dfrac{235}{4} =$ **58.75 thousand**.
+- $\text{Average} = \dfrac{40 + 50 + 65 + 80}{4} = \dfrac{235}{4}$ = **58.75 thousand**.
 
 ### Question type 3. Line graphs and time-series trends
 
@@ -119,11 +119,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 | Angle | 120^\circ | 90^\circ | 60^\circ | 50^\circ | 40^\circ |
 
 **Example 1:** How much money is allocated for Food?
-- $\text{Amount} = \dfrac{120}{360} \times 72000 = \dfrac{1}{3} \times 72000 =$ **Rs 24000**.
+- $\text{Amount} = \dfrac{120}{360} \times 72000 = \dfrac{1}{3} \times 72000$ = **Rs 24000**.
 
 **Example 2:** Find the difference between the expenditure on Rent and Education.
 - Degree difference $= 90^\circ - 60^\circ = 30^\circ$.
-- $\text{Difference} = \dfrac{30}{360} \times 72000 = \dfrac{1}{12} \times 72000 =$ **Rs 6000**.
+- $\text{Difference} = \dfrac{30}{360} \times 72000 = \dfrac{1}{12} \times 72000$ = **Rs 6000**.
 
 ### Question type 5. Double / two-tier pie charts
 
@@ -136,7 +136,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** Find the number of male employees working in the IT department.
 - Total IT employees $= 30\% \text{ of } 1800 = 540$.
 - Female IT employees $= 25\% \text{ of } 800 = 200$.
-- Male IT employees $= 540 - 200 =$ **340**.
+- Male IT employees $= 540 - 200$ = **340**.
 
 ### Question type 6. Radar / spider web charts
 
@@ -169,7 +169,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Model Q: $35\% \times 2400 \times 5\% = 840 \times 0.05 = 42$.
 - Model R: $20\% \times 2400 \times 10\% = 480 \times 0.10 = 48$.
 - Model S: $20\% \times 2400 \times 5\% = 480 \times 0.05 = 24$.
-- $\text{Total defective} = 24 + 42 + 48 + 24 =$ **138 units**.
+- $\text{Total defective} = 24 + 42 + 48 + 24$ = **138 units**.
 
 ### Question type 8. Caselet DI: Venn diagram / set theory
 
@@ -183,11 +183,11 @@ $F \cap C = 90$, $C \cap B = 80$, $F \cap B = 70$, All three ($F \cap C \cap B$)
 - Only $F = 240 - (50 + 40 + 30) = 120$.
 - Only $C = 220 - (50 + 40 + 40) = 90$.
 - Only $B = 180 - (30 + 40 + 40) = 70$.
-- Exactly one sport $= 120 + 90 + 70 =$ **280 students**.
+- Exactly one sport $= 120 + 90 + 70$ = **280 students**.
 
 **Example 2:** How many students play NONE of the three sports?
 - Total playing at least one $= 120 + 90 + 70 + 50 + 40 + 30 + 40 = 440$.
-- Playing none $= 500 - 440 =$ **60 students**.
+- Playing none $= 500 - 440$ = **60 students**.
 
 ### Question type 9. Caselet DI: Paragraph and equation based
 
@@ -201,7 +201,7 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 - Depts B + C $= 600 - 240 = 360$. Ratio $5:4 \implies \text{B} = 200, \text{C} = 160$.
 - Dept B Females $= \dfrac{2}{5} \times 200 = 80$.
 - Dept C Females $= \dfrac{160}{2} = 80$.
-- $\text{Total females} = 96 + 80 + 80 =$ **256 females**.
+- $\text{Total females} = 96 + 80 + 80$ = **256 females**.
 
 ### Question type 10. Missing data interpretation
 
@@ -215,8 +215,8 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 | Emp 2 | 25000 | 5000 | 30% of Basic | [Blank] |
 
 **Example 1:** Find the DA received by Emp 1 and the Total Salary of Emp 2.
-- Emp 1 DA $= 30000 - (20000 + 4000) =$ **Rs 6000**.
-- Emp 2 DA $= 30\% \times 25000 = 7500 \implies \text{Total} = 25000 + 5000 + 7500 =$ **Rs 37500**.
+- Emp 1 DA $= 30000 - (20000 + 4000)$ = **Rs 6000**.
+- Emp 2 DA $= 30\% \times 25000 = 7500 \implies \text{Total} = 25000 + 5000 + 7500$ = **Rs 37500**.
 
 ### Question type 11. Percentage change and growth rates
 
@@ -229,7 +229,7 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 | Revenue | 100 | 120 | 150 | 180 |
 
 **Example 1:** Find the overall percentage growth from 2020 to 2023.
-- $\text{Growth} = \dfrac{180 - 100}{100} \times 100 =$ **80%**.
+- $\text{Growth} = \dfrac{180 - 100}{100} \times 100$ = **80%**.
 
 ### Question type 12. Ratio and proportion based DI
 
@@ -243,7 +243,7 @@ A company has $600$ employees in departments A, B, and C. Dept A has $40\%$ of a
 **Example 1:** Find the overall ratio of boys to girls across all three sections.
 - Total Boys $= 50 + 60 + 70 = 180$.
 - Total Girls $= 30 + 40 + 50 = 120$.
-- $\text{Ratio} = 180 : 120 =$ **3 : 2**.
+- $\text{Ratio} = 180 : 120$ = **3 : 2**.
 
 ### Question type 13. Average and weighted average DI
 

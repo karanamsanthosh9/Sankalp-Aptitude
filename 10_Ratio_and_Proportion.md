@@ -47,9 +47,9 @@ The first and last terms ($a$ and $d$) are the **extremes**. The middle two ($b$
 
 Step 1. Add the parts: $2 + 3 = 5$ parts.
 
-Step 2. One part $= 500 \div 5 = $ Rs 100.
+Step 2. One part $= 500 \div 5 = \text{Rs }100$.
 
-Step 3. First share $= 2 \times 100 = $ Rs 200. Second share $= 3 \times 100 = $ Rs 300.
+Step 3. First share $= 2 \times 100 = \text{Rs }200$. Second share $= 3 \times 100 = \text{Rs }300$.
 
 **Answer: Rs 200 and Rs 300.**
 
@@ -142,9 +142,9 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 
 **Example 2 (fraction form).** Divide Rs 1300 between A and B so that A gets $\dfrac{3}{2}$ times as much as B.
 - "A gets $\dfrac{3}{2}$ times B's share" means $A : B = 3 : 2$. Parts $=5$, so one part $=1300\div5=260$.
-- A $=3\times260=$ **Rs 780**, B $=2\times260=$ **Rs 520**.
+- A $=3\times260$ = **Rs 780**, B $=2\times260$ = **Rs 520**.
 
-**Exam twist:** "Find the difference between the largest and smallest share." In Example 1 that is $8-2=6$ parts $=6\times300=$ Rs 1800. No need to compute every share.
+**Exam twist:** "Find the difference between the largest and smallest share." In Example 1 that is $8-2=6$ parts $=6\times300=\text{Rs }1800$. No need to compute every share.
 
 **Your turn:** Divide Rs 7700 in the ratio $5 : 6$. What is the larger share? (Answer: Rs 4200. Eleven parts, one part is Rs 700.)
 
@@ -156,11 +156,11 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 
 **Example 1 (difference).** Ratio $7 : 4$, difference 24. Find the larger.
 - Difference in parts $=3$. One part $=24\div3=8$.
-- Larger $=7\times8=$ **56**. (Smaller $=32$.)
+- Larger $=7\times8$ = **56**. (Smaller $=32$.)
 
 **Example 2 (one share known).** Boys : girls $=5 : 3$ and there are 45 girls. Total students?
 - 3 parts $=45$, so one part $=15$.
-- Total $=8$ parts $=8\times15=$ **120**.
+- Total $=8$ parts $=8\times15$ = **120**.
 
 **Example 3 (total).** Two numbers in the ratio $3 : 5$ add up to 96.
 - 8 parts $=96$, one part $=12$. Numbers: **36 and 60**.
@@ -185,7 +185,7 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 - $A:B=3:4$ and $B:C=5:6$. LCM of 4 and 5 is 20.
 - $A:B=15:20$ and $B:C=20:24$. So $A:B:C=15:20:24$.
 - Parts $=59$, one part $=5900\div59=100$.
-- **A $=$ Rs 1500, B $=$ Rs 2000, C $=$ Rs 2400.**
+- **A = Rs 1500, B = Rs 2000, C = Rs 2400.**
 
 **Your turn:** $A:B=3:4$ and $B:C=6:7$. Find $A:B:C$. (Answer: $9:12:14$. LCM of 4 and 6 is 12.)
 
@@ -202,16 +202,16 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 | Mean proportional between $a,b$ | the number $x$ with $a:x=x:b$, so $x=\sqrt{ab}$ |
 
 **Example 1.** Fourth proportional to 4, 6, 16.
-- $4:6=16:x$, so $x=\dfrac{6\times16}{4}=$ **24**.
+- $4:6=16:x$, so $x=\dfrac{6\times16}{4}$ = **24**.
 
 **Example 2.** Third proportional to 4 and 6.
-- $x=\dfrac{6\times6}{4}=$ **9**.
+- $x=\dfrac{6\times6}{4}$ = **9**.
 
 **Example 3.** Mean proportional between 4 and 9.
-- $x=\sqrt{4\times9}=\sqrt{36}=$ **6**.
+- $x=\sqrt{4\times9}=\sqrt{36}$ = **6**.
 
 **Example 4 (decimals).** Mean proportional between 0.4 and 0.1.
-- $\sqrt{0.4\times0.1}=\sqrt{0.04}=$ **0.2**.
+- $\sqrt{0.4\times0.1}=\sqrt{0.04}$ = **0.2**.
 
 **Exam twist:** "5, $x$, 20 are in continued proportion" means $5:x=x:20$, so $x$ is the mean proportional: $x=\sqrt{100}=10$.
 
@@ -255,7 +255,7 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 
 **Example 2 (subtract, numbers given).** What must be subtracted from each of 19 and 25 so the ratio becomes $2:3$?
 - $\dfrac{19-x}{25-x}=\dfrac{2}{3}$, so $3(19-x)=2(25-x)$.
-- $57-3x=50-2x$, so $x=$ **7**. Check: $\dfrac{12}{18}=\dfrac{2}{3}$.
+- $57-3x=50-2x$, so $x$ = **7**. Check: $\dfrac{12}{18}=\dfrac{2}{3}$.
 
 **Example 3 (only one term changes).** Two numbers are in ratio $7:5$. If 8 is added to the second only, the ratio becomes $7:6$. Find the numbers.
 - $\dfrac{7k}{5k+8}=\dfrac{7}{6}$, so $42k=35k+56$ and $k=8$.
@@ -271,7 +271,7 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 
 **Example 1 (future).** Present ages of A and B are in the ratio $5:3$. After 6 years the ratio will be $7:5$. Find A's present age.
 - $\dfrac{5k+6}{3k+6}=\dfrac{7}{5}$, so $25k+30=21k+42$ and $k=3$.
-- A $=5\times3=$ **15 years**. (B $=9$.)
+- A $=5\times3$ = **15 years**. (B $=9$.)
 
 **Example 2 (father and son).** Ratio $7:2$ now. After 12 years it will be $9:4$. Find their ages.
 - $\dfrac{7k+12}{2k+12}=\dfrac{9}{4}$, so $28k+48=18k+108$ and $k=6$.
@@ -280,7 +280,7 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 **Example 3 (past).** Six years ago A was 5 times as old as B. Their present ages are in the ratio $3:1$. Find A's present age.
 - Present ages $3k$ and $k$. Six years ago: $3k-6=5(k-6)$.
 - $3k-6=5k-30$, so $2k=24$ and $k=12$.
-- A $=$ **36 years**, B $=12$.
+- A = **36 years**, B $=12$.
 
 **Exam twist:** the **difference** of two ages never changes. If the question gives a sum or a difference, you can often go straight to one part without forming an equation.
 
@@ -290,18 +290,18 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 
 **How you spot it:** "Incomes are in the ratio... expenditures in the ratio... each saves Rs..."
 
-**Think:** **Income $-$ Expenditure $=$ Savings.** Give each person's income and expenditure their own $k$.
+**Think:** **Income $-$ Expenditure = Savings.** Give each person's income and expenditure their own $k$.
 
 **Example 1 (two persons).** Incomes of A and B are in the ratio $5:4$ and expenditures in the ratio $3:2$. Each saves Rs 1600. Find the incomes.
 - Let incomes be $5x$, $4x$ and expenditures $3y$, $2y$.
 - $5x-3y=1600$ and $4x-2y=1600$.
 - Multiply the second by 1.5: $6x-3y=2400$. Subtract the first: $x=800$.
 - Then $3y=5\times800-1600=2400$, so $y=800$.
-- **A's income $=$ Rs 4000, B's income $=$ Rs 3200.**
+- **A's income = Rs 4000, B's income = Rs 3200.**
 
 **Example 2 (one person).** Income and expenditure are in the ratio $7:5$. Income is Rs 28000. Find the savings.
 - Savings $=7-5=2$ parts. One part $=28000\div7=4000$.
-- Savings $=$ **Rs 8000**.
+- Savings = **Rs 8000**.
 
 **Your turn:** Incomes are in ratio $6:5$, expenditures in ratio $4:3$, and each saves Rs 1000. Find A's income. (Answer: Rs 3000. $6x-4y=1000$ and $5x-3y=1000$ give $x=y=500$.)
 
@@ -311,14 +311,14 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 
 **Think:** there are two different ratios hiding here: the ratio of **number of coins** and the ratio of **value**. Convert value to the same footing.
 
-- Number $\times$ face value $=$ value.
+- Number $\times$ face value = value.
 - If the **numbers** are in a ratio, multiply each part by the coin value to get the value ratio.
 - If the **amounts** are in a ratio, divide each amount by the coin value to get the numbers.
 
 **Example 1 (numbers given).** Numbers of Re 1, 50 p and 25 p coins are in the ratio $4:3:2$. Total value is Rs 150. How many 25 p coins?
-- Values per $k$: $4\times1+3\times0.50+2\times0.25=4+1.5+0.5=$ Rs 6.
+- Values per $k$: $4\times1+3\times0.50+2\times0.25=4+1.5+0.5=\text{Rs }6$.
 - $6k=150$, so $k=25$.
-- 25 p coins $=2k=$ **50 coins**.
+- 25 p coins $=2k$ = **50 coins**.
 
 **Example 2 (amounts given).** Amounts in Re 1, 50 p and 25 p coins are in the ratio $5:3:2$ and the total is Rs 120. Find the number of each.
 - Amounts: $60$, $36$, $24$ rupees.
@@ -345,13 +345,13 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 - $\dfrac{3\times1.2}{5\times1.1}=\dfrac{3.6}{5.5}=\dfrac{36}{55}$.
 - **Answer: $36:55$.**
 
-**Example 3 (equal percentages).** If 20% of A $=$ 30% of B, find $A:B$.
+**Example 3 (equal percentages).** If 20% of A = 30% of B, find $A:B$.
 - $0.2A=0.3B$, so $\dfrac{A}{B}=\dfrac{0.3}{0.2}=\dfrac{3}{2}$.
 - **Answer: $3:2$.** Note the swap: the smaller percentage goes with the bigger number.
 
 **Exam twist:** if A is 25% more than B and B is 20% less than C, then $A:C=\dfrac{5}{4}\times\dfrac{4}{5}=1$. So A equals C. Do not assume they differ.
 
-**Your turn:** If 40% of A $=$ 25% of B, find $A:B$. (Answer: $5:8$. $\dfrac{A}{B}=\dfrac{25}{40}$.)
+**Your turn:** If 40% of A = 25% of B, find $A:B$. (Answer: $5:8$. $\dfrac{A}{B}=\dfrac{25}{40}$.)
 
 ### Type 12. Sum of squares, product, or LCM given
 
@@ -379,13 +379,13 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 **Think:** the rule in one line: if $\dfrac{a}{b}=\dfrac{c}{d}$ then $\dfrac{a+b}{a-b}=\dfrac{c+d}{c-d}$. Read it forwards or backwards.
 
 **Example 1 (forwards).** $a:b=5:2$. Find $\dfrac{a+b}{a-b}$.
-- $\dfrac{5+2}{5-2}=$ **$\dfrac{7}{3}$**.
+- $\dfrac{5+2}{5-2}$ = **$\dfrac{7}{3}$**.
 
 **Example 2 (backwards).** $\dfrac{a+b}{a-b}=\dfrac{7}{3}$. Find $a:b$.
 - $\dfrac{a}{b}=\dfrac{7+3}{7-3}=\dfrac{10}{4}=\dfrac{5}{2}$. **Answer: $5:2$.**
 
 **Example 3 (substitution).** $a:b=3:4$. Find $\dfrac{2a+3b}{3a-b}$.
-- Take $a=3$, $b=4$: $\dfrac{6+12}{9-4}=$ **$\dfrac{18}{5}$**.
+- Take $a=3$, $b=4$: $\dfrac{6+12}{9-4}$ = **$\dfrac{18}{5}$**.
 
 **Your turn:** $\dfrac{a+b}{a-b}=\dfrac{5}{3}$. Find $a:b$. (Answer: $4:1$.)
 
@@ -396,13 +396,13 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 **Think:** decide direction first. Ask yourself: if one doubles, does the other double (direct) or halve (inverse)?
 
 **Example 1 (direct).** 12 pens cost Rs 90. Cost of 20 pens?
-- One pen $=90\div12=7.5$. Twenty pens $=$ **Rs 150**.
+- One pen $=90\div12=7.5$. Twenty pens = **Rs 150**.
 
 **Example 2 (inverse).** 6 men finish a job in 10 days. How many days for 4 men?
-- Man-days $=6\times10=60$. Days $=60\div4=$ **15 days**.
+- Man-days $=6\times10=60$. Days $=60\div4$ = **15 days**.
 
 **Example 3 (square).** $x$ varies directly as $y^2$. When $y=3$, $x=18$. Find $x$ when $y=5$.
-- $\dfrac{x}{y^2}$ is constant: $\dfrac{18}{9}=2$. So $x=2\times25=$ **50**.
+- $\dfrac{x}{y^2}$ is constant: $\dfrac{18}{9}=2$. So $x=2\times25$ = **50**.
 
 **Your turn:** 9 pumps empty a tank in 20 hours. How long will 15 pumps take? (Answer: 12 hours. $9\times20=180$, $180\div15$.)
 
@@ -420,7 +420,7 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 | Duplicate, triplicate | Square, cube |
 | Add same number to both | $\dfrac{ak+n}{bk+n}$, cross-multiply |
 | Ages | Same years added to every age |
-| Income, expenditure | Income $-$ Expenditure $=$ Savings, two unknowns |
+| Income, expenditure | Income $-$ Expenditure = Savings, two unknowns |
 | Coins | Number $\times$ value, convert both ways |
 | "x% more" | Multiplier $1+\frac{x}{100}$ |
 | Sum of squares or product | Use $k^2$ |
@@ -434,7 +434,7 @@ Each type below has: how you spot it, how to think about it, a worked example, a
 1. **Not converting units first.** 2 hours : 45 minutes is $8:3$, not $2:45$.
 2. **Adding the same number to the ratio instead of the quantities.** In "add 8 to each number", the 8 goes on $3k$ and $5k$, not on 3 and 5.
 3. **Using the wrong number of parts.** For a difference, use the difference in parts; for a total, use the sum of parts.
-4. **Swapping the percentage ratio.** If 20% of A $=$ 30% of B, the answer is $A:B=3:2$, not $2:3$.
+4. **Swapping the percentage ratio.** If 20% of A = 30% of B, the answer is $A:B=3:2$, not $2:3$.
 5. **Forgetting to take the square root** after solving for $k^2$.
 6. **Mixing coin numbers with coin values.** Check whether the question gives you counts or amounts.
 7. **Chain ratios without a common middle.** $A:B=2:3$ and $B:C=4:5$ does not give $2:3:5$.
@@ -467,7 +467,7 @@ Do these on paper. Do the first 10 untimed. Do the next 15 with 90 seconds each.
 16. Express $\dfrac{1}{3} : \dfrac{1}{4} : \dfrac{1}{6}$ in the simplest whole-number ratio.
 17. Incomes of A and B are in the ratio $4:3$ and expenditures in the ratio $3:2$. Each saves Rs 1000. Find A's income in rupees.
 18. Two numbers are in the ratio $3:4$ and the sum of their squares is 1600. Find the larger.
-19. If 40% of A $=$ 30% of B, find $A:B$.
+19. If 40% of A = 30% of B, find $A:B$.
 20. If $\dfrac{a+b}{a-b}=\dfrac{9}{5}$, find $a:b$.
 21. 15 men build a wall in 28 days. How many days will 21 men take?
 22. The present ages of A and B are in the ratio $4:3$. Four years ago the ratio was $7:5$. Find A's present age.
@@ -486,7 +486,7 @@ Do these on paper. Do the first 10 untimed. Do the next 15 with 90 seconds each.
 32. Two numbers are in the ratio $2:7$ and their product is 504. Find their sum.
 33. Find the compounded ratio of $4:5$, $25:36$ and $6:7$.
 34. Food for 100 men lasts 30 days. For how many days will the same food last 150 men?
-35. If 35% of A $=$ 25% of B $=$ 20% of C, find $A:B:C$.
+35. If 35% of A = 25% of B = 20% of C, find $A:B:C$.
 36. Two people have Rs 6000 and Rs 10000. Each is given Rs 2000 more. Find the new ratio of their money.
 37. If $\dfrac{2}{3}$ of $x$ equals $\dfrac{3}{4}$ of $y$, find $x:y$.
 38. The sum of the ages of two people is 72 and they are in the ratio $7:5$. Find the ratio of their ages after 6 years.

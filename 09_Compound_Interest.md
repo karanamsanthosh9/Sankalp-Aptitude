@@ -88,10 +88,10 @@ The chapter is mostly multiplication of the same number by itself. If you know t
 Pick a principal that cancels with the denominator. Sums in the exam are almost always built that way.
 
 **Example.** Rs 4096 at 12.5% for 3 years. 12.5% is $\frac{1}{8}$, so the multiplier is $\frac{9}{8}$.
-- $4096\times\left(\dfrac{9}{8}\right)^3=4096\times\dfrac{729}{512}=8\times729=$ **Rs 5832**.
+- $4096\times\left(\dfrac{9}{8}\right)^3=4096\times\dfrac{729}{512}=8\times729$ = **Rs 5832**.
 
 **Example.** Rs 6250 at 8% for 2 years. 8% is $\frac{2}{25}$, so the multiplier is $\frac{27}{25}$.
-- $6250\times\dfrac{729}{625}=10\times729=$ **Rs 7290**.
+- $6250\times\dfrac{729}{625}=10\times729$ = **Rs 7290**.
 
 If the principal is a multiple of $20^n$, or $10^n$, or $8^n$, or $25^n$, the fractions cancel. That is a strong hint that you are using the right method.
 
@@ -105,11 +105,11 @@ At 10%: $10+10+1=21\%$. At 20%: $20+20+4=44\%$. At 5%: $5+5+0.25=10.25\%$.
 
 For 3 years, apply the same idea twice. At 10%: 21% for two years, then $21+10+\frac{21\times10}{100}=33.1\%$. At 20%: 44% for two years, then $44+20+\frac{44\times20}{100}=72.8\%$.
 
-**Example.** Rs 5000 at 20% for 2 years. Net growth 44%, so CI $=0.44\times5000=$ **Rs 2200**.
+**Example.** Rs 5000 at 20% for 2 years. Net growth 44%, so CI $=0.44\times5000$ = **Rs 2200**.
 
 ### Shortcut 4. CI is SI plus interest on interest
 
-For 2 years, CI $=$ SI $+$ interest on the first year's interest. That tells you the exact difference:
+For 2 years, CI = SI $+$ interest on the first year's interest. That tells you the exact difference:
 
 $$\text{CI}-\text{SI (2 years)}=P\left(\dfrac{R}{100}\right)^2$$
 
@@ -126,16 +126,16 @@ Every type you can meet is below. Each has: how you spot it, how to think, an ex
 **Think:** multiply by $(1+\frac{R}{100})$ once for each year. Subtract the principal for the CI.
 
 **Example 1.** Rs 8000, 10%, 2 years.
-- Amount $=8000\times1.21=$ **Rs 9680**. CI $=9680-8000=$ **Rs 1680**.
+- Amount $=8000\times1.21$ = **Rs 9680**. CI $=9680-8000$ = **Rs 1680**.
 
 **Example 2.** Rs 5000 at 20% for 3 years.
-- Amount $=5000\times1.728=$ **Rs 8640**.
+- Amount $=5000\times1.728$ = **Rs 8640**.
 
 **Example 3.** Rs 4096 at 12.5% for 3 years.
-- $4096\times\dfrac{729}{512}=$ **Rs 5832**.
+- $4096\times\dfrac{729}{512}$ = **Rs 5832**.
 
 **Example 4.** CI on Rs 2000 at 10% for 2 years.
-- $2000\times1.21=2420$. CI $=$ **Rs 420**.
+- $2000\times1.21=2420$. CI = **Rs 420**.
 
 **Your turn:** CI on Rs 5000 at 20% for 2 years. (Answer: Rs 2200. $5000\times1.44=7200$, minus 5000.)
 
@@ -148,13 +148,13 @@ Every type you can meet is below. Each has: how you spot it, how to think, an ex
 $$P=\dfrac{A}{\left(1+\frac{R}{100}\right)^n}$$
 
 **Example 1.** Rs 9261 after 3 years at 5%.
-- $P=9261\div\dfrac{9261}{8000}=$ **Rs 8000**. (Notice $9261=21^3$, a sign you are on track.)
+- $P=9261\div\dfrac{9261}{8000}$ = **Rs 8000**. (Notice $9261=21^3$, a sign you are on track.)
 
 **Example 2.** The CI for 2 years at 10% is Rs 1260. Find the sum.
-- CI is 21% of $P$. $P=\dfrac{1260}{0.21}=$ **Rs 6000**.
+- CI is 21% of $P$. $P=\dfrac{1260}{0.21}$ = **Rs 6000**.
 
 **Example 3.** The CI for 2 years at 5% is Rs 1025. Find the sum.
-- Net growth $=10.25\%$. $P=\dfrac{1025}{0.1025}=$ **Rs 10000**.
+- Net growth $=10.25\%$. $P=\dfrac{1025}{0.1025}$ = **Rs 10000**.
 
 **Your turn:** a sum becomes Rs 9680 in 2 years at 10%. Find it. (Answer: Rs 8000. $9680\div1.21$.)
 
@@ -165,15 +165,15 @@ $$P=\dfrac{A}{\left(1+\frac{R}{100}\right)^n}$$
 **Think:** find the growth ratio $\frac{A}{P}$. Then ask: "what number multiplied by itself $n$ times gives this?"
 
 **Example 1.** Rs 5000 becomes Rs 7200 in 2 years.
-- Ratio $=\dfrac{7200}{5000}=1.44$. Square root of $1.44$ is $1.2$. Rate $=$ **20%**.
+- Ratio $=\dfrac{7200}{5000}=1.44$. Square root of $1.44$ is $1.2$. Rate = **20%**.
 
 **Example 2.** Rs 12500 becomes Rs 15125 in 2 years.
-- Ratio $=1.21$. Square root is $1.1$. Rate $=$ **10%**.
+- Ratio $=1.21$. Square root is $1.1$. Rate = **10%**.
 
 **Example 3 (consecutive amounts).** A sum is Rs 8820 after 2 years and Rs 9261 after 3 years.
-- The third year multiplied the amount by $\dfrac{9261}{8820}=1.05$. Rate $=$ **5%**.
+- The third year multiplied the amount by $\dfrac{9261}{8820}=1.05$. Rate = **5%**.
 
-**Exam twist:** with two consecutive amounts, you do not need the principal. One year's growth ratio is the rate. In Example 3 you can also recover the principal: $\dfrac{8820}{1.05^2}=$ Rs 8000.
+**Exam twist:** with two consecutive amounts, you do not need the principal. One year's growth ratio is the rate. In Example 3 you can also recover the principal: $\dfrac{8820}{1.05^2}=\text{Rs }8000$.
 
 **Your turn:** Rs 6250 becomes Rs 7290 in 2 years. Rate? (Answer: 8%. Ratio $1.1664$, square root $1.08$.)
 
@@ -184,13 +184,13 @@ $$P=\dfrac{A}{\left(1+\frac{R}{100}\right)^n}$$
 **Think:** find the ratio $\frac{A}{P}$. Then match it to the multiplier table: which power of $(1+\frac{R}{100})$ equals it?
 
 **Example 1.** Rs 4000 becomes Rs 5324 at 10%.
-- Ratio $=1.331=1.1^3$. Time $=$ **3 years**.
+- Ratio $=1.331=1.1^3$. Time = **3 years**.
 
 **Example 2.** Rs 10000 becomes Rs 14400 at 20%.
-- Ratio $=1.44=1.2^2$. Time $=$ **2 years**.
+- Ratio $=1.44=1.2^2$. Time = **2 years**.
 
 **Example 3.** Rs 8000 becomes Rs 9261 at 5%.
-- Ratio $=1.157625=1.05^3$. Time $=$ **3 years**.
+- Ratio $=1.157625=1.05^3$. Time = **3 years**.
 
 **Exam twist:** if the numbers do not match the table, use the options. Try each option as $n$ and see which gives the amount.
 
@@ -206,14 +206,14 @@ $$A=P\left(1+\dfrac{R/2}{100}\right)^{2n}\quad(\text{half-yearly})\qquad A=P\lef
 
 **Example 1.** Rs 8000 at 10% per annum compounded half-yearly for 1 year.
 - Half-yearly rate $=5\%$. Periods $=2$.
-- $8000\times1.05^2=8000\times1.1025=$ **Rs 8820**.
+- $8000\times1.05^2=8000\times1.1025$ = **Rs 8820**.
 
 **Example 2.** Rs 160000 at 8% per annum compounded quarterly for 6 months.
 - Quarterly rate $=2\%$. Periods $=2$.
-- $160000\times1.02^2=$ **Rs 166464**.
+- $160000\times1.02^2$ = **Rs 166464**.
 
 **Example 3.** Rs 16000 at 10% per annum compounded half-yearly for $1\frac{1}{2}$ years.
-- Rate $5\%$, periods $3$. $16000\times1.157625=$ **Rs 18522**.
+- Rate $5\%$, periods $3$. $16000\times1.157625$ = **Rs 18522**.
 
 **Exam twist:** the **effective** annual rate of 10% compounded half-yearly is $1.05^2-1=10.25\%$, which is more than 10%. More frequent compounding always gives more money.
 
@@ -227,10 +227,10 @@ $$A=P\left(1+\dfrac{R/2}{100}\right)^{2n}\quad(\text{half-yearly})\qquad A=P\lef
 
 **Example 1.** Rs 8000 at 10% for $2\frac{1}{2}$ years.
 - After 2 years: $8000\times1.21=9680$.
-- Extra half year at simple interest: $9680\times\left(1+\dfrac{10}{100}\times\dfrac{1}{2}\right)=9680\times1.05=$ **Rs 10164**.
+- Extra half year at simple interest: $9680\times\left(1+\dfrac{10}{100}\times\dfrac{1}{2}\right)=9680\times1.05$ = **Rs 10164**.
 
 **Example 2.** Rs 4000 at 10% for $1\frac{1}{2}$ years.
-- After 1 year: $4400$. Half year more: $4400\times1.05=$ **Rs 4620**.
+- After 1 year: $4400$. Half year more: $4400\times1.05$ = **Rs 4620**.
 
 **Exam twist:** the exam may say "compounded annually" but give a fractional time. The rule above is what they expect. If it says "compounded half-yearly", use the half-yearly rule from Type 5 instead.
 
@@ -247,13 +247,13 @@ $$\text{2 years: } P\left(\dfrac{R}{100}\right)^2\qquad\text{3 years: } P\left(\
 **Why the 2-year formula works:** in year 2 the extra interest is the interest on year 1's interest. Year 1's interest is $P\cdot\frac{R}{100}$, and the interest on that is $P\cdot\frac{R}{100}\cdot\frac{R}{100}$.
 
 **Example 1.** Rs 5000 at 10% for 2 years.
-- $5000\times0.01=$ **Rs 50**.
+- $5000\times0.01$ = **Rs 50**.
 
 **Example 2.** Rs 8000 at 5% for 2 years.
-- $8000\times0.0025=$ **Rs 20**.
+- $8000\times0.0025$ = **Rs 20**.
 
 **Example 3.** Rs 10000 at 10% for 3 years.
-- $10000\times0.01\times3.1=$ **Rs 310**.
+- $10000\times0.01\times3.1$ = **Rs 310**.
 - Check: CI $=13310-10000=3310$, SI $=3000$, difference $=310$.
 
 **Your turn:** Rs 6000 at 10% for 2 years. Difference between CI and SI? (Answer: Rs 60.)
@@ -265,13 +265,13 @@ $$\text{2 years: } P\left(\dfrac{R}{100}\right)^2\qquad\text{3 years: } P\left(\
 **Think:** put the given numbers into the same formula and solve for the missing one.
 
 **Example 1 (find the sum).** Difference Rs 40, rate 5%, 2 years.
-- $P\times(0.05)^2=40$, so $P=\dfrac{40}{0.0025}=$ **Rs 16000**.
+- $P\times(0.05)^2=40$, so $P=\dfrac{40}{0.0025}$ = **Rs 16000**.
 
 **Example 2 (find the rate).** The difference on Rs 8000 for 2 years is Rs 20.
-- $\left(\dfrac{R}{100}\right)^2=\dfrac{20}{8000}=0.0025$, so $\dfrac{R}{100}=0.05$. Rate $=$ **5%**.
+- $\left(\dfrac{R}{100}\right)^2=\dfrac{20}{8000}=0.0025$, so $\dfrac{R}{100}=0.05$. Rate = **5%**.
 
 **Example 3 (3 years).** Rs 310 is the difference for 3 years at 10%. Find the sum.
-- $P\times0.01\times3.1=310$, so $P=\dfrac{310}{0.031}=$ **Rs 10000**.
+- $P\times0.01\times3.1=310$, so $P=\dfrac{310}{0.031}$ = **Rs 10000**.
 
 **Your turn:** difference for 2 years at 6% is Rs 72. Find the sum. (Answer: Rs 20000. $\dfrac{72}{0.0036}$.)
 
@@ -284,8 +284,8 @@ $$\text{2 years: } P\left(\dfrac{R}{100}\right)^2\qquad\text{3 years: } P\left(\
 $$R=\dfrac{\text{CI}-\text{SI}}{\tfrac{1}{2}\text{SI}}\times100=\dfrac{2(\text{CI}-\text{SI})}{\text{SI}}\times100$$
 
 **Example.** SI $=1200$, CI $=1260$ for 2 years.
-- $R=\dfrac{2\times60}{1200}\times100=$ **10%**.
-- Sum: SI $=\dfrac{P\times10\times2}{100}=1200$, so $P=$ **Rs 6000**.
+- $R=\dfrac{2\times60}{1200}\times100$ = **10%**.
+- Sum: SI $=\dfrac{P\times10\times2}{100}=1200$, so $P$ = **Rs 6000**.
 
 **Your turn:** SI $=1000$ and CI $=1050$ for 2 years. Rate and sum? (Answer: 10% and Rs 5000. $\frac{2\times50}{1000}=10\%$, and $\frac{1000\times100}{2\times10}=5000$.)
 
@@ -296,13 +296,13 @@ $$R=\dfrac{\text{CI}-\text{SI}}{\tfrac{1}{2}\text{SI}}\times100=\dfrac{2(\text{C
 **Think:** multiply the multipliers year by year. Do not average the rates.
 
 **Example 1.** Rs 10000 at 10% for the first year and 20% for the second.
-- $10000\times1.1\times1.2=$ **Rs 13200**.
+- $10000\times1.1\times1.2$ = **Rs 13200**.
 
 **Example 2.** Same sum, and 10% again in the third year.
-- $13200\times1.1=$ **Rs 14520**.
+- $13200\times1.1$ = **Rs 14520**.
 
 **Example 3.** Rs 4000 at 5%, 10% and 20% in three successive years.
-- $4000\times1.05\times1.1\times1.2=$ **Rs 5544**.
+- $4000\times1.05\times1.1\times1.2$ = **Rs 5544**.
 
 **Your turn:** Rs 5000 at 10% in year 1 and 20% in year 2. Amount? (Answer: Rs 6600. $5000\times1.1\times1.2$.)
 
@@ -313,16 +313,16 @@ $$R=\dfrac{\text{CI}-\text{SI}}{\tfrac{1}{2}\text{SI}}\times100=\dfrac{2(\text{C
 **Think:** exactly the same as CI. Growth uses $1+\frac{r}{100}$. A **fall** uses $1-\frac{r}{100}$.
 
 **Example 1.** Population 50000, grows 10% a year. After 2 years?
-- $50000\times1.21=$ **60500**.
+- $50000\times1.21$ = **60500**.
 
 **Example 2.** A machine worth Rs 80000 loses 10% of its value each year. Value after 2 years?
-- $80000\times0.9\times0.9=$ **Rs 64800**.
+- $80000\times0.9\times0.9$ = **Rs 64800**.
 
 **Example 3.** Population grows 20% in one year and falls 10% in the next. Starting from 10000?
-- $10000\times1.2\times0.9=$ **10800**.
+- $10000\times1.2\times0.9$ = **10800**.
 
 **Example 4 (find the starting value).** After a growth of 10% each year for 2 years, a town has 24200 people. Starting population?
-- $\dfrac{24200}{1.21}=$ **20000**.
+- $\dfrac{24200}{1.21}$ = **20000**.
 
 **Exam twist:** an increase of 20% followed by a fall of 10% is **not** a net rise of 10%. It is $1.2\times0.9=1.08$, a net rise of 8%. In Example 3, it is 8% of 10000, which is 800 more.
 
@@ -338,11 +338,11 @@ $$R=\dfrac{\text{CI}-\text{SI}}{\tfrac{1}{2}\text{SI}}\times100=\dfrac{2(\text{C
 - 4 times: $2t$ years. 8 times: $3t$ years. 16 times: $4t$ years.
 - Triples in $t$ years: becomes 9 times in $2t$, 27 times in $3t$.
 
-**Example 1.** Doubles in 5 years. 8 times in $3\times5=$ **15 years**.
+**Example 1.** Doubles in 5 years. 8 times in $3\times5$ = **15 years**.
 
-**Example 2.** Becomes 4 times in 4 years. 16 times in $2\times4=$ **8 years**.
+**Example 2.** Becomes 4 times in 4 years. 16 times in $2\times4$ = **8 years**.
 
-**Example 3.** Triples in 3 years. 27 times in $3\times3=$ **9 years**.
+**Example 3.** Triples in 3 years. 27 times in $3\times3$ = **9 years**.
 
 **Exam twist:** this is a pure CI trick. With simple interest the logic is different (see the Simple Interest chapter). If an exam says "doubles at CI", use the repeated-doubling method.
 
@@ -358,13 +358,13 @@ $$\text{Loan}=\dfrac{X}{1+r}+\dfrac{X}{(1+r)^2}+\dots$$
 
 **Example 1.** Two equal instalments of Rs 2420 each at 10%.
 - First: $\dfrac{2420}{1.1}=2200$. Second: $\dfrac{2420}{1.21}=2000$.
-- Loan $=$ **Rs 4200**.
+- Loan = **Rs 4200**.
 
 **Example 2.** Three equal instalments of Rs 1331 each at 10%.
-- $1210+1100+1000=$ **Rs 3310**.
+- $1210+1100+1000$ = **Rs 3310**.
 
 **Example 3.** Two equal instalments of Rs 1440 each at 20%.
-- $\dfrac{1440}{1.2}+\dfrac{1440}{1.44}=1200+1000=$ **Rs 2200**.
+- $\dfrac{1440}{1.2}+\dfrac{1440}{1.44}=1200+1000$ = **Rs 2200**.
 
 **Your turn:** two equal instalments of Rs 2205 each at 5%. Loan? (Answer: Rs 4100. $2100+2000$.)
 
@@ -392,10 +392,10 @@ $$\text{Loan}=\dfrac{X}{1+r}+\dfrac{X}{(1+r)^2}+\dots$$
 
 **Example 1.** Rs 5000 at 10%, Rs 2000 paid after year 1.
 - After year 1: $5000\times1.1=5500$. After the payment: $3500$.
-- After year 2: $3500\times1.1=$ **Rs 3850**.
+- After year 2: $3500\times1.1$ = **Rs 3850**.
 
 **Example 2.** Rs 10000 at 20%, Rs 6000 paid after year 1.
-- $10000\times1.2=12000$. Balance $6000$. Year 2: $6000\times1.2=$ **Rs 7200**.
+- $10000\times1.2=12000$. Balance $6000$. Year 2: $6000\times1.2$ = **Rs 7200**.
 
 **Your turn:** Rs 8000 at 10%, Rs 3000 paid after year 1. Final payment? (Answer: Rs 6380. $8800-3000=5800$, then $\times1.1$.)
 
@@ -403,13 +403,13 @@ $$\text{Loan}=\dfrac{X}{1+r}+\dfrac{X}{(1+r)^2}+\dots$$
 
 **How you spot it:** "Find the CI earned in the third year", "interest for the second year only".
 
-**Think:** that year's interest $=$ amount at its end minus amount at its start. It equals $r$ times the amount at the start of that year.
+**Think:** that year's interest = amount at its end minus amount at its start. It equals $r$ times the amount at the start of that year.
 
 **Example 1.** Rs 10000 at 10%. Interest of the third year.
-- Amount after 2 years $=12100$. Third-year interest $=10\%$ of $12100=$ **Rs 1210**.
+- Amount after 2 years $=12100$. Third-year interest $=10\%$ of $12100$ = **Rs 1210**.
 
 **Example 2.** Rs 3000 at 10%. Interest for the second year.
-- Amount after year 1 $=3300$. Second-year interest $=$ **Rs 330**.
+- Amount after year 1 $=3300$. Second-year interest = **Rs 330**.
 
 **Your turn:** Rs 5000 at 20%. Interest for the third year? (Answer: Rs 1440. Amount after 2 years is 7200, and 20% of 7200.)
 

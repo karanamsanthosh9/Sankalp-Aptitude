@@ -121,7 +121,7 @@ $$\text{Trailing zeros} = \left\lfloor \frac{n}{5} \right\rfloor + \left\lfloor 
 - $\lfloor 30/25 \rfloor = 1$
 - Total = **7**.
 
-**Your turn:** trailing zeros in $50!$? ($\lfloor 50/5 \rfloor + \lfloor 50/25 \rfloor = 10 + 2 = $ **12**.)
+**Your turn:** trailing zeros in $50!$? ($\lfloor 50/5 \rfloor + \lfloor 50/25 \rfloor = 10 + 2$ = **12**.)
 
 ### Number of factors
 
@@ -129,7 +129,7 @@ If $n = 2^a \times 3^b \times 5^c \times \cdots$, then the number of factors of 
 
 **Example:** factors of $72$?
 - $72 = 2^3 \times 3^2$
-- Factors $= (3+1)(2+1) = 4 \times 3 = $ **12**.
+- Factors $= (3+1)(2+1) = 4 \times 3$ = **12**.
 
 ### Remainder shortcut
 
@@ -137,7 +137,7 @@ To find the remainder of a big power, look for a pattern.
 
 **Example:** remainder when $17^{100}$ is divided by 16.
 - $17 = 16 + 1$, so $17 \equiv 1 \pmod{16}$.
-- $17^{100} \equiv 1^{100} = $ **1**.
+- $17^{100} \equiv 1^{100}$ = **1**.
 
 ## 3. Types of questions and how to crack each one
 
@@ -172,7 +172,7 @@ To find the remainder of a big power, look for a pattern.
 **Solved example:** $473k$ divisible by 9.
 - Sum so far: $4 + 7 + 3 + k = 14 + k$.
 - We need $14 + k$ divisible by 9.
-- $k = 4$ gives $18$, which is $9 \times 2$. So $k = $ **4**.
+- $k = 4$ gives $18$, which is $9 \times 2$. So $k$ = **4**.
 - Check: $4734 \div 9 = 526$. Correct.
 
 **Solved example:** $4a752b$ divisible by both 4 and 3.
@@ -223,15 +223,15 @@ To find the remainder of a big power, look for a pattern.
 
 **Solved example:** factors of 120.
 - $120 = 2^3 \times 3 \times 5$.
-- Factors $= (3+1)(1+1)(1+1) = 4 \times 2 \times 2 = $ **16**.
+- Factors $= (3+1)(1+1)(1+1) = 4 \times 2 \times 2$ = **16**.
 
 **Solved example:** factors of $24^3 \times 36$.
 - $24 = 2^3 \times 3$, so $24^3 = 2^9 \times 3^3$.
 - $36 = 2^2 \times 3^2$.
 - Product $= 2^{11} \times 3^5$.
-- Factors $= (11+1)(5+1) = 12 \times 6 = $ **72**.
+- Factors $= (11+1)(5+1) = 12 \times 6$ = **72**.
 
-**Your turn:** how many factors does 100 have? ($100 = 2^2 \times 5^2$; factors $= 3 \times 3 = $ **9**.)
+**Your turn:** how many factors does 100 have? ($100 = 2^2 \times 5^2$; factors $= 3 \times 3$ = **9**.)
 
 ### Type 6. Remainder when a power is divided
 
@@ -263,12 +263,12 @@ $$\sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$$
 $$\sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
 
 **Solved example:** $1 + 2 + \cdots + 100$.
-- $\frac{100 \times 101}{2} = $ **5050**.
+- $\frac{100 \times 101}{2}$ = **5050**.
 
 **Solved example:** $1^3 + 2^3 + \cdots + 10^3$.
-- $\left[\frac{10 \times 11}{2}\right]^2 = 55^2 = $ **3025**.
+- $\left[\frac{10 \times 11}{2}\right]^2 = 55^2$ = **3025**.
 
-**Your turn:** $1^2 + 2^2 + \cdots + 10^2$? ($\frac{10 \times 11 \times 21}{6} = $ **385**.)
+**Your turn:** $1^2 + 2^2 + \cdots + 10^2$? ($\frac{10 \times 11 \times 21}{6}$ = **385**.)
 
 ### Type 8. Finding a number from a clue about quotient and remainder
 
@@ -277,7 +277,7 @@ $$\sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
 **Think:** $\text{Number} = \text{Divisor} \times \text{Quotient} + \text{Remainder}$.
 
 **Solved example:** divisor 12, quotient 5, remainder 7.
-- $N = 12 \times 5 + 7 = 60 + 7 = $ **67**.
+- $N = 12 \times 5 + 7 = 60 + 7$ = **67**.
 - Check: $67 \div 12 = 5$ remainder 7. Correct.
 
 **Exam twist:** "A number exceeds its $\frac{3}{7}$ by 48." Let the number be $N$: $N - \frac{3N}{7} = 48 \Rightarrow \frac{4N}{7} = 48 \Rightarrow N = 84$.
@@ -310,9 +310,9 @@ $$\sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
 **Solved example:** numbers from 1 to 100 divisible by 6 but not 9.
 - Divisible by 6: $\lfloor 100/6 \rfloor = 16$.
 - Divisible by both 6 and 9 means divisible by $\text{LCM}(6,9) = 18$: $\lfloor 100/18 \rfloor = 5$.
-- Answer: $16 - 5 = $ **11**.
+- Answer: $16 - 5$ = **11**.
 
-**Your turn:** how many numbers from 1 to 100 are divisible by 4 but not by 8? ($\lfloor 100/4 \rfloor = 25$; $\lfloor 100/8 \rfloor = 12$; $25-12 = $ **13**.)
+**Your turn:** how many numbers from 1 to 100 are divisible by 4 but not by 8? ($\lfloor 100/4 \rfloor = 25$; $\lfloor 100/8 \rfloor = 12$; $25-12$ = **13**.)
 
 ### Type 11. Face value and place value
 
@@ -324,9 +324,9 @@ $$\sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
 - 8 is in the thousands place.
 - Place value $= 8 \times 1000 = 8000$.
 - Face value $= 8$.
-- Difference $= 8000 - 8 = $ **7992**.
+- Difference $= 8000 - 8$ = **7992**.
 
-**Your turn:** in 5325, find the product of the place values of both 5s. (5 at thousands: $5000$; 5 at units: $5$; product $= $ **25000**.)
+**Your turn:** in 5325, find the product of the place values of both 5s. (5 at thousands: $5000$; 5 at units: $5$; product = **25000**.)
 
 ### Type 12. Perfect squares and cubes range
 
@@ -338,7 +338,7 @@ $$\sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
 - $\sqrt{500} \approx 22.36$, so $22^2 = 484$ is the largest. There are **22** perfect squares.
 
 **Solved example:** perfect squares strictly between 100 and 500.
-- From $11^2 = 121$ to $22^2 = 484$: that is $22 - 11 + 1 = $ **12** values.
+- From $11^2 = 121$ to $22^2 = 484$: that is $22 - 11 + 1$ = **12** values.
 
 **Your turn:** find the largest 3-digit perfect square. ($31^2 = 961$, $32^2 = 1024 > 999$. **Answer: 961**.)
 
@@ -352,7 +352,7 @@ $$\sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
 - Try $a=1$: $100 + 10b + c = 17(1+b+c)$, so $83 - 7b - 16c = 0$. With $b=5, c=3$: $83 - 35 - 48 = 0$. Yes!
 - $N = 153$. Check: $1+5+3=9$, $9 \times 17 = 153$. **Answer: 153**.
 
-**Your turn:** $\frac{3}{7}$ of a number is 48. Find the number. ($N \times \frac{3}{7} = 48 \Rightarrow N = \frac{48 \times 7}{3} = $ **112**.)
+**Your turn:** $\frac{3}{7}$ of a number is 48. Find the number. ($N \times \frac{3}{7} = 48 \Rightarrow N = \frac{48 \times 7}{3}$ = **112**.)
 
 ### Type 14. Sum of all 2-digit (or n-digit) multiples of k
 
@@ -363,9 +363,9 @@ $$\sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
 **Solved example:** sum of 2-digit multiples of 7.
 - First: 14, Last: 98.
 - Count: $(98-14)/7 + 1 = 84/7 + 1 = 12 + 1 = 13$.
-- Sum $= \frac{13}{2} \times (14 + 98) = \frac{13 \times 112}{2} = 13 \times 56 = $ **728**.
+- Sum $= \frac{13}{2} \times (14 + 98) = \frac{13 \times 112}{2} = 13 \times 56$ = **728**.
 
-**Your turn:** sum of all 2-digit multiples of 9. (First: 18, last: 99; count: $(99-18)/9+1=10$; sum $= 10/2 \times 117 = $ **585**.)
+**Your turn:** sum of all 2-digit multiples of 9. (First: 18, last: 99; count: $(99-18)/9+1=10$; sum $= 10/2 \times 117$ = **585**.)
 
 ## 4. One page to revise before the exam
 
@@ -381,7 +381,7 @@ $$\sum_{k=1}^{n} k^3 = \left[\frac{n(n+1)}{2}\right]^2$$
 | Quotient-remainder clue | $N = D \times q + r$ |
 | Two remainder conditions | Write $N = D_1 a + r_1$, trial-and-error or algebra to satisfy second condition |
 | Count multiples in range | $\lfloor \text{max}/k \rfloor - \lfloor (\text{min}-1)/k \rfloor$ |
-| Face/place value difference | Place value $= \text{digit} \times$ positional power; face value $= $ digit itself |
+| Face/place value difference | Place value $= \text{digit} \times$ positional power; face value = digit itself |
 
 ### Squares to memorise
 

@@ -68,7 +68,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $h = d\tan 30° = 30 \times \dfrac{1}{\sqrt{3}} = \dfrac{30}{\sqrt{3}} = 10\sqrt{3}$ m $\approx$ **17.32 m**.
 
 **Example 2:** The angle of elevation is $45°$ and the height is 50 m. Find the distance from the tower.
-- $d = \dfrac{h}{\tan 45°} = \dfrac{50}{1} =$ **50 m**.
+- $d = \dfrac{h}{\tan 45°} = \dfrac{50}{1}$ = **50 m**.
 
 ### Question type 2. Distance from base using angle of depression
 
@@ -94,7 +94,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Let pole height $= p$ and horizontal distance $= d$.
 - From foot: $\tan 60° = p/d \Rightarrow d = p/\sqrt{3}$.
 - From top: $\tan 30° = (p-30)/d \Rightarrow (p-30)/(p/\sqrt{3}) = 1/\sqrt{3} \Rightarrow 3(p-30) = p \Rightarrow 2p = 90$.
-- $p =$ **45 m**.
+- $p$ = **45 m**.
 
 ### Question type 5. Shadow problems
 
@@ -104,7 +104,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - $\tan 60° = 6/s \Rightarrow s = 6/\sqrt{3} = 2\sqrt{3} \approx$ **3.46 m**.
 
 **Example 2:** A 10 m pole casts a shadow of 10 m. What is the angle of elevation of the sun?
-- $\tan\theta = 10/10 = 1 \Rightarrow \theta =$ **45°**.
+- $\tan\theta = 10/10 = 1 \Rightarrow \theta$ = **45°**.
 
 ### Question type 6. Elevation angle changes as observer moves closer
 
@@ -122,7 +122,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** From point A the angle of elevation of a tree on the opposite bank is $60°$, and from point B (30 m behind A) the angle is $30°$. Find the width of the river.
 - Let width $= w$ and tree height $= h$.
 - $\tan 60° = h/w \Rightarrow h = w\sqrt{3}$.
-- $\tan 30° = h/(w+30) \Rightarrow 3w = w+30 \Rightarrow w =$ **15 m**. Height $= 15\sqrt{3}$ m.
+- $\tan 30° = h/(w+30) \Rightarrow 3w = w+30 \Rightarrow w$ = **15 m**. Height $= 15\sqrt{3}$ m.
 
 ### Question type 8. Cliff with a lighthouse on top
 
@@ -132,7 +132,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - Let cliff height $= c$ and horizontal distance $= d$.
 - $\tan 30° = c/d \Rightarrow d = c\sqrt{3}$.
 - $\tan 60° = (c+100)/d \Rightarrow c+100 = d\sqrt{3} = 3c \Rightarrow 2c = 100$.
-- Cliff height $=$ **50 m**.
+- Cliff height = **50 m**.
 
 ### Question type 9. Ladder or inclined plane
 
@@ -140,7 +140,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** A ladder 20 m long makes an angle of $60°$ with the ground. Find the height it reaches and its distance from the wall.
 - Height $= 20\sin 60° = 20\times\dfrac{\sqrt{3}}{2} = 10\sqrt{3} \approx$ **17.32 m**.
-- Distance from wall $= 20\cos 60° = 20\times0.5 =$ **10 m**.
+- Distance from wall $= 20\cos 60° = 20\times0.5$ = **10 m**.
 
 ### Question type 10. Trigonometric identities
 
@@ -158,11 +158,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** Evaluate $\sin 70° \times \sec 20°$.
 - $\sec 20° = 1/\cos 20° = 1/\sin 70°$.
-- $\sin 70° \times (1/\sin 70°) =$ **1**.
+- $\sin 70° \times (1/\sin 70°)$ = **1**.
 
 **Example 2:** Evaluate $\cos 40° \times \text{cosec}\,50°$.
 - $\text{cosec}\,50° = 1/\sin 50° = 1/\cos 40°$ (since $\sin 50° = \cos 40°$).
-- $\cos 40° \times (1/\cos 40°) =$ **1**.
+- $\cos 40° \times (1/\cos 40°)$ = **1**.
 
 ### Question type 12. Tower seen from two directions (north-south)
 
@@ -197,7 +197,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** Show that $(\sin A + \text{cosec}\,A)^2 + (\cos A + \sec A)^2 = 7 + \tan^2 A + \cot^2 A$.
 - $(\sin A + \text{cosec}\,A)^2 = \sin^2 A + 2 + \text{cosec}^2 A$.
 - $(\cos A + \sec A)^2 = \cos^2 A + 2 + \sec^2 A$.
-- Sum $= (\sin^2 A + \cos^2 A) + 4 + \text{cosec}^2 A + \sec^2 A = 1 + 4 + (1+\cot^2 A) + (1+\tan^2 A) =$ **$7 + \tan^2 A + \cot^2 A$**. Verified.
+- Sum $= (\sin^2 A + \cos^2 A) + 4 + \text{cosec}^2 A + \sec^2 A = 1 + 4 + (1+\cot^2 A) + (1+\tan^2 A)$ = **$7 + \tan^2 A + \cot^2 A$**. Verified.
 
 ## 5. Before you practise
 

@@ -59,7 +59,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** Solve for $x$: $3(2x - 5) - 4(x - 2) = 11$.
 - $6x - 15 - 4x + 8 = 11$.
 - $2x - 7 = 11 \implies 2x = 18$.
-- $x =$ **9**.
+- $x$ = **9**.
 
 ### Question type 2. Simultaneous linear equations in two variables
 
@@ -76,10 +76,10 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Idea:** compare $\dfrac{a_1}{a_2}, \dfrac{b_1}{b_2}, \dfrac{c_1}{c_2}$. Unique: $\neq$; Infinite: all equal; No solution: first two equal, third unequal.
 
 **Example 1:** For what value of $k$ does $2x + ky = 7$ and $4x + 6y = 14$ have infinitely many solutions?
-- $\dfrac{2}{4} = \dfrac{k}{6} = \dfrac{7}{14} \implies \dfrac{1}{2} = \dfrac{k}{6} \implies k =$ **3**.
+- $\dfrac{2}{4} = \dfrac{k}{6} = \dfrac{7}{14} \implies \dfrac{1}{2} = \dfrac{k}{6} \implies k$ = **3**.
 
 **Example 2:** For what value of $p$ does $px + 3y = 5$ and $2x + 6y = 8$ have no solution?
-- $\dfrac{p}{2} = \dfrac{3}{6} \neq \dfrac{5}{8} \implies \dfrac{p}{2} = \dfrac{1}{2} \implies p =$ **1**.
+- $\dfrac{p}{2} = \dfrac{3}{6} \neq \dfrac{5}{8} \implies \dfrac{p}{2} = \dfrac{1}{2} \implies p$ = **1**.
 
 ### Question type 4. Word problems leading to linear equations
 
@@ -116,8 +116,8 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** If $\alpha, \beta$ are roots of $x^2 - 6x + 4 = 0$, find $\alpha^2 + \beta^2$ and $\alpha^3 + \beta^3$.
 - $\alpha + \beta = 6$, $\alpha\beta = 4$.
-- $\alpha^2 + \beta^2 = 6^2 - 2(4) = 36 - 8 =$ **28**.
-- $\alpha^3 + \beta^3 = 6^3 - 3(4)(6) = 216 - 72 =$ **144**.
+- $\alpha^2 + \beta^2 = 6^2 - 2(4) = 36 - 8$ = **28**.
+- $\alpha^3 + \beta^3 = 6^3 - 3(4)(6) = 216 - 72$ = **144**.
 
 ### Question type 8. Nature of roots and discriminant
 
@@ -125,7 +125,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** If $3x^2 - kx + 12 = 0$ has equal roots, find $k$.
 - $D = (-k)^2 - 4(3)(12) = k^2 - 144 = 0$.
-- $k^2 = 144 \implies k =$ **$\pm 12$**.
+- $k^2 = 144 \implies k$ = **$\pm 12$**.
 
 ### Question type 9. Common roots between two quadratic equations
 
@@ -142,15 +142,15 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** Find the minimum value of $2x^2 - 8x + 11$.
 - Here $a = 2 > 0$ (has minimum). Vertex at $x = -\dfrac{-8}{2(2)} = 2$.
-- Minimum value $= 2(2)^2 - 8(2) + 11 = 8 - 16 + 11 =$ **3**.
+- Minimum value $= 2(2)^2 - 8(2) + 11 = 8 - 16 + 11$ = **3**.
 
 ### Question type 11. Standard algebraic identities ($x + \frac{1}{x}$)
 
 **Idea:** $(x + \frac{1}{x})^2 = x^2 + \frac{1}{x^2} + 2 \implies x^2 + \frac{1}{x^2} = k^2 - 2$; $x^3 + \frac{1}{x^3} = k^3 - 3k$.
 
 **Example:** If $x + \dfrac{1}{x} = 3$, find $x^2 + \dfrac{1}{x^2}$ and $x^3 + \dfrac{1}{x^3}$.
-- $x^2 + \dfrac{1}{x^2} = 3^2 - 2 =$ **7**.
-- $x^3 + \dfrac{1}{x^3} = 3^3 - 3(3) = 27 - 9 =$ **18**.
+- $x^2 + \dfrac{1}{x^2} = 3^2 - 2$ = **7**.
+- $x^3 + \dfrac{1}{x^3} = 3^3 - 3(3) = 27 - 9$ = **18**.
 
 ### Question type 12. Higher power identities
 
@@ -158,14 +158,14 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** If $x + \dfrac{1}{x} = 3$, find $x^5 + \dfrac{1}{x^5}$.
 - $x^2 + \dfrac{1}{x^2} = 7$, $x^3 + \dfrac{1}{x^3} = 18$.
-- $x^5 + \dfrac{1}{x^5} = (7 \times 18) - 3 = 126 - 3 =$ **123**.
+- $x^5 + \dfrac{1}{x^5} = (7 \times 18) - 3 = 126 - 3$ = **123**.
 
 ### Question type 13. Three-variable identity ($a^3+b^3+c^3-3abc$)
 
 **Idea:** if $a + b + c = 0$, then $a^3 + b^3 + c^3 = 3abc$.
 
 **Example:** Evaluate $15^3 + (-10)^3 + (-5)^3$.
-- $15 + (-10) + (-5) = 0 \implies a^3 + b^3 + c^3 = 3(15)(-10)(-5) = 3 \times 750 =$ **2250**.
+- $15 + (-10) + (-5) = 0 \implies a^3 + b^3 + c^3 = 3(15)(-10)(-5) = 3 \times 750$ = **2250**.
 
 ### Question type 14. Quadratic word problems
 

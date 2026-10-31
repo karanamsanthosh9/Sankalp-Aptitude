@@ -54,7 +54,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** A train $180\text{ m}$ long is running at $54\text{ km/h}$. In what time will it cross a telegraph post?
 - $\text{Speed} = 54 \times \dfrac{5}{18} = 15\text{ m/s}$.
-- $T = \dfrac{180}{15} =$ **12 seconds**.
+- $T = \dfrac{180}{15}$ = **12 seconds**.
 
 ### Question type 2. Train crossing a stationary extended object
 
@@ -63,7 +63,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** A train $200\text{ m}$ long moving at $72\text{ km/h}$ crosses a bridge of length $300\text{ m}$. Find the time taken.
 - $\text{Speed} = 72 \times \dfrac{5}{18} = 20\text{ m/s}$.
 - $\text{Total distance} = 200 + 300 = 500\text{ m}$.
-- $T = \dfrac{500}{20} =$ **25 seconds**.
+- $T = \dfrac{500}{20}$ = **25 seconds**.
 
 ### Question type 3. Train crossing a moving person
 
@@ -71,7 +71,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** A train $150\text{ m}$ long running at $68\text{ km/h}$ crosses a man running at $8\text{ km/h}$ in the same direction. Find the time taken.
 - Relative speed $= 68 - 8 = 60\text{ km/h} = 60 \times \dfrac{5}{18} = \dfrac{50}{3}\text{ m/s}$.
-- $T = \dfrac{150}{50/3} = 150 \times \dfrac{3}{50} =$ **9 seconds**.
+- $T = \dfrac{150}{50/3} = 150 \times \dfrac{3}{50}$ = **9 seconds**.
 
 ### Question type 4. Two trains crossing in opposite directions
 
@@ -80,7 +80,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** Two trains of lengths $120\text{ m}$ and $180\text{ m}$ are running in opposite directions at $40\text{ km/h}$ and $50\text{ km/h}$. Find the crossing time.
 - $\text{Total distance} = 120 + 180 = 300\text{ m}$.
 - Relative speed $= 40 + 50 = 90\text{ km/h} = 90 \times \dfrac{5}{18} = 25\text{ m/s}$.
-- $T = \dfrac{300}{25} =$ **12 seconds**.
+- $T = \dfrac{300}{25}$ = **12 seconds**.
 
 ### Question type 5. Two trains crossing in same direction (overtaking)
 
@@ -89,7 +89,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** Two trains of lengths $100\text{ m}$ and $150\text{ m}$ run on parallel tracks in the same direction at $70\text{ km/h}$ and $52\text{ km/h}$. Time taken by faster train to overtake slower?
 - $\text{Total distance} = 100 + 150 = 250\text{ m}$.
 - Relative speed $= 70 - 52 = 18\text{ km/h} = 18 \times \dfrac{5}{18} = 5\text{ m/s}$.
-- $T = \dfrac{250}{5} =$ **50 seconds**.
+- $T = \dfrac{250}{5}$ = **50 seconds**.
 
 ### Question type 6. Train crossing a passenger inside another train
 
@@ -98,7 +98,7 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** A train $150\text{ m}$ long moving at $72\text{ km/h}$ passes a man sitting in another train moving in the opposite direction at $36\text{ km/h}$. Find the time taken.
 - Relative speed $= 72 + 36 = 108\text{ km/h} = 108 \times \dfrac{5}{18} = 30\text{ m/s}$.
 - Distance $= 150\text{ m}$ (length of passing train only).
-- $T = \dfrac{150}{30} =$ **5 seconds**.
+- $T = \dfrac{150}{30}$ = **5 seconds**.
 
 ### Question type 7. Finding speed and length from two crossing events
 
@@ -106,15 +106,15 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example:** A train crosses a $162\text{ m}$ long platform in 18 seconds and a $120\text{ m}$ long platform in 15 seconds. Find speed and length of the train.
 - $\text{Speed} = \dfrac{162 - 120}{18 - 15} = \dfrac{42}{3} = 14\text{ m/s}$ ($50.4\text{ km/h}$).
-- $\text{Length} = (14 \times 15) - 120 = 210 - 120 =$ **90 m**.
+- $\text{Length} = (14 \times 15) - 120 = 210 - 120$ = **90 m**.
 
 ### Question type 8. Two trains starting simultaneously from opposite stations
 
 **Idea:** $\text{Meeting Time} = \dfrac{\text{Distance between stations}}{S_1 + S_2}$.
 
 **Example:** Stations A and B are $450\text{ km}$ apart. Train 1 leaves A at $50\text{ km/h}$ and Train 2 leaves B at $40\text{ km/h}$ towards each other at the same time. Find meeting time and distance from A.
-- Time to meet $= \dfrac{450}{50 + 40} = \dfrac{450}{90} =$ **5 hours**.
-- Distance from A $= 5 \times 50 =$ **250 km**.
+- Time to meet $= \dfrac{450}{50 + 40} = \dfrac{450}{90}$ = **5 hours**.
+- Distance from A $= 5 \times 50$ = **250 km**.
 
 ### Question type 9. Two trains starting at different times from opposite stations
 
@@ -124,14 +124,14 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 - By 8:00 AM (1 hour), Train 1 covers $1 \times 20 = 20\text{ km}$.
 - Remaining distance $= 200 - 20 = 180\text{ km}$.
 - Relative speed $= 20 + 25 = 45\text{ km/h} \implies \text{Time} = \dfrac{180}{45} = 4\text{ hours}$.
-- Meeting time $= 8:00\text{ AM} + 4\text{ hours} =$ **12:00 noon**.
+- Meeting time $= 8:00\text{ AM} + 4\text{ hours}$ = **12:00 noon**.
 
 ### Question type 10. Speed ratio after meeting
 
 **Idea:** $\dfrac{S_1}{S_2} = \sqrt{\dfrac{T_2}{T_1}}$.
 
 **Example:** Trains X and Y start at the same time towards each other. After meeting, X takes $4\text{ hrs } 48\text{ min}$ ($4.8\text{ hrs}$) to reach destination and Y takes $3\text{ hrs } 20\text{ min}$ ($\dfrac{10}{3}\text{ hrs}$). Find the ratio of their speeds.
-- $\dfrac{S_X}{S_Y} = \sqrt{\dfrac{10/3}{24/5}} = \sqrt{\dfrac{50}{72}} = \sqrt{\dfrac{25}{36}} =$ **$5:6$**.
+- $\dfrac{S_X}{S_Y} = \sqrt{\dfrac{10/3}{24/5}} = \sqrt{\dfrac{50}{72}} = \sqrt{\dfrac{25}{36}}$ = **$5:6$**.
 
 ### Question type 11. Breakdown or accident midway and speed reduction
 
@@ -140,15 +140,15 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example:** A train meets with an accident after $50\text{ km}$ and travels at $\dfrac{3}{4}$ speed, arriving 35 min late. If the accident happened $24\text{ km}$ further on, it would be only 25 min late. Find normal speed.
 - Travelling $24\text{ km}$ at $\dfrac{3}{4}$ speed causes $35 - 25 = 10\text{ min} = \dfrac{1}{6}\text{ hr}$ extra time.
 - $\text{Extra time} = \dfrac{24}{(3/4)S} - \dfrac{24}{S} = \dfrac{32}{S} - \dfrac{24}{S} = \dfrac{8}{S}\text{ hr}$.
-- $\dfrac{8}{S} = \dfrac{1}{6} \implies S =$ **48 km/h**.
+- $\dfrac{8}{S} = \dfrac{1}{6} \implies S$ = **48 km/h**.
 
 ### Question type 12. Train crossing two moving persons or cyclists
 
 **Idea:** equate train length $L = (S - u_1) \times t_1 = (S - u_2) \times t_2$ (for same direction).
 
 **Example:** A train passes two men walking in the same direction at $2\text{ km/h}$ and $4\text{ km/h}$ in 9 s and 10 s. Find speed and length of the train.
-- $9(S - 2) = 10(S - 4) \implies 9S - 18 = 10S - 40 \implies S =$ **22 km/h**.
-- Length $= (22 - 2) \times \dfrac{5}{18} \times 9 = 20 \times \dfrac{5}{2} =$ **50 m**.
+- $9(S - 2) = 10(S - 4) \implies 9S - 18 = 10S - 40 \implies S$ = **22 km/h**.
+- Length $= (22 - 2) \times \dfrac{5}{18} \times 9 = 20 \times \dfrac{5}{2}$ = **50 m**.
 
 ## 5. Before you practise
 

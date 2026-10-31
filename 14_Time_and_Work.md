@@ -83,7 +83,7 @@ Same answer, no fractions. The total work does not have to be real. You may call
 - LCM of 10, 12, 15 is **60** units.
 - A: $60\div10=6$ per day. B: $60\div12=5$ per day. C: $60\div15=4$ per day.
 - Together: $6+5+4=15$ per day.
-- Time: $60\div15=$ **4 days**.
+- Time: $60\div15$ = **4 days**.
 
 ### Your turn
 
@@ -105,7 +105,7 @@ The next sections go through every type you can meet. Each has: how you spot it,
 - LCM of 6 and 10 is 30 units.
 - Together: $30\div6=5$ per day. A: $30\div10=3$ per day.
 - B: $5-3=2$ per day.
-- B alone: $30\div2=$ **15 days**.
+- B alone: $30\div2$ = **15 days**.
 
 **Shortcut for two people:** B alone $=\dfrac{x\cdot t}{x-t}$, where $x$ is A's time and $t$ is the together time. Check: $\dfrac{10\times6}{10-6}=15$.
 
@@ -123,13 +123,13 @@ If A : B efficiency is $3:2$, then A : B time is $2:3$.
 
 - "50% more" means A does 150 when B does 100. Ratio $150:100=3:2$.
 - Efficiency A : B $=3:2$, so time A : B $=2:3$.
-- A's time $=24\times\dfrac{2}{3}=$ **16 days**.
+- A's time $=24\times\dfrac{2}{3}$ = **16 days**.
 
 **Example 2.** A is twice as fast as B. Together they take 12 days. How long does each take alone?
 
 - Rates are $2$ and $1$. Together $=3$ units a day.
 - Total work $=3\times12=36$ units.
-- A: $36\div2=$ **18 days**. B: $36\div1=$ **36 days**.
+- A: $36\div2$ = **18 days**. B: $36\div1$ = **36 days**.
 
 **Exam twist:** the question may say "A takes 20% less time than B". Then A's time is $80\%$ of B's. Do not confuse "20% more efficient" (rate up 20%) with "20% less time" (time down 20%).
 
@@ -144,7 +144,7 @@ If A : B efficiency is $3:2$, then A : B time is $2:3$.
 **Solve it:**
 - LCM of 12, 15, 20 is 60 units.
 - A+B $=5$, B+C $=4$, C+A $=3$.
-- A+B+C $=\dfrac{5+4+3}{2}=6$ per day. All three together: $60\div6=$ **10 days**.
+- A+B+C $=\dfrac{5+4+3}{2}=6$ per day. All three together: $60\div6$ = **10 days**.
 - A $=6-4=2$ per day, so A alone **30 days**.
 - B $=6-3=3$ per day, so B alone **20 days**.
 - C $=6-5=1$ per day, so C alone **60 days**.
@@ -160,20 +160,20 @@ This is the most common type. The trick: **work in stages**, and always find how
 - LCM 30 units. A $=3$ per day, B $=2$ per day.
 - Stage 1: A alone for 2 days does $3\times2=6$ units. Left: $30-6=24$.
 - Stage 2: together $5$ per day. Time $=\dfrac{24}{5}=4.8$ days.
-- Total $=2+4.8=$ **6.8 days**.
+- Total $=2+4.8$ = **6.8 days**.
 
 **Example 2: leaves early.** A takes 20 days, B takes 30. They start together, and A leaves after 6 days. Total time?
 
 - LCM 60 units. A $=3$, B $=2$, together $5$.
 - Stage 1: 6 days together $=30$ units. Left: $30$.
 - Stage 2: B alone at 2 per day. $30\div2=15$ days.
-- Total $=6+15=$ **21 days**.
+- Total $=6+15$ = **21 days**.
 
 **Example 3: leaves a few days before the end.** A takes 20 days, B takes 30. They work together, but A leaves 5 days before the job is finished. Total time?
 
 - Let the total time be $T$ days. B works all $T$ days. A works only $T-5$ days.
 - Work done by B $+$ work done by A $=60$ units: $2T+3(T-5)=60$.
-- $5T-15=60$, so $5T=75$ and $T=$ **15 days**.
+- $5T-15=60$, so $5T=75$ and $T$ = **15 days**.
 
 **Your turn:** A takes 10 days, B takes 15. They work together for 3 days, then A leaves. Total time? (Answer: 10.5 days. LCM 30: A $=3$, B $=2$. Three days of both $=15$, left $15$, B alone $15\div2=7.5$ days, so $3+7.5$.)
 
@@ -205,7 +205,7 @@ This is the most common type. The trick: **work in stages**, and always find how
 
 - A alone: $5\div\dfrac{1}{3}=15$ days.
 - B alone: $6\div\dfrac{2}{5}=15$ days.
-- Together: $\dfrac{15}{2}=$ **7.5 days**.
+- Together: $\dfrac{15}{2}$ = **7.5 days**.
 
 **Your turn:** A does $\dfrac{1}{4}$ of a job in 3 days. B does $\dfrac{1}{3}$ in 4 days. Together? (Answer: 6 days. Both take 12 days alone.)
 
@@ -219,18 +219,18 @@ $$\text{Men}\times\text{Days}=\text{constant}$$
 
 **Example 1.** 12 men finish in 15 days. How long for 20 men?
 - Job $=12\times15=180$ man-days.
-- $180\div20=$ **9 days**.
+- $180\div20$ = **9 days**.
 
 **Example 2: workers leave midway.** 20 workers finish a job in 18 days. After 6 days, 5 leave. How many days in total?
 - Job $=20\times18=360$ man-days.
 - Done in 6 days: $20\times6=120$. Left: $240$.
 - Now 15 workers: $240\div15=16$ days.
-- Total $=6+16=$ **22 days**.
+- Total $=6+16$ = **22 days**.
 
 **Example 3: absentees.** 20 men planned to finish a job in 30 days, but it took 40 days because some were absent. How many were absent?
 - Job $=20\times30=600$ man-days.
 - Men who actually worked: $600\div40=15$.
-- Absent $=20-15=$ **5 men**.
+- Absent $=20-15$ = **5 men**.
 
 **Your turn:** 10 men finish a job in 12 days. After 4 days, 5 more men join. Total days? (Answer: $9\dfrac{1}{3}$ days. Job 120, done 40, left 80, 15 men, $5\dfrac{1}{3}$ days more.)
 
@@ -246,11 +246,11 @@ $$\dfrac{M_1\times D_1\times H_1}{W_1}=\dfrac{M_2\times D_2\times H_2}{W_2}$$
 
 **Example 1: hours.** 12 men working 8 hours a day finish a job in 15 days. How many days for 10 men working 9 hours a day?
 - $12\times8\times15=10\times9\times d$.
-- $1440=90d$, so $d=$ **16 days**.
+- $1440=90d$, so $d$ = **16 days**.
 
 **Example 2: different work.** 8 men build 120 m of wall in 15 days. How many men are needed to build 200 m in 20 days?
 - $\dfrac{8\times15}{120}=\dfrac{M\times20}{200}$.
-- $1=\dfrac{M}{10}$, so $M=$ **10 men**.
+- $1=\dfrac{M}{10}$, so $M$ = **10 men**.
 
 **Your turn:** 15 men working 6 hours a day finish a job in 16 days. How many days for 12 men working 8 hours a day? (Answer: 15 days)
 
@@ -263,7 +263,7 @@ $$\dfrac{M_1\times D_1\times H_1}{W_1}=\dfrac{M_2\times D_2\times H_2}{W_2}$$
 **Example.** 2 men do the work of 3 women. 4 men and 6 women finish a job in 10 days. How long will 5 women take alone?
 - 2 men $=3$ women, so 1 man $=1.5$ women. 4 men $=6$ women.
 - The team is $6+6=12$ women. Job $=12\times10=120$ woman-days.
-- 5 women: $120\div5=$ **24 days**.
+- 5 women: $120\div5$ = **24 days**.
 
 **Your turn:** 3 men do the work of 4 women. 6 men and 8 women finish a job in 6 days. How long for 4 women alone? (Answer: 24 days. 6 men $=8$ women, team $=16$ women, job $=96$, $96\div4$.)
 
@@ -275,11 +275,11 @@ $$\dfrac{M_1\times D_1\times H_1}{W_1}=\dfrac{M_2\times D_2\times H_2}{W_2}$$
 
 **Example 1.** A takes 12 days, B takes 18 days. Together they earn Rs 1500. Share of each?
 - Rates: $\dfrac{1}{12}:\dfrac{1}{18}=3:2$.
-- A: $\dfrac{3}{5}\times1500=$ **Rs 900**. B: $\dfrac{2}{5}\times1500=$ **Rs 600**.
+- A: $\dfrac{3}{5}\times1500$ = **Rs 900**. B: $\dfrac{2}{5}\times1500$ = **Rs 600**.
 
 **Example 2.** A, B and C take 6, 8 and 12 days and are paid Rs 2700 together. C's share?
 - LCM 24: rates $4,3,2$. Ratio $4:3:2$.
-- C: $\dfrac{2}{9}\times2700=$ **Rs 600**.
+- C: $\dfrac{2}{9}\times2700$ = **Rs 600**.
 
 **Exam twist:** if one person works for fewer days, multiply his rate by his days first. A person who joined late earns less because he did less work.
 
@@ -299,7 +299,7 @@ $$\dfrac{M_1\times D_1\times H_1}{W_1}=\dfrac{M_2\times D_2\times H_2}{W_2}$$
 
 **Example 3.** Pipes A and B fill a tank in 12 and 15 hours. Pipe C empties it in 20 hours. All three are open.
 - LCM 60: A $=5$, B $=4$, C $=-3$. Net $=6$ per hour.
-- $60\div6=$ **10 hours**.
+- $60\div6$ = **10 hours**.
 
 **Your turn:** a pump fills a tank in 6 hours. A leak makes it take 8 hours. How long does the leak alone take to empty it? (Answer: 24 hours)
 
@@ -310,7 +310,7 @@ $$\dfrac{M_1\times D_1\times H_1}{W_1}=\dfrac{M_2\times D_2\times H_2}{W_2}$$
 **Method 1 (equation).** Let A take $x$ days, so B takes $x+10$.
 - $\dfrac{1}{x}+\dfrac{1}{x+10}=\dfrac{1}{12}$.
 - $12(2x+10)=x(x+10)$, so $x^2-14x-120=0$.
-- $(x-20)(x+6)=0$, so $x=$ **20 days** (B $=30$).
+- $(x-20)(x+6)=0$, so $x$ = **20 days** (B $=30$).
 
 **Method 2 (shortcut, when it fits).** If A takes $a$ days more than the together time, and B takes $b$ days more, then $t=\sqrt{ab}$.
 

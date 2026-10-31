@@ -58,30 +58,30 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1 (Heron's formula):** Find the area of a triangle with sides $13\text{ cm}$, $14\text{ cm}$, and $15\text{ cm}$.
 - Semi-perimeter $s = \dfrac{13 + 14 + 15}{2} = 21\text{ cm}$.
-- $\text{Area} = \sqrt{21(21-13)(21-14)(21-15)} = \sqrt{21 \times 8 \times 7 \times 6} = \sqrt{7056} =$ **84 $\text{cm}^2$**.
+- $\text{Area} = \sqrt{21(21-13)(21-14)(21-15)} = \sqrt{21 \times 8 \times 7 \times 6} = \sqrt{7056}$ = **84 $\text{cm}^2$**.
 
 **Example 2 (Right triangle):** The hypotenuse of a right-angled triangle is $25\text{ cm}$ and one side is $24\text{ cm}$. Find its area.
 - Other side $= \sqrt{25^2 - 24^2} = \sqrt{625 - 576} = \sqrt{49} = 7\text{ cm}$.
-- $\text{Area} = \dfrac{1}{2} \times 24 \times 7 =$ **84 $\text{cm}^2$**.
+- $\text{Area} = \dfrac{1}{2} \times 24 \times 7$ = **84 $\text{cm}^2$**.
 
 **Example 3 (Isosceles triangle):** An isosceles triangle has base $12\text{ cm}$ and equal sides of length $10\text{ cm}$. Find its area.
 - Altitude bisects the base: $h = \sqrt{10^2 - 6^2} = \sqrt{100 - 36} = 8\text{ cm}$.
-- $\text{Area} = \dfrac{1}{2} \times 12 \times 8 =$ **48 $\text{cm}^2$**.
+- $\text{Area} = \dfrac{1}{2} \times 12 \times 8$ = **48 $\text{cm}^2$**.
 
 ### Question type 2. Equilateral triangles
 
 **Idea:** All sides equal $a$. Area $= \dfrac{\sqrt{3}}{4}a^2$, height $h = \dfrac{\sqrt{3}}{2}a$, inradius $r = \dfrac{a}{2\sqrt{3}}$, circumradius $R = \dfrac{a}{\sqrt{3}}$. Note $R = 2r$.
 
 **Example 1:** Find the area and height of an equilateral triangle of side $12\text{ cm}$.
-- $\text{Height} = \dfrac{\sqrt{3}}{2} \times 12 =$ **$6\sqrt{3}\text{ cm}$**.
-- $\text{Area} = \dfrac{\sqrt{3}}{4} \times 12^2 =$ **$36\sqrt{3}\text{ cm}^2$**.
+- $\text{Height} = \dfrac{\sqrt{3}}{2} \times 12$ = **$6\sqrt{3}\text{ cm}$**.
+- $\text{Area} = \dfrac{\sqrt{3}}{4} \times 12^2$ = **$36\sqrt{3}\text{ cm}^2$**.
 
 **Example 2:** The height of an equilateral triangle is $9\text{ cm}$. Find its area.
 - $h = \dfrac{\sqrt{3}}{2}a = 9 \implies a = \dfrac{18}{\sqrt{3}} = 6\sqrt{3}\text{ cm}$.
-- $\text{Area} = \dfrac{\sqrt{3}}{4} \times (6\sqrt{3})^2 = \dfrac{\sqrt{3}}{4} \times 108 =$ **$27\sqrt{3}\text{ cm}^2$**.
+- $\text{Area} = \dfrac{\sqrt{3}}{4} \times (6\sqrt{3})^2 = \dfrac{\sqrt{3}}{4} \times 108$ = **$27\sqrt{3}\text{ cm}^2$**.
 
 **Example 3:** Find the ratio of the area of the circumcircle to that of the incircle of any equilateral triangle.
-- $R : r = 2 : 1$, so ratio of areas $= R^2 : r^2 = 2^2 : 1^2 =$ **4 : 1**.
+- $R : r = 2 : 1$, so ratio of areas $= R^2 : r^2 = 2^2 : 1^2$ = **4 : 1**.
 
 ### Question type 3. Rectangles and squares
 
@@ -89,30 +89,30 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** The ratio of length to breadth of a rectangle is $5:3$ and its perimeter is $64\text{ cm}$. Find its area and diagonal.
 - $2(5x + 3x) = 64 \implies 16x = 64 \implies x = 4$.
-- $L = 20\text{ cm}, B = 12\text{ cm}$. $\text{Area} = 20 \times 12 =$ **240 $\text{cm}^2$**.
-- $\text{Diagonal} = \sqrt{20^2 + 12^2} = \sqrt{544} =$ **$4\sqrt{34}\text{ cm}$**.
+- $L = 20\text{ cm}, B = 12\text{ cm}$. $\text{Area} = 20 \times 12$ = **240 $\text{cm}^2$**.
+- $\text{Diagonal} = \sqrt{20^2 + 12^2} = \sqrt{544}$ = **$4\sqrt{34}\text{ cm}$**.
 
 **Example 2:** The diagonal of a square is $10\text{ cm}$. Find its area and perimeter.
-- $\text{Area} = \dfrac{d^2}{2} = \dfrac{100}{2} =$ **50 $\text{cm}^2$**.
-- $\text{Side} = \dfrac{10}{\sqrt{2}} = 5\sqrt{2}\text{ cm}$. $\text{Perimeter} = 4 \times 5\sqrt{2} =$ **$20\sqrt{2}\text{ cm}$**.
+- $\text{Area} = \dfrac{d^2}{2} = \dfrac{100}{2}$ = **50 $\text{cm}^2$**.
+- $\text{Side} = \dfrac{10}{\sqrt{2}} = 5\sqrt{2}\text{ cm}$. $\text{Perimeter} = 4 \times 5\sqrt{2}$ = **$20\sqrt{2}\text{ cm}$**.
 
 ### Question type 4. Parallelograms and rhombuses
 
 **Idea:** Parallelogram: Area $= \text{base} \times \text{height}$. Rhombus: Area $= \dfrac{1}{2}d_1 d_2$, $4a^2 = d_1^2 + d_2^2$, diagonals bisect perpendicularly.
 
 **Example 1:** A parallelogram has base $18\text{ cm}$ and corresponding altitude $11\text{ cm}$. Find its area.
-- $\text{Area} = 18 \times 11 =$ **198 $\text{cm}^2$**.
+- $\text{Area} = 18 \times 11$ = **198 $\text{cm}^2$**.
 
 **Example 2:** The diagonals of a rhombus are $16\text{ cm}$ and $12\text{ cm}$. Find its area and perimeter.
-- $\text{Area} = \dfrac{1}{2} \times 16 \times 12 =$ **96 $\text{cm}^2$**.
-- $\text{Side} = \sqrt{8^2 + 6^2} = 10\text{ cm}$. $\text{Perimeter} = 4 \times 10 =$ **40 cm**.
+- $\text{Area} = \dfrac{1}{2} \times 16 \times 12$ = **96 $\text{cm}^2$**.
+- $\text{Side} = \sqrt{8^2 + 6^2} = 10\text{ cm}$. $\text{Perimeter} = 4 \times 10$ = **40 cm**.
 
 ### Question type 5. Trapeziums
 
 **Idea:** Area $= \dfrac{1}{2}(a+b)h$, where $a, b$ are parallel sides and $h$ is perpendicular distance between them.
 
 **Example 1:** Parallel sides of a trapezium are $14\text{ cm}$ and $20\text{ cm}$, and the distance between them is $8\text{ cm}$. Find its area.
-- $\text{Area} = \dfrac{1}{2}(14 + 20) \times 8 = \dfrac{34 \times 8}{2} =$ **136 $\text{cm}^2$**.
+- $\text{Area} = \dfrac{1}{2}(14 + 20) \times 8 = \dfrac{34 \times 8}{2}$ = **136 $\text{cm}^2$**.
 
 **Example 2:** The area of a trapezium is $180\text{ cm}^2$ and its height is $9\text{ cm}$. If one parallel side is $6\text{ cm}$ longer than the other, find both parallel sides.
 - $\dfrac{1}{2}(x + x + 6) \times 9 = 180 \implies 2x + 6 = 40 \implies 2x = 34 \implies x = 17\text{ cm}$.
@@ -123,11 +123,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Idea:** For an $n$-sided regular polygon: each interior angle $= \dfrac{(n-2)\times 180^\circ}{n}$, each exterior angle $= \dfrac{360^\circ}{n}$. Regular hexagon area $= 6 \times \dfrac{\sqrt{3}}{4}a^2$.
 
 **Example 1:** Find the area of a regular hexagon with side $6\text{ cm}$.
-- $\text{Area} = 6 \times \dfrac{\sqrt{3}}{4} \times 6^2 = 6 \times 9\sqrt{3} =$ **$54\sqrt{3}\text{ cm}^2$**.
+- $\text{Area} = 6 \times \dfrac{\sqrt{3}}{4} \times 6^2 = 6 \times 9\sqrt{3}$ = **$54\sqrt{3}\text{ cm}^2$**.
 
 **Example 2:** If each interior angle of a regular polygon is $140^\circ$, find the number of sides.
 - Exterior angle $= 180^\circ - 140^\circ = 40^\circ$.
-- Number of sides $n = \dfrac{360^\circ}{40^\circ} =$ **9 sides**.
+- Number of sides $n = \dfrac{360^\circ}{40^\circ}$ = **9 sides**.
 
 ### Question type 7. Circles, semicircles, sectors, and segments
 
@@ -135,16 +135,16 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** Find the area and circumference of a circle of diameter $28\text{ cm}$.
 - Radius $r = 14\text{ cm}$.
-- $\text{Circumference} = 2 \times \dfrac{22}{7} \times 14 =$ **88 cm**.
-- $\text{Area} = \dfrac{22}{7} \times 14^2 =$ **616 $\text{cm}^2$**.
+- $\text{Circumference} = 2 \times \dfrac{22}{7} \times 14$ = **88 cm**.
+- $\text{Area} = \dfrac{22}{7} \times 14^2$ = **616 $\text{cm}^2$**.
 
 **Example 2:** Find the perimeter and area of a semicircle of radius $14\text{ cm}$.
-- $\text{Perimeter} = \pi r + 2r = \left(\dfrac{22}{7} \times 14\right) + 28 = 44 + 28 =$ **72 cm**.
-- $\text{Area} = \dfrac{1}{2} \times \dfrac{22}{7} \times 14^2 =$ **308 $\text{cm}^2$**.
+- $\text{Perimeter} = \pi r + 2r = \left(\dfrac{22}{7} \times 14\right) + 28 = 44 + 28$ = **72 cm**.
+- $\text{Area} = \dfrac{1}{2} \times \dfrac{22}{7} \times 14^2$ = **308 $\text{cm}^2$**.
 
 **Example 3:** A sector has radius $21\text{ cm}$ and central angle $60^\circ$. Find its arc length and area.
-- $\text{Arc length} = \dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 21 = \dfrac{1}{6} \times 132 =$ **22 cm**.
-- $\text{Area} = \dfrac{60}{360} \times \dfrac{22}{7} \times 21^2 = \dfrac{1}{6} \times 1386 =$ **231 $\text{cm}^2$**.
+- $\text{Arc length} = \dfrac{60}{360} \times 2 \times \dfrac{22}{7} \times 21 = \dfrac{1}{6} \times 132$ = **22 cm**.
+- $\text{Area} = \dfrac{60}{360} \times \dfrac{22}{7} \times 21^2 = \dfrac{1}{6} \times 1386$ = **231 $\text{cm}^2$**.
 
 ### Question type 8. Pathways and borders
 
@@ -152,10 +152,10 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1 (Outside path):** A rectangular lawn $40\text{ m} \times 30\text{ m}$ is surrounded by a path of uniform width $2.5\text{ m}$. Find the area of the path.
 - Outer length $= 40 + 2(2.5) = 45\text{ m}$, Outer breadth $= 30 + 2(2.5) = 35\text{ m}$.
-- $\text{Path area} = (45 \times 35) - (40 \times 30) = 1575 - 1200 =$ **375 $\text{m}^2$**.
+- $\text{Path area} = (45 \times 35) - (40 \times 30) = 1575 - 1200$ = **375 $\text{m}^2$**.
 
 **Example 2 (Cross paths):** A park $60\text{ m} \times 40\text{ m}$ has two cross roads of width $2\text{ m}$ running through the centre parallel to the sides. Find the area of the roads.
-- $\text{Area} = w(L + B - w) = 2(60 + 40 - 2) = 2 \times 98 =$ **196 $\text{m}^2$**.
+- $\text{Area} = w(L + B - w) = 2(60 + 40 - 2) = 2 \times 98$ = **196 $\text{m}^2$**.
 
 ### Question type 9. Inscribed and circumscribed figures
 
@@ -163,13 +163,13 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** A right-angled triangle has legs $6\text{ cm}$ and $8\text{ cm}$. Find its inradius and circumradius.
 - Hypotenuse $c = \sqrt{6^2 + 8^2} = 10\text{ cm}$.
-- $\text{Inradius } r = \dfrac{6 + 8 - 10}{2} =$ **2 cm**.
-- $\text{Circumradius } R = \dfrac{10}{2} =$ **5 cm**.
+- $\text{Inradius } r = \dfrac{6 + 8 - 10}{2}$ = **2 cm**.
+- $\text{Circumradius } R = \dfrac{10}{2}$ = **5 cm**.
 
 **Example 2:** A circle is inscribed in a square of side $14\text{ cm}$. Find the area enclosed between the square and the circle.
 - $\text{Radius of circle} = \dfrac{14}{2} = 7\text{ cm}$.
 - $\text{Area of square} = 14^2 = 196\text{ cm}^2$. $\text{Area of circle} = \dfrac{22}{7} \times 7^2 = 154\text{ cm}^2$.
-- $\text{Remaining area} = 196 - 154 =$ **42 $\text{cm}^2$**.
+- $\text{Remaining area} = 196 - 154$ = **42 $\text{cm}^2$**.
 
 ### Question type 10. Revolutions of wheels
 
@@ -177,11 +177,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** A wheel of radius $35\text{ cm}$ makes $500$ revolutions. Find the distance traveled in metres.
 - $\text{Circumference} = 2 \times \dfrac{22}{7} \times 35 = 220\text{ cm} = 2.2\text{ m}$.
-- $\text{Distance} = 500 \times 2.2 =$ **1100 m** (or **1.1 km**).
+- $\text{Distance} = 500 \times 2.2$ = **1100 m** (or **1.1 km**).
 
 **Example 2:** A bicycle wheel makes $5000$ revolutions to cover $33\text{ km}$. Find its diameter.
 - $\text{Distance per revolution} = \dfrac{33000\text{ m}}{5000} = 6.6\text{ m} = 660\text{ cm}$.
-- $\pi d = 660 \implies \dfrac{22}{7}d = 660 \implies d = \dfrac{660 \times 7}{22} =$ **210 cm**.
+- $\pi d = 660 \implies \dfrac{22}{7}d = 660 \implies d = \dfrac{660 \times 7}{22}$ = **210 cm**.
 
 ### Question type 11. Wire bending and reshaping
 
@@ -190,35 +190,35 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 **Example 1:** A wire is bent into a circle enclosing an area of $616\text{ cm}^2$. If the same wire is bent into a square, find the area of the square.
 - $\pi r^2 = 616 \implies \dfrac{22}{7}r^2 = 616 \implies r^2 = 196 \implies r = 14\text{ cm}$.
 - $\text{Length of wire} = 2\pi r = 2 \times \dfrac{22}{7} \times 14 = 88\text{ cm}$.
-- $\text{Side of square} = \dfrac{88}{4} = 22\text{ cm}$. $\text{Area of square} = 22^2 =$ **484 $\text{cm}^2$**.
+- $\text{Side of square} = \dfrac{88}{4} = 22\text{ cm}$. $\text{Area of square} = 22^2$ = **484 $\text{cm}^2$**.
 
 **Example 2:** An equilateral triangle made of wire has side $22\text{ cm}$. If it is rebent into a circle, find the circle's radius and area.
 - $\text{Length of wire} = 3 \times 22 = 66\text{ cm}$.
-- $2 \times \dfrac{22}{7} \times r = 66 \implies r = \dfrac{66 \times 7}{44} =$ **10.5 cm**.
-- $\text{Area} = \dfrac{22}{7} \times 10.5^2 =$ **346.5 $\text{cm}^2$**.
+- $2 \times \dfrac{22}{7} \times r = 66 \implies r = \dfrac{66 \times 7}{44}$ = **10.5 cm**.
+- $\text{Area} = \dfrac{22}{7} \times 10.5^2$ = **346.5 $\text{cm}^2$**.
 
 ### Question type 12. Shaded regions and leaf shapes
 
 **Idea:** Space between 4 touching circles of radius $r$: $\text{Area} = (2r)^2 - \pi r^2 = \left(4 - \dfrac{22}{7}\right)r^2 = \dfrac{6}{7}r^2$. Leaf shape between two quadrants in square of side $a$: $\text{Area} = \dfrac{4}{7}a^2$.
 
 **Example 1:** Four equal coins of radius $7\text{ cm}$ are placed touching each other. Find the area enclosed between them.
-- $\text{Area} = \dfrac{6}{7}r^2 = \dfrac{6}{7} \times 7^2 =$ **42 $\text{cm}^2$**.
+- $\text{Area} = \dfrac{6}{7}r^2 = \dfrac{6}{7} \times 7^2$ = **42 $\text{cm}^2$**.
 
 **Example 2:** Find the area of the leaf-shaped region enclosed by arcs of two opposite quadrants in a square of side $14\text{ cm}$.
-- $\text{Area} = \dfrac{4}{7}a^2 = \dfrac{4}{7} \times 14^2 = \dfrac{4}{7} \times 196 =$ **112 $\text{cm}^2$**.
+- $\text{Area} = \dfrac{4}{7}a^2 = \dfrac{4}{7} \times 14^2 = \dfrac{4}{7} \times 196$ = **112 $\text{cm}^2$**.
 
 ### Question type 13. Percentage and ratio changes in dimensions
 
 **Idea:** Net percentage change in area when dimensions change by $x\%$ and $y\%$: $\Delta A = \left(x + y + \dfrac{xy}{100}\right)\%$. For circles and squares with change $x\%$: $\Delta A = \left(2x + \dfrac{x^2}{100}\right)\%$.
 
 **Example 1:** If the length of a rectangle increases by $20\%$ and breadth increases by $10\%$, find the percentage increase in area.
-- $\Delta A = 20 + 10 + \dfrac{20 \times 10}{100} = 30 + 2 =$ **32% increase**.
+- $\Delta A = 20 + 10 + \dfrac{20 \times 10}{100} = 30 + 2$ = **32% increase**.
 
 **Example 2:** If the radius of a circle increases by $50\%$, find the percentage increase in its area.
-- $\Delta A = 2(50) + \dfrac{50^2}{100} = 100 + 25 =$ **125% increase**.
+- $\Delta A = 2(50) + \dfrac{50^2}{100} = 100 + 25$ = **125% increase**.
 
 **Example 3:** If the length of a rectangle increases by $25\%$, by what percentage must breadth decrease so area remains constant?
-- $\text{Decrease} = \dfrac{25}{100 + 25} \times 100 = \dfrac{25}{125} \times 100 =$ **20%**.
+- $\text{Decrease} = \dfrac{25}{100 + 25} \times 100 = \dfrac{25}{125} \times 100$ = **20%**.
 
 ### Question type 14. Cost of fencing, flooring, turfing, and tiling
 
@@ -226,11 +226,11 @@ Questions on this topic fall into a few fixed types. Spot the type, then use tha
 
 **Example 1:** A rectangular plot is $50\text{ m}$ long and $30\text{ m}$ wide. Find the cost of fencing it at Rs $15$ per metre.
 - $\text{Perimeter} = 2(50 + 30) = 160\text{ m}$.
-- $\text{Cost} = 160 \times 15 =$ **Rs 2400**.
+- $\text{Cost} = 160 \times 15$ = **Rs 2400**.
 
 **Example 2:** A circular ground has radius $28\text{ m}$. Find the cost of turfing it at Rs $5$ per square metre.
 - $\text{Area} = \dfrac{22}{7} \times 28^2 = \dfrac{22}{7} \times 784 = 2464\text{ m}^2$.
-- $\text{Cost} = 2464 \times 5 =$ **Rs 12320**.
+- $\text{Cost} = 2464 \times 5$ = **Rs 12320**.
 
 ## 5. Before you practise
 

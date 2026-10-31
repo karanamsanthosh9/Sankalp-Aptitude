@@ -74,7 +74,7 @@ Instead of "find discount, then subtract", go straight to what you **pay**.
 
 **Why it works:** SP is the part of MP that is left. Multiply once and you are done.
 
-**Example.** A bag has MP Rs 2400 and a 15% discount. You pay $85\%$ of 2400 $=2400\times0.85=$ **Rs 2040**.
+**Example.** A bag has MP Rs 2400 and a 15% discount. You pay $85\%$ of 2400 $=2400\times0.85$ = **Rs 2040**.
 
 ### Shortcut 2. Successive discounts multiply
 
@@ -120,7 +120,7 @@ A 20% discount means MP : SP $=100:80=5:4$. For any discount $d\%$, MP : SP $=10
 
 **Example.** SP is Rs 1360 after a 15% discount. MP : SP $=100:85=20:17$.
 - 17 units $=1360$, so 1 unit $=80$.
-- MP $=20\times80=$ **Rs 1600**.
+- MP $=20\times80$ = **Rs 1600**.
 
 ## 3. Types of questions and how to crack each one
 
@@ -134,10 +134,10 @@ Every type you can meet is below. Each has: how you spot it, how to think, an ex
 
 **Example 1.** MP Rs 2500, discount 12%.
 - Discount $=\dfrac{12}{100}\times2500=300$.
-- SP $=2500-300=$ **Rs 2200**.
+- SP $=2500-300$ = **Rs 2200**.
 
 **Example 2.** MP Rs 840, discount 25%.
-- You pay 75%: $840\times0.75=$ **Rs 630**.
+- You pay 75%: $840\times0.75$ = **Rs 630**.
 
 **Exam twist:** sometimes only the discount amount is asked. Do not waste time finding SP.
 
@@ -151,11 +151,11 @@ Every type you can meet is below. Each has: how you spot it, how to think, an ex
 
 **Example 1.** MP Rs 750, SP Rs 600.
 - Discount $=750-600=150$.
-- Discount $\%=\dfrac{150}{750}\times100=$ **20%**.
+- Discount $\%=\dfrac{150}{750}\times100$ = **20%**.
 
 **Example 2.** MP Rs 960, SP Rs 840.
 - Discount $=120$.
-- $\dfrac{120}{960}\times100=$ **12.5%**.
+- $\dfrac{120}{960}\times100$ = **12.5%**.
 
 **Exam twist:** if you divide by SP you get a wrong answer that is usually sitting in the options. In Example 1, dividing by SP gives $\dfrac{150}{600}=25\%$. That is the trap option.
 
@@ -170,13 +170,13 @@ Every type you can meet is below. Each has: how you spot it, how to think, an ex
 $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 
 **Example 1.** SP Rs 1530 after 15% discount.
-- $\text{MP}=\dfrac{1530}{0.85}=$ **Rs 1800**.
+- $\text{MP}=\dfrac{1530}{0.85}$ = **Rs 1800**.
 
 **Example 2.** SP Rs 2340 after 22% discount.
-- $\text{MP}=\dfrac{2340}{0.78}=$ **Rs 3000**.
+- $\text{MP}=\dfrac{2340}{0.78}$ = **Rs 3000**.
 
 **Exam twist:** the discount amount may be given instead. "A discount of Rs 450 is 15% of the marked price. Find the SP."
-- MP $=\dfrac{450}{0.15}=3000$. SP $=3000-450=$ **Rs 2550**.
+- MP $=\dfrac{450}{0.15}=3000$. SP $=3000-450$ = **Rs 2550**.
 
 **Your turn:** SP Rs 1260 after a 30% discount. MP? (Answer: Rs 1800. $\dfrac{1260}{0.7}$.)
 
@@ -187,14 +187,14 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 **Think:** multiply the "you pay" fractions. Never add the discounts.
 
 **Example 1.** Net discount for 20% and 10%.
-- $20+10-\dfrac{20\times10}{100}=$ **28%**.
+- $20+10-\dfrac{20\times10}{100}$ = **28%**.
 
 **Example 2.** Net discount for 10%, 20% and 25%.
 - From Shortcut 2: **46%**.
 
 **Example 3.** A table is marked at Rs 5000, with discounts of 20% and 10%. What does the buyer pay, and how much is saved?
-- $5000\times0.8\times0.9=$ **Rs 3600**.
-- Saved $=5000-3600=$ **Rs 1400**.
+- $5000\times0.8\times0.9$ = **Rs 3600**.
+- Saved $=5000-3600$ = **Rs 1400**.
 
 **Exam twist:** "Is 20% followed by 10% the same as a single 30% discount?" No. It is 28%. The difference is the small product term, $\dfrac{ab}{100}$.
 
@@ -214,7 +214,7 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 - Scheme A: 25%.
 - Scheme B: $15+10-1.5=23.5\%$.
 - A is better. On Rs 8000: A saves $0.25\times8000=2000$. B saves $0.235\times8000=1880$.
-- Difference $=$ **Rs 120**.
+- Difference = **Rs 120**.
 
 **Your turn:** On a Rs 5000 item, which is better for the buyer: 25% off, or 20% followed by 8% off? By how much in rupees? (Answer: the second, by Rs 70. Net of the second is $20+8-1.6=26.4\%$, which is 1.4% more than 25%. 1.4% of 5000 is 70.)
 
@@ -225,12 +225,12 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 **Think:** a percentage and a rupee amount do **not** commute. The order changes the answer. Read which comes first.
 
 **Example 1.** MP Rs 2000. Discount 10% and a coupon of Rs 200.
-- Percent first, then coupon: $2000\times0.9=1800$, then $1800-200=$ **Rs 1600**.
-- Coupon first, then percent: $2000-200=1800$, then $1800\times0.9=$ **Rs 1620**.
+- Percent first, then coupon: $2000\times0.9=1800$, then $1800-200$ = **Rs 1600**.
+- Coupon first, then percent: $2000-200=1800$, then $1800\times0.9$ = **Rs 1620**.
 - The buyer is better off with percent first, by Rs 20.
 
 **Example 2.** A bag marked Rs 2400 has 25% off. A coupon then gives Rs 150 off the discounted price. What is paid?
-- $2400\times0.75=1800$. Then $1800-150=$ **Rs 1650**.
+- $2400\times0.75=1800$. Then $1800-150$ = **Rs 1650**.
 
 **Your turn:** MP Rs 1500, discount 20%, then a coupon of Rs 100 off the discounted price. Pay? (Answer: Rs 1100. $1500\times0.8=1200$, and $1200-100=1100$.)
 
@@ -265,7 +265,7 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 
 **Example 1.** Cost is Rs 750. The shopkeeper wants a 20% profit after giving a 10% discount. What price should he mark?
 - Needed SP $=750\times1.2=900$.
-- SP is 90% of MP, so $\text{MP}=\dfrac{900}{0.9}=$ **Rs 1000**.
+- SP is 90% of MP, so $\text{MP}=\dfrac{900}{0.9}$ = **Rs 1000**.
 
 **Example 2.** What percentage above cost must goods be marked to gain 8% after a 10% discount?
 - Take CP $=100$. SP needed $=108$.
@@ -290,7 +290,7 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 
 **Example 2.** Gain 20% after a 25% discount.
 - CP $=100$. SP $=120$. $\text{MP}=\dfrac{120}{0.75}=160$.
-- Gain at marked price $=$ **60%**.
+- Gain at marked price = **60%**.
 
 **Your turn:** a trader gains 17% after a 10% discount. His gain at the marked price? (Answer: 30%. $\dfrac{117}{0.9}=130$.)
 
@@ -302,11 +302,11 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 
 **Example 1.** CP $=80\%$ of MP, discount 10%.
 - Take MP $=100$. CP $=80$. SP $=90$.
-- Profit $=10$ on cost 80. $\dfrac{10}{80}\times100=$ **12.5%**.
+- Profit $=10$ on cost 80. $\dfrac{10}{80}\times100$ = **12.5%**.
 
 **Example 2.** MP is Rs 1200. A discount of 10% is given and the trader gains 8%. Find the cost price.
 - SP $=1200\times0.9=1080$.
-- $\text{CP}=\dfrac{1080}{1.08}=$ **Rs 1000**.
+- $\text{CP}=\dfrac{1080}{1.08}$ = **Rs 1000**.
 
 **Your turn:** CP is 60% of MP and a discount of 25% is given. Profit percentage? (Answer: 25%. MP 100, CP 60, SP 75, and $\dfrac{15}{60}=25\%$.)
 
@@ -317,11 +317,11 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 **Think:** a free article is a discount. You pay for some, but take more. The discount percentage is **free items divided by items you take home**.
 
 **Example 1.** Buy 4 get 1 free. You take home 5 and pay for 4.
-- Discount $=\dfrac{1}{5}=$ **20%**.
+- Discount $=\dfrac{1}{5}$ = **20%**.
 
 **Example 2.** Pens cost Rs 20 each. Buy 5 and get 1 free.
 - 6 pens at Rs 20 would be Rs 120. You pay Rs 100.
-- Discount $=\dfrac{20}{120}=$ **$16\frac{2}{3}\%$**.
+- Discount $=\dfrac{20}{120}$ = **$16\frac{2}{3}\%$**.
 
 **Example 3.** Which is better: 20% off, or buy 3 get 1 free?
 - Buy 3 get 1 free is $\dfrac{1}{4}=25\%$.
@@ -340,10 +340,10 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 **Example 1.** Shirt MP Rs 800 at 10% off. Trousers MP Rs 1200 at 20% off.
 - Paid: $800\times0.9=720$ and $1200\times0.8=960$. Total Rs 1680.
 - Total MP $=2000$. Discount $=320$.
-- $\dfrac{320}{2000}\times100=$ **16%**.
+- $\dfrac{320}{2000}\times100$ = **16%**.
 
 **Example 2.** A quarter of a stock (by marked value) is sold at 20% off and the rest at 8% off. Overall discount?
-- $\dfrac{1}{4}\times20+\dfrac{3}{4}\times8=5+6=$ **11%**.
+- $\dfrac{1}{4}\times20+\dfrac{3}{4}\times8=5+6$ = **11%**.
 
 **Your turn:** goods of marked value Rs 600 are sold at 30% off and goods of marked value Rs 400 at 20% off. Overall discount? (Answer: 26%. Saved $180+80=260$, out of 1000.)
 
@@ -354,11 +354,11 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 **Think:** put MP and SP in units. The discount is the gap between them. Then divide by the **MP** units.
 
 **Example 1.** MP : SP $=5:4$.
-- Discount $=5-4=1$ unit out of 5. That is $\dfrac{1}{5}=$ **20%**.
+- Discount $=5-4=1$ unit out of 5. That is $\dfrac{1}{5}$ = **20%**.
 
 **Example 2.** The discount is 25% of the selling price. Find the discount percentage.
 - Let SP $=100$. Discount $=25$. MP $=125$.
-- $\dfrac{25}{125}\times100=$ **20%**.
+- $\dfrac{25}{125}\times100$ = **20%**.
 
 **Exam twist:** the second example is a favourite trap. The discount is 25% of SP, but it is only 20% of MP.
 
@@ -371,11 +371,11 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 **Think:** GST is charged on the price **after** the discount. Multiply the multipliers: discount first, then $1+\text{tax rate}$.
 
 **Example 1.** MP Rs 8000, discount 15%, then 10% GST.
-- $8000\times0.85\times1.1=$ **Rs 7480**.
+- $8000\times0.85\times1.1$ = **Rs 7480**.
 
 **Example 2.** The final bill is Rs 5940 after a 25% discount and then 10% GST. Find the marked price.
 - Undo the tax: $\dfrac{5940}{1.1}=5400$.
-- Undo the discount: $\dfrac{5400}{0.75}=$ **Rs 7200**.
+- Undo the discount: $\dfrac{5400}{0.75}$ = **Rs 7200**.
 
 **Your turn:** MP Rs 4000, discount 20%, then 5% GST on the discounted price. Final bill? (Answer: Rs 3360. $4000\times0.8=3200$, and $3200\times1.05=3360$.)
 
@@ -412,7 +412,7 @@ $$\text{MP}=\dfrac{\text{SP}}{1-\text{discount rate}}$$
 | Percent and flat coupon | Order matters. Read which comes first |
 | Marked above CP, then discount | CP $=100$, multiply, never subtract percents |
 | Mark-up for target profit | Needed SP, then divide by $(1-d)$ |
-| Profit without discount | Link SP $=$ CP $\times$ profit factor and SP $=$ MP $\times$ discount factor |
+| Profit without discount | Link SP = CP $\times$ profit factor and SP = MP $\times$ discount factor |
 | Buy x get y free | Discount $=\frac{y}{x+y}$ |
 | Several items | Total saved over total MP |
 | MP : SP $=a:b$ | Discount $=\frac{a-b}{a}$ |
