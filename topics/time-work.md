@@ -4,13 +4,13 @@
 
 ## Imagine the job as a pile of work
 
-Days describe how long a worker needs; rates describe how much of the job is completed each day. A worker who finishes in 12 days does $1/12$ of the job per day. With people working together, add the fractions completed per day, then divide the remaining work by the new rate. This same idea handles a team change: find completed work first, then switch rates.
+Days describe how long a worker needs; rates describe how much of the job is completed each day. A worker who finishes in 12 days does $1/12$ of the job per day. With people working together, add the [...] 
 
 ### Walk through: one worker joins later
 
-A finishes in 10 days, so in 2 days alone A completes $2/10=1/5$ of the job. The remaining $4/5$ is done by the pair at rate $1/10+1/15=1/6$ per day. It takes $(4/5)/(1/6)=24/5=4.8$ more days, or 6.8 days total.
+A finishes in 10 days, so in 2 days alone A completes $2/10=1/5$ of the job. The remaining $4/5$ is done by the pair at rate $1/10+1/15=1/6$ per day. It takes $(4/5)/(1/6)=24/5=4.8$ more days, or 6.8 [...]
 
-**Sanity check:** The pair is faster than A alone, but the first two days were solo work. **Your turn:** if A does $1/4$ of a job in 3 days, how long for the whole job? *(Answer: 12 days; multiply the time by 4.)*
+**Sanity check:** The pair is faster than A alone, but the first two days were solo work. **Your turn:** if A does $1/4$ of a job in 3 days, how long for the whole job? *(Answer: 12 days; multiply the[...]*
 
 ## ⚡ Formula cards
 
@@ -63,8 +63,9 @@ Together         →  add rates → flip to get days
 
 ### 5. Alternate workdays
 **Question:** A takes 6 days, B takes 12. They alternate days, A starts. When is the job done?
-- **Step by step:** Each 2-day cycle completes $1/6+1/12=1/4$. After 6 days, $1/4$ remains. A does this in 1.5 days.
-- **Fast way:** Three cycles take 6 days; finish the remainder on A's next turn. **Answer: $7.5$ days.**
+- **Step by step:** One 2-day cycle completes $1/6+1/12=1/4$ of the job. After 6 days, three cycles have been completed, so $3/4$ of the work is done and $1/4$ remains.
+- **Next turn:** On day 7, A does $1/6$ of the job, leaving $1/12$. On day 8, B does the final $1/12$.
+- **Fast way:** 6 days finish $3/4$; then A's next turn removes $1/6$, and B finishes the last $1/12$. **Answer: $8$ days.**
 
 ### 6. Find the remaining work
 **Question:** A worker completes a job in 20 days. What fraction remains after working alone for 8 days?
@@ -96,3 +97,4 @@ Together         →  add rates → flip to get days
 1. A takes 8 days and B takes 8 days. How long together? *(Answer: 4 days; their rates add to $1/4$ job per day.)*
 2. A and B together finish in 5 days; A alone takes 10. How long for B alone? *(Answer: 10 days; B's rate is $1/5-1/10=1/10$.)*
 3. Nine equally efficient workers finish in 12 days. How long for 18 workers? *(Answer: 6 days; doubling workers halves the time.)*
+
